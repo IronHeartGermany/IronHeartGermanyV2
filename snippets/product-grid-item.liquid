@@ -770,7 +770,8 @@
                   data-value="{{ value | escape }}"
                   class="swatch-element {{ value | handle }} {% if variant.available %}available{% else %}soldout{% endif %}"
                 >
-                  <label for="swatch-{{ option_index }}-{{ value | handle }}" title="{{ value | escape }}">
+                  {% comment %}<label for="swatch-{{ option_index }}-{{ value | handle }}" title="{{ value | escape }}"> {% endcomment %}
+                   <label for="swatch-{{ option_index }}-{{ value | handle }}" title="{{ variant.inventory_quantity | escape }} in stock">
                     {{- value -}}
                     <img class="crossed-out" src="{{ 'soldout.svg' | asset_url }}" alt="Crossed Out">
                   </label>
