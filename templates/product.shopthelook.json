@@ -1,0 +1,525 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "vendor",
+            "show_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a": {
+          "type": "product_accordion",
+          "disabled": true,
+          "settings": {
+            "accordion_heading": "SIZING",
+            "heading_style": "font-heading",
+            "accordion_text": "<p>Here goes our sizing</p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "product_accordion_d7rcVt": {
+          "type": "product_accordion",
+          "disabled": true,
+          "settings": {
+            "accordion_heading": "HOW WE MEASURE",
+            "heading_style": "font-heading",
+            "accordion_text": "<p>Use this accordion to add info such as Materials, Sizing, Features, Shipping and Returns policies</p>",
+            "accordion_page": "",
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": true,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "product_accordion": {
+          "type": "product_accordion",
+          "disabled": true,
+          "settings": {
+            "accordion_heading": "DESCRIPTION",
+            "heading_style": "font-heading",
+            "accordion_text": "<p>We proudly present our second Iron Heart x Dehen 1920 collaboration. We introduce the Dehen Custom Moto Jersey \"Iron Heart Hamburg\". 100 % worsed black wool with big gold/ yellow embroidery and black/ dark blue striped left arm. Super cool, super exclusive and of course only available at Iron Heart Germany. Limited number of pieces!</p><ul><li>100% worsted wool, knit by us on 1940's knitting machines</li><li>Vintage style turtle zip collar</li><li>Vintage style Talon zipper and pull</li><li>Medium weight three-end jersey knit</li><li>Open cuffs and open shirt tail hem for easy layering</li><li>Double needle stitched internal elbow patches</li><li>Racing stripes at sleeves on left arm in black/ dark navy</li><li>Dehen Logo patch</li><li>Giuli is wearing a size Large, is 178 cm tall and weighs 85 kg</li><li>Made in Portland, Oregon USA</li></ul>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "product_accordion_WNk3rK": {
+          "type": "product_accordion",
+          "disabled": true,
+          "settings": {
+            "accordion_heading": "SIZE & FITTING",
+            "heading_style": "font-heading",
+            "accordion_text": "<p>Our model is 6'4\" and wears XL</p><p><a href=\"#!\" title=\"#!\">See our size guide here</a></p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "product_accordion_8r4GEf": {
+          "type": "product_accordion",
+          "disabled": true,
+          "settings": {
+            "accordion_heading": "MATERIALS & CARE",
+            "heading_style": "font-heading",
+            "accordion_text": "<p>The hoodie is made of 100% organic cotton.</p><p>See our washing & care instructions <a href=\"/pages/care-instructions\" target=\"_blank\" title=\"WASHING AND CARE INSTRUCTIONS\">here.</a></p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "product_accordion_f9bbAg": {
+          "type": "product_accordion",
+          "disabled": true,
+          "settings": {
+            "accordion_heading": "SHIPPING & RETURNS",
+            "heading_style": "font-heading",
+            "accordion_text": "<p>We ship world-wide.</p><p>See our shipping costs <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">here.</a></p>",
+            "accordion_page": "",
+            "padding_bottom": 10
+          }
+        },
+        "icon_wzCeyU": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "truck",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Free shipping over €200",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "icon_qF3Nff": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "cotton",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Finest Japanese denim",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "icon_rCqKM8": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "package",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Easy return within 30 days",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "cutline_BkHHhU": {
+          "type": "cutline",
+          "settings": {
+            "cutline_color": "body",
+            "padding_bottom": 20
+          }
+        },
+        "complementary_products_HpK9K9": {
+          "type": "complementary-products",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon_name": "support",
+            "icon_width": 25,
+            "title": "Need help with sizing?",
+            "text": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
+            "bg_color": "#f7f9fa",
+            "text_color": "#000000",
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "product_list": [],
+            "padding_bottom": 20
+          }
+        },
+        "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW": {
+          "type": "shopify://apps/easy-tabs-product-tabs/blocks/easytabs-block-product-widget/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
+          "settings": {
+            "placement_selector": "",
+            "multiple_widgets": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "description",
+        "9927e90d-2ecb-4104-af67-0dadf75b2a0a",
+        "product_accordion_d7rcVt",
+        "form",
+        "product_accordion",
+        "product_accordion_WNk3rK",
+        "product_accordion_8r4GEf",
+        "product_accordion_f9bbAg",
+        "icon_wzCeyU",
+        "icon_qF3Nff",
+        "icon_rCqKM8",
+        "cutline_BkHHhU",
+        "complementary_products_HpK9K9",
+        "a42f4e7d-6a8d-42a4-80af-29ec3b3b52d9",
+        "upsell",
+        "easy_tabs_product_tabs_easytabs_block_product_widget_HHCFXW"
+      ],
+      "custom_css": [
+        "a {line-height: 12px;}",
+        ".label-typography,.product__price,.breadcrumbs {font-weight: 700; text-transform: uppercase; font-size: 16px;}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "standard",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_UbxdkT": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "{% assign gid_list = product.metafields.custom.works_well_with %}\n{% assign product_ids_array = '' %}\n\n<!-- Debugging: Output GID list -->\n<p>GID List: {{ gid_list }}</p>\n\n{% assign gid_list = gid_list | replace: '\\\"', '' %}\n{% assign gid_list = gid_list | replace: '[', '' %}\n{% assign gid_list = gid_list | replace: ']', '' %}\n{% assign gid_list = gid_list | split: ',' %}\n\n{% for gid in gid_list %}\n  {% assign product_id = gid | split: '/' | last %}\n  {% assign product_ids_array = product_ids_array | append: product_id | append: ',' %}\n  <!-- Debugging: Output each extracted product ID -->\n  <p>Extracted Product ID: {{ product_id }}</p>\n{% endfor %}\n\n{% assign product_ids_array = product_ids_array | split: ',' | where: 'size', '>', 0 %}\n\n<!-- Debugging: Output the final array of product IDs -->\n<p>Product IDs Array: {{ product_ids_array }}</p>\n\n<section id=\"WorksWellWith\" class=\"section-padding featured-collection featured-collection--grid collection-items collection-items--4 bg-secondary\">\n  <div class=\"wrapper\">\n    <div class=\"featured-collection__top text-center\">\n      <div class=\"section__header featured-collection__top__wrapper\">\n        <h2 class=\"section__heading h2\">\n          <p>WORKS WELL WITH</p><span class=\"red_dot\"></span>\n        </h2>\n      </div>\n    </div>\n\n    <div class=\"featured-collection__container grid__container\">\n      <div class=\"grid grid--mobile\">\n        {% for product_id in product_ids_array %}\n          {% assign related_product = all_products[product_id] %}\n          <!-- Debugging: Output if product is found or not -->\n          {% if related_product %}\n            <div class=\"grid__item\">\n              <a href=\"{{ related_product.url }}\" class=\"product-card\">\n                <div class=\"product-card__image-wrapper\">\n                  <img src=\"{{ related_product.featured_image | img_url: 'medium' }}\" alt=\"{{ related_product.title }}\" class=\"product-card__image\">\n                </div>\n                <div class=\"product-card__details\">\n                  <p class=\"product-card__title\">{{ related_product.title }}</p>\n                  <p class=\"product-card__price\">{{ related_product.price | money }}</p>\n                </div>\n              </a>\n            </div>\n          {% else %}\n            <p>Product not found for ID: {{ product_id }}</p>\n          {% endif %}\n        {% endfor %}\n      </div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "pdp_work_well_with_zrfxqJ": {
+      "type": "pdp-work-well-with",
+      "settings": {
+        "product_list": "{{ product.metafields.custom.works_well_with.value }}",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>WORKS WELL WITH</p><span class=\"red_dot\"></span>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "bg_color_full": "",
+        "bg_color": "",
+        "txt_color": "",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_jGnmtK": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "relaxed-tapered-888",
+        "products_layout": "grid",
+        "number_of_products": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<p>WORKS WELL WITH</p><span class=\"red_dot\"></span>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 100,
+        "text": "",
+        "text_size": 100,
+        "button_text": "",
+        "bg_color_full": "",
+        "bg_color": "",
+        "txt_color": "",
+        "button_style": "btn--text",
+        "button_size": "btn--large",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_text_columns_mthxtM": {
+      "type": "section-banner-text-columns",
+      "blocks": {
+        "column_gFLn3F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/35A6738.11.jpg",
+            "overlay_opacity": 10,
+            "subheading": "#1",
+            "heading": "Finest Japanese Denim",
+            "text": "<p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_JyxxWq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/iron-heart-shop-nov-2021-25_883448ae-4036-4c3f-835c-a68badfe3e60.jpg",
+            "overlay_opacity": 10,
+            "subheading": "#2",
+            "heading": "Supreme Stichting",
+            "text": "<p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_TGPmXh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/iron-heart-shop-nov-2021-24.jpg",
+            "overlay_opacity": 10,
+            "subheading": "#3",
+            "heading": "Warm & light-weight",
+            "text": "<p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gFLn3F",
+        "column_JyxxWq",
+        "column_TGPmXh"
+      ],
+      "disabled": true,
+      "settings": {
+        "appearance": "columns",
+        "content_alignment": "center",
+        "text_alignment": "text-center",
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "text_color": "text-light",
+        "button_color": "btn--white",
+        "button_style": "btn--text",
+        "button_size": "btn--small",
+        "show_single_image": false,
+        "heading_size": 100,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_with_text_cdrCYU": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify://shop_images/DSC00345.jpg",
+        "subheading": "SUBTITLE",
+        "title": "<p>Content about the product category</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.</p>",
+        "text_alignment": "left",
+        "button_text": "Button text",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_ptKtm4": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify://shop_images/2J5A3230Kopie.jpg",
+        "subheading": "SUBTITLE",
+        "title": "<p>Content about IRONHEART GERMANY as a brand</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Share details about a promotion, welcome customers, describe a product, or talk about your brand.</p>",
+        "text_alignment": "left",
+        "button_text": "Button text",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_PJzKNt": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_nGJrPC": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
+          }
+        },
+        "text_YMTXcL": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+          }
+        },
+        "text_FPFdrT": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        },
+        "text_MwMCww": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_nGJrPC",
+        "text_YMTXcL",
+        "text_FPFdrT",
+        "text_MwMCww"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "blocks": {
+        "related_Nkx4wQ": {
+          "type": "related",
+          "settings": {
+            "title": "",
+            "product_recommendations_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related_Nkx4wQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "172496092047a55365": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_custom_html_UbxdkT",
+    "pdp_work_well_with_zrfxqJ",
+    "section_collection_jGnmtK",
+    "section_banner_text_columns_mthxtM",
+    "section_image_with_text_cdrCYU",
+    "section_image_with_text_ptKtm4",
+    "section_accordions_PJzKNt",
+    "related",
+    "172496092047a55365"
+  ]
+}
