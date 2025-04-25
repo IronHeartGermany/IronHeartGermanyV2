@@ -338,7 +338,7 @@
         "show_hotspots": true,
         "content_color": "text-dark",
         "hotspot_color": "",
-        "bg_color_secondary": false,
+        "bg_color_secondary": true,
         "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
