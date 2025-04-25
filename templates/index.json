@@ -251,6 +251,7 @@
     },
     "section_collection_kcBtFY": {
       "type": "section-collection",
+      "disabled": true,
       "custom_css": [
         "/*.section__link {font-family: \"Roboto\";}",
         "*/.section__text {max-width: 660px !important;}",
@@ -922,6 +923,7 @@
     "section_collection_wbgefN",
     "section_list_butttons_mhe6mE",
     "section_collection_kcBtFY",
+    "section_look_4BBNAH",
     "section_products_list_th6frq",
     "section_custom_content_GQ6xTT",
     "section_list_collection_h3CDQM",
@@ -931,7 +933,6 @@
     "section_banner_image_WJ7DW7",
     "section_locations_r4cFBa",
     "section_newsletter_kRbEAq",
-    "section_columns_Mb3rtT",
-    "section_look_4BBNAH"
+    "section_columns_Mb3rtT"
   ]
 }
