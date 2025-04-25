@@ -285,6 +285,65 @@
         "padding_bottom": 60
       }
     },
+    "section_look_4BBNAH": {
+      "type": "section-look",
+      "blocks": {
+        "product_JCLeJh": {
+          "type": "product",
+          "settings": {
+            "product": "iron-heart-iht-1610l-gry-6-5oz-loopwheel-crew-neck-t-shirt-long-grey",
+            "position_x": 46,
+            "position_y": 28
+          }
+        },
+        "product_fLEXYG": {
+          "type": "product",
+          "settings": {
+            "product": "iron-heart-ihsh-338-blk-12oz-selvedge-denim-work-shirt-with-snaps-black-black",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
+        "product_HDry6R": {
+          "type": "product",
+          "settings": {
+            "product": "iron-heart-ih-634s-21oz-selvedge-denim-straight-cut-jeans-indigo",
+            "position_x": 38,
+            "position_y": 88
+          }
+        },
+        "product_w7KVM9": {
+          "type": "product",
+          "settings": {
+            "product": "good-art-hlywd-ga-club-ring-m-good-art-hlywd-good-art-club-ring-medium-sterling-silver",
+            "position_x": 61,
+            "position_y": 86
+          }
+        }
+      },
+      "block_order": [
+        "product_JCLeJh",
+        "product_fLEXYG",
+        "product_HDry6R",
+        "product_w7KVM9"
+      ],
+      "name": "Shop the look ",
+      "settings": {
+        "image": "shopify://shop_images/IHSH-338-BLK_K_003_25_04.jpg",
+        "enable_aspect_ratio": true,
+        "main_image_aspect_ratio": 0.9,
+        "title": "Shop the Look",
+        "text": "",
+        "text_alignment": "text-left",
+        "show_hotspots": true,
+        "content_color": "text-dark",
+        "hotspot_color": "",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_products_list_th6frq": {
       "type": "section-products-list",
       "blocks": {
@@ -856,65 +915,6 @@
         "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 30
-      }
-    },
-    "section_look_4BBNAH": {
-      "type": "section-look",
-      "blocks": {
-        "product_JCLeJh": {
-          "type": "product",
-          "settings": {
-            "product": "iron-heart-iht-1610l-gry-6-5oz-loopwheel-crew-neck-t-shirt-long-grey",
-            "position_x": 46,
-            "position_y": 28
-          }
-        },
-        "product_fLEXYG": {
-          "type": "product",
-          "settings": {
-            "product": "iron-heart-ihsh-338-blk-12oz-selvedge-denim-work-shirt-with-snaps-black-black",
-            "position_x": 50,
-            "position_y": 50
-          }
-        },
-        "product_HDry6R": {
-          "type": "product",
-          "settings": {
-            "product": "iron-heart-ih-634s-21oz-selvedge-denim-straight-cut-jeans-indigo",
-            "position_x": 38,
-            "position_y": 88
-          }
-        },
-        "product_w7KVM9": {
-          "type": "product",
-          "settings": {
-            "product": "good-art-hlywd-ga-club-ring-m-good-art-hlywd-good-art-club-ring-medium-sterling-silver",
-            "position_x": 61,
-            "position_y": 86
-          }
-        }
-      },
-      "block_order": [
-        "product_JCLeJh",
-        "product_fLEXYG",
-        "product_HDry6R",
-        "product_w7KVM9"
-      ],
-      "name": "Shop the look ",
-      "settings": {
-        "image": "shopify://shop_images/IHSH-338-BLK_K_003_25_04.jpg",
-        "enable_aspect_ratio": true,
-        "main_image_aspect_ratio": 1,
-        "title": "Shop the Look",
-        "text": "",
-        "text_alignment": "text-left",
-        "show_hotspots": true,
-        "content_color": "text-dark",
-        "hotspot_color": "",
-        "bg_color_secondary": false,
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     }
   },
