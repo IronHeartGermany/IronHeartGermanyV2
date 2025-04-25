@@ -327,6 +327,9 @@
         "product_HDry6R",
         "product_w7KVM9"
       ],
+      "custom_css": [
+        ".featured-collection {background-color: #fafafa !important;}"
+      ],
       "name": "Shop the look ",
       "settings": {
         "image": "shopify://shop_images/IHSH-338-BLK_K_003_25_04.jpg",
