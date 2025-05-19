@@ -83,13 +83,13 @@
         "image_e8ntQh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IHSH-422-BRN_010_C.jpg",
+            "image": "shopify://shop_images/IHSH-422-BRN.jpg",
             "image_mobile": "shopify://shop_images/IHSH-422-BRN_019_C.jpg",
             "overlay_opacity": 0,
             "text_width": "narrow",
             "text_position": "bottom-left",
             "text_color": "text-light",
-            "subheading": "RELEASE TODAY 5 PM",
+            "subheading": "NEW IN",
             "title": "17oz Cotton Duck CPO Shirt - Brown",
             "heading_font_size": 40,
             "text_font_size": 26,
