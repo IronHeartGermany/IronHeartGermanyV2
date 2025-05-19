@@ -82,6 +82,7 @@
         },
         "image_e8ntQh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IHSH-422-BRN.jpg",
             "image_mobile": "shopify://shop_images/IHSH-422-BRN_019_C.jpg",
@@ -116,7 +117,7 @@
         "image_XHfcna": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IHSB-BB-NAT_004_25_05_4b04b6bd-6ac5-4bc7-9956-2a8f2a95733f.jpg",
+            "image": "shopify://shop_images/IHM-37-GRN_047_24_11.jpg",
             "image_mobile": "shopify://shop_images/IHSB-BB-NAT_008_25_05.jpg",
             "overlay_opacity": 0,
             "text_width": "normal",
