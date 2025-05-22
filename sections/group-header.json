@@ -64,7 +64,8 @@
       "type": "header",
       "custom_css": [
         ".navlink.navlink--grandchild {font-weight: 300;}",
-        "/*.menu__items > div:nth-child(4) .navlink.navlink--toplevel.navlink--dot.caps {pointer-events: none; cursor: default;}"
+        "/*.menu__items > div:nth-child(4) .navlink.navlink--toplevel.navlink--dot.caps {pointer-events: none; cursor: default;}",
+        ".site-header--has-border {--border-color: transparent;}"
       ],
       "settings": {
         "sticky_header": true,
