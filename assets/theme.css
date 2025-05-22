@@ -508,6 +508,20 @@ h1, h2, h3, h4, h5, h6, body, html, a, b, p, div, span, button, input, .shopify-
   font-synthesis: none;}*/
 /* - end - */
 
+/* 1. Define your custom font */
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('{{ 'BebasNeue-Regular.woff2' | file_url }}') format('woff2'),
+       url('{{ 'BebasNeue-Regular.woff'  | file_url }}') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 2. Create a CSS custom property for easy theming */
+:root {
+  --font-body: 'Bebas Neue', sans-serif;
+}
+
 /*================ Normalize ================*/
 *, input, :before, :after {
   box-sizing: border-box;
