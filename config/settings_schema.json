@@ -58,7 +58,7 @@
       {
       "type": "select",
       "id":   "body_font",
-      "label":"Body font",
+      "label":"Custom font",
       "options":[
         { "value": "system",       "label": "System font" },
         { "value": "Bebas Neue",   "label": "Bebas Neue" }
