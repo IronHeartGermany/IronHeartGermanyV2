@@ -185,12 +185,46 @@
     {%- liquid
       assign logo_padding_top = 1 | divided_by: logo_not_home.aspect_ratio | times: 100 | round: 1
       assign image_alt = logo_not_home.alt | escape
+      assign max_width = logo_width | times: 2
+      if max_width < 1200
+        assign max_width = 1200
+      endif
     -%}
 
     <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--other{% unless logo %} logo__image-link--single{% endunless %}">
       {%- assign logo_height = logo_width | divided_by: logo_not_home.aspect_ratio -%}
 
-      {{ logo_not_home | image_url: width: 500 | image_tag:
+      {{ logo_not_home | image_url: width: max_width | image_tag:
+        widths: widths,
+        height: logo_height,
+        width: logo_width,
+        alt: image_alt,
+        sizes: sizes,
+        class: 'logo__image',
+        loading: 'eager',
+        fetchpriority: 'high',
+        preload: true
+      }}
+
+      <span class="logo__image-push" style="padding-top: {{ logo_padding_top }}%"></span>
+    </a>
+  {%- endif -%}
+{%- endcapture -%}
+
+    {%- capture logo_markup -%}
+  {%- if logo != blank -%}
+    {%- liquid
+      assign logo_padding_top = 1 | divided_by: logo.aspect_ratio | times: 100 | round: 1
+      assign image_alt = logo.alt | escape
+      assign max_width = logo_width | times: 2
+      if max_width < 1200
+        assign max_width = 1200
+      endif
+    -%}
+
+    <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--home{% unless logo_not_home %} logo__image-link--single{% endunless %}">
+      {%- assign logo_height = logo_width | divided_by: logo.aspect_ratio -%}
+      {{ logo | image_url: width: max_width | image_tag:
         widths: widths,
         height: logo_height,
         width: logo_width,
