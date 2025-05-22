@@ -284,7 +284,10 @@
                   {% endif %}
                 >
                   {%- if title != blank -%}
-                    <h3 class="column-item__heading h6">{{ title }}</h3>
+                    <h3 class="column-item__heading h6">
+                      {{ title -}}
+                      <span class="red_dot"></span>
+                    </h3>
                   {%- endif -%}
 
                   {%- if text != blank -%}
