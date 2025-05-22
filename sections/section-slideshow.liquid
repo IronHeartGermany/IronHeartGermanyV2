@@ -290,7 +290,7 @@
                         else
                           echo line | replace: '</p>', ''
                         endif
-                        echo '</span></span>'
+                        echo '<span class="red_dot"></span></span></span>'
                         unless forloop.last
                           assign animation_order = animation_order | plus: 1
                         endunless
@@ -301,7 +301,6 @@
                     render 'title-with-highlights', title: title, heading_highlight_type: heading_highlight_type, highlight_color: highlight_color, has_text_highlight: has_text_highlight
                   endif
                 -%}
-                <span class="red_dot"></span>
               </h2>
             {%- endif -%}
 
