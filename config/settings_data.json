@@ -15,6 +15,7 @@
     "color_body_text": "#333333",
     "color_accent": "#ffffff",
     "color_borders_and_lines": "#d3d3d3",
+    "body_font": "Bebas Neue",
     "type_heading_font": "source_sans_pro_n7",
     "heading_size": 85,
     "type_base_font": "source_sans_pro_n4",
