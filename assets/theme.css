@@ -8003,7 +8003,7 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
 }
 body:has(.site-header[data-transparent=true]):has(.main-content > .supports-transparent-header:first-child):not(:has(.main-content > .supports-transparent-header:first-child [data-prevent-transparent-header])):not(.search-opened) .site-header--transparent[data-text-color=white] {
   --text: var(--white);
-  --header-gradient: var(--black-alpha-10);
+  --header-gradient: var(--black-alpha-20);
 }
 .no-js body:has(.site-header[data-transparent=true]):has(.main-content > .supports-transparent-header:first-child):not(:has(.main-content > .supports-transparent-header:first-child [data-prevent-transparent-header])):not(.search-opened) .site-header--transparent.site-header--has-gradient:before, .is-loaded body:has(.site-header[data-transparent=true]):has(.main-content > .supports-transparent-header:first-child):not(:has(.main-content > .supports-transparent-header:first-child [data-prevent-transparent-header])):not(.search-opened) .site-header--transparent.site-header--has-gradient:before {
   content: "";
