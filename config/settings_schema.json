@@ -56,6 +56,16 @@
     "name": "Typography",
     "settings": [
       {
+      "type": "select",
+      "id":   "body_font",
+      "label":"Body font",
+      "options":[
+        { "value": "system",       "label": "System font" },
+        { "value": "Bebas Neue",   "label": "Bebas Neue" }
+      ],
+      "default": "system"
+      },
+      {
         "type": "header",
         "content": "Headings"
       },
