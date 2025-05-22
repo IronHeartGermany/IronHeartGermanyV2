@@ -886,7 +886,8 @@
         "text_block_q6EGYR"
       ],
       "custom_css": [
-        "@media screen and (max-width: 767px) {.column-item {width: 65% !important; margin-right: 12% !important; }}"
+        "@media screen and (max-width: 767px) {.column-item {width: 65% !important; margin-right: 12% !important; }}",
+        "{padding-bottom:60px;}"
       ],
       "settings": {
         "title": "",
