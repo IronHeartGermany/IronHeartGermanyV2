@@ -250,7 +250,7 @@
 
     <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--home{% unless logo_not_home %} logo__image-link--single{% endunless %}">
       {%- assign logo_height = logo_width | divided_by: logo.aspect_ratio -%}
-      {{ logo | image_url: width: 900 | image_tag:
+      {{ logo | image_url: width: 1200 | image_tag:
         widths: widths,
         height: logo_height,
         width: logo_width,
