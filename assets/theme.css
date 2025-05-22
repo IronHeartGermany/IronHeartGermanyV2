@@ -163,7 +163,7 @@ body {
 }
 
 body {
-  font-family: var(--FONT-STACK-BODY);
+  font-family: {{ settings.body_font }}, sans-serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   font-style: var(--FONT-STYLE-BODY);
   line-height: 1.5625;
@@ -176,7 +176,7 @@ input,
 textarea,
 select,
 button {
-  font-family: var(--FONT-STACK-BODY);
+  font-family: {{ settings.body_font }}, sans-serif;
   font-weight: var(--FONT-WEIGHT-BODY);
   font-style: var(--FONT-STYLE-BODY);
   font-size: calc(1rem * var(--adjust-body));
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   display: block;
   color: var(--heading);
-  font-family: var(--FONT-STACK-HEADING);
+  font-family: {{ settings.body_font }}, sans-serif;
   font-weight: var(--FONT-WEIGHT-HEADING);
   font-style: var(--FONT-STYLE-HEADING);
   margin: 0 0 0.5em;
