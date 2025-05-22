@@ -94,6 +94,8 @@
             assign text_position_class = 'item--left'
           when 'center'
             assign text_position_class = 'item--center'
+          when 'center-right'
+            assign text_position_class = 'item--center-right'
           when 'right'
             assign text_position_class = 'item--right'
           when 'bottom-left'
@@ -194,6 +196,14 @@
         #Slideshow--{{ section.id }} .item--{{ unique }} .slide__buttons .btn {
           margin: 0;
         }
+
+        /* Center-right positioning */
+        #Slideshow--{{ section.id }} .item--center-right .slide__text__wrapper {
+          position: absolute;
+          top: 50%;
+          right: 0;
+          transform: translateY(-50%);
+        }
       {%- endstyle -%}
 
       <div
@@ -260,10 +270,8 @@
                     for line in title_lines
                       if line != blank
                         echo '<span class="text-reveal__cropper"><span class="text-highlight__break" data-aos="hero" data-aos-anchor="' | append: animation_anchor | append: '" data-aos-order="' | append: animation_order | append: '">'
-
                         assign line_with_links = line | split: '<a'
                         assign line_mod = ''
-
                         if line_with_links.size > 1 and has_text_highlight
                           for link_html_part in line_with_links
                             if link_html_part != blank
@@ -271,28 +279,22 @@
                               if link_html_part contains ' href='
                                 assign link_html_mod = link_html_part | prepend: '<a'
                               endif
-
                               if link_html_part contains 'text-highlight'
                                 assign link_html_mod = link_html_mod | replace_first: '><span class="text-highlight', ' data-has-highlight><span class="text-highlight'
                               endif
-
                               assign line_mod = line_mod | append: link_html_mod
                             endif
                           endfor
-
                           echo line_mod | replace: '</p>', ''
                         else
                           echo line | replace: '</p>', ''
                         endif
-
                         echo '</span></span>'
-
                         unless forloop.last
                           assign animation_order = animation_order | plus: 1
                         endunless
                       endif
                     endfor
-
                     assign animation_order = animation_order | plus: 1
                   else
                     render 'title-with-highlights', title: title, heading_highlight_type: heading_highlight_type, highlight_color: highlight_color, has_text_highlight: has_text_highlight
@@ -310,12 +312,10 @@
                       echo '<span class="text-reveal__cropper"><span data-aos="hero" data-aos-anchor="' | append: animation_anchor | append: '" data-aos-order="' | append: animation_order | append: '">'
                       echo line
                       echo '</span></span>'
-
                       unless forloop.last
                         assign animation_order = animation_order | plus: 1
                       endunless
                     endfor
-
                     assign animation_order = animation_order | plus: 1
                   else
                     echo text | escape | newline_to_br
@@ -341,7 +341,6 @@
                     {{ button_1_text }}
                   </a>
                 {%- endif -%}
-
                 {%- if button_2_text != blank and button_2_link != blank -%}
                   <a
                     href="{{ button_2_link }}"
@@ -558,13 +557,14 @@
           "label": "Position",
           "default": "center",
           "options": [
-            { "value": "left", "label": "Left" },
-            { "value": "center", "label": "Center" },
-            { "value": "right", "label": "Right" },
-            { "value": "bottom-left", "label": "Bottom left" },
+            { "value": "left",         "label": "Left" },
+            { "value": "center",       "label": "Center" },
+            { "value": "center-right", "label": "Center right" },
+            { "value": "right",        "label": "Right" },
+            { "value": "bottom-left",  "label": "Bottom left" },
             { "value": "bottom-right", "label": "Bottom right" },
-            { "value": "top-left", "label": "Top left" },
-            { "value": "top-right", "label": "Top right" }
+            { "value": "top-left",     "label": "Top left" },
+            { "value": "top-right",    "label": "Top right" }
           ]
         },
         {
@@ -574,7 +574,7 @@
           "default": "text-light",
           "options": [
             { "value": "text-light", "label": "Light" },
-            { "value": "text-dark", "label": "Dark" }
+            { "value": "text-dark",  "label": "Dark" }
           ]
         },
         {
@@ -609,7 +609,6 @@
           "step": 2,
           "unit": "px"
         },
-        // **Added Mobile Font Size Settings**
         {
           "type": "range",
           "id": "heading_font_size_mobile",
@@ -640,13 +639,13 @@
           "label": "Type",
           "default": "circle",
           "options": [
-            { "value": "italics", "label": "Italics (no decoration)" },
-            { "value": "highlight", "label": "Highlight" },
+            { "value": "italics",         "label": "Italics (no decoration)" },
+            { "value": "highlight",       "label": "Highlight" },
             { "value": "highlight-color", "label": "Text color" },
-            { "value": "underline", "label": "Underline" },
-            { "value": "squiggle", "label": "Squiggle" },
-            { "value": "circle", "label": "Circle" },
-            { "value": "stroke", "label": "Stroke (outlined text)" }
+            { "value": "underline",       "label": "Underline" },
+            { "value": "squiggle",        "label": "Squiggle" },
+            { "value": "circle",          "label": "Circle" },
+            { "value": "stroke",          "label": "Stroke (outlined text)" }
           ]
         },
         {
@@ -690,10 +689,10 @@
           "label": "Color",
           "default": "btn--white",
           "options": [
-            { "label": "Primary", "value": "btn--primary" },
+            { "label": "Primary",   "value": "btn--primary" },
             { "label": "Secondary", "value": "btn--secondary" },
-            { "label": "White", "value": "btn--white" },
-            { "label": "Black", "value": "btn--black" }
+            { "label": "White",     "value": "btn--white" },
+            { "label": "Black",     "value": "btn--black" }
           ]
         },
         {
@@ -702,10 +701,10 @@
           "label": "Style",
           "default": "btn--solid-border",
           "options": [
-            { "label": "Solid", "value": "btn--solid" },
-            { "label": "Outline", "value": "btn--outline" },
-            { "label": "Solid with borders", "value": "btn--solid-border" },
-            { "label": "Text", "value": "btn--text" }
+            { "label": "Solid",              "value": "btn--solid" },
+            { "label": "Outline",            "value": "btn--outline" },
+            { "label": "Solid with borders","value": "btn--solid-border" },
+            { "label": "Text",               "value": "btn--text" }
           ]
         },
         {
@@ -714,9 +713,9 @@
           "label": "Size",
           "default": "btn--large",
           "options": [
-            { "label": "Large", "value": "btn--large" },
+            { "label": "Large",  "value": "btn--large" },
             { "label": "Medium", "value": "btn--medium" },
-            { "label": "Small", "value": "btn--small" }
+            { "label": "Small",  "value": "btn--small" }
           ]
         },
         {
@@ -739,10 +738,10 @@
           "label": "Color",
           "default": "btn--black",
           "options": [
-            { "label": "Primary", "value": "btn--primary" },
+            { "label": "Primary",   "value": "btn--primary" },
             { "label": "Secondary", "value": "btn--secondary" },
-            { "label": "White", "value": "btn--white" },
-            { "label": "Black", "value": "btn--black" }
+            { "label": "White",     "value": "btn--white" },
+            { "label": "Black",     "value": "btn--black" }
           ]
         },
         {
@@ -751,10 +750,10 @@
           "label": "Style",
           "default": "btn--solid",
           "options": [
-            { "label": "Solid", "value": "btn--solid" },
-            { "label": "Outline", "value": "btn--outline" },
-            { "label": "Solid with borders", "value": "btn--solid-border" },
-            { "label": "Text", "value": "btn--text" }
+            { "label": "Solid",              "value": "btn--solid" },
+            { "label": "Outline",            "value": "btn--outline" },
+            { "label": "Solid with borders","value": "btn--solid-border" },
+            { "label": "Text",               "value": "btn--text" }
           ]
         },
         {
@@ -763,9 +762,9 @@
           "label": "Size",
           "default": "btn--large",
           "options": [
-            { "label": "Large", "value": "btn--large" },
+            { "label": "Large",  "value": "btn--large" },
             { "label": "Medium", "value": "btn--medium" },
-            { "label": "Small", "value": "btn--small" }
+            { "label": "Small",  "value": "btn--small" }
           ]
         },
         {
