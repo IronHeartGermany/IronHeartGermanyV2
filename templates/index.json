@@ -721,7 +721,7 @@
         "button_qcEydt"
       ],
       "custom_css": [
-        "{margin: 32px 28px;}",
+        "{margin: 32px 60px;}",
         ".red_dot:after {width: 7px; height: 7px;}",
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}"
       ],
@@ -780,7 +780,7 @@
         "button_ni9gFA"
       ],
       "custom_css": [
-        "{margin: 32px 28px;}",
+        "{margin: 32px 60px;}",
         ".red_dot:after {width: 7px; height: 7px;}",
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}"
       ],
