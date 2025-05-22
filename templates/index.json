@@ -425,8 +425,7 @@
       ],
       "custom_css": [
         "@media screen and (max-width: 767px) {#FeaturedImage--template--19385098830090__section_custom_content_GQ6xTT--image_qVU4zH {margin: 0px 0 !important; } .brick__block {margin: 32px 0 0 0; } .btn {width: fit-content !important; }}",
-        ".brick__blocks__flex > :nth-child(1) {padding-right: 8px;}",
-        ".brick__blocks__flex > :nth-child(2) {padding-left: 8px;}"
+        "@media screen and (min-width: 768px) {.brick__blocks__flex > :nth-child(1) {padding-left:28px; padding-right: 8px;}.brick__blocks__flex > :nth-child(2) {padding-left: 8px; padding-right:28px;}}"
       ],
       "settings": {
         "height": "six-fifty-height",
