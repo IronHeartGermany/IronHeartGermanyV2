@@ -837,7 +837,7 @@
       "settings": {
         "flex_align": "align--middle-split",
         "text_color": "text-light",
-        "title": "STAY IN THE LOOP<span class=\"red_dot\"></span>",
+        "title": "STAY IN THE LOOP",
         "text": "<p>Sign up for our newsletter to receive announcements of latest releases, previews of upcoming collections, and exclusive invitations to events. Don't miss out - join the crew!</p>",
         "extra_fields": "name",
         "button_text": "Join the crew",
