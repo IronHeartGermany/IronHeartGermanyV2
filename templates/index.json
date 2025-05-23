@@ -166,7 +166,7 @@
         "enable_mobile_height": true,
         "mobile_slide_height": "five-fifty-height-mobile",
         "show_nav_dots": true,
-        "show_nav_arrows": true,
+        "show_nav_arrows": false,
         "show_arrow_down": false,
         "autoplay": true,
         "duration": 4,
