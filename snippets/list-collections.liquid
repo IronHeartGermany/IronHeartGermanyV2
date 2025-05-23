@@ -151,7 +151,7 @@
 
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     {{ selector_id }} {
-      {% assign divisor = columns_small | plus: 3 %} {% comment %} P. Ryan - 23.05.25 - make button narrower by adding 3 to column {% endcomment %}
+      {% assign divisor = columns_small | plus: 4 %} {% comment %} P. Ryan - 23.05.25 - make button narrower by adding 4 to column {% endcomment %}
       --grid-item: {{ 100.0 | divided_by: divisor | round: 4 }}%;
     }
   }
