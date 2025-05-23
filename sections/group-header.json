@@ -62,10 +62,46 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "image_mycw7n": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "position": "3",
+            "image_second_menu": false,
+            "image": "shopify://shop_images/peanuts_clown_1_small_2fc05022-a6be-4ae1-86bf-3b2b5037558a.jpg",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "title": "Peanuts & Co",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify://collections/peanuts-co"
+          }
+        },
+        "image_47i8QW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "position": "3",
+            "image_second_menu": false,
+            "image": "shopify://shop_images/wesco_boots_1.webp",
+            "aspect_ratio": 1,
+            "wide_image": false,
+            "title": "Wesco",
+            "heading_size": 100,
+            "link_text": "",
+            "link": "shopify://collections/wesco"
+          }
+        }
+      },
+      "block_order": [
+        "image_mycw7n",
+        "image_47i8QW"
+      ],
       "custom_css": [
         ".navlink.navlink--grandchild {font-weight: 300;}",
-        "/*.menu__items > div:nth-child(4) .navlink.navlink--toplevel.navlink--dot.caps {pointer-events: none; cursor: default;}",
-        "*/.site-header--has-border {--border-color: transparent!important;}"
+        " /*.menu__items > div:nth-child(4) .navlink.navlink--toplevel.navlink--dot.caps {pointer-events: none; cursor: default;}",
+        "*/.site-header--has-border {--border-color: transparent !important;}"
       ],
       "settings": {
         "sticky_header": true,
