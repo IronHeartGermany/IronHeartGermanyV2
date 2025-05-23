@@ -134,7 +134,8 @@
       --heading: {{ section_text_color }};
     {% endif %}
 
-    --grid-item: {{ 100.0 | divided_by: columns | round: 4 }}%;
+    {% assign divisor = columns + 2 %} {% comment %} P. Ryan - 23.05.25 - make button narrower by adding 2 to column {% endcomment %}
+    --grid-item: {{ 100.0 | divided_by: divisor | round: 4 }}%;
     --image-height: {{ image_aspect_ratio | times: 100 }}%;
 
     {% if text_size != blank %}
