@@ -170,7 +170,7 @@
         "show_arrow_down": false,
         "autoplay": false,
         "duration": 4,
-        "transition": "wipe",
+        "transition": "slide",
         "enable_zoom_animation": true,
         "heading_size": 130
       }
