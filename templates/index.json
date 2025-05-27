@@ -45,13 +45,12 @@
         },
         "image_3XDzQj": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/PE_still_008_25_05.jpg",
             "image_mobile": "shopify://shop_images/PE_still_011_25_05.jpg",
             "overlay_opacity": 5,
             "text_width": "normal",
-            "text_position": "bottom-left",
+            "text_position": "bottom-right",
             "text_color": "text-light",
             "subheading": "",
             "title": "<p>PEANUTS &amp; CO</p>",
@@ -62,7 +61,7 @@
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000",
-            "text": "12oz Kurashikizome® Twill Work Jacket",
+            "text": "Brass and silver jewelry handcrafted in Japan",
             "button_1_text": "SHOP",
             "button_1_link": "https://ironheartgermany.com/collections/peanuts-co",
             "button_1_color": "btn--white",
