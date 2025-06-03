@@ -1162,7 +1162,7 @@
 
     showMoreTriggers.forEach(trigger => {
       trigger.addEventListener('click', function() {
-        const container = document.querySelector('[data-show-more-container]');
+        const container = this.closest('[data-show-more]').querySelector('[data-show-more-container]');
         if (!container) return;
 
         const isExpanded = this.getAttribute('aria-expanded') === 'true';
@@ -1187,6 +1187,67 @@
         }
       });
     });
+
+    // Handle filter tag clicks - ensure they work properly
+    const filterTagButtons = document.querySelectorAll('[data-collection-filter-tag-button]');
+
+    filterTagButtons.forEach(button => {
+      button.addEventListener('click', function(e) {
+        // Let the natural link navigation work
+        // Don't prevent default - we want the page to navigate
+        console.log('Filter clicked:', this.dataset.tag);
+      });
+    });
+
+    // Handle filter reset buttons
+    const filterResetButtons = document.querySelectorAll('[data-filter-tag-reset-button], [data-filter-reset-button]');
+
+    filterResetButtons.forEach(button => {
+      button.addEventListener('click', function(e) {
+        // Let the natural link navigation work
+        console.log('Filter reset clicked:', this.dataset.tag);
+      });
+    });
+
+    // Make sure form submissions work for default filters
+    const filterForm = document.querySelector('[data-collection-filters-form]');
+    if (filterForm) {
+      // Handle price range inputs
+      const priceInputs = filterForm.querySelectorAll('input[type="number"]');
+      priceInputs.forEach(input => {
+        input.addEventListener('change', function() {
+          // Auto-submit form when price range changes
+          const url = new URL(window.location);
+          url.searchParams.set(this.name, this.value);
+          if (!this.value) {
+            url.searchParams.delete(this.name);
+          }
+          window.location.href = url.toString();
+        });
+      });
+
+      // Handle checkbox/radio inputs for default filters
+      const filterInputs = filterForm.querySelectorAll('input[type="checkbox"], input[type="radio"]:not([data-input-sort])');
+      filterInputs.forEach(input => {
+        input.addEventListener('change', function() {
+          // Submit the form or navigate to the filter URL
+          if (this.closest('form')) {
+            const formData = new FormData(this.closest('form'));
+            const params = new URLSearchParams();
+
+            for (let [key, value] of formData.entries()) {
+              if (value) {
+                params.append(key, value);
+              }
+            }
+
+            const url = new URL(window.location);
+            url.search = params.toString();
+            window.location.href = url.toString();
+          }
+        });
+      });
+    }
   });
 </script>
 
