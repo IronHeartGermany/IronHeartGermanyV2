@@ -233,6 +233,69 @@
     height: 16px;
   }
 
+  /* Sort Dropdown Styling */
+  .collection__sort-bar {
+    position: relative;
+  }
+
+  .collection__sort__option-wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #333;
+    border-top: none;
+    z-index: 100;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .collection__sort__options {
+    padding: 0;
+  }
+
+  .collection__filter-tags--default {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .collection__filter-tag {
+    border-bottom: 1px solid #eee;
+  }
+
+  .collection__filter-tag:last-child {
+    border-bottom: none;
+  }
+
+  .collection__sort__input {
+    display: none;
+  }
+
+  .collection__sort__button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    text-align: left;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .collection__sort__button:hover {
+    background-color: #f5f5f5;
+  }
+
+  .collection__sort__input:checked + .collection__sort__button {
+    background-color: #333;
+    color: #fff;
+  }
+
   /* Clear Filters */
   .clear-filters {
     margin-top: 20px;
@@ -1192,6 +1255,54 @@
         }
       }
     }
+
+    // Handle sorting functionality
+    const sortToggle = document.querySelector('[data-sort-toggle]');
+    const sortOptions = document.querySelector('[data-collection-sort-options]');
+    const sortInputs = document.querySelectorAll('[data-input-sort]');
+
+    // Toggle sort dropdown
+    if (sortToggle && sortOptions) {
+      sortToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        const isOpen = sortOptions.style.display === 'block';
+
+        if (isOpen) {
+          sortOptions.style.display = 'none';
+          sortToggle.setAttribute('aria-expanded', 'false');
+        } else {
+          sortOptions.style.display = 'block';
+          sortToggle.setAttribute('aria-expanded', 'true');
+        }
+      });
+
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function(e) {
+        if (!sortToggle.contains(e.target) && !sortOptions.contains(e.target)) {
+          sortOptions.style.display = 'none';
+          sortToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    // Handle sort option selection
+    sortInputs.forEach(input => {
+      input.addEventListener('change', function() {
+        if (this.checked) {
+          const url = new URL(window.location);
+
+          // Update or add sort_by parameter
+          if (this.value === collection.default_sort_by || this.value === '') {
+            url.searchParams.delete('sort_by');
+          } else {
+            url.searchParams.set('sort_by', this.value);
+          }
+
+          // Navigate to new URL
+          window.location.href = url.toString();
+        }
+      });
+    });
 
     // Enhanced collapsible filter groups - using original data attributes
     const filterTriggers = document.querySelectorAll('[data-collapsible-trigger]');
