@@ -69,18 +69,11 @@
 
 {%- style -%}
   :root {
-    {%- comment -%}
-      Collection sticky bar initial height which is dynamically changed on window load/resize.
-      Setting the variable here is mostly helpful for no-js Collection filters positioning.
-    {%- endcomment -%}
+    --filter-panel-width: 350px;
+    --filter-panel-transition: transform 0.3s ease-in-out;
     {%- if show_breadcrumbs or enable_sorting or enable_filters -%}
       --collection-sticky-bar-height: calc(.75rem * var(--FONT-ADJUST-BODY) + {{ min_sticky_bar_gutter }}px);
     {%- endif -%}
-
-    /* Sidebar Filter Variables */
-    --sidebar-width: 280px;
-    --sidebar-collapsed-width: 60px;
-    --sidebar-transition: all 0.3s ease;
   }
 
   {{ selector_id }} {
@@ -92,179 +85,254 @@
     .template-collection .collection-section {
       background-color: {{ bg_color }};
     }
-    .collection__sidebar-filters {
+    .filter-panel {
       --bg: {{ bg_color }};
     }
   {%- endif -%}
 
-  /* Sidebar Filter Styles */
-  .collection__layout {
-    display: flex;
-    gap: 20px;
+  /* Filter Panel Overlay */
+  .filter-panel-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
   }
 
-  .collection__sidebar-filters {
-    width: var(--sidebar-width);
-    min-width: var(--sidebar-width);
+  .filter-panel-overlay.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Filter Panel */
+  .filter-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--filter-panel-width);
+    height: 100vh;
     background: var(--bg, #ffffff);
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    height: fit-content;
-    position: sticky;
-    top: 20px;
-    transition: var(--sidebar-transition);
-    overflow: hidden;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: var(--filter-panel-transition);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
   }
 
-  .collection__sidebar-filters.is-collapsed {
-    width: var(--sidebar-collapsed-width);
-    min-width: var(--sidebar-collapsed-width);
+  .filter-panel.is-open {
+    transform: translateX(0);
   }
 
-  .collection__sidebar-header {
+  /* Filter Panel Header */
+  .filter-panel__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 20px;
-    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 24px;
+    border-bottom: 1px solid #e5e5e5;
     background: #f8f9fa;
+    flex-shrink: 0;
   }
 
-  .collection__sidebar-toggle {
+  .filter-panel__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+  }
+
+  .filter-panel__close {
     background: none;
     border: none;
     cursor: pointer;
     padding: 8px;
     border-radius: 4px;
     transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .collection__sidebar-toggle:hover {
+  .filter-panel__close:hover {
     background-color: #e9ecef;
   }
 
-  .collection__sidebar-title {
-    font-weight: 600;
-    margin: 0;
-    transition: var(--sidebar-transition);
+  .filter-panel__close svg {
+    width: 20px;
+    height: 20px;
   }
 
-  .collection__sidebar-filters.is-collapsed .collection__sidebar-title {
-    opacity: 0;
-    width: 0;
-    overflow: hidden;
-  }
-
-  .collection__sidebar-content {
-    padding: 20px;
-    transition: var(--sidebar-transition);
-  }
-
-  .collection__sidebar-filters.is-collapsed .collection__sidebar-content {
-    opacity: 0;
-    width: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
-  .collection__main-content {
+  /* Filter Panel Content */
+  .filter-panel__content {
     flex: 1;
-    min-width: 0;
+    overflow-y: auto;
+    padding: 24px;
   }
 
-  .collection__filter-group {
-    margin-bottom: 24px;
+  /* Filter Buttons in Top Bar */
+  .filters-trigger-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
   }
 
-  .collection__filter-group:last-child {
+  .filters-trigger-btn:hover {
+    background: #f5f5f5;
+    border-color: #bbb;
+  }
+
+  .filters-trigger-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Filter Groups */
+  .filter-group {
+    margin-bottom: 28px;
+  }
+
+  .filter-group:last-child {
     margin-bottom: 0;
   }
 
-  .collection__filter__title {
+  .filter-group__title {
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 12px;
-    padding: 8px 0;
-    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #333;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: color 0.2s ease;
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
   }
 
-  .collection__filter-tags {
+  .filter-group__title:hover {
+    color: #666;
+  }
+
+  .filter-group__title .toggle-icon {
+    transition: transform 0.2s ease;
+  }
+
+  .filter-group__title.is-expanded .toggle-icon {
+    transform: rotate(180deg);
+  }
+
+  .filter-group__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .filter-group__content.is-expanded {
+    max-height: 400px;
+  }
+
+  /* Filter Options */
+  .filter-options {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
-  .collection__filter-tag {
+  .filter-option {
     display: block;
   }
 
-  .filter__button {
-    display: block;
-    width: 100%;
+  .filter-option__link {
+    display: flex;
+    align-items: center;
     padding: 8px 12px;
     text-decoration: none;
-    color: #333;
-    border-radius: 4px;
-    transition: background-color 0.2s ease;
+    color: #555;
+    border-radius: 6px;
+    transition: all 0.2s ease;
     font-size: 14px;
+    border: 1px solid transparent;
   }
 
-  .filter__button:hover {
+  .filter-option__link:hover {
     background-color: #f8f9fa;
+    color: #333;
     text-decoration: none;
   }
 
-  .collection__filter-tag.is-active .filter__button {
+  .filter-option.is-active .filter-option__link {
     background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+
+  .filter-option.is-active .filter-option__link:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  /* Clear Filters */
+  .clear-filters {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+  }
+
+  .clear-filters__btn {
+    width: 100%;
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .clear-filters__btn:hover {
+    background: #5a6268;
+    text-decoration: none;
     color: white;
   }
 
-  .collection__sticky-bar {
-    margin-bottom: 20px;
-  }
-
-  /* Mobile Styles */
-  @media (max-width: 767px) {
-    .collection__layout {
-      flex-direction: column;
-    }
-
-    .collection__sidebar-filters {
-      width: 100%;
-      min-width: auto;
-      position: relative;
-      top: auto;
-    }
-
-    .collection__sidebar-filters.is-collapsed {
-      width: 100%;
-      min-width: auto;
-    }
-
-    .collection__sidebar-filters.is-collapsed .collection__sidebar-title,
-    .collection__sidebar-filters.is-collapsed .collection__sidebar-content {
-      opacity: 1;
-      width: auto;
-      padding: 20px;
-      overflow: visible;
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .filter-panel {
+      width: 85vw;
+      max-width: 320px;
     }
   }
 
-  /* Hide original filter overlay on desktop */
-  @media (min-width: 768px) {
-    .collection__filters {
-      display: none;
-    }
-
-    .collection__filters__toggle {
-      display: none;
-    }
+  /* Body scroll lock when panel is open */
+  body.filter-panel-open {
+    overflow: hidden;
   }
 {%- endstyle -%}
 
@@ -302,281 +370,212 @@
               {%- render 'breadcrumbs' -%}
             {%- endif -%}
 
-            {%- if enable_sorting -%}
-              {%- assign sort_by = search.sort_by
-                | default: collection.sort_by
-                | default: collection.default_sort_by
-              -%}
-              {%- assign sort_options = search.sort_options | default: collection.sort_options -%}
+            <div style="display: flex; align-items: center; gap: 16px; justify-content: space-between; flex-wrap: wrap;">
+              <div style="display: flex; align-items: center; gap: 16px;">
+                {%- if enable_filters -%}
+                  <button class="filters-trigger-btn" data-open-filters>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                    </svg>
+                    {{ 'products.general.filters' | t }}
+                  </button>
+                {%- endif -%}
 
-              <div class="collection__sort-bar">
-                <button type="button" class="collection__sort__label" data-sort-toggle>
-                  {{ 'collections.sorting.title' | t }}
-                  {%- render 'icon-select' -%}
-                </button>
+                {%- if enable_sorting -%}
+                  {%- assign sort_by = search.sort_by
+                    | default: collection.sort_by
+                    | default: collection.default_sort_by
+                  -%}
+                  {%- assign sort_options = search.sort_options | default: collection.sort_options -%}
 
-                <div class="collection__sort__option-wrapper" data-collection-sort-options>
-                  <div class="collection__sort__options">
-                    <ul
-                      class="collection__filter-tags collection__filter-tags--default"
-                      collection-sort-by="{{ sort_by }}"
-                    >
-                      {%- for option in sort_options -%}
-                        <li class="collection__filter-tag">
-                          <input
-                            class="collection__sort__input"
-                            type="radio"
-                            name="sort_by_bar"
-                            value="{{ option.value }}"
-                            id="filter-bar-{{ option.name | handle | append: option.value | handle | append: section.id }}"
-                            data-input-sort
-                            {% if option.value == sort_by %}
-                              checked
-                            {% endif %}
-                          >
-                          <label
-                            class="collection__sort__button"
-                            for="filter-bar-{{ option.name | handle | append: option.value | handle | append: section.id }}"
-                            tabindex="0"
-                          >
-                            {{- option.name -}}
-                          </label>
-                        </li>
-                      {%- endfor -%}
-                    </ul>
+                  <div class="collection__sort-bar">
+                    <button type="button" class="collection__sort__label" data-sort-toggle>
+                      {{ 'collections.sorting.title' | t }}
+                      {%- render 'icon-select' -%}
+                    </button>
 
-                    <noscript>
-                      <button type="submit" class="btn btn--primary btn--solid">
-                        {{ 'collection.filters.sort_button' | t }}
-                      </button>
-                    </noscript>
+                    <div class="collection__sort__option-wrapper" data-collection-sort-options>
+                      <div class="collection__sort__options">
+                        <ul
+                          class="collection__filter-tags collection__filter-tags--default"
+                          collection-sort-by="{{ sort_by }}"
+                        >
+                          {%- for option in sort_options -%}
+                            <li class="collection__filter-tag">
+                              <input
+                                class="collection__sort__input"
+                                type="radio"
+                                name="sort_by_bar"
+                                value="{{ option.value }}"
+                                id="filter-bar-{{ option.name | handle | append: option.value | handle | append: section.id }}"
+                                data-input-sort
+                                {% if option.value == sort_by %}
+                                  checked
+                                {% endif %}
+                              >
+                              <label
+                                class="collection__sort__button"
+                                for="filter-bar-{{ option.name | handle | append: option.value | handle | append: section.id }}"
+                                tabindex="0"
+                              >
+                                {{- option.name -}}
+                              </label>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+
+                        <noscript>
+                          <button type="submit" class="btn btn--primary btn--solid">
+                            {{ 'collection.filters.sort_button' | t }}
+                          </button>
+                        </noscript>
+                      </div>
+                    </div>
                   </div>
-                </div>
+                {%- endif -%}
               </div>
-            {%- endif -%}
 
-            <div class="collection__products-count" data-products-count="{{ products_count }}">
-              {{- products_count -}}
+              <div class="collection__products-count" data-products-count="{{ products_count }}">
+                {{- products_count -}}
+              </div>
             </div>
-
-            {%- comment -%} Mobile filter toggle (keep for mobile) {%- endcomment -%}
-            {%- if enable_filters or enable_sorting -%}
-              <button
-                class="collection__filters__toggle"
-                aria-label="{{ 'products.general.filters' | t }}"
-                data-toggle-filters
-              >
-                {%- render 'icon-filter' -%}
-              </button>
-            {%- endif -%}
           </div>
         {%- endif -%}
 
-        <div class="collection__layout">
-          {%- comment -%} Sidebar Filters {%- endcomment -%}
-          {%- if enable_filters -%}
-            {%- liquid
-              assign filters_available = false
-              assign filter_count = 0
-              assign all_active_tags_count = 0
+        {%- comment -%} Slide-in Filter Panel {%- endcomment -%}
+        {%- if enable_filters -%}
+          {%- liquid
+            assign filters_available = false
+            assign filter_count = 0
+            assign all_active_tags_count = 0
 
-              capture sort_param
-                if collection.sort_by != collection.default_sort_by
-                  assign sort_parameter = '/?'
-                  if collection.current_type or collection.current_vendor
-                    assign sort_parameter = '&'
-                  endif
-                  echo sort_parameter | append: 'sort_by=' | append: collection.sort_by
+            capture sort_param
+              if collection.sort_by != collection.default_sort_by
+                assign sort_parameter = '/?'
+                if collection.current_type or collection.current_vendor
+                  assign sort_parameter = '&'
                 endif
-              endcapture
-            -%}
+                echo sort_parameter | append: 'sort_by=' | append: collection.sort_by
+              endif
+            endcapture
+          -%}
 
-            {%- capture filters -%}
-              {%- case filter_mode -%}
-                {%- when 'default' -%}
-                  {%- liquid
-                    if collection.filters != empty
-                      assign filters_available = true
-                    endif
+          {%- comment -%} Filter Panel Overlay {%- endcomment -%}
+          <div class="filter-panel-overlay" data-filter-overlay></div>
 
-                    for filter in collection.filters
-                      render 'filter', filter: filter, animation_delay: animation_delay, filters_layout: filters_layout, index: forloop.index, show_more: show_more
-                    endfor
-                  -%}
+          {%- comment -%} Filter Panel {%- endcomment -%}
+          <div class="filter-panel" data-filter-panel>
+            <div class="filter-panel__header">
+              <h3 class="filter-panel__title">{{ 'products.general.filters' | t }}</h3>
+              <button class="filter-panel__close" data-close-filters aria-label="{{ 'products.general.close' | t }}">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+              </button>
+            </div>
 
-                {%- when 'tag' -%}
-                  {%- liquid
-                    assign is_active = false
-                    assign active_count = 0
-                    assign active_tag_filters = ''
-                    assign tags_list = ''
-                    assign filters_counter = 0
+            <div class="filter-panel__content">
+              <form data-collection-filters-form>
+                {% if collection.current_type %}
+                  <input type="hidden" name="q" value="{{ collection.current_type }}">
+                {% endif %}
+                {% if collection.current_vendor %}
+                  <input type="hidden" name="q" value="{{ collection.current_vendor }}">
+                {% endif %}
 
-                    for tag in collection.all_tags
-                      assign filters_available = true
-                      unless tag contains '_badge' or tag contains '_preorder'
-                        if current_tags contains tag
-                          assign is_active = true
-                          assign active_count = active_count | plus: 1
-                          assign all_active_tags_count = all_active_tags_count | plus: 1
-                        endif
-                      endunless
-                    endfor
+                {%- case filter_mode -%}
+                  {%- when 'default' -%}
+                    {%- if collection.filters != empty -%}
+                      {%- assign filters_available = true -%}
+                    {%- endif -%}
 
-                    assign toggle_state = true
-                    if filters_layout == 'closed'
-                      assign toggle_state = false
-                    endif
-                    if is_active
-                      assign toggle_state = true
-                    endif
-                  -%}
+                    {%- for filter in collection.filters -%}
+                      {%- assign filter_count = filter_count | plus: filter.active_values.size -%}
+                      <div class="filter-group">
+                        <button type="button" class="filter-group__title is-expanded" data-filter-toggle>
+                          {{ filter.label }}
+                          <span class="toggle-icon">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                              <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                            </svg>
+                          </span>
+                        </button>
+                        <div class="filter-group__content is-expanded">
+                          <ul class="filter-options">
+                            {%- case filter.type -%}
+                              {%- when 'list' -%}
+                                {%- for value in filter.values -%}
+                                  <li class="filter-option{% if value.active %} is-active{% endif %}">
+                                    <a href="{{ value.url_to_add }}" class="filter-option__link">
+                                      {{ value.label }} ({{ value.count }})
+                                    </a>
+                                  </li>
+                                {%- endfor -%}
+                              {%- when 'price_range' -%}
+                                <li class="filter-option">
+                                  <div style="padding: 8px 12px;">
+                                    <label>{{ 'products.general.price_range' | t }}</label>
+                                    <div style="display: flex; gap: 8px; margin-top: 8px;">
+                                      <input
+                                        type="number"
+                                        name="{{ filter.min_value.param_name }}"
+                                        value="{{ filter.min_value.value | default: '' }}"
+                                        placeholder="{{ filter.range_min | money_without_trailing_zeros }}"
+                                        style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px;"
+                                      >
+                                      <span style="padding: 6px;">-</span>
+                                      <input
+                                        type="number"
+                                        name="{{ filter.max_value.param_name }}"
+                                        value="{{ filter.max_value.value | default: '' }}"
+                                        placeholder="{{ filter.range_max | money_without_trailing_zeros }}"
+                                        style="width: 100%; padding: 6px; border: 1px solid #ddd; border-radius: 4px;"
+                                      >
+                                    </div>
+                                  </div>
+                                </li>
+                            {%- endcase -%}
+                          </ul>
+                        </div>
+                      </div>
+                    {%- endfor -%}
 
-                  <div class="collection__filter-group" data-collection-filter>
-                    <button type="button" class="collection__filter__title{% if toggle_state %} is-expanded{% endif %}"
-                      aria-expanded="{{ toggle_state }}"
-                      aria-controls="CollectionFilter--tags"
-                      data-filter-active="{{ is_active }}"
-                      data-collapsible-trigger>
-                      {{- 'products.general.filter_by' | t -}}
-                      <span class="collection__filter__count">
-                        {%- render 'icon-toggle-plus' -%}
-                        {%- render 'icon-toggle-minus' -%}
-                      </span>
-                    </button>
-
-                    <div id="CollectionFilter--tags"
-                      class="collection__filter-tags-wrapper{% if toggle_state %} is-expanded{% endif %}"
-                      aria-expanded="{% if toggle_state %}true{% else %}false{% endif %}"
-                      data-collapsible-container
-                      {% if toggle_state %}style="height:auto;"{% endif %}>
-                      <ul class="collection__filter-tags" data-collapsible-content>
-                        {%- for tag in collection.all_tags -%}
-                          {%- unless tags_list contains tag or tag contains '_badge' or tag contains '_preorder' -%}
-                            {%- capture temp_list -%}{{ tags_list | append: tag | append: ' ' }}{%- endcapture -%}
-                            {%- liquid
-                              assign tags_list = temp_list
-                              assign current_tag_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle
-
-                              if current_tags contains tag
-                                assign linked_tags = selected_tags | remove: current_tag_handle
-                                assign filter_count = filter_count | plus: 1
-                              else
-                                assign linked_tags = selected_tags | append: '+' | append: current_tag_handle
-                              endif
-
-                              capture tag_link
-                                echo collection.url
-                                if linked_tags != blank
-                                  echo '/' | append: linked_tags
-                                endif
-                                echo sort_param
-                              endcapture
-
-                              assign tag_link = tag_link | replace: '/+', '/' | replace: '++', '+' | replace: '+?', '?'
-
-                              capture filter_classes
-                                echo 'collection__filter-tag'
-                                if current_tags contains tag
-                                  echo ' is-active'
-                                endif
-                              endcapture
-                            -%}
-
-                            <li class="{{ filter_classes }}" data-collection-filter-tag>
-                              <a href="{{ tag_link }}"
-                                class="filter__button"
-                                data-tag="{{ tag | handleize }}"
-                                data-collection-filter-tag-button>
-                                {{ tag }}
-                              </a>
-                            </li>
-                          {%- endunless -%}
-                        {%- endfor -%}
-                      </ul>
-                    </div>
-                  </div>
-
-                {%- when 'group' -%}
-                  {%- liquid
-                    assign groups = ''
-                    assign active_tag_filters = ''
-
-                    for tag in collection.all_tags
-                      assign tag_parts = tag | split: '_'
-                      if tag_parts.size == 2
-                        assign groups = groups | append: tag_parts.first | append: ','
-                      endif
-                    endfor
-
-                    assign groups = groups | split: ',' | compact | uniq
-                    assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ','
-                    assign special_tags = '_preorder,_badge' | split: ','
-                  -%}
-
-                  {%- for group in groups -%}
+                  {%- when 'tag' -%}
                     {%- liquid
                       assign is_active = false
                       assign active_count = 0
-                      assign group_label = group | downcase
-                      assign group_with_suffix = group | append: '_'
-                    -%}
+                      assign tags_list = ''
 
-                    {%- unless special_tags contains group_label or group_label == blank -%}
-                      {%- liquid
+                      for tag in collection.all_tags
                         assign filters_available = true
-                        for tag in current_tags
-                          if tag contains group_with_suffix
+                        unless tag contains '_badge' or tag contains '_preorder'
+                          if current_tags contains tag
                             assign is_active = true
                             assign active_count = active_count | plus: 1
                             assign all_active_tags_count = all_active_tags_count | plus: 1
+                            assign filter_count = filter_count | plus: 1
                           endif
-                        endfor
+                        endunless
+                      endfor
+                    -%}
 
-                        assign toggle_state = false
-                        case filters_layout
-                          when 'open'
-                            assign toggle_state = true
-                          when 'first-open'
-                            if forloop.index == 1
-                              assign toggle_state = true
-                            endif
-                        endcase
-
-                        if is_active
-                          assign toggle_state = true
-                        endif
-
-                        if color_label contains group_label and settings.enable_color_swatches_collection
-                          assign is_color = true
-                        else
-                          assign is_color = false
-                        endif
-                      -%}
-
-                      <div class="collection__filter-group" data-collection-filter>
-                        <button type="button" class="collection__filter__title{% if toggle_state %} is-expanded{% endif %}"
-                          aria-expanded="{{ toggle_state }}"
-                          aria-controls="CollectionFilter--{{ group | handle }}-{{ forloop.index }}"
-                          data-filter-active="{{ is_active }}"
-                          data-collapsible-trigger>
-                          <span>{{- group -}}{% if active_count > 0 %} ({{ active_count }}){% endif %}</span>
-                          <span class="collection__filter__count">
-                            {%- render 'icon-toggle-plus' -%}
-                            {%- render 'icon-toggle-minus' -%}
-                          </span>
-                        </button>
-
-                        <div id="CollectionFilter--{{ group | handle }}-{{ forloop.index }}"
-                          class="collection__filter-tags-wrapper{% if toggle_state %} is-expanded{% endif %}"
-                          aria-expanded="{% if toggle_state %}true{% else %}false{% endif %}"
-                          data-collapsible-container
-                          {% if toggle_state %}style="height:auto;"{% endif %}>
-                          <ul class="collection__filter-tags{% if is_color %} collection__filter-tags--swatches{% endif %}" data-collapsible-content>
-                            {%- for tag in collection.all_tags -%}
+                    <div class="filter-group">
+                      <button type="button" class="filter-group__title is-expanded" data-filter-toggle>
+                        {{ 'products.general.filter_by' | t }}
+                        <span class="toggle-icon">
+                          <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                          </svg>
+                        </span>
+                      </button>
+                      <div class="filter-group__content is-expanded">
+                        <ul class="filter-options">
+                          {%- for tag in collection.all_tags -%}
+                            {%- unless tags_list contains tag or tag contains '_badge' or tag contains '_preorder' -%}
+                              {%- capture temp_list -%}{{ tags_list | append: tag | append: ' ' }}{%- endcapture -%}
                               {%- liquid
-                                assign tag_parts = tag | split: '_'
-                                assign group_tag = tag_parts.last
+                                assign tags_list = temp_list
                                 assign current_tag_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle
 
                                 if current_tags contains tag
@@ -596,246 +595,189 @@
                                 assign tag_link = tag_link | replace: '/+', '/' | replace: '++', '+' | replace: '+?', '?'
                               -%}
 
-                              {%- if tag_parts.first == group -%}
+                              <li class="filter-option{% if current_tags contains tag %} is-active{% endif %}">
+                                <a href="{{ tag_link }}" class="filter-option__link">
+                                  {{ tag }}
+                                </a>
+                              </li>
+                            {%- endunless -%}
+                          {%- endfor -%}
+                        </ul>
+                      </div>
+                    </div>
+
+                  {%- when 'group' -%}
+                    {%- liquid
+                      assign groups = ''
+
+                      for tag in collection.all_tags
+                        assign tag_parts = tag | split: '_'
+                        if tag_parts.size == 2
+                          assign groups = groups | append: tag_parts.first | append: ','
+                        endif
+                      endfor
+
+                      assign groups = groups | split: ',' | compact | uniq
+                      assign special_tags = '_preorder,_badge' | split: ','
+                    -%}
+
+                    {%- for group in groups -%}
+                      {%- liquid
+                        assign is_active = false
+                        assign active_count = 0
+                        assign group_label = group | downcase
+                        assign group_with_suffix = group | append: '_'
+                      -%}
+
+                      {%- unless special_tags contains group_label or group_label == blank -%}
+                        {%- liquid
+                          assign filters_available = true
+                          for tag in current_tags
+                            if tag contains group_with_suffix
+                              assign is_active = true
+                              assign active_count = active_count | plus: 1
+                              assign all_active_tags_count = all_active_tags_count | plus: 1
+                              assign filter_count = filter_count | plus: 1
+                            endif
+                          endfor
+                        -%}
+
+                        <div class="filter-group">
+                          <button type="button" class="filter-group__title is-expanded" data-filter-toggle>
+                            {{ group -}}
+                            {%- if active_count > 0 %} ({{ active_count }}){% endif %}
+                            <span class="toggle-icon">
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                              </svg>
+                            </span>
+                          </button>
+                          <div class="filter-group__content is-expanded">
+                            <ul class="filter-options">
+                              {%- for tag in collection.all_tags -%}
                                 {%- liquid
-                                  capture filter_classes
-                                    echo 'collection__filter-tag'
-                                    if current_tags contains tag
-                                      echo ' is-active'
+                                  assign tag_parts = tag | split: '_'
+                                  assign group_tag = tag_parts.last
+                                  assign current_tag_handle = tag | replace: '&#39;', '' | replace: '&#34;', '' | handle
+
+                                  if current_tags contains tag
+                                    assign linked_tags = selected_tags | remove: current_tag_handle
+                                  else
+                                    assign linked_tags = selected_tags | append: '+' | append: current_tag_handle
+                                  endif
+
+                                  capture tag_link
+                                    echo collection.url
+                                    if linked_tags != blank
+                                      echo '/' | append: linked_tags
                                     endif
+                                    echo sort_param
                                   endcapture
+
+                                  assign tag_link = tag_link | replace: '/+', '/' | replace: '++', '+' | replace: '+?', '?'
                                 -%}
 
-                                <li class="{{ filter_classes }}" data-collection-filter-tag>
-                                  <a href="{{ tag_link }}"
-                                    class="filter__button"
-                                    data-tag="{{ tag | handleize }}"
-                                    data-collection-filter-tag-button>
-                                    {{- group_tag -}}
-                                  </a>
-                                </li>
-                              {%- endif -%}
-                            {%- endfor -%}
-                          </ul>
+                                {%- if tag_parts.first == group -%}
+                                  <li class="filter-option{% if current_tags contains tag %} is-active{% endif %}">
+                                    <a href="{{ tag_link }}" class="filter-option__link">
+                                      {{ group_tag }}
+                                    </a>
+                                  </li>
+                                {%- endif -%}
+                              {%- endfor -%}
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                    {%- endunless -%}
-                  {%- endfor -%}
-              {%- endcase -%}
-            {%- endcapture -%}
+                      {%- endunless -%}
+                    {%- endfor -%}
+                {%- endcase -%}
 
-            <aside class="collection__sidebar-filters" data-sidebar-filters>
-              <div class="collection__sidebar-header">
-                <h3 class="collection__sidebar-title">{{ 'products.general.filters' | t }}</h3>
-                <button class="collection__sidebar-toggle" data-sidebar-toggle aria-label="Toggle filters">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                    <path d="M6 9L10 5L11 6L7 10L6 9Z" fill="currentColor"/>
-                  </svg>
-                </button>
-              </div>
-
-              {%- if filters_available -%}
-                <div class="collection__sidebar-content">
-                  <form data-collection-filters-form>
-                    {% if collection.current_type %}
-                      <input type="hidden" name="q" value="{{ collection.current_type }}">
-                    {% endif %}
-                    {% if collection.current_vendor %}
-                      <input type="hidden" name="q" value="{{ collection.current_vendor }}">
-                    {% endif %}
-
-                    {{- filters -}}
-                  </form>
-                </div>
-              {%- endif -%}
-            </aside>
-          {%- endif -%}
-
-          {%- comment -%} Main Content Area {%- endcomment -%}
-          <div class="collection__main-content">
-            {%- paginate collection.products by pagination_limit -%}
-              <div
-                class="collection__products collection-items--{{ columns }} collection-items--{{ size_mobile }}"
-                data-collection-products
-              >
-                {%- if collection_count > 0 -%}
-                  {%- if collection.products_count > 0 -%}
-                    <div
-                      class="grid"
-                      {% if enable_infinity_scroll %}
-                        id="AjaxinateLoop" data-ajaxinate-id="{{ section.id }}"
-                      {% endif %}
-                    >
-                      {%- assign tablet_counter = 1 -%}
-                      {%- assign mobile_counter = 1 -%}
-
-                      {%- liquid
-                        for product in collection.products
-                          assign animation_delay = forloop.index0 | modulo: columns | times: 1
-                          render 'product-grid-item', product: product, animation_delay: animation_delay, tablet_counter: tablet_counter, mobile_counter: mobile_counter, item_index: forloop.index0
-                          assign tablet_counter = tablet_counter | plus: 1
-                          assign mobile_counter = mobile_counter | plus: 1
-                        endfor
-                      -%}
-                    </div>
-                  {%- else -%}
-                    <div class="collection--no-results">
-                      <p class="no-matches">
-                        {{ 'collections.general.no_matches_by_filter' | t: products_count: collection.products_count }}
-                      </p>
-                    </div>
-                  {%- endif -%}
-
-                {%- elsif collection.handle != 'all' and collection_count == 0 -%}
-                  <div class="collection--no-results">
-                    <p class="no-matches">{{ 'collections.general.no_matches' | t }}</p>
-                    <a href="{{ routes.root_url }}" class="btn btn--primary btn--solid">
-                      {{- 'general.404.button_text' | t -}}
+                {%- if filter_count > 0 -%}
+                  <div class="clear-filters">
+                    <a href="{{ collection.url }}{{ sort_param }}" class="clear-filters__btn">
+                      {{ 'products.general.clear_filters' | t }}
                     </a>
                   </div>
                 {%- endif -%}
-
-                {%- if enable_infinity_scroll -%}
-                  <div
-                    class="pagination pagination--infinite"
-                    id="AjaxinatePagination"
-                    data-ajaxinate-id="{{ section.id }}"
-                  >
-                    {%- if paginate.next -%}
-                      <div class="pagination__loading">
-                        <a href="{{ paginate.next.url }}">
-                          <span class="visually-hidden">{{ 'general.pagination.next' | t }}</span>
-                        </a>
-                      </div>
-                    {%- endif -%}
-                  </div>
-
-                  {%- if paginate.pages > 1 -%}
-                    <noscript>
-                      {%- render 'pagination', paginate: paginate -%}
-                    </noscript>
-                  {%- endif -%}
-
-                {%- else -%}
-                  {%- if paginate.pages > 1 -%}
-                    {%- render 'pagination', paginate: paginate -%}
-                  {%- endif -%}
-                {%- endif -%}
-              </div>
-            {%- endpaginate -%}
-          </div>
-        </div>
-
-        {%- comment -%} Keep original mobile filters (hidden on desktop) {%- endcomment -%}
-        {%- if enable_filters or enable_sorting -%}
-          <div class="collection__filters" data-collection-filters>
-            <div class="collection__filters-wrapper" data-collection-filters-wrapper>
-              <div class="collection__filters-list">
-                <div class="collection__filters-list__inner" data-collection-filters-list>
-                  <form data-collection-filters-form>
-                    {% if collection.current_type %}
-                      <input type="hidden" name="q" value="{{ collection.current_type }}">
-                    {% endif %}
-                    {% if collection.current_vendor %}
-                      <input type="hidden" name="q" value="{{ collection.current_vendor }}">
-                    {% endif %}
-
-                    <div class="collection__filters-header">
-                      <button class="collection__filters__close" type="button" data-close-filters>
-                        <span class="visually-hidden">{{ 'products.general.close' | t }}</span>
-                        {%- render 'icon-close' -%}
-                      </button>
-
-                      {%- if enable_filters -%}
-                        <div class="collection__filters__top">
-                          <div class="collection__filters__title">
-                            <span>{{- 'products.general.filters' | t -}}</span>
-                          </div>
-                        </div>
-                      {%- endif -%}
-                    </div>
-
-                    {%- if enable_sorting -%}
-                      <div class="collection__sort">
-                        <button
-                          type="button"
-                          class="collection__sort__label label-typography"
-                          aria-expanded="false"
-                          aria-controls="CollectionSorting"
-                          data-collapsible-trigger
-                        >
-                          {{ 'collections.sorting.title' | t }}
-                          {%- render 'icon-toggle-plus' -%}
-                          {%- render 'icon-toggle-minus' -%}
-                        </button>
-
-                        <div
-                          id="CollectionSorting"
-                          class="collection__sort__option-wrapper"
-                          aria-expanded="false"
-                          data-collapsible-container
-                        >
-                          <div class="collection__sort__options" data-collapsible-content>
-                            <ul class="collection__filter-tags collection__filter-tags--default">
-                              {%- assign sort_by = search.sort_by
-                                | default: collection.sort_by
-                                | default: collection.default_sort_by
-                              -%}
-                              {%- assign sort_options = search.sort_options | default: collection.sort_options -%}
-                              {%- for option in sort_options -%}
-                                <li class="collection__filter-tag">
-                                  <input
-                                    class="collection__sort__input"
-                                    type="radio"
-                                    name="sort_by"
-                                    value="{{ option.value }}"
-                                    id="filter-{{ option.name | handle | append: option.value | handle | append: section.id }}"
-                                    data-input-sort
-                                    {% if option.value == sort_by %}
-                                      checked
-                                    {% endif %}
-                                  >
-                                  <label
-                                    class="collection__sort__button"
-                                    for="filter-{{ option.name | handle | append: option.value | handle | append: section.id }}"
-                                  >
-                                    {{- option.name -}}
-                                  </label>
-                                </li>
-                              {%- endfor -%}
-                            </ul>
-
-                            <noscript>
-                              <button type="submit" class="btn btn--primary btn--solid">
-                                {{ 'collection.filters.sort_button' | t }}
-                              </button>
-                            </noscript>
-                          </div>
-                        </div>
-                      </div>
-                    {%- endif -%}
-
-                    {%- if enable_filters -%}
-                      {{- filters -}}
-                    {%- endif -%}
-                  </form>
-                </div>
-
-                {%- if enable_filters -%}
-                  <div class="collection__filters-bottom">
-                    <button
-                      class="collection__filters__close-bottom btn btn--primary"
-                      type="button"
-                      data-close-filters
-                    >
-                      {{- 'collection.filters.close' | t -}}
-                    </button>
-                  </div>
-                {%- endif -%}
-              </div>
+              </form>
             </div>
           </div>
         {%- endif -%}
+
+        {%- paginate collection.products by pagination_limit -%}
+          <div
+            class="collection__products collection-items--{{ columns }} collection-items--{{ size_mobile }}"
+            data-collection-products
+          >
+            {%- if collection_count > 0 -%}
+              {%- if collection.products_count > 0 -%}
+                <div
+                  class="grid"
+                  {% if enable_infinity_scroll %}
+                    id="AjaxinateLoop" data-ajaxinate-id="{{ section.id }}"
+                  {% endif %}
+                >
+                  {%- assign tablet_counter = 1 -%}
+                  {%- assign mobile_counter = 1 -%}
+
+                  {%- for product in collection.products -%}
+                    {%- assign animation_delay = forloop.index0 | modulo: columns | times: 1 -%}
+                    {%- render 'product-grid-item',
+                      product: product,
+                      animation_delay: animation_delay,
+                      tablet_counter: tablet_counter,
+                      mobile_counter: mobile_counter,
+                      item_index: forloop.index0
+                    -%}
+                    {%- assign tablet_counter = tablet_counter | plus: 1 -%}
+                    {%- assign mobile_counter = mobile_counter | plus: 1 -%}
+                  {%- endfor -%}
+                </div>
+              {%- else -%}
+                <div class="collection--no-results">
+                  <p class="no-matches">
+                    {{ 'collections.general.no_matches_by_filter' | t: products_count: collection.products_count }}
+                  </p>
+                </div>
+              {%- endif -%}
+
+            {%- elsif collection.handle != 'all' and collection_count == 0 -%}
+              <div class="collection--no-results">
+                <p class="no-matches">{{ 'collections.general.no_matches' | t }}</p>
+                <a href="{{ routes.root_url }}" class="btn btn--primary btn--solid">
+                  {{- 'general.404.button_text' | t -}}
+                </a>
+              </div>
+            {%- endif -%}
+
+            {%- if enable_infinity_scroll -%}
+              <div
+                class="pagination pagination--infinite"
+                id="AjaxinatePagination"
+                data-ajaxinate-id="{{ section.id }}"
+              >
+                {%- if paginate.next -%}
+                  <div class="pagination__loading">
+                    <a href="{{ paginate.next.url }}">
+                      <span class="visually-hidden">{{ 'general.pagination.next' | t }}</span>
+                    </a>
+                  </div>
+                {%- endif -%}
+              </div>
+
+              {%- if paginate.pages > 1 -%}
+                <noscript>
+                  {%- render 'pagination', paginate: paginate -%}
+                </noscript>
+              {%- endif -%}
+
+            {%- else -%}
+              {%- if paginate.pages > 1 -%}
+                {%- render 'pagination', paginate: paginate -%}
+              {%- endif -%}
+            {%- endif -%}
+          </div>
+        {%- endpaginate -%}
       </div>
     </div>
   </div>
@@ -843,75 +785,109 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Sidebar toggle functionality
-    const sidebarToggle = document.querySelector('[data-sidebar-toggle]');
-    const sidebar = document.querySelector('[data-sidebar-filters]');
+    // Filter panel elements
+    const openFiltersBtn = document.querySelector('[data-open-filters]');
+    const closeFiltersBtn = document.querySelector('[data-close-filters]');
+    const filterPanel = document.querySelector('[data-filter-panel]');
+    const filterOverlay = document.querySelector('[data-filter-overlay]');
+    const body = document.body;
 
-    if (sidebarToggle && sidebar) {
-      sidebarToggle.addEventListener('click', function() {
-        sidebar.classList.toggle('is-collapsed');
-
-        // Update aria-label for accessibility
-        const isCollapsed = sidebar.classList.contains('is-collapsed');
-        sidebarToggle.setAttribute('aria-label', isCollapsed ? 'Expand filters' : 'Collapse filters');
-
-        // Rotate arrow icon
-        const icon = sidebarToggle.querySelector('svg');
-        if (icon) {
-          icon.style.transform = isCollapsed ? 'rotate(-90deg)' : 'rotate(0deg)';
-        }
+    // Open filter panel
+    if (openFiltersBtn) {
+      openFiltersBtn.addEventListener('click', function() {
+        openFilterPanel();
       });
     }
 
-    // Enhanced collapsible filter groups
-    const filterTriggers = document.querySelectorAll('[data-collapsible-trigger]');
-
-    filterTriggers.forEach(trigger => {
-      trigger.addEventListener('click', function() {
-        const container = document.getElementById(this.getAttribute('aria-controls'));
-        const isExpanded = this.getAttribute('aria-expanded') === 'true';
-
-        // Toggle states
-        this.setAttribute('aria-expanded', !isExpanded);
-        container.setAttribute('aria-expanded', !isExpanded);
-
-        // Toggle classes
-        this.classList.toggle('is-expanded');
-        container.classList.toggle('is-expanded');
-
-        // Animate height
-        if (!isExpanded) {
-          container.style.height = 'auto';
-          const height = container.scrollHeight + 'px';
-          container.style.height = '0px';
-          container.offsetHeight; // Force reflow
-          container.style.height = height;
-        } else {
-          container.style.height = '0px';
-        }
+    // Close filter panel
+    if (closeFiltersBtn) {
+      closeFiltersBtn.addEventListener('click', function() {
+        closeFilterPanel();
       });
+    }
+
+    // Close on overlay click
+    if (filterOverlay) {
+      filterOverlay.addEventListener('click', function() {
+        closeFilterPanel();
+      });
+    }
+
+    // Close on Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && filterPanel && filterPanel.classList.contains('is-open')) {
+        closeFilterPanel();
+      }
     });
 
-    // Store sidebar state in localStorage (optional)
-    const storageKey = 'collection-sidebar-collapsed';
+    // Function to open filter panel
+    function openFilterPanel() {
+      if (filterPanel && filterOverlay) {
+        filterPanel.classList.add('is-open');
+        filterOverlay.classList.add('is-open');
+        body.classList.add('filter-panel-open');
 
-    // Restore sidebar state on page load
-    if (sidebar && localStorage.getItem(storageKey) === 'true') {
-      sidebar.classList.add('is-collapsed');
-      if (sidebarToggle) {
-        sidebarToggle.setAttribute('aria-label', 'Expand filters');
-        const icon = sidebarToggle.querySelector('svg');
-        if (icon) {
-          icon.style.transform = 'rotate(-90deg)';
+        // Focus management for accessibility
+        const firstFocusable = filterPanel.querySelector('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+        if (firstFocusable) {
+          firstFocusable.focus();
         }
       }
     }
 
-    // Save sidebar state when toggled
-    if (sidebarToggle) {
-      sidebarToggle.addEventListener('click', function() {
-        const isCollapsed = sidebar.classList.contains('is-collapsed');
-        localStorage.setItem(storageKey, isCollapsed);
+    // Function to close filter panel
+    function closeFilterPanel() {
+      if (filterPanel && filterOverlay) {
+        filterPanel.classList.remove('is-open');
+        filterOverlay.classList.remove('is-open');
+        body.classList.remove('filter-panel-open');
+
+        // Return focus to trigger button
+        if (openFiltersBtn) {
+          openFiltersBtn.focus();
+        }
+      }
+    }
+
+    // Filter group toggle functionality
+    const filterToggles = document.querySelectorAll('[data-filter-toggle]');
+
+    filterToggles.forEach(toggle => {
+      toggle.addEventListener('click', function() {
+        const content = this.nextElementSibling;
+        const isExpanded = this.classList.contains('is-expanded');
+
+        // Toggle classes
+        this.classList.toggle('is-expanded');
+        content.classList.toggle('is-expanded');
+
+        // Update aria-expanded
+        this.setAttribute('aria-expanded', !isExpanded);
+
+        // Handle max-height for smooth animation
+        if (!isExpanded) {
+          content.style.maxHeight = content.scrollHeight + 'px';
+        } else {
+          content.style.maxHeight = '0px';
+        }
+      });
+    });
+
+    // Handle form submission for price range filters
+    const filterForm = document.querySelector('[data-collection-filters-form]');
+    if (filterForm) {
+      const priceInputs = filterForm.querySelectorAll('input[type="number"]');
+
+      priceInputs.forEach(input => {
+        input.addEventListener('change', function() {
+          // Auto-submit form when price range changes
+          const url = new URL(window.location);
+          url.searchParams.set(this.name, this.value);
+          if (!this.value) {
+            url.searchParams.delete(this.name);
+          }
+          window.location.href = url.toString();
+        });
       });
     }
   });
