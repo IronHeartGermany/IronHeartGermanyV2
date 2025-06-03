@@ -490,15 +490,82 @@
                 {%- capture filters -%}
                   {%- case filter_mode -%}
                     {%- when 'default' -%}
-                      {%- liquid
-                        if collection.filters != empty
-                          assign filters_available = true
-                        endif
+                      {%- if collection.filters != empty -%}
+                        {%- assign filters_available = true -%}
+                        
+                        {%- comment -%} Try to render original filter snippet first {%- endcomment -%}
+                        {%- for filter in collection.filters -%}
+                          {%- assign filter_count = filter_count | plus: filter.active_values.size -%}
+                          
+                          {%- comment -%} Fallback filter rendering if snippet doesn't work {%- endcomment -%}
+                          <div class="collection__filter" data-collection-filter>
+                            <button type="button" class="collection__filter__title label-typography is-expanded"
+                              aria-expanded="true"
+                              aria-controls="CollectionFilter--{{ filter.param_name }}"
+                              data-collapsible-trigger>
+                              {{ filter.label }}
+                              <span class="collection__filter__count">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                                  <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                                </svg>
+                              </span>
+                            </button>
 
-                        for filter in collection.filters
-                          render 'filter', filter: filter, animation_delay: animation_delay, filters_layout: filters_layout, index: forloop.index, show_more: show_more
-                        endfor
-                      -%}
+                            <div id="CollectionFilter--{{ filter.param_name }}"
+                              class="collection__filter-tags-wrapper is-expanded"
+                              aria-expanded="true"
+                              data-collapsible-container
+                              style="height:auto;">
+                              <ul class="collection__filter-tags" data-collapsible-content>
+                                {%- case filter.type -%}
+                                  {%- when 'list' -%}
+                                    {%- for value in filter.values -%}
+                                      <li class="collection__filter-tag{% if value.active %} is-active{% endif %}" data-collection-filter-tag>
+                                        <a href="{{ value.url_to_add }}" 
+                                           class="filter__button"
+                                           data-collection-filter-tag-button>
+                                          {{ value.label }} ({{ value.count }})
+                                        </a>
+                                      </li>
+                                    {%- endfor -%}
+                                  {%- when 'price_range' -%}
+                                    <li class="collection__filter-tag">
+                                      <div style="padding: 12px;">
+                                        <label style="display: block; margin-bottom: 8px; font-weight: 500;">{{ filter.label }}</label>
+                                        <div style="display: flex; gap: 8px; align-items: center;">
+                                          <input type="number" 
+                                                 name="{{ filter.min_value.param_name }}" 
+                                                 value="{{ filter.min_value.value | default: '' }}" 
+                                                 placeholder="{{ filter.range_min | money_without_trailing_zeros }}"
+                                                 style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;">
+                                          <span style="color: #666;">-</span>
+                                          <input type="number" 
+                                                 name="{{ filter.max_value.param_name }}" 
+                                                 value="{{ filter.max_value.value | default: '' }}" 
+                                                 placeholder="{{ filter.range_max | money_without_trailing_zeros }}"
+                                                 style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;">
+                                        </div>
+                                      </div>
+                                    </li>
+                                  {%- when 'boolean' -%}
+                                    {%- for value in filter.values -%}
+                                      <li class="collection__filter-tag{% if value.active %} is-active{% endif %}" data-collection-filter-tag>
+                                        <label style="display: flex; align-items: center; padding: 8px 12px; cursor: pointer;">
+                                          <input type="checkbox" 
+                                                 name="{{ value.param_name }}" 
+                                                 value="{{ value.value }}"
+                                                 {% if value.active %}checked{% endif %}
+                                                 style="margin-right: 8px;">
+                                          {{ value.label }} ({{ value.count }})
+                                        </label>
+                                      </li>
+                                    {%- endfor -%}
+                                {%- endcase -%}
+                              </ul>
+                            </div>
+                          </div>
+                        {%- endfor -%}
+                      {%- endif -%}
 
                       <noscript>
                         <button type="submit" class="btn btn--primary btn--solid">{{ 'collection.filters.filter_button' | t }}</button>
