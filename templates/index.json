@@ -711,6 +711,48 @@
         "padding_bottom": 22
       }
     },
+    "section_look_e49ay7": {
+      "type": "section-look",
+      "blocks": {
+        "product_DBVc8b": {
+          "type": "product",
+          "settings": {
+            "product": "iron-heart-ihsb-pr-nat-iron-heart-x-simmons-bilt-horsehide-western-shirt-the-pale-rider-natural",
+            "position_x": 31,
+            "position_y": 41
+          }
+        },
+        "product_LgXdyh": {
+          "type": "product",
+          "settings": {
+            "product": "iron-heart-ih-555s-142ib-14oz-selvedge-denim-super-slim-cut-jeans-indigo-black",
+            "position_x": 55,
+            "position_y": 85
+          }
+        }
+      },
+      "block_order": [
+        "product_DBVc8b",
+        "product_LgXdyh"
+      ],
+      "disabled": true,
+      "name": "Shop the look ",
+      "settings": {
+        "image": "shopify://shop_images/IHSB-BB-NAT_004_25_05_4b04b6bd-6ac5-4bc7-9956-2a8f2a95733f.jpg",
+        "enable_aspect_ratio": true,
+        "main_image_aspect_ratio": 1,
+        "title": "Shop the Look",
+        "text": "",
+        "text_alignment": "text-left",
+        "show_hotspots": true,
+        "content_color": "text-dark",
+        "hotspot_color": "",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_banner_image_XaJDWJ": {
       "type": "section-banner-image",
       "blocks": {
@@ -952,6 +994,7 @@
     "section_list_collection_h3CDQM",
     "section_columns_fEJfXc",
     "section_list_butttons_jaEVdg",
+    "section_look_e49ay7",
     "section_banner_image_XaJDWJ",
     "section_banner_image_WJ7DW7",
     "section_locations_r4cFBa",
