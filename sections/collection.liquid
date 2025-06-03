@@ -343,10 +343,27 @@
     <div class="wrapper--full-padded">
       <div class="collection__inner">
         {%- if show_breadcrumbs or enable_filters or enable_sorting -%}
+          {%- comment -%} First Line: Breadcrumbs Only {%- endcomment -%}
+          {%- if show_breadcrumbs -%}
+            <div
+              style="margin-bottom: 20px;"
+              {% if animations_enabled %}
+                data-aos="fade"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-delay="{{ animation_delay }}"
+                {%- assign animation_delay = animation_delay | plus: 150 -%}
+              {% endif %}
+            >
+              {%- render 'breadcrumbs' -%}
+            </div>
+          {%- endif -%}
+
+          {%- comment -%} Second Line: Control Elements {%- endcomment -%}
           <div
             id="CollectionStickyBar"
             class="collection__sticky-bar"
             data-collection-sticky-bar
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;"
             {% if animations_enabled %}
               data-aos="fade"
               data-aos-anchor="{{ animation_anchor }}"
@@ -354,86 +371,76 @@
               {%- assign animation_delay = animation_delay | plus: 150 -%}
             {% endif %}
           >
-            {%- comment -%} First Line: Breadcrumbs Only {%- endcomment -%}
-            {%- if show_breadcrumbs -%}
-              <div style="margin-bottom: 20px;">
-                {%- render 'breadcrumbs' -%}
-              </div>
-            {%- endif -%}
+            <div style="display: flex; align-items: center; gap: 20px;">
+              {%- if enable_filters -%}
+                <button class="filters-trigger-btn" data-open-filters>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                  </svg>
+                  {{ 'products.general.filters' | t }}
+                </button>
+              {%- endif -%}
 
-            {%- comment -%} Second Line: Controls {%- endcomment -%}
-            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
-              <div style="display: flex; align-items: center; gap: 20px;">
-                {%- if enable_filters -%}
-                  <button class="filters-trigger-btn" data-open-filters>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
-                    </svg>
-                    {{ 'products.general.filters' | t }}
+              {%- if enable_sorting -%}
+                {%- assign sort_by = search.sort_by
+                  | default: collection.sort_by
+                  | default: collection.default_sort_by
+                -%}
+                {%- assign sort_options = search.sort_options | default: collection.sort_options -%}
+
+                <div class="collection__sort-bar">
+                  <button type="button" class="collection__sort__label" data-sort-toggle>
+                    {{ 'collections.sorting.title' | t }}
+                    {%- render 'icon-select' -%}
                   </button>
-                {%- endif -%}
 
-                {%- if enable_sorting -%}
-                  {%- assign sort_by = search.sort_by
-                    | default: collection.sort_by
-                    | default: collection.default_sort_by
-                  -%}
-                  {%- assign sort_options = search.sort_options | default: collection.sort_options -%}
+                  <div class="collection__sort__option-wrapper" data-collection-sort-options>
+                    <div class="collection__sort__options">
+                      <ul
+                        class="collection__filter-tags collection__filter-tags--default"
+                        collection-sort-by="{{ sort_by }}"
+                      >
+                        {%- for option in sort_options -%}
+                          <li class="collection__filter-tag">
+                            <input
+                              class="collection__sort__input"
+                              type="radio"
+                              name="sort_by_bar"
+                              value="{{ option.value }}"
+                              id="filter-bar-{{ option.name | handle | append: option.value | handle | append: section.id }}"
+                              data-input-sort
+                              {% if option.value == sort_by %}
+                                checked
+                              {% endif %}
+                            >
+                            <label
+                              class="collection__sort__button"
+                              for="filter-bar-{{ option.name | handle | append: option.value | handle | append: section.id }}"
+                              tabindex="0"
+                            >
+                              {{- option.name -}}
+                            </label>
+                          </li>
+                        {%- endfor -%}
+                      </ul>
 
-                  <div class="collection__sort-bar">
-                    <button type="button" class="collection__sort__label" data-sort-toggle>
-                      {{ 'collections.sorting.title' | t }}
-                      {%- render 'icon-select' -%}
-                    </button>
-
-                    <div class="collection__sort__option-wrapper" data-collection-sort-options>
-                      <div class="collection__sort__options">
-                        <ul
-                          class="collection__filter-tags collection__filter-tags--default"
-                          collection-sort-by="{{ sort_by }}"
-                        >
-                          {%- for option in sort_options -%}
-                            <li class="collection__filter-tag">
-                              <input
-                                class="collection__sort__input"
-                                type="radio"
-                                name="sort_by_bar"
-                                value="{{ option.value }}"
-                                id="filter-bar-{{ option.name | handle | append: option.value | handle | append: section.id }}"
-                                data-input-sort
-                                {% if option.value == sort_by %}
-                                  checked
-                                {% endif %}
-                              >
-                              <label
-                                class="collection__sort__button"
-                                for="filter-bar-{{ option.name | handle | append: option.value | handle | append: section.id }}"
-                                tabindex="0"
-                              >
-                                {{- option.name -}}
-                              </label>
-                            </li>
-                          {%- endfor -%}
-                        </ul>
-
-                        <noscript>
-                          <button type="submit" class="btn btn--primary btn--solid">
-                            {{ 'collection.filters.sort_button' | t }}
-                          </button>
-                        </noscript>
-                      </div>
+                      <noscript>
+                        <button type="submit" class="btn btn--primary btn--solid">
+                          {{ 'collection.filters.sort_button' | t }}
+                        </button>
+                      </noscript>
                     </div>
                   </div>
-                {%- endif -%}
-              </div>
+                </div>
+              {%- endif -%}
+            </div>
 
-              <div
-                class="collection__products-count"
-                data-products-count="{{ products_count }}"
-                style="font-size: 14px; color: #666;"
-              >
-                {{- products_count -}}
-              </div>
+            <div
+              class="collection__products-count"
+              data-products-count="{{ products_count }}"
+              style="font-size: 14px; color: #666;"
+            >
+              {{- products_count -}}
             </div>
           </div>
         {%- endif -%}
