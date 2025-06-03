@@ -292,9 +292,9 @@
           {%- unless heading == blank and text == blank -%}
             <div class="look__text">
               {%- if heading != blank -%}
-                <h3
+                <h2
                   style="text-transform:uppercase;"
-                  class="look__heading h2"
+                  class="section__heading h2"
                   {% if animations_enabled %}
                     data-aos="come-up"
                     data-aos-duration="400"
@@ -303,7 +303,7 @@
                 >
                   {{ heading }}
                   <span class="red_dot"></span>
-                </h3>
+                </h2>
 
                 {%- if settings.show_spacer_lines -%}
                   <hr
