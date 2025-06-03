@@ -44,7 +44,7 @@
     "content_alignment": "center",
     "heading_style": "font-heading",
     "product_grid_text_size": 100,
-    "products_per_row_on_desktop": 3,
+    "products_per_row_on_desktop": 4,
     "products_per_row_on_mobile": "1",
     "image_size": "cover",
     "image_aspect_ratio": 1,
