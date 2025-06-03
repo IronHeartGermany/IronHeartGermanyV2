@@ -354,10 +354,14 @@
               {%- assign animation_delay = animation_delay | plus: 150 -%}
             {% endif %}
           >
+            {%- comment -%} First Line: Breadcrumbs Only {%- endcomment -%}
             {%- if show_breadcrumbs -%}
-              {%- render 'breadcrumbs' -%}
+              <div style="margin-bottom: 20px;">
+                {%- render 'breadcrumbs' -%}
+              </div>
             {%- endif -%}
 
+            {%- comment -%} Second Line: Controls {%- endcomment -%}
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
               <div style="display: flex; align-items: center; gap: 20px;">
                 {%- if enable_filters -%}
