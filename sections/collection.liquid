@@ -274,6 +274,54 @@
   body.filter-panel-open {
     overflow: hidden;
   }
+
+  /* Product Grid Layout - Full Width */
+  .collection__products {
+    width: 100%;
+  }
+
+  .collection__products .grid {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+  }
+
+  /* 4 Column Layout - Full Width */
+  .collection-items--4 .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* 3 Column Layout - Full Width */
+  .collection-items--3 .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* 2 Column Layout - Full Width */
+  .collection-items--2 .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* 1 Column Layout - Full Width */
+  .collection-items--1 .grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Ensure product items take full width of their grid cell */
+  .grid__item {
+    width: 100%;
+    max-width: none;
+  }
+
+  /* Mobile responsive */
+  @media (max-width: 768px) {
+    .collection-items--mobile--one-half .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .collection-items--mobile--one-whole .grid {
+      grid-template-columns: 1fr;
+    }
+  }
 {%- endstyle -%}
 
 <div
