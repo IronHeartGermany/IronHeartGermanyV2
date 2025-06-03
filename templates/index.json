@@ -321,36 +321,28 @@
         "product_XMY7DE": {
           "type": "product",
           "settings": {
-            "product": "",
-            "position_x": 31,
-            "position_y": 41
+            "product": "asahi-as-041-wht-asahi-cotton-deck-shoes-white",
+            "position_x": 64,
+            "position_y": 54
           }
         },
-        "product_fMnCWc": {
+        "product_LNtiUp": {
           "type": "product",
           "settings": {
-            "product": "",
-            "position_x": 50,
-            "position_y": 63
-          }
-        },
-        "product_kVW6zN": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "position_x": 73,
-            "position_y": 47
+            "product": "iron-heart-ih-721-nav-9oz-mercerised-selvedge-cotton-slim-tapered-chino-navy",
+            "position_x": 25,
+            "position_y": 10
           }
         }
       },
       "block_order": [
         "product_XMY7DE",
-        "product_fMnCWc",
-        "product_kVW6zN"
+        "product_LNtiUp"
       ],
       "disabled": true,
       "name": "Shop the look ",
       "settings": {
+        "image": "shopify://shop_images/2J5A2249_1.jpg",
         "enable_aspect_ratio": true,
         "main_image_aspect_ratio": 1,
         "title": "Shop the Look",
