@@ -310,8 +310,8 @@
               {%- render 'breadcrumbs' -%}
             {%- endif -%}
 
-            <div style="display: flex; align-items: center; gap: 16px; justify-content: space-between; flex-wrap: wrap;">
-              <div style="display: flex; align-items: center; gap: 16px;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+              <div style="display: flex; align-items: center; gap: 20px;">
                 {%- if enable_filters -%}
                   <button class="filters-trigger-btn" data-open-filters>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -375,7 +375,11 @@
                 {%- endif -%}
               </div>
 
-              <div class="collection__products-count" data-products-count="{{ products_count }}">
+              <div
+                class="collection__products-count"
+                data-products-count="{{ products_count }}"
+                style="font-size: 14px; color: #666;"
+              >
                 {{- products_count -}}
               </div>
             </div>
