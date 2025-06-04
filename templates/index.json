@@ -260,7 +260,8 @@
         "button_3JzgPC"
       ],
       "custom_css": [
-        "h3 {font-size: calc(1rem * var(--adjust-button));}"
+        "h3 {font-size: calc(1rem * var(--adjust-button));}",
+        ".buttons-list .list-collections__item__content--overlayed {--left-right-padding: 2px;}"
       ],
       "settings": {
         "layout": "grid",
