@@ -159,7 +159,7 @@
   @media screen and (max-width: 767px) {
     {% if columns_mobile > 1 %}
       {{ selector_id }} {
-        {% assign divisor = columns_mobile | plus: 1 %} {% comment %} P. Ryan - 23.05.25 - make button narrower by adding 1 to column {% endcomment %}
+        {% assign divisor = columns_mobile | plus: 0 %} {% comment %} P. Ryan - 23.05.25 - make button narrower by adding 0 to column {% endcomment %}
         --grid-item: {{ 100.0 | divided_by: divisor | round: 4 }}%;
         --item-width-mobile: calc(90% / {{ columns_mobile }} - var(--grid-gutter));
       }
