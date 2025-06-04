@@ -149,7 +149,7 @@
     }
   {% endif %}
 
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) { {% comment %} P. Ryan - 23.05.25 - change from 1023px to 1024px to account for iPad Pro {% endcomment %}
     {{ selector_id }} {
       {% assign divisor = columns_small | plus: 1 %} {% comment %} P. Ryan - 23.05.25 - make button narrower by adding 1 to column {% endcomment %}
       --grid-item: {{ 100.0 | divided_by: divisor | round: 4 }}%;
