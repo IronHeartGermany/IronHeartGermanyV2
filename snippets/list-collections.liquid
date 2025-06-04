@@ -134,7 +134,7 @@
       --heading: {{ section_text_color }};
     {% endif %}
 
-    {% assign divisor = columns | plus: 2 %} {% comment %} P. Ryan - 23.05.25 - make button narrower by adding 2 to column {% endcomment %}
+    {% assign divisor = columns | plus: 3 %} {% comment %} P. Ryan - 23.05.25 - make button narrower by adding 3 to column {% endcomment %}
     --grid-item: {{ 100.0 | divided_by: divisor | round: 4 }}%;
     --image-height: {{ image_aspect_ratio | times: 100 }}%;
 
