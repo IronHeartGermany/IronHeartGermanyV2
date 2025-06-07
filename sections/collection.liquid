@@ -140,8 +140,12 @@
 .main-content.filters-open {
   transform: translateX(50px); /* Slight push to the right */
 }
+ .collection__filters-wrapper {
+    padding-left: 20px;
+    padding-top: 20px;}
+  .collection__filters-list__inner{width:100% !important;}
 </style>
-/* JavaScript to add */
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const filterToggle = document.querySelector('[data-toggle-filters]');
