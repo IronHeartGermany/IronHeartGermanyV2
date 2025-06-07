@@ -94,6 +94,8 @@
   {%- endif -%}
 {%- endstyle -%}
 <style>
+  .collection__filters{display:none;}
+  
   .collection__filters {
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
@@ -149,7 +151,12 @@
             {%- if show_breadcrumbs -%}
               {%- render 'breadcrumbs' -%}
             {%- endif -%}
-
+ {%- if enable_sorting -%}
+<button class="collection__filters__toggle" data-toggle-filters>
+   Filter
+   </button>
+   {%- endif -%}
+   
             {%- if enable_sorting -%}
               {%- assign sort_by = search.sort_by
                 | default: collection.sort_by
