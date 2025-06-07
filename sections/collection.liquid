@@ -93,7 +93,105 @@
     }
   {%- endif -%}
 {%- endstyle -%}
+<style>
+/* Overlay that greys out the page */
+.filters-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 998;
+}
 
+.filters-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Update your existing .collection__filters styles */
+.collection__filters {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Start hidden off-screen */
+  width: 400px; /* Adjust as needed */
+  height: 100%;
+  background: white;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  transition: left 0.3s ease;
+  z-index: 999;
+  overflow-y: auto;
+  /* Remove display: none; if it exists */
+}
+
+.collection__filters.active {
+  left: 0; /* Slide in */
+}
+
+/* Optional: Adjust main content when filters are open */
+.main-content {
+  transition: transform 0.3s ease;
+}
+
+.main-content.filters-open {
+  transform: translateX(50px); /* Slight push to the right */
+}
+</style>
+/* JavaScript to add */
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterToggle = document.querySelector('[data-toggle-filters]');
+  const filtersPanel = document.querySelector('[data-collection-filters]');
+  const closeButtons = document.querySelectorAll('[data-close-filters]');
+  const mainContent = document.querySelector('.collection__wrapper'); // or your main content wrapper
+  
+  // Create overlay element
+  const overlay = document.createElement('div');
+  overlay.className = 'filters-overlay';
+  document.body.appendChild(overlay);
+  
+  // Open filters
+  if (filterToggle) {
+    filterToggle.addEventListener('click', function() {
+      filtersPanel.classList.add('active');
+      overlay.classList.add('active');
+      if (mainContent) {
+        mainContent.classList.add('filters-open');
+      }
+      document.body.style.overflow = 'hidden'; // Prevent scrolling
+    });
+  }
+  
+  // Close filters function
+  function closeFilters() {
+    filtersPanel.classList.remove('active');
+    overlay.classList.remove('active');
+    if (mainContent) {
+      mainContent.classList.remove('filters-open');
+    }
+    document.body.style.overflow = ''; // Restore scrolling
+  }
+  
+  // Close filters on button click
+  closeButtons.forEach(button => {
+    button.addEventListener('click', closeFilters);
+  });
+  
+  // Close filters on overlay click
+  overlay.addEventListener('click', closeFilters);
+  
+  // Close filters on escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && filtersPanel.classList.contains('active')) {
+      closeFilters();
+    }
+  });
+});
+</script>
 <div
   id="{{ id }}"
   class="{{ section_class }}"
