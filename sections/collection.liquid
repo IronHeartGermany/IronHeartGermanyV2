@@ -93,29 +93,7 @@
     }
   {%- endif -%}
 {%- endstyle -%}
-<style>
-  .collection__filters {
-  transform: translateX(100%);
-  transition: transform 0.3s ease-in-out;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 300px; /* Adjust as needed based on your design */
-  height: 100%;
-  background: white; /* Adjust to match your theme */
-  z-index: 1000;
-}
 
-.collection__filters--visible {
-  transform: translateX(0);
-}
-</style>
-<script>
-  document.querySelector('[data-toggle-filters]').addEventListener('click', function() {
-  const filters = document.querySelector('[data-collection-filters]');
-  filters.classList.toggle('collection__filters--visible');
-});
-</script>
 <div
   id="{{ id }}"
   class="{{ section_class }}"
@@ -149,7 +127,17 @@
             {%- if show_breadcrumbs -%}
               {%- render 'breadcrumbs' -%}
             {%- endif -%}
-   
+           {%- if enable_filters or enable_sorting -%}
+              <button
+                class="collection__filters__toggle"
+             style="margin:0; padding:10px;display:block;"
+                aria-label="{{ 'products.general.filters' | t }}"
+                data-toggle-filters
+              >
+              Filter  {%- render 'icon-filter' -%}
+              </button>
+            {%- endif -%}
+          
             {%- if enable_sorting -%}
               {%- assign sort_by = search.sort_by
                 | default: collection.sort_by
@@ -203,19 +191,11 @@
               </div>
             {%- endif -%}
 
-            <div style='display:none;' class="collection__products-count" data-products-count="{{ products_count }}">
+            <div style'display:none;' class="collection__products-count" data-products-count="{{ products_count }}">
               {{- products_count -}}
             </div>
 
-            {%- if enable_filters or enable_sorting -%}
-              <button
-                class="collection__filters__toggle"
-                aria-label="{{ 'products.general.filters' | t }}"
-                data-toggle-filters
-              >
-                {%- render 'icon-filter' -%}
-              </button>
-            {%- endif -%}
+           
           </div>
 
           {%- if enable_filters or enable_sorting -%}
