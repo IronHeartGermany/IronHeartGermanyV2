@@ -230,8 +230,9 @@ document.addEventListener('DOMContentLoaded', function() {
             {%- if show_breadcrumbs -%}
               {%- render 'breadcrumbs' -%}
             {%- endif -%}
-           {%- if enable_filters or enable_sorting -%}
-                 <div class="collection__controls-row">
+          
+            {%- if enable_sorting -%}
+                <div class="collection__controls-row">
              
               <button
                 class="collection__filters__toggle"
@@ -241,9 +242,6 @@ document.addEventListener('DOMContentLoaded', function() {
               >
               Filter  {%- render 'icon-filter' -%}
               </button>
-            {%- endif -%}
-          
-            {%- if enable_sorting -%}
               {%- assign sort_by = search.sort_by
                 | default: collection.sort_by
                 | default: collection.default_sort_by
