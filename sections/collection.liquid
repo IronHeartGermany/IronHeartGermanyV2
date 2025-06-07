@@ -231,6 +231,8 @@ document.addEventListener('DOMContentLoaded', function() {
               {%- render 'breadcrumbs' -%}
             {%- endif -%}
            {%- if enable_filters or enable_sorting -%}
+                 <div class="collection__controls-row">
+             
               <button
                 class="collection__filters__toggle"
              style="margin:0; padding:10px;display:block;"
@@ -298,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
               {{- products_count -}}
             </div>
 
-           
+                 </div>
           </div>
 
           {%- if enable_filters or enable_sorting -%}
