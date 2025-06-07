@@ -94,6 +94,29 @@
   {%- endif -%}
 {%- endstyle -%}
 
+<style>
+  .collection__filters {
+  display: none;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out, display 0.3s ease-in-out;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 300px; /* Adjust width as needed */
+  z-index: 1000;
+}
+
+.collection__filters.is-visible {
+  display: block;
+  transform: translateX(0);
+}
+</style>
+<script>
+  document.querySelector('.collection__filters__toggle').addEventListener('click', function() {
+  document.querySelector('.collection__filters').classList.toggle('is-visible');
+});
+</script>
 <div
   id="{{ id }}"
   class="{{ section_class }}"
@@ -181,10 +204,16 @@
               </div>
             {%- endif -%}
 
-            <div class="collection__products-count" data-products-count="{{ products_count }}">
+            <div style='display:none;' class="collection__products-count" data-products-count="{{ products_count }}">
               {{- products_count -}}
             </div>
 
+           {%- if enable_sorting or enable_filters -%}
+             <button>
+             Filter
+             </button>
+            {%- endif -%}
+             
             {%- if enable_filters or enable_sorting -%}
               <button
                 class="collection__filters__toggle"
@@ -683,7 +712,7 @@
 {%- endcapture -%}
 
             {%- if enable_sorting or enable_filters -%}
-              <div class="collection__filters" data-collection-filters>
+              <div style='display:none;' class="collection__filters" data-collection-filters>
                 <div class="collection__filters-wrapper" data-collection-filters-wrapper>
                   <div class="collection__filters-list">
                     <div class="collection__filters-list__inner" data-collection-filters-list>
