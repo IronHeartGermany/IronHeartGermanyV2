@@ -93,29 +93,27 @@
     }
   {%- endif -%}
 {%- endstyle -%}
-
 <style>
- .collection__filters {
-  display: none;
+  .collection__filters {
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
   position: fixed;
   top: 0;
   right: 0;
+  width: 300px; /* Adjust as needed based on your design */
   height: 100%;
-  width: 300px; /* Adjust width as needed */
+  background: white; /* Adjust to match your theme */
   z-index: 1000;
-  background-color: var(--bg, #fff); /* Ensure background matches your design */
 }
 
-.collection__filters.is-visible {
-  display: block;
+.collection__filters--visible {
   transform: translateX(0);
 }
 </style>
 <script>
-  document.querySelector('.collection__filters__toggle').addEventListener('click', function() {
-  document.querySelector('.collection__filters').classList.toggle('is-visible');
+  document.querySelector('[data-toggle-filters]').addEventListener('click', function() {
+  const filters = document.querySelector('[data-collection-filters]');
+  filters.classList.toggle('collection__filters--visible');
 });
 </script>
 <div
@@ -209,12 +207,6 @@
               {{- products_count -}}
             </div>
 
-           {%- if enable_sorting or enable_filters -%}
-  <button class="collection__filter-button">
-    Filter
-  </button>
-{%- endif -%}
-             
             {%- if enable_filters or enable_sorting -%}
               <button
                 class="collection__filters__toggle"
