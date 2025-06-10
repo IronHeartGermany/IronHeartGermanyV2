@@ -96,6 +96,7 @@
   --sizes-on-hover-box-size: var(--SIZES-ON-HOVER-BOX-SIZE);
   --link-hover-dot-size: var(--LINK-HOVER-DOT-SIZE);
   --link-hover-dot-color: var(--LINK-HOVER-DOT-COLOR);
+  --font-size-product-price: var(--FONT-SIZE-PRODUCT-PRICE)
 }
 
 /*============================================================================
@@ -21679,8 +21680,9 @@ search-form mark {
   flex-flow: row wrap;
   align-items: flex-start;
   margin: 0;
-  --text-size: calc(1.1rem * var(--adjust-body));
-  font-size: var(--text-size);
+  /* --text-size: calc(1.1rem * var(--adjust-body)); */
+  /* font-size: var(--text-size); */  /* P. Ryan - 10.06.25 - Make product price font size adjustable */
+  font-size: var(--FONT-SIZE-PRODUCT-PRICE);
   transition: opacity 0.3s ease;
 }
 @media only screen and (max-width: 767px) {
@@ -21705,13 +21707,14 @@ search-form mark {
 
 .product__price--off {
   flex-shrink: 0;
-  padding: 3px 9px;
+  padding: 4px 9px; /* P. Ryan - 10.06.25 - Make product price font size adjustable - change vertical padding from 3px to 4px */
   margin: 0 0 8px;
   border-radius: var(--RADIUS-BADGE);
   background-color: var(--saving-bg);
   color: var(--saving-text);
-  --text-size: calc(0.75rem * var(--adjust-body));
-  font-size: var(--text-size);
+  /* --text-size: calc(0.75rem * var(--adjust-body)); */
+  /* font-size: var(--text-size); */  /* P. Ryan - 10.06.25 - Make product price font size adjustable */
+  font-size: calc(0.68 * var(--FONT-SIZE-PRODUCT-PRICE));
 }
 .product__price--off em {
   font-style: normal;

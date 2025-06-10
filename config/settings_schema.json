@@ -840,6 +840,15 @@
         "label": "Show in-stock quantity on hover",
         "default": true,
         "info": "When hovering over the selected variant, the in-stock quantity is shown as a tool tip"
+      },
+      {
+        "type": "range",
+        "id": "product_form_price_font_size",
+        "label": "Price Font Size",
+        "min": 10,
+        "max": 25,
+        "step": 1,
+        "default": 16
       }
     ]
   },

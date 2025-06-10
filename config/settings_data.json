@@ -61,6 +61,7 @@
     "enable_half_width_btn": true,
     "seasonal_releases_text_show": true,
     "product_form_show_in_stock_qty": false,
+    "product_form_price_font_size": 16,
     "quick_buy": "none",
     "quick_buy_image_layout": "large",
     "show_labels": true,
