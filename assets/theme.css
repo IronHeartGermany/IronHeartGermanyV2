@@ -21712,8 +21712,9 @@ search-form mark {
   border-radius: var(--RADIUS-BADGE);
   background-color: var(--saving-bg);
   color: var(--saving-text);
-  --text-size: calc(0.75rem * var(--adjust-body));
-  font-size: var(--text-size);
+  /* --text-size: calc(0.75rem * var(--adjust-body)); */
+  /* font-size: var(--text-size); */  /* P. Ryan - 10.06.25 - Make product price font size adjustable */
+  font-size: var(--FONT-SIZE-PRODUCT-PRICE);
 }
 .product__price--off em {
   font-style: normal;
