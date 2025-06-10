@@ -21682,7 +21682,7 @@ search-form mark {
   margin: 0;
   /* --text-size: calc(1.1rem * var(--adjust-body)); */
   /* font-size: var(--text-size); */  /* P. Ryan - 10.06.25 - Make product price font size adjustable */
-  font-size: --font-size-product-price;
+  font-size: --FONT-SIZE-PRODUCT-PRICE;
   transition: opacity 0.3s ease;
 }
 @media only screen and (max-width: 767px) {
