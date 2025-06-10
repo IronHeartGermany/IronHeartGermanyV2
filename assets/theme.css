@@ -96,6 +96,7 @@
   --sizes-on-hover-box-size: var(--SIZES-ON-HOVER-BOX-SIZE);
   --link-hover-dot-size: var(--LINK-HOVER-DOT-SIZE);
   --link-hover-dot-color: var(--LINK-HOVER-DOT-COLOR);
+  --font-size-product-price: var(--FONT-SIZE-PRODUCT-PRICE)
 }
 
 /*============================================================================
@@ -21711,7 +21712,8 @@ search-form mark {
   background-color: var(--saving-bg);
   color: var(--saving-text);
   --text-size: calc(0.75rem * var(--adjust-body));
-  font-size: var(--text-size);
+  /* font-size: var(--text-size); */ /* P. Ryan - 10.06.25 - Make product price font size adjustable */
+  font-size: --font-size-product-price;
 }
 .product__price--off em {
   font-style: normal;
