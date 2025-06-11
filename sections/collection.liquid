@@ -255,8 +255,10 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Close filters on button click
   closeButtons.forEach(button => {
-    console.log('clicked');
-    button.addEventListener('click', closeFilters);
+     button.addEventListener('click', function() {
+                console.log('Close button clicked'); // Move console.log here
+                closeFilters();
+            });
   });
   
   // Close filters on overlay click
