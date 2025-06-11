@@ -94,6 +94,7 @@
   {%- endif -%}
 {%- endstyle -%}
 <style>
+  @media(min-width:770px){
 /* Overlay that greys out the page */
 .filters-overlay {
   position: fixed;
@@ -199,6 +200,7 @@
   outline: 2px solid #007acc;
   outline-offset: 2px;
 }
+  }
   @media(max-width:550px){
  .hidden{display:none !important}
   }
@@ -206,6 +208,8 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    if (window.innerWidth > 770) {
+
   const filterToggle = document.querySelector('[data-toggle-filters]');
   const filtersPanel = document.querySelector('[data-collection-filters]');
   const closeButtons = document.querySelectorAll('[data-close-filters]');
@@ -252,6 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
       closeFilters();
     }
   });
+    }
 });
 </script>
 <div
