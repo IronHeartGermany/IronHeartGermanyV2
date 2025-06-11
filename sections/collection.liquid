@@ -96,6 +96,8 @@
 <style>
   @media(min-width:770px){
 /* Overlay that greys out the page */
+    .desktop-filter{display:block;}
+    
 .filters-overlay {
   position: fixed;
   top: 0;
@@ -201,7 +203,8 @@
   outline-offset: 2px;
 }
   }
-  @media(max-width:550px){
+  @media(max-width:769px){
+    .desktop-filter{display:none;}
  .hidden{display:none !important}
   }
 </style>
@@ -302,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 aria-label="{{ 'products.general.filters' | t }}"
                 data-toggle-filters
               >
-              Filter  {%- render 'icon-filter' -%}
+              <p class='desktop-filter'>Filter</p  {%- render 'icon-filter' -%}
               </button>
               {%- assign sort_by = search.sort_by
                 | default: collection.sort_by
