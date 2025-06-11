@@ -128,7 +128,7 @@
   background: white;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
   transition: left 0.3s ease;
-  z-index: 999;
+  z-index: 9999;
   overflow-y: auto;
   /* Remove display: none; if it exists */
 }
@@ -254,6 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Close filters on button click
   closeButtons.forEach(button => {
+    console.log('clicked')
     button.addEventListener('click', closeFilters);
   });
   
