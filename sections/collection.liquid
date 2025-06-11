@@ -155,7 +155,48 @@
   }
   .collection__filters__toggle, .collection__sort-bar{border:1px solid black;}
   .collection__inner .breadcrumbs{flex-basis:auto !important;}
-  .collection__sort__label{padding:10px;}
+  .collection__sort__label {padding: 7px 30px;}
+  .collection__filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 15px 20px;
+  border-bottom: 1px solid #e0e0e0;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.collection__filters-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.collection__filters-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  color: #666;
+}
+
+.collection__filters-close:hover {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.collection__filters-close:focus {
+  outline: 2px solid #007acc;
+  outline-offset: 2px;
+}
 </style>
 
 <script>
@@ -247,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function() {
              
               <button
                 class="collection__filters__toggle"
-             style="margin:0; padding:10px;display:block;"
+             style="margin:0; padding: 7px 30px;display:block;"
                 aria-label="{{ 'products.general.filters' | t }}"
                 data-toggle-filters
               >
@@ -801,6 +842,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
             {%- if enable_sorting or enable_filters -%}
               <div class="collection__filters" data-collection-filters>
+               <div class="collection__filters-header">
+                <h3 class="collection__filters-title">Filters</h3>
+                <button 
+                  class="collection__filters-close" 
+                  data-close-filters
+                  aria-label="{{ 'general.close' | t | default: 'Close' }}"
+                >
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 5L5 15M5 5L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
                 <div class="collection__filters-wrapper" data-collection-filters-wrapper>
                   <div class="collection__filters-list">
                     <div class="collection__filters-list__inner" data-collection-filters-list>
