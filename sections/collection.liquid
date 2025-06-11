@@ -253,13 +253,14 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.style.overflow = ''; // Restore scrolling
   }
   
-  // Close filters on button click
-  closeButtons.forEach(button => {
-     button.addEventListener('click', function() {
-                console.log('Close button clicked'); // Move console.log here
+      // Use event delegation for close buttons
+        document.addEventListener('click', function(e) {
+            if (e.target.matches('[data-close-filters]') || e.target.closest('[data-close-filters]')) {
+                console.log('Close button clicked via delegation');
                 closeFilters();
-            });
-  });
+            }
+        });
+        
   
   // Close filters on overlay click
   overlay.addEventListener('click', closeFilters);
