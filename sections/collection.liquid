@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 aria-label="{{ 'products.general.filters' | t }}"
                 data-toggle-filters
               >
-              <p class='desktop-filter'>Filter</p  {%- render 'icon-filter' -%}
+              <p class='desktop-filter'>Filter</p>  {%- render 'icon-filter' -%}
               </button>
               {%- assign sort_by = search.sort_by
                 | default: collection.sort_by
