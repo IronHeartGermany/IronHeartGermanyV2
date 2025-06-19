@@ -504,7 +504,7 @@ sub {
   src: url('https://cdn.shopify.com/s/files/1/0429/4518/3910/files/BebasNeue-Regular.woff2?v=1747947568') format("woff2");
   text-transform: uppercase;
  }
-h1, h2  {
+h1, h2, .text__heading.h1 {
   font-family: 'Bebas Neue'!important;
   font-synthesis: none;}
 
