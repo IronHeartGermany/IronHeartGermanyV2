@@ -509,6 +509,20 @@ h1, h2, h3, h4, h5, h6, body, html, a, b, p, div, span, button, input, .shopify-
   font-synthesis: none;}*/
 /* - end - */
 
+/* -- code to use BEBAS NEUE font-family in theme -- */
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('https://cdn.shopify.com/s/files/1/0429/4518/3910/files/BebasNeue-Regular.woff2?v=1747947568
+') format("woff2");
+  text-transform: uppercase;
+  letter-spacing: 0px;
+ }
+h1, h2, h3, h4, h5, h6, {
+  font-family: 'Bebas Neue'!important;
+  font-synthesis: none;}
+/* - end - */
+
+
 
 
 /*================ Normalize ================*/
