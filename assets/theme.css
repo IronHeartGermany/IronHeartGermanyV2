@@ -497,17 +497,6 @@ sub {
   color: inherit;
 }
 
-/* -- code to use Custom font-family in theme -- */
-/*@font-face {
-  font-family: 'IHCUSTOM';
-  src: url('https://cdn.shopify.com/s/files/1/0429/4518/3910/files/HelveticaNeueLTStd-BdCn.woff2?v=1710927611') format("woff2");
-  text-transform: uppercase;
-  letter-spacing: 0px;
- }
-h1, h2, h3, h4, h5, h6, body, html, a, b, p, div, span, button, input, .shopify-payment-button__button  {
-  font-family: 'IHCUSTOM'!important;
-  font-synthesis: none;}*/
-/* - end - */
 
 /* -- code to use BEBAS NEUE font-family in theme -- */
 @font-face {
@@ -520,8 +509,6 @@ h1, h2, h3, h4, h5, h6, body, html, a, b, p, div, span, button, input, .shopify-
 h1, h2, h3, h4, h5, h6, {
   font-family: 'Bebas Neue'!important;
   font-synthesis: none;}
-/* - end - */
-
 
 
 
