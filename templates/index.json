@@ -81,8 +81,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/WE-BRITTAN7710705_005_25_02_1_f14d4500-842e-4a66-abf0-886e6564111f.jpg",
-            "image_mobile": "shopify://shop_images/WE-BRITTAN7710705_008_25_02.jpg",
+            "image": "shopify://shop_images/FW25_website_header_b60e05ec-f04d-4dbe-b9da-f9cafd6eda34.jpg",
+            "image_mobile": "shopify://shop_images/FW25_website_mobil.jpg",
             "overlay_opacity": 0,
             "text_width": "normal",
             "text_position": "bottom-left",
