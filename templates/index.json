@@ -451,7 +451,7 @@
         "image_8akLTM"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {.section-padding {margin: 0 60px; } #FeaturedImage--template--25453643661578__section_custom_content_GQ6xTT--image_qVU4zH, #FeaturedImage--template--25453643661578__section_custom_content_GQ6xTT--image_qVU4zH > figure {padding-right: 15px; } #FeaturedImage--template--25453643661578__section_custom_content_GQ6xTT--image_8akLTM, #FeaturedImage--template--25453643661578__section_custom_content_GQ6xTT--image_8akLTM > figure{padding-left:15px; }}"
+        "@media screen and (min-width: 768px) {.section-padding {margin: 0 90px; }}"
       ],
       "settings": {
         "height": "six-fifty-height",
