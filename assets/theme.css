@@ -28449,3 +28449,6 @@ h2.section__heading {
 .collection__title {
   font-size:54px;
 }
+.custom_collection_header {
+  font-size:24px;
+}
