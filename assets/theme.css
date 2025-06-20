@@ -28441,3 +28441,7 @@ h2.section__heading {
     width: auto !important;
   }
 }
+
+.banner-image__heading {
+  font-size:36px!important;
+}
