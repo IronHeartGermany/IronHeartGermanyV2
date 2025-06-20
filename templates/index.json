@@ -451,7 +451,7 @@
         "image_8akLTM"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {.section-padding {margin: 0 90px; } .brick__blocks__flex {column-gap:30px; }}"
+        "@media screen and (min-width: 768px) {.section-padding {margin: 0 90px; } .brick__blocks__flex {column-gap: 30px; }}"
       ],
       "settings": {
         "height": "six-fifty-height",
@@ -790,10 +790,7 @@
         "button_qcEydt"
       ],
       "custom_css": [
-        "{margin: 60px 60px 30px;}",
-        ".red_dot:after {width: 7px; height: 7px;}",
-        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
-        ".red_dot {display: none;}"
+        "@media screen and (min-width: 768px) {.shopify-sectio{margin: 60px 60px 30px;}.red_dot:after {width: 7px; height: 7px;}@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}.red_dot {display: none;}"
       ],
       "settings": {
         "height": "six-fifty-height",
@@ -850,7 +847,6 @@
         "button_ni9gFA"
       ],
       "custom_css": [
-        "{margin: 30px 60px 30px;}",
         ".red_dot:after {width: 7px; height: 7px;}",
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
         ".red_dot {display: none;}"
