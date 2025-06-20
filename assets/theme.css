@@ -28334,3 +28334,8 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
   font-weight:400;
   font-size:16px;
 }
+
+/* ALEX */
+h2.section__heading {
+    font-size: 36px !important;
+}
