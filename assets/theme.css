@@ -28445,3 +28445,7 @@ h2.section__heading {
 .banner-image__heading {
   font-size:36px!important;
 }
+
+.collection__title {
+  font-size:54px;
+}
