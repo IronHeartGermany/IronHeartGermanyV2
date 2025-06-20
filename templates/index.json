@@ -452,7 +452,7 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 768px) {.section-padding {margin: 0 90px; } .brick__blocks__flex {column-gap: 30px; }}",
-        "@media screen and (max-width: 767px) {#BrickBlock--image_qVU4zH, #BrickBlock--image_8akLTM{margin: 15px 0; }}"
+        "@media screen and (max-width: 767px) {#BrickBlock--image_qVU4zH, #BrickBlock--image_8akLTM {margin: 15px 0; }}"
       ],
       "settings": {
         "height": "six-fifty-height",
@@ -793,7 +793,8 @@
       "custom_css": [
         "@media screen and (min-width: 768px) {{margin: 60px 60px 30px; }}",
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
-        ".red_dot {display: none;}"
+        ".red_dot {display: none;}",
+        "@media screen and (max-width: 767px) {{margin: 15px 0; }}"
       ],
       "settings": {
         "height": "six-fifty-height",
@@ -852,7 +853,8 @@
       "custom_css": [
         "@media screen and (min-width: 768px) {{margin: 60px 60px 30px; }}",
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
-        ".red_dot {display: none;}"
+        ".red_dot {display: none;}",
+        "@media screen and (max-width: 767px) {{margin: 15px 0; }}"
       ],
       "settings": {
         "height": "six-fifty-height",
