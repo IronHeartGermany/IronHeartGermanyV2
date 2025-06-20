@@ -28463,7 +28463,7 @@ h2.section__heading {
   font-size:40px!important;
 }
 
-.sku_subtitle,
-.seasonal_release {
+#sku_subtitle,
+#seasonal_release {
   font-family: 'Source Sans Pro'!important;
 }
