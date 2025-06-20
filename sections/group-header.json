@@ -65,9 +65,8 @@
       "blocks": {
         "image_mycw7n": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "position": "3",
+            "position": "4",
             "image_second_menu": false,
             "image": "shopify://shop_images/PE_still_009_25_05.jpg",
             "aspect_ratio": 1,
@@ -80,9 +79,8 @@
         },
         "image_47i8QW": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "position": "3",
+            "position": "4",
             "image_second_menu": false,
             "image": "shopify://shop_images/wesco_boots_1.webp",
             "aspect_ratio": 1,
