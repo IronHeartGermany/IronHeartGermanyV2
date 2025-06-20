@@ -450,7 +450,9 @@
         "image_qVU4zH",
         "image_8akLTM"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (min-width: 768px) {.section-padding {margin:0 60px; }}"
+      ],
       "settings": {
         "height": "six-fifty-height",
         "bg_color": "",
