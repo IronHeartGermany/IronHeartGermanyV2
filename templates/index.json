@@ -794,7 +794,8 @@
       "custom_css": [
         "{margin: 60px 60px 30px;}",
         ".red_dot:after {width: 7px; height: 7px;}",
-        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}"
+        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
+        ".red_dot {display: none;}"
       ],
       "settings": {
         "height": "six-fifty-height",
@@ -853,7 +854,8 @@
       "custom_css": [
         "{margin: 30px 60px 30px;}",
         ".red_dot:after {width: 7px; height: 7px;}",
-        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}"
+        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
+        ".red_dot {display:none;}"
       ],
       "settings": {
         "height": "six-fifty-height",
