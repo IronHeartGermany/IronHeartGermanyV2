@@ -28451,5 +28451,6 @@ h2.section__heading {
 }
 .collection__filters__toggle,
 .collection__sort__label {
-  font-weight:bold;
+  font-weight:bold!important;
+  text-transform: uppercase;
 }
