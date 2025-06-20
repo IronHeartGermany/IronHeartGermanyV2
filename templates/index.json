@@ -905,7 +905,7 @@
         "button {background: #000; color: #fff; border: none;}",
         "input {color: #000;}",
         ".form-success {background-color: #fff;}",
-        "h2 {font-size:36px;}"
+        "h2 {font-size: 36px;}"
       ],
       "settings": {
         "flex_align": "align--middle-split",
@@ -961,7 +961,8 @@
       ],
       "custom_css": [
         "@media screen and (max-width: 767px) {.column-item {width: 65% !important; margin-right: 12% !important; }}",
-        ".section-padding {padding-bottom: 60px;}"
+        ".section-padding {padding-bottom: 60px;}",
+        "h3 {font-size: 36px !important;}"
       ],
       "settings": {
         "title": "",
