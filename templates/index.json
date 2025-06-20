@@ -188,7 +188,7 @@
         "image_XHfcna"
       ],
       "custom_css": [
-        "h1 {text-transform: none; font-size: 52px; line-height: 56px;}",
+        "h1 {text-transform: none; font-size: 56px; line-height: 56px;}",
         ".subheading-text {font-size: 12px;}",
         ".red_dot:after {top: 1px; position: relative; width: 7px; height: 7px;}",
         ".btn {width: fit-content !important;}",
@@ -855,7 +855,7 @@
         "{margin: 30px 60px 30px;}",
         ".red_dot:after {width: 7px; height: 7px;}",
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
-        ".red_dot {display:none;}"
+        ".red_dot {display: none;}"
       ],
       "settings": {
         "height": "six-fifty-height",
