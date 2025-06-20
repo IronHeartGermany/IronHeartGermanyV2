@@ -28458,3 +28458,7 @@ h2.section__heading {
   font-weight:bold!important;
   text-transform: uppercase;
 }
+
+.product-title {
+  font-size:40px!important;
+}
