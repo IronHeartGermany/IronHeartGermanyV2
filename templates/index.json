@@ -889,7 +889,7 @@
         ".wrapper.locations__wrapper {padding-right: 0;}",
         ".locations.bg-secondary .location__image {padding-top: 66% !important;}",
         ".location__store > p {margin-bottom: 25px !important;}",
-        ".locations__info-heading {font-size:}"
+        ".locations__info-heading {font-size: 36px;}"
       ],
       "settings": {
         "subheading": "The only IRON HEART store outside Japan",
@@ -904,7 +904,8 @@
       "custom_css": [
         "button {background: #000; color: #fff; border: none;}",
         "input {color: #000;}",
-        ".form-success {background-color: #fff;}"
+        ".form-success {background-color: #fff;}",
+        "h2 {font-size:36px;}"
       ],
       "settings": {
         "flex_align": "align--middle-split",
