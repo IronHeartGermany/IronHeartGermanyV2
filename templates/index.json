@@ -451,7 +451,7 @@
         "image_8akLTM"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {.section-padding {margin: 0 90px; }}"
+        "@media screen and (min-width: 768px) {.section-padding {margin: 0 90px; } .brick__blocks__flex {column-gap:30px; }}"
       ],
       "settings": {
         "height": "six-fifty-height",
