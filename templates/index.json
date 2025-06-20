@@ -451,7 +451,7 @@
         "image_8akLTM"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {.section-padding {margin: 0 90px; } .brick__blocks__flex {column-gap: 30px; }}",
+        "@media screen and (min-width: 768px) {.section-padding {margin: 0 90px 60px; } .brick__blocks__flex {column-gap: 30px; }}",
         "@media screen and (max-width: 767px) {#BrickBlock--image_qVU4zH, #BrickBlock--image_8akLTM {margin: 15px 0; }}"
       ],
       "settings": {
