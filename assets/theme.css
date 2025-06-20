@@ -28336,6 +28336,108 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 }
 
 /* ALEX */
+/* PRODUCT PAGE REDESIGN */
+
+.product-upsell__subtitle,
+.gw-button-widget-container {
+  display: none;
+}
+
+.complementary-products__title {
+  text-transform: uppercase;
+  padding: 8px 12px 2px;
+  margin: 0;
+}
+
+.product__accordion {
+  border-bottom: 1px solid grey;
+  padding: 8px 0;
+}
+
+.product__complementary {
+  border: 1px solid grey;
+  padding: 0;
+}
+
+.product-upsell__holder {
+  margin: 0 !important;
+}
+
+.product-upsell__content {
+  padding: 0;
+}
+
+.product__form__wrapper {
+  padding-bottom: 30px !important;
+}
+
+.product__accordions {
+  padding-bottom: 20px;
+}
+
+/* .product-grid-item__price {
+  font-family: "Roboto";
+  font-weight: 800;
+} */
+
 h2.section__heading {
-    font-size: 36px !important;
+  font-size: 36px !important;
+}
+
+.shopify-payment-button__more-options {
+  background: transparent !important;
+  color: #8d8d8d !important;
+  text-transform: none;
+  text-decoration: none !important;
+  padding: 0;
+  text-align: center;
+  letter-spacing: normal;
+  font-size: 12px !important;
+  margin-top: 6px !important;
+  font-weight: 600;
+  line-height: 12px;
+  top: 0px;
+  position: relative;
+}
+
+.navlink {
+  font-weight: 700 !important;
+}
+
+.navlink.navlink--grandchild {
+  font-weight: 400 !important;
+}
+
+.btn,
+.button-typography {
+  font-weight: 600 !important;
+}
+
+.subheading-text {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.navtext:after {
+  width: 5px !important;
+  height: 5px !important;
+}
+
+.gw-button-widget {
+  background: #000 !important;
+}
+
+.product-grid-item__title.sku {
+  font-weight: normal;
+}
+
+.menu__item > a {
+  font-size: 15px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .products-list__item__aside {
+    width: auto !important;
+  }
 }
