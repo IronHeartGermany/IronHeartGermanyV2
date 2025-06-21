@@ -28474,5 +28474,5 @@ h2.section__heading {
 }
 
 .product__price {
-  font-size:24px;
+  font-size:24px!important;
 }
