@@ -28467,3 +28467,8 @@ h2.section__heading {
 #seasonal_release {
   font-family: 'Source Sans Pro'!important;
 }
+
+.collection__filters-title {
+  font-family: 'Bebas Neue';
+  font-size:36px;
+}
