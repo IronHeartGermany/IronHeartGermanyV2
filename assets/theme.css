@@ -28470,5 +28470,5 @@ h2.section__heading {
 
 .collection__filters-title {
   font-family: 'Bebas Neue';
-  font-size:36px;
+  font-size:36px!important;
 }
