@@ -28472,3 +28472,7 @@ h2.section__heading {
   font-family: 'Bebas Neue';
   font-size:36px!important;
 }
+
+.product__price {
+  font-size:24px;
+}
