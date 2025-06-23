@@ -852,12 +852,11 @@
         "button_ni9gFA"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {{margin: 30px 60px 60px; }}",
-        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
         ".red_dot {display: none;}",
-        "@media screen and (max-width: 767px) {{margin: 30x 0; }}",
         ".background-size-cover {position: static !important;}",
-        ".banner-image__image-container {height: 450px;}"
+        ".banner-image__image-container {height: 450px;}",
+        "@media screen and (min-width: 768px) {{margin: 30px 60px 60px; }}",
+        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; } {margin: 30px 0; }}"
       ],
       "settings": {
         "height": "one-fifth-height",
