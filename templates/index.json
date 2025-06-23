@@ -791,12 +791,11 @@
         "button_qcEydt"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {{margin: 60px 60px 30px; }}",
-        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
-        ".red_dot {display: none;}",
-        "@media screen and (max-width: 767px) {{margin: 30px 0; }}",
-        ".background-size-cover {position: static !important;}",
-        ".banner-image__image-container {height: 450px;}"
+        ".red_dot {display: none; }",
+        ".background-size-cover {position: static !important; }",
+        ".banner-image__image-container {height: 450px; }",
+        "@media screen and (min-width: 768px) {* {margin: 60px 60px 30px; }}",
+        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; } * {margin: 30px 0; }}"
       ],
       "settings": {
         "height": "one-fifth-height",
@@ -858,7 +857,7 @@
         ".red_dot {display: none;}",
         "@media screen and (max-width: 767px) {{margin: 30x 0; }}",
         ".background-size-cover {position: static !important;}",
-        ".banner-image__image-container {height:450px;}"
+        ".banner-image__image-container {height: 450px;}"
       ],
       "settings": {
         "height": "one-fifth-height",
