@@ -803,7 +803,7 @@
         "image": "shopify://shop_images/Porter-Yoshida_Co.-Force_3WAY_BRIEFCASE-BLK_003_24_09_dfdd1d1e-8dbf-4d8a-95a7-380f1d58a69e.jpg",
         "image_mobile": "shopify://shop_images/Porter-Yoshida_Co.-Force_3WAY_BRIEFCASE-BLK_003_24_09_1.jpg",
         "overlay_opacity": 40,
-        "enable_zoom_animation": true,
+        "enable_zoom_animation": false,
         "text_width": "normal",
         "text_position": "center",
         "text_color": "text-light"
@@ -862,7 +862,7 @@
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/IH-634S-18-7977.jpg",
         "overlay_opacity": 40,
-        "enable_zoom_animation": true,
+        "enable_zoom_animation": false,
         "text_width": "normal",
         "text_position": "center",
         "text_color": "text-light"
