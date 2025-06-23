@@ -799,7 +799,7 @@
       ],
       "settings": {
         "height": "four-fifty-height",
-        "enable_mobile_height": false,
+        "enable_mobile_height": true,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/Porter_Yoshida.png",
         "image_mobile": "shopify://shop_images/Porter-Yoshida_Co.-Force_3WAY_BRIEFCASE-BLK_003_24_09_1.jpg",
@@ -860,7 +860,7 @@
       ],
       "settings": {
         "height": "four-fifty-height",
-        "enable_mobile_height": false,
+        "enable_mobile_height": true,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/Evolution_of_Iron_Heart.png",
         "overlay_opacity": 40,
