@@ -28476,23 +28476,3 @@ h2.section__heading {
 .product__price {
   font-size:24px!important;
 }
-
-  #SectionBannerImage--template--25453643661578__section_banner_image_XaJDWJ .banner-image__image-container,
-  #SectionBannerImage--template--25453643661578__section_banner_image_WJ7DW7 .banner-image__image-container {
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-  }
-
-  #SectionBannerImage--template--25453643661578__section_banner_image_XaJDWJ .banner-image__image,
-  #SectionBannerImage--template--25453643661578__section_banner_image_XaJDWJ .banner-image__image img,
-  #SectionBannerImage--template--25453643661578__section_banner_image_WJ7DW7 .banner-image__image,
-  #SectionBannerImage--template--25453643661578__section_banner_image_WJ7DW7 .banner-image__image img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain !important;
-    object-position: center center !important;
-    background-size: contain !important;
-    background-position: center !important;
-  }
