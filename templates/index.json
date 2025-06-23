@@ -795,7 +795,8 @@
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
         ".red_dot {display: none;}",
         "@media screen and (max-width: 767px) {{margin: 30px 0; }}",
-        ".background-size-cover {position: static !important;}"
+        ".background-size-cover {position: static !important;}",
+        ".banner-image__image-container {height: 450px;}"
       ],
       "settings": {
         "height": "one-fifth-height",
@@ -856,7 +857,8 @@
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; }}",
         ".red_dot {display: none;}",
         "@media screen and (max-width: 767px) {{margin: 30x 0; }}",
-        ".background-size-cover {position: static !important;}"
+        ".background-size-cover {position: static !important;}",
+        ".banner-image__image-container {height:450px;}"
       ],
       "settings": {
         "height": "one-fifth-height",
