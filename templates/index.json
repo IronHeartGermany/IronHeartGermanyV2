@@ -214,7 +214,9 @@
       "custom_css": [
         "/*.section__link {font-family: \"Roboto\";}",
         "*/.section__text {max-width: 660px !important;}",
-        ".product-grid-item__price {font-weight: 800 !important;}"
+        ".product-grid-item__price {font-weight: 800 !important;}",
+        ".featured-collection__top {margin-bottom: -10px !important;}",
+        ".flickity-prev-next-button {top: -55px !important;}"
       ],
       "settings": {
         "collection": "new",
