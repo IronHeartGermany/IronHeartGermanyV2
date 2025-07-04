@@ -1428,8 +1428,7 @@ input.btn--solid-border.shopify-payment-button__button--unbranded,
 }
 
 .btn--small {
-  --top-bottom-padding: 12.25px;
-  --left-right-padding: 17.5px;
+  padding: 12.25px 17.5px;
   min-width: 0;
 }
 
