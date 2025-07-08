@@ -795,11 +795,10 @@
         ".red_dot {display: none;}"
       ],
       "settings": {
-        "height": "original-height",
+        "height": "four-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "original-height-mobile",
-        "image": "shopify://shop_images/Porter_Yoshida.png",
-        "image_mobile": "shopify://shop_images/Porter-Yoshida_Co.-Force_3WAY_BRIEFCASE-BLK_003_24_09_1.jpg",
+        "image": "shopify://shop_images/Porter_Yoshida_477f54ab-8f5e-406c-9b90-b531351f5eb0.png",
         "overlay_opacity": 40,
         "enable_zoom_animation": false,
         "text_width": "normal",
@@ -854,10 +853,10 @@
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; } {margin: 30px 0; }}"
       ],
       "settings": {
-        "height": "original-height",
+        "height": "four-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "original-height-mobile",
-        "image": "shopify://shop_images/Evolution_of_Iron_Heart.png",
+        "image": "shopify://shop_images/Evolution_of_Iron_Heart_b729ed07-3981-4bfa-b720-6a24a049c76f.png",
         "overlay_opacity": 40,
         "enable_zoom_animation": false,
         "text_width": "normal",
