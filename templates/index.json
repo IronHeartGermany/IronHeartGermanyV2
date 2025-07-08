@@ -795,7 +795,7 @@
         ".red_dot {display: none;}"
       ],
       "settings": {
-        "height": "four-fifty-height",
+        "height": "original-height",
         "enable_mobile_height": false,
         "mobile_height": "original-height-mobile",
         "image": "shopify://shop_images/Porter_Yoshida_51af8fbe-15c4-4df4-ac03-c3b905cbd13f.png",
@@ -853,7 +853,7 @@
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; } {margin: 30px 0; }}"
       ],
       "settings": {
-        "height": "four-fifty-height",
+        "height": "original-height",
         "enable_mobile_height": false,
         "mobile_height": "original-height-mobile",
         "image": "shopify://shop_images/Evolution_of_Iron_Heart_e864c75d-b32d-471a-bb86-8db5c342b43c.png",
