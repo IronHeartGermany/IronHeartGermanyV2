@@ -713,23 +713,32 @@
         "product_DBVc8b": {
           "type": "product",
           "settings": {
-            "product": "iron-heart-ihsb-pr-nat-iron-heart-x-simmons-bilt-horsehide-western-shirt-the-pale-rider-natural",
+            "product": "iron-heart-ihsb-bb-nat-iron-heart-x-simmons-bilt-horsehide-jacket-the-bareback-natural",
             "position_x": 31,
             "position_y": 41
           }
         },
-        "product_LgXdyh": {
+        "product_MQF8YR": {
           "type": "product",
           "settings": {
-            "product": "iron-heart-ih-555s-142ib-14oz-selvedge-denim-super-slim-cut-jeans-indigo-black",
-            "position_x": 55,
-            "position_y": 85
+            "product": "iron-heart-ihb-10-blk-heavy-duty-tochigi-leather-belt-black",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
+        "product_mV9GPp": {
+          "type": "product",
+          "settings": {
+            "product": "iron-heart-iht-1610l-nvy-6-5oz-loopwheel-crew-neck-t-shirt-long-navy",
+            "position_x": 50,
+            "position_y": 50
           }
         }
       },
       "block_order": [
         "product_DBVc8b",
-        "product_LgXdyh"
+        "product_MQF8YR",
+        "product_mV9GPp"
       ],
       "name": "Shop the look ",
       "settings": {
