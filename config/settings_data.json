@@ -66,7 +66,7 @@
     "quick_buy_image_layout": "large",
     "show_labels": true,
     "show_quantity": false,
-    "show_remaining": true,
+    "show_remaining": false,
     "show_payment_button": false,
     "max_inventory": 5,
     "enable_subscriptions_selectors": false,
