@@ -2372,7 +2372,18 @@
               </a>
 
               <h1 class="popup-quick-view__title">
-                <a href="{{ product_url }}" title="{{ product_title }}">{{ product_title }}</a>
+
+                {% comment %} P. Ryan - 12.07.2025 - Remove SKU from Quickview product title {% endcomment %}
+                {%- assign current_variant = product.selected_or_first_available_variant -%}
+                {%- assign sku = current_variant.sku | append: ' - ' -%}
+                {%- if product_title contains sku -%}
+                  {%- assign title_parts = product_title | split: ' - ' -%}
+                  {%- assign filtered_title = title_parts | slice: 1, title_parts.size | join: ' - ' -%}
+                  <a href="{{ product_url }}" title="{{ filtered_title }}">{{ filtered_title }}</a>
+                {%- else -%}
+                  <a href="{{ product_url }}" title="{{ product_title }}">{{ product_title }}</a>
+                {%- endif -%}
+
               </h1>
               {%- assign currency_code_enable = settings.currency_code_enable -%}
 
