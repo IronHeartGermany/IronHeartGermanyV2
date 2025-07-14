@@ -28439,6 +28439,9 @@ h2.section__heading {
   .products-list__item__aside {
     width: auto !important;
   }
+  .btn--outline {
+    width:fit-content!important;
+  }
 }
 
 .banner-image__heading {
