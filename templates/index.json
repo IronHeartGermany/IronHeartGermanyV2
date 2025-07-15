@@ -80,6 +80,7 @@
         },
         "image_Mc6ncH": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/FW25_website_header_final_795f733f-8ca1-49e4-a6a1-54cbf0a13333.jpg",
             "image_mobile": "shopify://shop_images/FW25_website_mobil_neu2.jpg",
@@ -113,7 +114,6 @@
         },
         "image_e8ntQh": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2J5A7400.jpg",
             "image_mobile": "shopify://shop_images/2J5A7400_1.jpg",
