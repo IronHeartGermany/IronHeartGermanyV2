@@ -28337,8 +28337,7 @@ section#FeaturedCollection--template--19385098830090__section_collection_kcBtFY 
 /* ALEX */
 /* PRODUCT PAGE REDESIGN */
 
-.product-upsell__subtitle,
-.gw-button-widget-container {
+.product-upsell__subtitle {
   display: none;
 }
 
