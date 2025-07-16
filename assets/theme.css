@@ -28477,3 +28477,8 @@ h2.section__heading {
 .product__price {
   font-size:24px!important;
 }
+
+.button-typography,
+.btn {
+  font-size:16px!important;
+}
