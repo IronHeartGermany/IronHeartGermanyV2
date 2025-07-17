@@ -947,6 +947,96 @@
         "padding_bottom": 60
       }
     },
+    "section_columns_mgbaYF": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_tTLLqw": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/IH24809.jpg",
+            "title": "12oz Selvedge Denim super cool",
+            "text": "<p>Use this text to describe products, share details on availability and style, etcUse this text to <span style=\"text-decoration:underline\">describe products</span>, share details on availability and style, etcUse this text to describe products, share details on availability and style, etcUse this text to describe products, share details on availability and style, etcUse this text to describe products, share details on availability and style, etc</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_aBjhHP": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/IH24809.jpg",
+            "title": "12oz Selvedge Denim super cool",
+            "text": "<p>Use this text to describe products, share details on availability and style, etcUse this text to <span style=\"text-decoration:underline\">describe products</span>, share details on availability and style, etcUse this text to describe products, share details on availability and style, etcUse this text to describe products, share details on availability and style, etcUse this text to describe products, share details on availability and style, etc</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_gpLVHr": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/IH24809.jpg",
+            "title": "12oz Selvedge Denim super cool",
+            "text": "<p>Use this text to describe products, share details on availability and style, etcUse this text to <span style=\"text-decoration:underline\">describe products</span>, share details on availability and style, etcUse this text to describe products, share details on availability and style, etcUse this text to describe products, share details on availability and style, etcUse this text to describe products, share details on availability and style, etc</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_Wc3py8": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/IH24809.jpg",
+            "title": "12oz Selvedge Denim super cool",
+            "text": "<p>Use this text to describe products, share details on availability and style, etcUse this text to <span style=\"text-decoration:underline\">describe products</span>, share details on availability and style, etcUse this text to describe products, share details on availability and style, etcUse this text to describe products, share details on availability and style, etcUse this text to describe products, share details on availability and style, etc</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tTLLqw",
+        "text_block_aBjhHP",
+        "text_block_gpLVHr",
+        "text_block_Wc3py8"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "grid",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_columns_Mb3rtT": {
       "type": "section-columns",
       "blocks": {
@@ -1006,6 +1096,289 @@
         "padding_top": 60,
         "padding_bottom": 30
       }
+    },
+    "section_image_accordions_EgYRwE": {
+      "type": "section-image-accordions",
+      "blocks": {
+        "image_rLDXLK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/selvedge.jpg",
+            "overlay_opacity": 10,
+            "text_width": "narrow",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "JAPANESE SELVEDGE",
+            "text": "Iron Heart’s Japanese selvedge denim stands out for exceptional durability and character. With diverse textures and styles like raw, sanforized, and non-fade options, there's a perfect fit for every denim enthusiast.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "Shop Selvedge",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_JjyQFU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/precision.jpg",
+            "overlay_opacity": 10,
+            "text_width": "narrow",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Precision in Every Detail",
+            "text": "Every pair of Iron Heart jeans reflects meticulous craftsmanship — from precise poly-cotton stitching to hidden rivets. Natural aging processes create authentic wear patterns that highlight our commitment to quality.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "Discover",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_FqGVmX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sustainable.png",
+            "overlay_opacity": 10,
+            "text_width": "narrow",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Sustainable and Ethical Production",
+            "text": "Iron Heart creates durable garments through sustainable and ethical production in small, family-run mills in Japan — fashion made to last, crafted with a conscience.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "read more",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_rLDXLK",
+        "image_JjyQFU",
+        "image_FqGVmX"
+      ],
+      "name": "Image accordions",
+      "settings": {
+        "accordion_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 100,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_QPdhAw": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_split_images_rVU8ta": {
+      "type": "section-split-images",
+      "blocks": {
+        "image_fLQnhC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WESTERN_GIF.gif"
+          }
+        },
+        "image_aNB6Eb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WORK_GIF.gif"
+          }
+        }
+      },
+      "block_order": [
+        "image_fLQnhC",
+        "image_aNB6Eb"
+      ],
+      "name": "Split images",
+      "settings": {
+        "image_height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_image_height": "five-fifty-height-mobile",
+        "mobile_layout": "split",
+        "text_position": "middle-center",
+        "overlay_opacity": 10,
+        "width": "wrapper--narrow",
+        "text_color": "text-light",
+        "title": "<p>WESTERN vs. WORK</p>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 150,
+        "text": "<- see the differences ->",
+        "button_1_text": "SHOP NOW",
+        "button_1_link": "",
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--outline",
+        "button_1_size": "btn--small",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--solid",
+        "button_2_size": "btn--small"
+      }
+    },
+    "section_divider_HU9iGa": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_image_accordions_7GCAz3": {
+      "type": "section-image-accordions",
+      "blocks": {
+        "image_HUmqTy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shirts_built_to_last_01.jpg",
+            "overlay_opacity": 10,
+            "text_width": "narrow",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "SHIRTS BUILT TO LAST",
+            "text": "Crafted excellence – Iron Heart shirts are crafted from premium denim and wool, uniquely dyed and triple-stitched for exceptional durability. With varied weights and patterns, they combine individuality, quality, and long-lasting style in every piece.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "SHOP SHIRTS",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_tk3tye": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/exceptional_flannels.jpg",
+            "overlay_opacity": 10,
+            "text_width": "narrow",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Exceptional Flannels",
+            "text": "Iron Heart flannels blend premium Aspero wool and signature slub yarn cotton for unique texture, warmth, and durability. With triple-needle stitching and exclusive patterns by founder Haraki-san, each piece offers unmatched quality and comfort.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "SHOP FLANELS",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_a8pGYh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image.png",
+            "overlay_opacity": 10,
+            "text_width": "narrow",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "IRON HEART CPO SHIRTS",
+            "text": "Iron Heart CPO shirts fuse military heritage with modern comfort and style. With a more tailored fit, added handwarmer pockets, and durable snap closures, they offer rugged functionality in a refined silhouette. Built to withstand the elements, they’re available in a range of fabrics—lined or unlined—for any situation.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "SHOP CPO",
+            "button_2_link": "https://ironheartgermany.com/de/collections/shirts?sort_by=manual&filter.p.m.custom.shirt_style=CPO-Style+Shirts",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_HUmqTy",
+        "image_tk3tye",
+        "image_a8pGYh"
+      ],
+      "name": "Image accordions",
+      "settings": {
+        "accordion_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 100,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_locations_yHUFiG": {
+      "type": "section-locations",
+      "blocks": {
+        "locations_BRxD6i": {
+          "type": "locations",
+          "settings": {
+            "title": "Slim Cut | Medium-High Rise",
+            "working_time": "<p>555 - The slimmest cut in our line-up for a more fitted silhouette</p>",
+            "icon_url": "https://ironheartgermany.com/de/collections/super-slim-555",
+            "image": "shopify://shop_images/Test_555.jpg",
+            "button_text": "SHOP NOW",
+            "button_link": "https://ironheartgermany.com/collections/super-slim-555",
+            "button_new_tab": false,
+            "button_style": "primary"
+          }
+        },
+        "locations_JdzAbQ": {
+          "type": "locations",
+          "settings": {
+            "title": "Straight Cut | Medium Rise",
+            "working_time": "<p>634 - Our signature straight cut, closely based on the 1966 Levi's 501</p>",
+            "icon_url": "https://ironheartgermany.com/de/collections/straight-634",
+            "image": "shopify://shop_images/Test_2.jpg",
+            "button_text": "SHOP NOW",
+            "button_link": "https://ironheartgermany.com/collections/straight-634",
+            "button_new_tab": true,
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "locations_BRxD6i",
+        "locations_JdzAbQ"
+      ],
+      "name": "Locations",
+      "settings": {
+        "subheading": "DETAILS MATTER",
+        "title": "OUR CUTS",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -1024,6 +1397,13 @@
     "section_banner_image_WJ7DW7",
     "section_locations_r4cFBa",
     "section_newsletter_kRbEAq",
-    "section_columns_Mb3rtT"
+    "section_columns_Mb3rtT",
+    "section_columns_mgbaYF",
+    "section_image_accordions_EgYRwE",
+    "section_divider_QPdhAw",
+    "section_split_images_rVU8ta",
+    "section_divider_HU9iGa",
+    "section_image_accordions_7GCAz3",
+    "section_locations_yHUFiG"
   ]
 }
