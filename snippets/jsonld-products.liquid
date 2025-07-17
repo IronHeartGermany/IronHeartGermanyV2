@@ -1,0 +1,487 @@
+{%- comment -%}
+  JSON-LD for Product Pages
+  Iron Heart Germany — GEO-optimiert
+  Usage: Include this snippet in product.liquid or via theme.liquid
+  Filename: snippets/jsonld-product.liquid
+{%- endcomment -%}
+
+{%- assign site_url = shop.url -%}
+{%- assign product_url = product.url | prepend: site_url -%}
+{%- assign currency_code = shop.currency -%}
+{%- assign shop_name = shop.name -%}
+
+{%- comment %}
+  Logo fallback
+{%- endcomment -%}
+{%- assign logo_url = '' -%}
+{%- if settings.logo != blank -%}
+  {%- assign logo_url = settings.logo | img_url: '400x' | prepend: 'https:' -%}
+{%- else -%}
+  {%- assign logo_url = 'https://cdn.shopify.com/s/files/1/0429/4518/3910/files/Logo-Master-Iron-Heart-Germany_IHG_Glocke-Schriftzug-horizontal_black.jpg?v=1614344042' -%}
+{%- endif -%}
+
+{%- comment %}
+  Availability mapping
+{%- endcomment -%}
+{%- assign availability = 'https://schema.org/OutOfStock' -%}
+{%- if product.available -%}
+  {%- assign availability = 'https://schema.org/InStock' -%}
+{%- elsif product.variants.first.inventory_policy == 'continue' -%}
+  {%- assign availability = 'https://schema.org/BackOrder' -%}
+{%- endif -%}
+
+{%- comment %}
+  Alle Produktbilder sammeln
+{%- endcomment -%}
+{%- assign product_images = product.images | map: 'src' -%}
+
+{%- comment %}
+  Reviews/Rating - Fallback wenn keine echten Reviews vorhanden
+{%- endcomment -%}
+{%- assign rating_value = product.metafields.reviews.rating | default: 4.8 -%}
+{%- assign review_count = product.metafields.reviews.count | default: 0 -%}
+
+{%- comment %}
+  Ihre tatsächlichen Metafelder mit exakten Namen
+  Alle Metafelder nutzen den "custom" Namespace
+  
+  Color ist ein Metaobjekt - verschiedene Zugriffsmöglichkeiten:
+  - product.metafields.custom.color (wenn String)
+  - product.metafields.custom.color.value (wenn Metaobjekt mit value)
+  - product.metafields.custom.color.value.name (wenn verschachtelt)
+{%- endcomment -%}
+{%- assign fabric = product.metafields.custom.fabric -%}
+{%- assign fabric_weight = product.metafields.custom.fabric_weight -%}
+{%- assign shirt_style = product.metafields.custom.shirt_style -%}
+{%- assign sleeve_length = product.metafields.custom._rmell_nge -%}
+
+{%- comment %}
+  Color handling - da es ein Metaobjekt ist
+{%- endcomment -%}
+{%- if product.metafields.custom.color.value -%}
+  {%- assign product_color = product.metafields.custom.color.value.name | default: product.metafields.custom.color.value.title | default: product.metafields.custom.color.value -%}
+{%- else -%}
+  {%- assign product_color = product.metafields.custom.color -%}
+{%- endif -%}
+
+{%- assign works_well_with = product.metafields.custom.works_well_with.value -%}
+{%- assign shop_the_look_photo = product.metafields.custom.shop_the_look_main_photo -%}
+
+{%- capture jsonld -%}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "{{ product_url }}#product",
+      "name": {{ product.title | json }},
+      "description": {{ product.description | strip_html | truncate: 5000 | json }},
+      "url": {{ product_url | json }},
+      {%- if product.featured_image -%}
+      "image": [
+        {%- for image in product.images limit: 10 -%}
+          {{ image | img_url: '1200x' | prepend: 'https:' | json }}{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+        {%- if shop_the_look_photo and shop_the_look_photo != blank -%}
+        , {{ shop_the_look_photo | img_url: '1200x' | prepend: 'https:' | json }}
+        {%- endif -%}
+      ],
+      {%- endif -%}
+      "brand": {
+        "@type": "Brand",
+        "name": {{ product.vendor | default: "Iron Heart" | json }},
+        "logo": {{ logo_url | json }}
+      },
+      {%- if product.metafields.product.gtin or product.variants.first.barcode -%}
+      "gtin": {{ product.variants.first.barcode | default: product.metafields.product.gtin | json }},
+      {%- endif -%}
+      {%- if product.variants.first.sku -%}
+      "sku": {{ product.variants.first.sku | json }},
+      "productID": {{ product.id | json }},
+      {%- endif -%}
+      {%- if product.metafields.product.mpn -%}
+      "mpn": {{ product.metafields.product.mpn | json }},
+      {%- endif -%}
+      "category": {{ collections.first.title | default: product.type | json }},
+      {%- if fabric and fabric != blank -%}
+      "material": {{ fabric | json }},
+      {%- endif -%}
+      "countryOfOrigin": "Japan",
+      {%- if product.tags.size > 0 -%}
+      "keywords": {{ product.tags | join: ', ' | json }},
+      {%- endif -%}
+      {%- comment %}
+        Ihre Custom Metafelder - nur wenn vorhanden
+      {%- endcomment -%}
+      {%- if fabric_weight and fabric_weight != blank -%}
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Fabric Weight",
+          "value": {{ fabric_weight | json }}
+        }
+        {%- if shirt_style and shirt_style != blank -%},
+        {
+          "@type": "PropertyValue",
+          "name": "Shirt Style",
+          "value": {{ shirt_style | json }}
+        }
+        {%- endif -%}
+        {%- if sleeve_length and sleeve_length != blank -%},
+        {
+          "@type": "PropertyValue",
+          "name": "Ärmellänge",
+          "value": {{ sleeve_length | json }}
+        }
+        {%- endif -%}
+      ],
+      {%- elsif shirt_style and shirt_style != blank -%}
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Shirt Style",
+          "value": {{ shirt_style | json }}
+        }
+        {%- if sleeve_length and sleeve_length != blank -%},
+        {
+          "@type": "PropertyValue",
+          "name": "Sleeve Length",
+          "value": {{ sleeve_length | json }}
+        }
+        {%- endif -%}
+      ],
+      {%- elsif sleeve_length and sleeve_length != blank -%}
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Ärmellänge",
+        "value": {{ sleeve_length | json }}
+      },
+      {%- endif -%}
+      {%- if product_color and product_color != blank -%}
+      "color": {{ product_color | json }},
+      {%- endif -%}
+      {%- if works_well_with and works_well_with != blank -%}
+      "isRelatedTo": [
+        {%- for related_product in works_well_with limit: 5 -%}
+        {
+          "@type": "Product",
+          "name": {{ related_product.title | json }},
+          "url": {{ related_product.url | prepend: site_url | json }},
+          {%- if related_product.featured_image -%}
+          "image": {{ related_product.featured_image | img_url: '400x' | prepend: 'https:' | json }},
+          {%- endif -%}
+          "offers": {
+            "@type": "Offer",
+            "price": {{ related_product.price | money_without_currency | remove: ',' | remove: '.' | divided_by: 100.0 | json }},
+            "priceCurrency": {{ currency_code | json }}
+          }
+        }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+      ],
+      {%- endif -%}
+      "offers": {
+        "@type": "AggregateOffer",
+        "url": {{ product_url | json }},
+        "priceCurrency": {{ currency_code | json }},
+        "lowPrice": {{ product.price_min | money_without_currency | remove: ',' | remove: '.' | divided_by: 100.0 | json }},
+        {%- if product.price_varies -%}
+        "highPrice": {{ product.price_max | money_without_currency | remove: ',' | remove: '.' | divided_by: 100.0 | json }},
+        {%- endif -%}
+        "price": {{ product.price | money_without_currency | remove: ',' | remove: '.' | divided_by: 100.0 | json }},
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": {{ availability | json }},
+        "seller": {
+          "@type": "Organization",
+          "name": {{ "Iron Heart Germany" | json }},
+          "url": {{ site_url | json }}
+        },
+        "priceValidUntil": {{ 'now' | date: '%s' | plus: 7776000 | date: '%Y-%m-%d' | json }},
+        {%- if product.variants.size > 1 -%}
+        "offerCount": {{ product.variants.size }},
+        {%- endif -%}
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "EUR"
+          },
+          "shippingDestination": [
+            {
+              "@type": "DefinedRegion",
+              "addressCountry": "DE",
+              "postalCodeRange": {
+                "@type": "PostalCodeRangeSpecification",
+                "postalCodeBegin": "10000",
+                "postalCodeEnd": "99999"
+              }
+            },
+            {
+              "@type": "DefinedRegion",
+              "addressCountry": ["AT","CH","NL","BE","LU","FR","IT","ES","PT","DK","SE","NO","FI","PL","CZ","SK","HU","RO","BG","IE","GB"]
+            }
+          ],
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            },
+            "businessDays": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"]
+            }
+          },
+          "shippingSettingsLink": "{{ site_url }}/pages/versand",
+          "transitTimeLabel": "Lieferzeit Deutschland: 1-3 Werktage | EU: 3-5 Werktage"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": ["DE","AT","CH","NL","BE","LU","FR","IT","ES","PT","DK","SE","NO","FI","PL","CZ","SK","HU","RO","BG","IE","GB"],
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn",
+          "merchantReturnLink": "{{ site_url }}/policies/refund-policy",
+          "inStoreReturnsOffered": true
+        },
+        "warranty": {
+          "@type": "WarrantyPromise",
+          "durationOfWarranty": "P2Y",
+          "warrantyScope": {
+            "@type": "WarrantyScope",
+            "description": "Herstellergarantie für Material- und Verarbeitungsfehler"
+          }
+        }
+      },
+      {%- if review_count > 0 -%}
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": {{ rating_value | json }},
+        "reviewCount": {{ review_count | json }},
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      {%- endif -%}
+      {%- comment %}
+        Individual Variant Offers für mehr Details
+      {%- endcomment -%}
+      "hasVariant": [
+        {%- for variant in product.variants limit: 20 -%}
+          {
+            "@type": "Product",
+            "name": {{ product.title | append: ' - ' | append: variant.title | json }},
+            "sku": {{ variant.sku | default: variant.id | json }},
+            {%- if variant.barcode -%}
+            "gtin": {{ variant.barcode | json }},
+            {%- endif -%}
+            {%- if variant.weight > 0 -%}
+            "weight": {
+              "@type": "QuantitativeValue",
+              "value": {{ variant.weight | json }},
+              "unitCode": "GRM"
+            },
+            {%- endif -%}
+            {%- if variant.option1 -%}
+            "size": {{ variant.option1 | json }},
+            {%- endif -%}
+            {%- if variant.option2 -%}
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "name": "Variant Option",
+              "value": {{ variant.option2 | json }}
+            },
+            {%- elsif product_color -%}
+            "color": {{ product_color | json }},
+            {%- endif -%}
+            "offers": {
+              "@type": "Offer",
+              "url": {{ product_url | append: '?variant=' | append: variant.id | json }},
+              "price": {{ variant.price | money_without_currency | remove: ',' | remove: '.' | divided_by: 100.0 | json }},
+              "priceCurrency": {{ currency_code | json }},
+              "availability": {%- if variant.available -%}"https://schema.org/InStock"{%- else -%}"https://schema.org/OutOfStock"{%- endif -%},
+              "inventoryLevel": {
+                "@type": "QuantitativeValue",
+                "value": {{ variant.inventory_quantity | default: 0 }}
+              }
+            }
+          }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ product_url }}#webpage",
+      "url": {{ product_url | json }},
+      "name": {{ product.title | append: ' | Iron Heart Germany' | json }},
+      "isPartOf": {
+        "@id": "{{ site_url }}/#website"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": {{ product.featured_image | img_url: '1200x' | prepend: 'https:' | json }}
+      },
+      "datePublished": {{ product.created_at | date: '%Y-%m-%d' | json }},
+      "dateModified": {{ product.updated_at | default: 'now' | date: '%Y-%m-%d' | json }},
+      "description": {{ product.description | strip_html | truncate: 160 | json }},
+      "inLanguage": ["de","en"],
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {{ site_url | json }}
+          },
+          {%- if collection -%}
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": {{ collection.title | json }},
+            "item": {{ collection.url | prepend: site_url | json }}
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ product.title | json }},
+            "item": {{ product_url | json }}
+          }
+          {%- else -%}
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Products",
+            "item": "{{ site_url }}/products"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": {{ product.title | json }},
+            "item": {{ product_url | json }}
+          }
+          {%- endif -%}
+        ]
+      },
+      "mainEntity": {
+        "@id": "{{ product_url }}#product"
+      }
+    }
+  ]
+}
+{%- endcapture -%}
+
+<script type="application/ld+json">{{ jsonld | strip }}</script>
+
+{%- comment -%}
+  DEBUG MODE - Nur im Theme Editor
+  Zeigt alle verfügbaren Metafelder für dieses Produkt
+  Zum Aktivieren: Im Theme Editor auf Produkt-Seite gehen
+{%- endcomment -%}
+{%- if request.design_mode -%}
+<!-- Product Metafields Debug Info -->
+<!-- custom.fabric: {{ fabric | default: 'not set' }} -->
+<!-- custom.fabric_weight: {{ fabric_weight | default: 'not set' }} -->
+<!-- custom.shirt_style: {{ shirt_style | default: 'not set' }} -->
+<!-- custom._rmell_nge: {{ sleeve_length | default: 'not set' }} -->
+<!-- custom.color: {{ product_color | default: 'not set' }} -->
+<!-- custom.works_well_with: {{ works_well_with.size | default: 0 }} products -->
+<!-- custom.shop_the_look_main_photo: {{ shop_the_look_photo | default: 'not set' }} -->
+<!-- Color raw value: {{ product.metafields.custom.color | json }} -->
+{%- endif -%}
+
+{%- comment -%}
+  FAQ Schema für Produkte - basierend auf vorhandenen Daten
+{%- endcomment -%}
+
+{%- assign show_faq = false -%}
+{%- if fabric_weight and fabric_weight != blank -%}
+  {%- assign show_faq = true -%}
+{%- elsif product.type == 'Denim' or product.type == 'Jacket' or product.type == 'Shirt' -%}
+  {%- assign show_faq = true -%}
+{%- elsif product.tags contains 'heavyweight' or product.tags contains 'iron-heart' -%}
+  {%- assign show_faq = true -%}
+{%- endif -%}
+
+{%- if show_faq -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie fällt {{ product.title }} aus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Iron Heart Produkte fallen in der Regel passgenau bis leicht kleiner aus. {% if shirt_style %}Dieser {{ shirt_style }} Style hat einen besonderen Schnitt. {% endif %}Wir empfehlen unseren Size Guide zu konsultieren oder uns für eine persönliche Beratung zu kontaktieren."
+      }
+    },
+    {%- if fabric and fabric != blank -%}
+    {
+      "@type": "Question",
+      "name": "Aus welchem Material ist {{ product.title }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ product.title }} besteht aus {{ fabric }}.{% if fabric_weight %} Das Stoffgewicht beträgt {{ fabric_weight }}.{% endif %} Alle Iron Heart Produkte werden in Japan mit höchster Handwerkskunst gefertigt."
+      }
+    },
+    {%- endif -%}
+    {%- if fabric_weight and fabric_weight != blank -%}
+    {
+      "@type": "Question",
+      "name": "Wie schwer ist der Stoff?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ product.title }} hat ein Stoffgewicht von {{ fabric_weight }}. Dies macht es zu einem {% if fabric_weight contains '21' or fabric_weight contains '25' %}extra schweren{% elsif fabric_weight contains '17' or fabric_weight contains '19' %}schweren{% elsif fabric_weight contains '14' %}mittelschweren{% else %}hochwertigen{% endif %} Stoff mit exzellenter Haltbarkeit."
+      }
+    },
+    {%- endif -%}
+    {
+      "@type": "Question",
+      "name": "Ist {{ product.title }} vorrätig?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{%- if product.available -%}Ja, {{ product.title }} ist aktuell vorrätig und wird innerhalb von 1-3 Werktagen aus Hamburg versendet.{%- else -%}{{ product.title }} ist momentan ausverkauft. Tragen Sie sich in die Warteliste ein, um benachrichtigt zu werden.{%- endif -%}"
+      }
+    },
+    {%- if sleeve_length and sleeve_length != blank -%}
+    ,{
+      "@type": "Question", 
+      "name": "Welche Ärmellänge hat {{ product.title }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Ärmellänge beträgt {{ sleeve_length }}. Beachten Sie, dass Iron Heart Produkte oft etwas länger ausfallen, um ein Einlaufen zu kompensieren."
+      }
+    }
+    {%- endif -%}
+    {%- if works_well_with and works_well_with != blank -%}
+    {
+      "@type": "Question",
+      "name": "Welche Produkte passen gut zu {{ product.title }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ product.title }} lässt sich hervorragend kombinieren mit: {% for related in works_well_with limit: 3 %}{{ related.title }}{% unless forloop.last %}, {% endunless %}{% endfor %}. Diese Kombinationen finden Sie auch in unserem Shop."
+      }
+    },
+    {%- endif -%}
+    {
+      "@type": "Question",
+      "name": "Kann ich {{ product.title }} im Showroom anprobieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, besuchen Sie uns in Hamburg in der Kaiser-Wilhelm-Straße 45. Öffnungszeiten: Mo-Di, Do-Fr 11-18 Uhr, Sa 11-16 Uhr. Rufen Sie vorher an (+49-40-34993999) für die Verfügbarkeit in Ihrer Größe."
+      }
+    }
+  ]
+}
+</script>
+{%- endif -%}

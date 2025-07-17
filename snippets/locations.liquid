@@ -26,6 +26,96 @@
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
   }
+
+  /* Location Store Layout */
+  .location__store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .location__store > * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Button specific adjustments */
+  .location__button {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Mobile button full width */
+  @media (max-width: 767px) {
+    .location__button {
+      width: 100% !important;
+      max-width: none !important;
+    }
+  }
+
+  /* Mobile padding for locations__stores */
+  @media (max-width: 767px) {
+    .locations__stores {
+      padding-bottom: 36px;
+    }
+  }
+
+  /* Ensure icon has proper spacing */
+  .location_bottom_icon {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .location__icon-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Center Flickity navigation arrows */
+  .locations__stores .flickity-page-dots {
+    text-align: center;
+    width: 100%;
+  }
+
+  .locations__stores .flickity-prev-next-button {
+    position: relative !important;
+    display: inline-block !important;
+    margin: 20px 10px 0 10px !important;
+    position: static !important;
+    transform: none !important;
+  }
+
+  .locations__stores .flickity-button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* Alternative approach if buttons are rendered differently */
+  .locations__stores {
+    position: relative;
+  }
+
+  .locations__stores [data-slider-info] + div,
+  .locations__stores .slider-nav,
+  .locations__stores .flickity-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .location__button {
+      width: 100%;
+      max-width: 280px;
+    }
+  }
 {%- endstyle -%}
 
 <div
@@ -101,10 +191,38 @@
                 {%- endif -%}
 
                 {% if block.settings.icon != blank %}
-                  <a href="{{ block.settings.icon_url }}" target="_blank">
-                    <img class="location_bottom_icon" src="{{ block.settings.icon | img_url: 'master' }}">
-                  </a>
+                  <div class="location__icon-wrapper">
+                    <a href="{{ block.settings.icon_url }}" target="_blank">
+                      <img class="location_bottom_icon" src="{{ block.settings.icon | img_url: 'master' }}">
+                    </a>
+                  </div>
                 {% endif %}
+
+                {%- comment -%} Custom Button - positioned at the very bottom {%- endcomment -%}
+                {%- if block.settings.button_text != blank and block.settings.button_link != blank -%}
+                  {%- liquid
+                    case block.settings.button_style
+                      when 'primary'
+                        assign button_class = 'location__button slide__btn btn btn--solid btn--small btn--black'
+                      when 'secondary'
+                        assign button_class = 'location__button slide__btn btn btn--outline btn--small btn--black'
+                      else
+                        assign button_class = 'location__button slide__btn btn btn--outline btn--small btn--black'
+                    endcase
+                    
+                    assign target = ''
+                    if block.settings.button_new_tab
+                      assign target = 'target="_blank" rel="noopener noreferrer"'
+                    endif
+                  -%}
+                  <a 
+                    href="{{ block.settings.button_link }}" 
+                    class="{{ button_class }}"
+                    {{ target }}
+                  >
+                    {{ block.settings.button_text }}
+                  </a>
+                {%- endif -%}
               </div>
             {%- endfor -%}
           {%- else -%}
@@ -113,6 +231,11 @@
                 <h3 class="location__address h4">{{ 'homepage.onboarding.locations.address' | t }}</h3>
 
                 {{ 'homepage.onboarding.locations.working_hours_html' | t }}
+
+                {%- comment -%} Default button for demo {%- endcomment -%}
+                <a href="#" class="location__button location__button--primary">
+                  Get Directions
+                </a>
               </div>
             {%- endfor -%}
           {%- endif -%}

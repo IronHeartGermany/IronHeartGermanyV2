@@ -89,6 +89,44 @@
             "type": "image_picker",
             "id": "image",
             "label": "Store image"
+          },
+          {
+            "type": "header",
+            "content": "Button Settings"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text",
+            "default": "Get Directions",
+            "info": "Leave blank to hide button"
+          },
+          {
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+          },
+          {
+            "type": "checkbox",
+            "id": "button_new_tab",
+            "label": "Open link in new tab",
+            "default": true
+          },
+          {
+            "type": "select",
+            "id": "button_style",
+            "label": "Button Style",
+            "options": [
+              {
+                "value": "primary",
+                "label": "Primary (Solid Black)"
+              },
+              {
+                "value": "secondary",
+                "label": "Secondary (Outline Black)"
+              }
+            ],
+            "default": "primary"
           }
         ]
       }
