@@ -1007,8 +1007,8 @@
             "text_width": "wide",
             "text_position": "left",
             "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
+            "title": "WESTERN vs. WORK",
+            "text": "Details matter",
             "button_1_text": "",
             "button_1_link": "",
             "button_1_color": "btn--white",
@@ -1028,8 +1028,8 @@
             "text_width": "wide",
             "text_position": "left",
             "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
+            "title": "the yokes",
+            "text": "Hier alle Infos nur über das Bild",
             "button_1_text": "",
             "button_1_link": "",
             "button_1_color": "btn--white",
@@ -1049,8 +1049,8 @@
             "text_width": "wide",
             "text_position": "left",
             "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
+            "title": "Cut & features",
+            "text": "Hier alle Infos nur über das Bild",
             "button_1_text": "",
             "button_1_link": "",
             "button_1_color": "btn--white",
@@ -1070,8 +1070,8 @@
             "text_width": "wide",
             "text_position": "left",
             "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
+            "title": "The fit",
+            "text": "Hier alle Infos nur über das Bild",
             "button_1_text": "",
             "button_1_link": "",
             "button_1_color": "btn--white",
@@ -1172,12 +1172,30 @@
             "working_time": "<p>Western shirt: Slim fit & slightly longer</p><p>Work shirt: Regular fit & slightly shorter</p>",
             "icon_url": ""
           }
+        },
+        "locations_UNXTpL": {
+          "type": "locations",
+          "settings": {
+            "title": "566 Emerson Street Palo Alto, California",
+            "working_time": "<p>Mon - Fri: 8am - 5pm</p><p>Sat: Closed</p><p>Sun: Closed</p>",
+            "icon_url": ""
+          }
+        },
+        "locations_jpwLhL": {
+          "type": "locations",
+          "settings": {
+            "title": "566 Emerson Street Palo Alto, California",
+            "working_time": "<p>Mon - Fri: 8am - 5pm</p><p>Sat: Closed</p><p>Sun: Closed</p>",
+            "icon_url": ""
+          }
         }
       },
       "block_order": [
         "locations_BRxD6i",
         "locations_cEPEVF",
-        "locations_XbUmwx"
+        "locations_XbUmwx",
+        "locations_UNXTpL",
+        "locations_jpwLhL"
       ],
       "name": "Locations",
       "settings": {
