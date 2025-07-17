@@ -996,6 +996,197 @@
         "padding_top": 60,
         "padding_bottom": 30
       }
+    },
+    "section_image_accordions_EgYRwE": {
+      "type": "section-image-accordions",
+      "blocks": {
+        "image_FqGVmX": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_rLDXLK": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_JjyQFU": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_f7KfCT": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_FqGVmX",
+        "image_rLDXLK",
+        "image_JjyQFU",
+        "image_f7KfCT"
+      ],
+      "name": "Image accordions",
+      "settings": {
+        "accordion_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 100,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_split_images_rVU8ta": {
+      "type": "section-split-images",
+      "blocks": {
+        "image_fLQnhC": {
+          "type": "image",
+          "settings": {}
+        },
+        "image_aNB6Eb": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image_fLQnhC",
+        "image_aNB6Eb"
+      ],
+      "name": "Split images",
+      "settings": {
+        "image_height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_image_height": "five-fifty-height-mobile",
+        "mobile_layout": "split",
+        "text_position": "middle-center",
+        "overlay_opacity": 10,
+        "width": "wrapper--narrow",
+        "text_color": "text-light",
+        "title": "<p>WESTERN vs. WORK</p>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "heading_size": 120,
+        "text": "DETAILS MATTER",
+        "button_1_text": "SHOP NOW",
+        "button_1_link": "",
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--outline",
+        "button_1_size": "btn--small",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--solid",
+        "button_2_size": "btn--small"
+      }
+    },
+    "section_locations_yHUFiG": {
+      "type": "section-locations",
+      "blocks": {
+        "locations_BRxD6i": {
+          "type": "locations",
+          "settings": {
+            "title": "The yokes ",
+            "working_time": "<p>Western shirt: front and back yokes </p><p>Work shirt: straight back yoke</p>",
+            "icon_url": ""
+          }
+        },
+        "locations_cEPEVF": {
+          "type": "locations",
+          "settings": {
+            "title": "Cut & features",
+            "working_time": "<p>Western shirt: Flap down chest pockets </p><p>Work shirt: Chest pockets with pen holder</p><p>--------</p><p>Western shirt: Snap fastenings</p><p>Work shirt: Button fastenings</p><p>--------</p><p>Western shirt: Curved hem</p><p>Work shirt: Rounded hem with gussets and chainstitch run-off </p>",
+            "icon_url": ""
+          }
+        },
+        "locations_XbUmwx": {
+          "type": "locations",
+          "settings": {
+            "title": "Fit",
+            "working_time": "<p>Western shirt: Slim fit & slightly longer</p><p>Work shirt: Regular fit & slightly shorter</p>",
+            "icon_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "locations_BRxD6i",
+        "locations_cEPEVF",
+        "locations_XbUmwx"
+      ],
+      "name": "Locations",
+      "settings": {
+        "subheading": "DETAILS MATTER",
+        "title": "WESTERN vs. WORK",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -1014,6 +1205,9 @@
     "section_banner_image_WJ7DW7",
     "section_locations_r4cFBa",
     "section_newsletter_kRbEAq",
-    "section_columns_Mb3rtT"
+    "section_columns_Mb3rtT",
+    "section_image_accordions_EgYRwE",
+    "section_split_images_rVU8ta",
+    "section_locations_yHUFiG"
   ]
 }
