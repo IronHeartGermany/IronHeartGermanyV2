@@ -1166,9 +1166,10 @@
         "locations_JdzAbQ": {
           "type": "locations",
           "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm</p><p>Sat: Closed</p><p>Sun: Closed</p>",
-            "icon_url": ""
+            "title": "Straight Cut | Medium Rise",
+            "working_time": "<p>634 - Our signature straight cut, closely based on the 1966 Levi's 501</p>",
+            "icon_url": "",
+            "image": "shopify://shop_images/684_CUT.webp"
           }
         },
         "locations_cEPEVF": {
