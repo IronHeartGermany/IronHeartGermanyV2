@@ -1168,7 +1168,8 @@
           "settings": {
             "title": "Straight Cut | Medium Rise",
             "working_time": "<p>634 - Our signature straight cut, closely based on the 1966 Levi's 501</p>",
-            "icon_url": "",
+            "icon": "shopify://shop_images/Bildschirmfoto_2025-07-20_um_15.24.15.png",
+            "icon_url": "https://ironheartgermany.com/de/collections/straight-634",
             "image": "shopify://shop_images/684_CUT.webp"
           }
         },
