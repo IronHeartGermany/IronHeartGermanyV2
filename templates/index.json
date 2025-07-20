@@ -1158,7 +1158,6 @@
           "settings": {
             "title": "Slim Cut | Medium-High Rise",
             "working_time": "<p>555 - The slimmest cut in our line-up for a more fitted silhouette</p>",
-            "icon": "shopify://shop_images/Bildschirmfoto_2025-07-20_um_15.15.35.png",
             "icon_url": "https://ironheartgermany.com/de/collections/super-slim-555",
             "image": "shopify://shop_images/555_CUT_be94e251-5a2f-43ca-93dd-c401704d14a7.webp"
           }
@@ -1170,6 +1169,14 @@
             "working_time": "<p>634 - Our signature straight cut, closely based on the 1966 Levi's 501</p>",
             "icon_url": "",
             "image": "shopify://shop_images/684_CUT.webp"
+          }
+        },
+        "locations_aBzCYb": {
+          "type": "locations",
+          "settings": {
+            "title": "566 Emerson Street Palo Alto, California",
+            "working_time": "<p>Mon - Fri: 8am - 5pm</p><p>Sat: Closed</p><p>Sun: Closed</p>",
+            "icon_url": ""
           }
         },
         "locations_cEPEVF": {
@@ -1208,6 +1215,7 @@
       "block_order": [
         "locations_BRxD6i",
         "locations_JdzAbQ",
+        "locations_aBzCYb",
         "locations_cEPEVF",
         "locations_XbUmwx",
         "locations_UNXTpL",
