@@ -1172,56 +1172,11 @@
             "icon_url": "https://ironheartgermany.com/de/collections/straight-634",
             "image": "shopify://shop_images/684_CUT.webp"
           }
-        },
-        "locations_aBzCYb": {
-          "type": "locations",
-          "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm</p><p>Sat: Closed</p><p>Sun: Closed</p>",
-            "icon_url": ""
-          }
-        },
-        "locations_cEPEVF": {
-          "type": "locations",
-          "settings": {
-            "title": "Cut & features",
-            "working_time": "<p>Western shirt: Flap down chest pockets </p><p>Work shirt: Chest pockets with pen holder</p><p>--------</p><p>Western shirt: Snap fastenings</p><p>Work shirt: Button fastenings</p><p>--------</p><p>Western shirt: Curved hem</p><p>Work shirt: Rounded hem with gussets and chainstitch run-off </p>",
-            "icon_url": ""
-          }
-        },
-        "locations_XbUmwx": {
-          "type": "locations",
-          "settings": {
-            "title": "Fit",
-            "working_time": "<p>Western shirt: Slim fit & slightly longer</p><p>Work shirt: Regular fit & slightly shorter</p>",
-            "icon_url": ""
-          }
-        },
-        "locations_UNXTpL": {
-          "type": "locations",
-          "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm</p><p>Sat: Closed</p><p>Sun: Closed</p>",
-            "icon_url": ""
-          }
-        },
-        "locations_jpwLhL": {
-          "type": "locations",
-          "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm</p><p>Sat: Closed</p><p>Sun: Closed</p>",
-            "icon_url": ""
-          }
         }
       },
       "block_order": [
         "locations_BRxD6i",
-        "locations_JdzAbQ",
-        "locations_aBzCYb",
-        "locations_cEPEVF",
-        "locations_XbUmwx",
-        "locations_UNXTpL",
-        "locations_jpwLhL"
+        "locations_JdzAbQ"
       ],
       "name": "Locations",
       "settings": {
