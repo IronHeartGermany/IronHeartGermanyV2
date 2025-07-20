@@ -1107,11 +1107,15 @@
       "blocks": {
         "image_fLQnhC": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/WESTERN_GIF.gif"
+          }
         },
         "image_aNB6Eb": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/WESTERN_GIF.gif"
+          }
         }
       },
       "block_order": [
@@ -1130,8 +1134,8 @@
         "text_color": "text-light",
         "title": "<p>WESTERN vs. WORK</p>",
         "heading_highlight_type": "italics",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "heading_size": 120,
         "text": "DETAILS MATTER",
         "button_1_text": "SHOP NOW",
