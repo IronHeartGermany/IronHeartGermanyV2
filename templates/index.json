@@ -1108,13 +1108,13 @@
         "image_fLQnhC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WESTERN_GIF_b4976b1c-3957-468c-ba10-f3d5165796d5.gif"
+            "image": "shopify://shop_images/WESTERN_GIF.gif"
           }
         },
         "image_aNB6Eb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WORK_GIF_ded37c8e-1461-415c-ab39-d5badfcc61a9.gif"
+            "image": "shopify://shop_images/WORK_GIF.gif"
           }
         }
       },
