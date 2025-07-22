@@ -1137,7 +1137,7 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 150,
-        "text": "DETAILS MATTER",
+        "text": "<- see the differences ->",
         "button_1_text": "SHOP NOW",
         "button_1_link": "",
         "button_1_color": "btn--white",
