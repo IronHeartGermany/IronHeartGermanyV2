@@ -1000,27 +1000,6 @@
     "section_image_accordions_EgYRwE": {
       "type": "section-image-accordions",
       "blocks": {
-        "image_FqGVmX": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 10,
-            "text_width": "wide",
-            "text_position": "left",
-            "text_color": "text-light",
-            "title": "Sustainable and Ethical Production",
-            "text": "Iron Heart creates durable garments through sustainable and ethical production in small, family-run mills in Japan — fashion made to last, crafted with a conscience.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "read more",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        },
         "image_rLDXLK": {
           "type": "image",
           "settings": {
@@ -1062,12 +1041,33 @@
             "button_2_style": "btn--solid",
             "button_2_size": "btn--small"
           }
+        },
+        "image_FqGVmX": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Sustainable and Ethical Production",
+            "text": "Iron Heart creates durable garments through sustainable and ethical production in small, family-run mills in Japan — fashion made to last, crafted with a conscience.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "read more",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
         }
       },
       "block_order": [
-        "image_FqGVmX",
         "image_rLDXLK",
-        "image_JjyQFU"
+        "image_JjyQFU",
+        "image_FqGVmX"
       ],
       "name": "Image accordions",
       "settings": {
