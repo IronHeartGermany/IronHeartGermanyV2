@@ -1087,7 +1087,7 @@
           "type": "image",
           "settings": {
             "overlay_opacity": 10,
-            "text_width": "wide",
+            "text_width": "narrow",
             "text_position": "left",
             "text_color": "text-light",
             "title": "SHIRTS BUILT TO LAST",
@@ -1108,7 +1108,7 @@
           "type": "image",
           "settings": {
             "overlay_opacity": 10,
-            "text_width": "wide",
+            "text_width": "narrow",
             "text_position": "left",
             "text_color": "text-light",
             "title": "Exceptional Flannels",
