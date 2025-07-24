@@ -1080,6 +1080,54 @@
         "padding_bottom": 0
       }
     },
+    "section_split_images_rVU8ta": {
+      "type": "section-split-images",
+      "blocks": {
+        "image_fLQnhC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WESTERN_GIF.gif"
+          }
+        },
+        "image_aNB6Eb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WORK_GIF.gif"
+          }
+        }
+      },
+      "block_order": [
+        "image_fLQnhC",
+        "image_aNB6Eb"
+      ],
+      "name": "Split images",
+      "settings": {
+        "image_height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_image_height": "five-fifty-height-mobile",
+        "mobile_layout": "split",
+        "text_position": "middle-center",
+        "overlay_opacity": 10,
+        "width": "wrapper--narrow",
+        "text_color": "text-light",
+        "title": "<p>WESTERN vs. WORK</p>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 150,
+        "text": "<- see the differences ->",
+        "button_1_text": "SHOP NOW",
+        "button_1_link": "",
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--outline",
+        "button_1_size": "btn--small",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--solid",
+        "button_2_size": "btn--small"
+      }
+    },
     "section_image_accordions_7GCAz3": {
       "type": "section-image-accordions",
       "blocks": {
@@ -1163,54 +1211,6 @@
         "padding_bottom": 0
       }
     },
-    "section_split_images_rVU8ta": {
-      "type": "section-split-images",
-      "blocks": {
-        "image_fLQnhC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WESTERN_GIF.gif"
-          }
-        },
-        "image_aNB6Eb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WORK_GIF.gif"
-          }
-        }
-      },
-      "block_order": [
-        "image_fLQnhC",
-        "image_aNB6Eb"
-      ],
-      "name": "Split images",
-      "settings": {
-        "image_height": "full-height",
-        "enable_mobile_height": false,
-        "mobile_image_height": "five-fifty-height-mobile",
-        "mobile_layout": "split",
-        "text_position": "middle-center",
-        "overlay_opacity": 10,
-        "width": "wrapper--narrow",
-        "text_color": "text-light",
-        "title": "<p>WESTERN vs. WORK</p>",
-        "heading_highlight_type": "italics",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
-        "heading_size": 150,
-        "text": "<- see the differences ->",
-        "button_1_text": "SHOP NOW",
-        "button_1_link": "",
-        "button_1_color": "btn--white",
-        "button_1_style": "btn--outline",
-        "button_1_size": "btn--small",
-        "button_2_text": "",
-        "button_2_link": "",
-        "button_2_color": "btn--black",
-        "button_2_style": "btn--solid",
-        "button_2_size": "btn--small"
-      }
-    },
     "section_locations_yHUFiG": {
       "type": "section-locations",
       "blocks": {
@@ -1267,8 +1267,8 @@
     "section_newsletter_kRbEAq",
     "section_columns_Mb3rtT",
     "section_image_accordions_EgYRwE",
-    "section_image_accordions_7GCAz3",
     "section_split_images_rVU8ta",
+    "section_image_accordions_7GCAz3",
     "section_locations_yHUFiG"
   ]
 }
