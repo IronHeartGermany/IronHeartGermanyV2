@@ -1062,8 +1062,28 @@
             "button_2_style": "btn--solid",
             "button_2_size": "btn--small"
           }
-        },
-        "image_f7KfCT": {
+        }
+      },
+      "block_order": [
+        "image_FqGVmX",
+        "image_rLDXLK",
+        "image_JjyQFU"
+      ],
+      "name": "Image accordions",
+      "settings": {
+        "accordion_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 100,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_accordions_7GCAz3": {
+      "type": "section-image-accordions",
+      "blocks": {
+        "image_HUmqTy": {
           "type": "image",
           "settings": {
             "overlay_opacity": 10,
@@ -1083,13 +1103,54 @@
             "button_2_style": "btn--solid",
             "button_2_size": "btn--small"
           }
+        },
+        "image_tk3tye": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Exceptional Flannels",
+            "text": "Iron Heart flannels blend premium Aspero wool and signature slub yarn cotton for unique texture, warmth, and durability. With triple-needle stitching and exclusive patterns by founder Haraki-san, each piece offers unmatched quality and comfort.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "SHOP FLANELS",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        },
+        "image_a8pGYh": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "wide",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "IRON HEART CPO SHIRTS",
+            "text": "Iron Heart CPO shirts fuse military heritage with modern comfort and style. With a more tailored fit, added handwarmer pockets, and durable snap closures, they offer rugged functionality in a refined silhouette. Built to withstand the elements, they’re available in a range of fabrics—lined or unlined—for any situation.",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
         }
       },
       "block_order": [
-        "image_FqGVmX",
-        "image_rLDXLK",
-        "image_JjyQFU",
-        "image_f7KfCT"
+        "image_HUmqTy",
+        "image_tk3tye",
+        "image_a8pGYh"
       ],
       "name": "Image accordions",
       "settings": {
@@ -1206,6 +1267,7 @@
     "section_newsletter_kRbEAq",
     "section_columns_Mb3rtT",
     "section_image_accordions_EgYRwE",
+    "section_image_accordions_7GCAz3",
     "section_split_images_rVU8ta",
     "section_locations_yHUFiG"
   ]
