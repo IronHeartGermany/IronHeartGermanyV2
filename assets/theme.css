@@ -8645,6 +8645,11 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
   font-size: calc(1rem * var(--adjust-nav));
 }
 
+/* P. Ryan 27.07.2025 - Menu items should extend to the full height for one level */
+.dropdown__family_level_1 {
+  justify-content: space-between;
+}
+
 .header__dropdown__image {
   position: relative;
   letter-spacing: initial;
@@ -8805,6 +8810,15 @@ body:has(.site-header[data-transparent=true]):has(.main-content > .supports-tran
   flex: 3;
   display: grid;
   align-content: start;
+  row-gap: 1.5em;
+  margin-left: calc(var(--gutter) / 2);
+}
+
+/* P. Ryan 27.07.2025 - Menu items should extend to the full height for one level */
+.grandparent .header__grandparent__links_level_1 {
+  flex: 2;
+  display: grid;
+  align-content: stretch;
   row-gap: 1.5em;
   margin-left: calc(var(--gutter) / 2);
 }
