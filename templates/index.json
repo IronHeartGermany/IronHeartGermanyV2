@@ -1156,6 +1156,7 @@
         "image_tk3tye": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/exceptional_flannels.jpg",
             "overlay_opacity": 10,
             "text_width": "narrow",
             "text_position": "left",
