@@ -1025,7 +1025,7 @@
         "image_JjyQFU": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/details_1.heic",
+            "image": "shopify://shop_images/precision.jpg",
             "overlay_opacity": 10,
             "text_width": "narrow",
             "text_position": "left",
@@ -1139,6 +1139,16 @@
         "button_2_color": "btn--black",
         "button_2_style": "btn--solid",
         "button_2_size": "btn--small"
+      }
+    },
+    "section_divider_HU9iGa": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_image_accordions_7GCAz3": {
@@ -1261,16 +1271,6 @@
         "bg_color_secondary": false,
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "section_divider_HU9iGa": {
-      "type": "section-divider",
-      "name": "Divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     }
   },
