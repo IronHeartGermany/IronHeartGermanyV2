@@ -1201,7 +1201,7 @@
         "image_a8pGYh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cpo.jpg",
+            "image": "shopify://shop_images/image.png",
             "overlay_opacity": 10,
             "text_width": "narrow",
             "text_position": "left",
