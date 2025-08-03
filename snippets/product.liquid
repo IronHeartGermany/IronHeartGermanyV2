@@ -1253,14 +1253,16 @@
                     {%- endif -%}
 
                     {%- assign sold_out_text = 'products.product.sold_out' | t -%}
+                    {%- if show_newsletter -%}
+                      {%- assign newsletter_text = 'general.newsletter_form.newsletter_product_availability' | t -%}
+                      {%- assign sold_out_text = sold_out_text | append: ' - ' | append: newsletter_text -%}
+                    {%- endif -%}
+
+                    {%- comment -%} No "Sold Out" in future releases  - P. Ryan 03.08.25 {%- endcomment -%}
                     {%- if is_future_release or is_seasonal_release -%}
                       {%- unless is_released -%}
                         {%- assign sold_out_text = future_release_text -%}
                       {%- endunless -%}
-                    {%- endif -%}
-                    {%- if show_newsletter -%}
-                      {%- assign newsletter_text = 'general.newsletter_form.newsletter_product_availability' | t -%}
-                      {%- assign sold_out_text = sold_out_text | append: ' - ' | append: newsletter_text -%}
                     {%- endif -%}
 
                     <div class="product__submit__holder{% if show_payment_button %} product__submit__holder--spb{% endif %}{% if show_newsletter %} product__submit__holder--notification{% endif %}">
