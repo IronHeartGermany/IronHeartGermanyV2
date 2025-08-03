@@ -1255,7 +1255,7 @@
                     {%- assign sold_out_text = 'products.product.sold_out' | t -%}
                     {%- if is_future_release or is_seasonal_release -%}
                       {%- unless is_released -%}
-                        assign sold_out_text = future_release_text
+                        {%- assign sold_out_text = future_release_text -%}
                       {%- endunless -%}
                     {%- endif -%}
                     {%- if show_newsletter -%}
