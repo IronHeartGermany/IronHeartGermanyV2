@@ -4518,8 +4518,13 @@
               if (e) {
                 if (e.available) t.innerHTML = a;
                 else if (
-                  ((t.innerHTML = theme.strings.sold_out),
-                  t.parentNode.hasAttribute(Br))
+                  // P. Ryan - 23.08.25 - No "Sold Out" for future releases
+                  ((t.innerHTML = ( ( this.productForm.product.tags.join(",").toLowerCase().split(",").includes(theme.settings.futureReleaseTag.toLowerCase()) ||
+                                      this.productForm.product.tags.join(",").toLowerCase().split(",").includes(theme.settings.seasonalReleaseTag.toLowerCase())
+                                    ) && !this.productForm.product.tags.join(",").toLowerCase().split(",").includes("released"))
+                                    ? "Not Released Yet" : theme.strings.sold_out
+                    ), t.parentNode.hasAttribute(Br)
+                  )
                 ) {
                   if (t.closest(vr)) return;
                   t.innerHTML = `${theme.strings.sold_out} - ${theme.strings.newsletter_product_availability}`;
