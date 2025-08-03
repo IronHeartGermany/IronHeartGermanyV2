@@ -164,6 +164,30 @@
   assign atc_button_style = settings.atc_button_style
   assign buynow_btn_color = settings.buynow_btn_color
   assign buynow_btn_style = settings.buynow_btn_style
+
+  comment
+    No "Sold Out" in future releases  - P. Ryan 03.08.25
+  endcomment
+  assign is_future_release = false
+  assign is_seasonal_release = false
+  assign is_released = false
+  assign downcase_future_release_tag = settings.future_release_tag | downcase
+  assign downcase_seasonal_release_tag = settings.seasonal_release_tag | downcase
+
+  for tag in product.tags
+    assign downcase_tag = tag | downcase
+    if downcase_tag == downcase_future_release_tag
+      assign is_future_release = true
+    endif
+    if downcase_tag == downcase_seasonal_release_tag
+      assign is_seasonal_release = true
+    endif
+    if downcase_tag == 'released'
+      assign is_released = true
+    endif
+  endfor
+
+  assign future_release_text = "Not Yet Available"
 -%}
 
 {%- capture product_gallery -%}
@@ -1229,6 +1253,11 @@
                     {%- endif -%}
 
                     {%- assign sold_out_text = 'products.product.sold_out' | t -%}
+                    {%- if is_future_release or is_seasonal_release -%}
+                      {%- unless is_released -%}
+                        assign sold_out_text = future_release_text
+                      {%- endunless -%}
+                    {%- endif -%}
                     {%- if show_newsletter -%}
                       {%- assign newsletter_text = 'general.newsletter_form.newsletter_product_availability' | t -%}
                       {%- assign sold_out_text = sold_out_text | append: ' - ' | append: newsletter_text -%}
