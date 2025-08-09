@@ -1254,7 +1254,7 @@
             "image": "shopify://shop_images/Test_555.jpg",
             "button_text": "SHOP NOW",
             "button_link": "https://ironheartgermany.com/de/collections/super-slim-555",
-            "button_new_tab": true,
+            "button_new_tab": false,
             "button_style": "primary"
           }
         },
