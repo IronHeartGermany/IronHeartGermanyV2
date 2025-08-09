@@ -160,7 +160,7 @@
                   </a>
                 {% endif %}
 
-                {%- comment -%} Custom Button {%- endcomment -%}
+                {%- comment -%} Custom Button - positioned at the very bottom {%- endcomment -%}
                 {%- if block.settings.button_text != blank and block.settings.button_link != blank -%}
                   {%- liquid
                     assign button_class = 'location__button location__button--' | append: block.settings.button_style
