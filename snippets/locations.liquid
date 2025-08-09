@@ -154,6 +154,12 @@
                   {{- block.settings.working_time -}}
                 {%- endif -%}
 
+                {% if block.settings.icon != blank %}
+                  <a href="{{ block.settings.icon_url }}" target="_blank">
+                    <img class="location_bottom_icon" src="{{ block.settings.icon | img_url: 'master' }}">
+                  </a>
+                {% endif %}
+
                 {%- comment -%} Custom Button {%- endcomment -%}
                 {%- if block.settings.button_text != blank and block.settings.button_link != blank -%}
                   {%- liquid
@@ -171,12 +177,6 @@
                     {{ block.settings.button_text }}
                   </a>
                 {%- endif -%}
-
-                {% if block.settings.icon != blank %}
-                  <a href="{{ block.settings.icon_url }}" target="_blank">
-                    <img class="location_bottom_icon" src="{{ block.settings.icon | img_url: 'master' }}">
-                  </a>
-                {% endif %}
               </div>
             {%- endfor -%}
           {%- else -%}
