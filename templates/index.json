@@ -892,7 +892,11 @@
             "working_time": "<p><strong>MONDAY </strong>11:00–18:00<br/><strong>TUESDAY</strong> 11:00–18:00<br/><strong>WEDNESDAY</strong> closed<br/><strong>THURSDAY</strong> 11:00–18:00<br/><strong>FRIDAY</strong> 11:00–18:00<br/><strong>SATURDAY</strong> 11:00–16:00<br/><strong>SUNDAY</strong> closed</p>",
             "icon": "shopify://shop_images/Google_icon_58f1ae91-84f4-43c9-9fd7-ecb001d46b3c.png",
             "icon_url": "https://maps.app.goo.gl/2QN81w95PDjo5sSUA",
-            "image": "shopify://shop_images/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg"
+            "image": "shopify://shop_images/Store_Totale_2_HDR-1_cd3a9c82-f210-45bf-abc4-ff60eea0646a.jpg",
+            "button_text": "Get Directions",
+            "button_link": "",
+            "button_new_tab": true,
+            "button_style": "primary"
           }
         }
       },
@@ -1247,7 +1251,11 @@
             "working_time": "<p>555 - The slimmest cut in our line-up for a more fitted silhouette</p>",
             "icon": "shopify://shop_images/Bildschirmfoto_2025-07-20_um_15.15.35.png",
             "icon_url": "https://ironheartgermany.com/de/collections/super-slim-555",
-            "image": "shopify://shop_images/Test_555.jpg"
+            "image": "shopify://shop_images/Test_555.jpg",
+            "button_text": "SHOP NOW",
+            "button_link": "https://ironheartgermany.com/de/collections/super-slim-555",
+            "button_new_tab": true,
+            "button_style": "primary"
           }
         },
         "locations_JdzAbQ": {
@@ -1257,7 +1265,11 @@
             "working_time": "<p>634 - Our signature straight cut, closely based on the 1966 Levi's 501</p>",
             "icon": "shopify://shop_images/Bildschirmfoto_2025-07-20_um_15.24.15.png",
             "icon_url": "https://ironheartgermany.com/de/collections/straight-634",
-            "image": "shopify://shop_images/Test_2.jpg"
+            "image": "shopify://shop_images/Test_2.jpg",
+            "button_text": "Get Directions",
+            "button_link": "",
+            "button_new_tab": true,
+            "button_style": "primary"
           }
         }
       },
