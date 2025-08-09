@@ -69,6 +69,40 @@
     margin-right: auto;
   }
 
+  /* Center Flickity navigation arrows */
+  .locations__stores .flickity-page-dots {
+    text-align: center;
+    width: 100%;
+  }
+
+  .locations__stores .flickity-prev-next-button {
+    position: relative !important;
+    display: inline-block !important;
+    margin: 20px 10px 0 10px !important;
+    position: static !important;
+    transform: none !important;
+  }
+
+  .locations__stores .flickity-button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* Alternative approach if buttons are rendered differently */
+  .locations__stores {
+    position: relative;
+  }
+
+  .locations__stores [data-slider-info] + div,
+  .locations__stores .slider-nav,
+  .locations__stores .flickity-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+
   @media (max-width: 767px) {
     .location__button {
       width: 100%;
