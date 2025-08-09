@@ -27,11 +27,18 @@
     --PB: {{ section.settings.padding_bottom }}px;
   }
 
+  /* Location Store Layout */
+  .location__store {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   /* Button Styles */
   .location__button {
-    display: inline-block;
+    display: block;
     padding: 12px 24px;
-    margin-top: 16px;
+    margin-top: 20px;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
@@ -39,6 +46,14 @@
     border-radius: 4px;
     transition: all 0.3s ease;
     cursor: pointer;
+    width: fit-content;
+  }
+
+  /* Ensure icon has proper spacing */
+  .location_bottom_icon {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 0;
   }
 
   .location__button--primary {
@@ -155,9 +170,11 @@
                 {%- endif -%}
 
                 {% if block.settings.icon != blank %}
-                  <a href="{{ block.settings.icon_url }}" target="_blank">
-                    <img class="location_bottom_icon" src="{{ block.settings.icon | img_url: 'master' }}">
-                  </a>
+                  <div class="location__icon-wrapper">
+                    <a href="{{ block.settings.icon_url }}" target="_blank">
+                      <img class="location_bottom_icon" src="{{ block.settings.icon | img_url: 'master' }}">
+                    </a>
+                  </div>
                 {% endif %}
 
                 {%- comment -%} Custom Button - positioned at the very bottom {%- endcomment -%}
