@@ -26,6 +26,60 @@
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
   }
+
+  /* Button Styles */
+  .location__button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .location__button--primary {
+    background-color: var(--color-btn-primary, #000);
+    color: var(--color-btn-primary-text, #fff);
+    border: 2px solid var(--color-btn-primary, #000);
+  }
+
+  .location__button--primary:hover {
+    background-color: var(--color-btn-primary-hover, #333);
+    border-color: var(--color-btn-primary-hover, #333);
+  }
+
+  .location__button--secondary {
+    background-color: var(--color-btn-secondary, #f0f0f0);
+    color: var(--color-btn-secondary-text, #000);
+    border: 2px solid var(--color-btn-secondary, #f0f0f0);
+  }
+
+  .location__button--secondary:hover {
+    background-color: var(--color-btn-secondary-hover, #e0e0e0);
+    border-color: var(--color-btn-secondary-hover, #e0e0e0);
+  }
+
+  .location__button--outline {
+    background-color: transparent;
+    color: var(--color-text, #000);
+    border: 2px solid var(--color-text, #000);
+  }
+
+  .location__button--outline:hover {
+    background-color: var(--color-text, #000);
+    color: var(--color-bg, #fff);
+  }
+
+  @media (max-width: 767px) {
+    .location__button {
+      width: 100%;
+      max-width: 280px;
+    }
+  }
 {%- endstyle -%}
 
 <div
@@ -105,6 +159,24 @@
                     <img class="location_bottom_icon" src="{{ block.settings.icon | img_url: 'master' }}">
                   </a>
                 {% endif %}
+
+                {%- comment -%} Custom Button {%- endcomment -%}
+                {%- if block.settings.button_text != blank and block.settings.button_link != blank -%}
+                  {%- liquid
+                    assign button_class = 'location__button location__button--' | append: block.settings.button_style
+                    assign target = ''
+                    if block.settings.button_new_tab
+                      assign target = 'target="_blank" rel="noopener noreferrer"'
+                    endif
+                  -%}
+                  <a 
+                    href="{{ block.settings.button_link }}" 
+                    class="{{ button_class }}"
+                    {{ target }}
+                  >
+                    {{ block.settings.button_text }}
+                  </a>
+                {%- endif -%}
               </div>
             {%- endfor -%}
           {%- else -%}
@@ -113,6 +185,11 @@
                 <h3 class="location__address h4">{{ 'homepage.onboarding.locations.address' | t }}</h3>
 
                 {{ 'homepage.onboarding.locations.working_hours_html' | t }}
+
+                {%- comment -%} Default button for demo {%- endcomment -%}
+                <a href="#" class="location__button location__button--primary">
+                  Get Directions
+                </a>
               </div>
             {%- endfor -%}
           {%- endif -%}
