@@ -40,21 +40,11 @@
     margin-right: auto;
   }
 
-  /* Button Styles */
+  /* Button specific adjustments */
   .location__button {
-    display: block;
-    padding: 12px 24px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    width: fit-content;
   }
 
   /* Ensure icon has proper spacing */
@@ -69,39 +59,6 @@
   .location__icon-wrapper {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .location__button--primary {
-    background-color: var(--color-btn-primary, #000);
-    color: var(--color-btn-primary-text, #fff);
-    border: 2px solid var(--color-btn-primary, #000);
-  }
-
-  .location__button--primary:hover {
-    background-color: var(--color-btn-primary-hover, #333);
-    border-color: var(--color-btn-primary-hover, #333);
-  }
-
-  .location__button--secondary {
-    background-color: var(--color-btn-secondary, #f0f0f0);
-    color: var(--color-btn-secondary-text, #000);
-    border: 2px solid var(--color-btn-secondary, #f0f0f0);
-  }
-
-  .location__button--secondary:hover {
-    background-color: var(--color-btn-secondary-hover, #e0e0e0);
-    border-color: var(--color-btn-secondary-hover, #e0e0e0);
-  }
-
-  .location__button--outline {
-    background-color: transparent;
-    color: var(--color-text, #000);
-    border: 2px solid var(--color-text, #000);
-  }
-
-  .location__button--outline:hover {
-    background-color: var(--color-text, #000);
-    color: var(--color-bg, #fff);
   }
 
   @media (max-width: 767px) {
@@ -195,7 +152,15 @@
                 {%- comment -%} Custom Button - positioned at the very bottom {%- endcomment -%}
                 {%- if block.settings.button_text != blank and block.settings.button_link != blank -%}
                   {%- liquid
-                    assign button_class = 'location__button location__button--' | append: block.settings.button_style
+                    case block.settings.button_style
+                      when 'primary'
+                        assign button_class = 'location__button slide__btn btn btn--solid btn--small btn--black'
+                      when 'secondary'
+                        assign button_class = 'location__button slide__btn btn btn--outline btn--small btn--white'
+                      else
+                        assign button_class = 'location__button slide__btn btn btn--outline btn--small btn--white'
+                    endcase
+                    
                     assign target = ''
                     if block.settings.button_new_tab
                       assign target = 'target="_blank" rel="noopener noreferrer"'
