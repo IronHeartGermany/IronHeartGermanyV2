@@ -1265,7 +1265,7 @@
             "icon_url": "https://ironheartgermany.com/de/collections/straight-634",
             "image": "shopify://shop_images/Test_2.jpg",
             "button_text": "SHOP NOW",
-            "button_link": "",
+            "button_link": "https://ironheartgermany.com/collections/straight-634",
             "button_new_tab": true,
             "button_style": "primary"
           }
