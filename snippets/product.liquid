@@ -1291,10 +1291,13 @@
                               XXXX
                               {%- if current_variant.available and product.tags contains '_preorder' -%}
                                 {{ 'products.product.preorder' | t }}
+                                111
                               {%- elsif current_variant.available -%}
                                 {{ 'products.product.add_to_cart' | t }}
+                                222
                               {%- else -%}
                                 {{ sold_out_text }}
+                                333
                               {%- endif -%}
                             </span>
 
