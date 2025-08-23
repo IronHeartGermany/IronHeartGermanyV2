@@ -4518,7 +4518,8 @@
               if (e) {
                 if (e.available) t.innerHTML = a;
                 else if (
-                  ((t.innerHTML = theme.strings.sold_out),
+                  //((t.innerHTML = theme.strings.sold_out),
+                  ((t.innerHTML = "WWWW"),
                   t.parentNode.hasAttribute(Br))
                 ) {
                   if (t.closest(vr)) return;
