@@ -6986,7 +6986,8 @@
 
           // Unavailable variant
           if (!variant.available) {
-            element.innerHTML = theme.strings.sold_out;
+           // element.innerHTML = theme.strings.sold_out;
+            element.innerHTML = "GGGG";
 
             if (element.parentNode.hasAttribute(attributes$w.notificationPopup)) {
               if (element.closest(selectors$L.quickViewItem)) return; // Disable 'notify me' text change for Quickview
