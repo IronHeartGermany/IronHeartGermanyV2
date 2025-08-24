@@ -4526,7 +4526,7 @@
                   //((t.innerHTML = (this.productForm.product.tags.toLowerCase().split(",").includes(settings.future_release_tag.toLowerCase()) || this.productForm.product.tags.toLowerCase().split(",").includes(settings.seasonal_release_tag.toLowerCase())) ? "NOT RELEASED YET" : theme.strings.sold_out),
 
 
-                  ((t.innerHTML = (this.productForm.product.tags.join(",").toLowerCase().split(",").includes(theme.settings.futureReleaseTag) || this.productForm.product.tags.join(",").toLowerCase().split(",").includes(theme.settings.seasonalReleaseTag)) ? "Not Released Yet" : theme.strings.sold_out ),
+                  ((t.innerHTML = (this.productForm.product.tags.join(",").toLowerCase().split(",").includes(theme.settings.futureReleaseTag.toLowerCase()) || this.productForm.product.tags.join(",").toLowerCase().split(",").includes(theme.settings.seasonalReleaseTag.toLowerCase())) ? "Not Released Yet" : theme.strings.sold_out ),
                   //((t.innerHTML = theme.settings.futureReleaseTag),
                   t.parentNode.hasAttribute(Br))
                 ) {
