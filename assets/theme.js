@@ -4522,11 +4522,11 @@
                   // P. Ryan - 23.08.25 - No "Sold Out" for future releases
                   //button_text = theme.strings.sold_out;
 
-                  ((t.innerHTML = this.product.tags),
+
                   //((t.innerHTML = (this.product.tags.toLowerCase().split(",").includes(settings.future_release_tag.toLowerCase()) || this.product.tags.toLowerCase().split(",").includes(settings.seasonal_release_tag.toLowerCase())) ? "NOT RELEASED YET" : theme.strings.sold_out),
 
 
-                  ((t.innerHTML = theme.strings.sold_out),
+                  ((t.innerHTML = this.product.tags),
                   t.parentNode.hasAttribute(Br))
                 ) {
                   if (t.closest(vr)) return;
