@@ -4527,7 +4527,7 @@
 
 
                   //((t.innerHTML = this.productForm.product.tags.join(",").toLowerCase().split(",")),
-                  ((t.innerHTML = settings.future_release_tag.toLowerCase()),
+                  ((t.innerHTML = this.settings.future_release_tag),
                   t.parentNode.hasAttribute(Br))
                 ) {
                   if (t.closest(vr)) return;
