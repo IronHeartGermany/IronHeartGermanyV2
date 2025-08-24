@@ -4526,7 +4526,8 @@
                   //((t.innerHTML = (this.productForm.product.tags.toLowerCase().split(",").includes(settings.future_release_tag.toLowerCase()) || this.productForm.product.tags.toLowerCase().split(",").includes(settings.seasonal_release_tag.toLowerCase())) ? "NOT RELEASED YET" : theme.strings.sold_out),
 
 
-                  ((t.innerHTML = this.productForm.product.tags.join(",").toLowerCase().split(",")),
+                  //((t.innerHTML = this.productForm.product.tags.join(",").toLowerCase().split(",")),
+                  ((t.innerHTML = settings.future_release_tag.toLowerCase()),
                   t.parentNode.hasAttribute(Br))
                 ) {
                   if (t.closest(vr)) return;
