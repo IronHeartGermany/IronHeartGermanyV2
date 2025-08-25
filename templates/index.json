@@ -12,6 +12,39 @@
     "section_slideshow_dTDLLQ": {
       "type": "section-slideshow",
       "blocks": {
+        "image_e8ntQh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2J5A7400.jpg",
+            "image_mobile": "shopify://shop_images/2J5A7400_1.jpg",
+            "overlay_opacity": 0,
+            "text_width": "narrow",
+            "text_position": "top-left",
+            "text_color": "text-light",
+            "subheading": "BACK IN",
+            "title": "GOOD ART - \nMODEL 10 BRACELET A",
+            "heading_font_size": 52,
+            "text_font_size": 20,
+            "heading_font_size_mobile": 32,
+            "text_font_size_mobile": 17,
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "text": "",
+            "button_1_text": "SHOP",
+            "button_1_link": "https://ironheartgermany.com/collections/good-art-hlywd/products/good-art-hlywd-ga-model-10-bra-a-good-art-hlywd-model-10-bracelet-a-sterling-silver",
+            "button_1_color": "btn--secondary",
+            "button_1_style": "btn--outline",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
         "image_JTJ4Mq": {
           "type": "image",
           "settings": {
@@ -113,39 +146,6 @@
             "video_link": ""
           }
         },
-        "image_e8ntQh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2J5A7400.jpg",
-            "image_mobile": "shopify://shop_images/2J5A7400_1.jpg",
-            "overlay_opacity": 0,
-            "text_width": "narrow",
-            "text_position": "top-left",
-            "text_color": "text-light",
-            "subheading": "BACK IN",
-            "title": "GOOD ART - \nMODEL 10 BRACELET A",
-            "heading_font_size": 52,
-            "text_font_size": 20,
-            "heading_font_size_mobile": 32,
-            "text_font_size_mobile": 17,
-            "heading_highlight_type": "circle",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000",
-            "text": "",
-            "button_1_text": "SHOP",
-            "button_1_link": "https://ironheartgermany.com/collections/good-art-hlywd/products/good-art-hlywd-ga-model-10-bra-a-good-art-hlywd-model-10-bracelet-a-sterling-silver",
-            "button_1_color": "btn--secondary",
-            "button_1_style": "btn--outline",
-            "button_1_size": "btn--medium",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--large",
-            "video_text": "",
-            "video_link": ""
-          }
-        },
         "image_XHfcna": {
           "type": "image",
           "disabled": true,
@@ -182,10 +182,10 @@
         }
       },
       "block_order": [
+        "image_e8ntQh",
         "image_JTJ4Mq",
         "image_3XDzQj",
         "image_Mc6ncH",
-        "image_e8ntQh",
         "image_XHfcna"
       ],
       "custom_css": [
