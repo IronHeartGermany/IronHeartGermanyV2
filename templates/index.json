@@ -286,6 +286,7 @@
     },
     "section_collection_kcBtFY": {
       "type": "section-collection",
+      "disabled": true,
       "custom_css": [
         "/*.section__link {font-family: \"Roboto\";}",
         "*/.section__text {max-width: 660px !important;}",
