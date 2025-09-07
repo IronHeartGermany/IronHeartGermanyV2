@@ -928,10 +928,10 @@
       "settings": {
         "flex_align": "align--middle-split",
         "text_color": "text-light",
-        "title": "STAY IN THE LOOP",
-        "text": "<p>Sign up to our Newsletter and never miss what matters most:</p><ul><li>First access to heavyweight denim and ultra heavy flannel drops</li><li>Exclusive updates on new arrivals, limited editions and restocks</li><li>Behind-the-scenes insights from the Hamburg store and stories from the Iron Heart community</li></ul><p>Don't miss out - join the crew!</p>",
+        "title": "NEWSLETTER",
+        "text": "<p>Receive updates about our brands, new products, restocks, and events.</p>",
         "extra_fields": "name",
-        "button_text": "Join the crew",
+        "button_text": "Subscribe",
         "bg_color": "",
         "image": "shopify://shop_images/Iron_News.jpg",
         "image_height": "three-fifty-height",
