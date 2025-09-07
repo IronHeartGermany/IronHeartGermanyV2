@@ -218,6 +218,7 @@
         ".featured-collection__top {margin-bottom: -10px !important;}",
         ".flickity-prev-next-button {top: -55px !important;}"
       ],
+      "name": "Featured collection New ",
       "settings": {
         "collection": "new",
         "products_layout": "carousel",
