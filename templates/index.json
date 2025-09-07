@@ -218,6 +218,7 @@
         ".featured-collection__top {margin-bottom: -10px !important;}",
         ".flickity-prev-next-button {top: -55px !important;}"
       ],
+      "name": "Featured collection New ",
       "settings": {
         "collection": "new",
         "products_layout": "carousel",
@@ -293,6 +294,7 @@
         ".product-grid-item__price {font-weight: 800 !important;}",
         ".featured-collection {background-color: #fafafa !important;}"
       ],
+      "name": "Featured collection Best",
       "settings": {
         "collection": "bestsellers-1",
         "products_layout": "grid",
