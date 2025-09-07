@@ -294,6 +294,7 @@
         ".product-grid-item__price {font-weight: 800 !important;}",
         ".featured-collection {background-color: #fafafa !important;}"
       ],
+      "name": "Featured collection Best",
       "settings": {
         "collection": "bestsellers-1",
         "products_layout": "grid",
