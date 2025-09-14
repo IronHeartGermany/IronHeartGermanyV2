@@ -907,7 +907,8 @@
         ".wrapper.locations__wrapper {padding-right: 0;}",
         ".locations.bg-secondary .location__image {padding-top: 66% !important;}",
         ".location__store > p {margin-bottom: 25px !important;}",
-        ".locations__info-heading {font-size: 36px;}"
+        ".locations__info-heading {font-size: 36px;}",
+        "@media screen and (min-width: 768px) {{margin: 30px 60px 60px; }}"
       ],
       "settings": {
         "subheading": "The only IRON HEART store outside Japan",
