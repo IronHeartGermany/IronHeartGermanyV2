@@ -1,0 +1,147 @@
+{%- comment -%}
+  JSON-LD for Home (Organization + WebSite + LocalBusiness/ClothingStore)
+  Iron Heart Germany — GEO-optimiert
+  Usage: render this snippet on the homepage only.
+{%- endcomment -%}
+
+{%- assign site_url = shop.url -%}
+{%- assign contact_url = site_url | append: '/pages/contact' -%}
+{%- assign store_url = site_url | append: '/pages/store-hamburg' -%}
+
+{%- comment %}
+  Logo: try theme setting first, otherwise fall back to provided URL
+{%- endcomment -%}
+{%- assign logo_url = '' -%}
+{%- if settings.logo != blank -%}
+  {%- assign logo_url = settings.logo | img_url: '400x' | prepend: 'https:' -%}
+{%- else -%}
+  {%- assign logo_url = 'https://cdn.shopify.com/s/files/1/0429/4518/3910/files/Logo-Master-Iron-Heart-Germany_IHG_Glocke-Schriftzug-horizontal_black.jpg?v=1614344042' -%}
+{%- endif -%}
+
+{%- capture jsonld -%}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site_url }}/#org",
+      "name": {{ "Iron Heart Germany" | json }},
+      "legalName": {{ "IH Germany GmbH & Co. KG" | json }},
+      "url": {{ site_url | json }},
+      "logo": {{ logo_url | json }},
+      "description": {{ "Iron Heart Germany ist der offizielle EU-Store für schweren japanischen Denim und Workwear. Handwerk, Langlebigkeit und perfekte Passform – online und im Showroom Hamburg." | json }},
+      "slogan": {{ "Built to last. Made in Japan. At home in Hamburg." | json }},
+      "foundingDate": "2019-12-16",
+      "brand": {
+        "@type": "Brand",
+        "name": {{ "Iron Heart Germany" | json }}
+      },
+      "email": "info@ironheartgermany.com",
+      "telephone": "+49-40-34993999",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Dusekestraße 42",
+        "postalCode": "13187",
+        "addressLocality": "Berlin",
+        "addressCountry": "DE"
+      },
+      "sameAs": [
+        "https://www.instagram.com/ironheartgermany/",
+        "https://www.facebook.com/ironheartgermany/",
+        "https://www.youtube.com/@ironheartgermany21"
+      ],
+      "areaServed": [
+        "DE","AT","CH","NL","BE","LU","FR","IT","ES","PT","DK","SE","NO","FI",
+        "PL","CZ","SK","HU","RO","BG","IE","GB","US","CA","AU"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "availableLanguage": ["de","en"],
+          "email": "info@ironheartgermany.com",
+          "telephone": "+49-40-34993999",
+          "url": {{ contact_url | json }}
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "availableLanguage": ["de","en"],
+          "email": "info@ironheartgermany.com",
+          "telephone": "+49-40-34993999",
+          "url": {{ contact_url | json }}
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "press",
+          "availableLanguage": ["en","de"],
+          "email": "info@ironheartgermany.com",
+          "url": {{ contact_url | json }}
+        }
+      ],
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnLink": "https://ironheartgermany.com/policies/refund-policy"
+      },
+      "identifier": [
+        { "@type": "PropertyValue", "name": "USt-ID", "value": "DE329053047" },
+        { "@type": "PropertyValue", "name": "Handelsregister", "value": "HRA 59757B Berlin" },
+        { "@type": "PropertyValue", "name": "Persönlich haftende Gesellschafterin", "value": "IH Germany Verwaltungs GmbH, HRB 237304 Berlin (GF: Maria Klähn)" }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site_url }}/#website",
+      "url": {{ site_url | json }},
+      "name": {{ shop.name | json }},
+      "inLanguage": ["de","en"],
+      "publisher": { "@id": "{{ site_url }}/#org" },
+      "termsOfService": "https://ironheartgermany.com/policies/terms-of-service",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ routes.search_url | prepend: site_url }}?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ClothingStore",
+      "@id": "{{ site_url }}/#store-hamburg",
+      "name": "Iron Heart Germany – Hamburg Showroom",
+      "url": {{ store_url | json }},
+      "image": {{ logo_url | json }},
+      "parentOrganization": { "@id": "{{ site_url }}/#org" },
+      "telephone": "+49-40-34993999",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kaiser-Wilhelm-Straße 45",
+        "postalCode": "20355",
+        "addressLocality": "Hamburg",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.5530838,
+        "longitude": 9.9832106
+      },
+      "hasMap": "https://www.google.com/maps/place/Iron+Heart+Germany+-+Hamburg/@53.553087,9.9806303,17z/data=!3m1!4b1!4m6!3m5!1s0x47b18f52ebf76a5b:0xf9823e4f3e2c43a8!8m2!3d53.5530838!4d9.9832106!16s%2Fg%2F11fv4lsdnm",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Thursday","Friday"],
+          "opens": "11:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "11:00",
+          "closes": "16:00"
+        }
+      ]
+    }
+  ]
+}
+{%- endcapture -%}
+
+<script type="application/ld+json">{{ jsonld | strip }}</script>
