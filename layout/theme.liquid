@@ -257,6 +257,9 @@
     {% endif %}
     <!-- llms.txt für KI/GEO Optimierung -->
 <link rel="llms-descriptor" href="https://cdn.shopify.com/s/files/1/0429/4518/3910/files/llms.txt">
+{%- if template == 'index' -%}
+  {%- render 'jsonld-home' -%}
+{%- endif -%}
   </head>
   {%- capture body_classes -%}
 template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
