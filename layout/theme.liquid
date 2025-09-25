@@ -258,6 +258,9 @@
 {%- if template == 'index' -%}
   {%- render 'jsonld-home' -%}
 {%- endif -%}
+{%- if template contains 'collection' and collection -%}
+  {%- render 'jsonld-collection' -%}
+{%- endif -%}
   </head>
   {%- capture body_classes -%}
 template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
