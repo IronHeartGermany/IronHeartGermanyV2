@@ -44,7 +44,7 @@
         "subheading": {
           "type": "subheading",
           "settings": {
-            "text": "<p>From the very beginning ...</p>",
+            "text": "<p><strong>Craftsmanship and Quality</strong></p>",
             "size": 100,
             "margin_bottom": 16
           }
@@ -63,7 +63,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>... Iron Heart pushed boundaries. Our 21oz denim challenged convention. Our 25oz denim redefined it. Today, alongside our legendary jeans, our heavyweight flannels, shirts and jackets continue to set the standard for durability, comfort and timeless design – all firmly rooted in <strong>Japan’s tradition of precision and innovation</strong>.</p>",
+            "text": "<p>At the heart of Iron Heart lies an unwavering dedication to <strong>Japanese craftsmanship</strong>. Every piece is <strong>made in Japan</strong>, using carefully selected cotton and woven on vintage shuttle looms that have been preserved and perfected over generations. From the weave of the denim to the placement of every rivet and stitch, no detail is overlooked.</p>",
             "size": 100
           }
         },
