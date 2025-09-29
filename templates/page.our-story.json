@@ -247,6 +247,126 @@
         "padding_bottom": 60
       }
     },
+    "section_text_cAdTqR": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_q93UmU": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>IRON HEART GERMANY</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_mDUQqJ": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>YOUR GATEWAY TO JAPAN</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_fJQGHa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As the official Iron Heart partner in Europe, <strong>Iron Heart Germany</strong> makes this Japanese craftsmanship accessible across the EU. With local service, fast shipping and no customs hassle, you can experience the very best of <strong>Japanese denim and heritage workwear – made in Japan, delivered from Germany. </strong>Iron Heart Germany is led by <strong>Shane Brandenburg </strong>and his dedicated team, who bring the brand’s spirit to life every day. At the heart of it all is the <strong>Iron Heart Germany flagship store in Hamburg</strong> – the only official Iron Heart store in the European Union. A place where denim enthusiasts can connect with the brand, discover the latest collections, and experience first hand the unmatched quality of Iron Heart.</p>",
+            "size": 100
+          }
+        },
+        "button_mQcWyx": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_q93UmU",
+        "heading_mDUQqJ",
+        "text_fJQGHa",
+        "button_mQcWyx"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_DwGpyz": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_NQUyF7": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Welcome to</p>",
+            "size": 100
+          }
+        },
+        "heading_9RWp3h": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>We are proud to be the bridge between <strong>Japan’s tradition of precision and quality </strong>and Europe’s growing community of Iron Heart enthusiasts.</p>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_CVKxFg": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>We are proud to be the bridge between <strong>Japan’s tradition of precision and quality </strong>and Europe’s growing community of Iron Heart enthusiasts.</p>",
+            "size": 100
+          }
+        },
+        "button_kje7Wf": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NQUyF7",
+        "heading_9RWp3h",
+        "text_CVKxFg",
+        "button_kje7Wf"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "overlay_opacity": 50,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
     "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5": {
       "type": "section-icons-row",
       "blocks": {
@@ -316,6 +436,8 @@
     "section_banner_image_fhMfwH",
     "section_image_with_text_xLFbgw",
     "section_custom_content_ft9Yh9",
+    "section_text_cAdTqR",
+    "section_banner_image_DwGpyz",
     "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
     "main"
   ]
