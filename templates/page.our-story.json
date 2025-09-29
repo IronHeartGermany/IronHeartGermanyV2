@@ -94,6 +94,70 @@
         "padding_bottom": 60
       }
     },
+    "section_banner_image_fhMfwH": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_6zW6E3": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Welcome to</p>",
+            "size": 100
+          }
+        },
+        "heading_qyDyFi": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Palo Alto</p>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_HJrhMH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This meticulous, almost ritualistic approach reflects Japan’s respect for materials and process. The result: garments that are not only robust but that also <strong>age beautifully</strong>, developing unique character with every wear. Iron Heart is not about fleeting trends – it is about <strong>heritage workwear</strong> designed to last a lifetime.</p>",
+            "size": 100
+          }
+        },
+        "button_HBEDfY": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6zW6E3",
+        "heading_qyDyFi",
+        "text_HJrhMH",
+        "button_HBEDfY"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "overlay_opacity": 50,
+        "enable_zoom_animation": true,
+        "text_width": "narrow",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
     "section_custom_content_ft9Yh9": {
       "type": "section-custom-content",
       "blocks": {
@@ -248,6 +312,7 @@
   "order": [
     "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc",
     "text",
+    "section_banner_image_fhMfwH",
     "section_custom_content_ft9Yh9",
     "909772ff-e663-4f4f-9da8-7ede957325bf",
     "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
