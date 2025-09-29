@@ -63,7 +63,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>At the heart of Iron Heart lies an unwavering dedication to <strong>Japanese craftsmanship</strong>. Every piece is <strong>made in Japan</strong>, using carefully selected cotton and woven on vintage shuttle looms that have been preserved and perfected over generations. From the weave of the denim to the placement of every rivet and stitch, no detail is overlooked.</p>",
+            "text": "<p>At the heart of Iron Heart lies an unwavering dedication to <strong>Japanese craftsmanship</strong>. Every piece is <strong>made in Japan</strong>, using carefully selected cotton and woven on vintage shuttle looms that have been preserved and perfected over generations. From the weave of the denim to the placement of every rivet and stitch, no detail is overlooked. This meticulous, almost ritualistic approach reflects Japan’s respect for materials and process. The result: garments that are not only robust but that also <strong>age beautifully</strong>, developing unique character with every wear.</p>",
             "size": 100
           }
         },
@@ -107,9 +107,8 @@
         },
         "heading_qyDyFi": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "<p>Palo Alto</p>",
+            "text": "<p>Iron Heart is not about fleeting trends – it is about <strong>heritage workwear</strong> designed to last a lifetime.</p>",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#D43747",
@@ -119,7 +118,7 @@
         "text_HJrhMH": {
           "type": "text",
           "settings": {
-            "text": "<p>This meticulous, almost ritualistic approach reflects Japan’s respect for materials and process. The result: garments that are not only robust but that also <strong>age beautifully</strong>, developing unique character with every wear. Iron Heart is not about fleeting trends – it is about <strong>heritage workwear</strong> designed to last a lifetime.</p>",
+            "text": "",
             "size": 100
           }
         },
