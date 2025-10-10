@@ -16,6 +16,7 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "wide",
+        "image": "shopify://shop_images/Maschine.jpg",
         "subheading": "IRON HEART",
         "title": "<p><strong>THE STORY</strong></p>",
         "heading_highlight_type": "circle",
@@ -111,8 +112,8 @@
             "text": "<p>Iron Heart is not about fleeting trends – it is about <strong>heritage workwear</strong> designed to last a lifetime.</p>",
             "size": 180,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_HJrhMH": {
@@ -150,6 +151,7 @@
         "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/Maschine.jpg",
         "overlay_opacity": 50,
         "enable_zoom_animation": true,
         "text_width": "narrow",
@@ -165,11 +167,12 @@
         "layout": "inline",
         "image_location": "right",
         "image_width": "wide",
+        "image": "shopify://shop_images/Nehen.jpg",
         "subheading": "",
         "title": "<p><strong>JAPANESE DENIM MASTERY</strong></p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "heading_size": 130,
         "content": "<p>Iron Heart has become synonymous with <strong>premium Japanese denim</strong>. Built like armour yet comfortable from the very first wear, our jeans are celebrated for their rugged construction, exceptional fading potential and timeless appeal. Each pair is indigo-dyed using traditional Japanese methods, ensuring deep, rich colours that tell your story over time.</p><p>Ask any denim aficionado and they will tell you: Iron Heart doesn’t just produce jeans – we create garments that carry the spirit of Japanese mastery. They are more than clothes; they are <strong>legends in fabric</strong>, shaped by craft and culture.</p>",
         "text_alignment": "center",
@@ -194,6 +197,7 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
+            "image": "shopify://shop_images/Hose_warehouse.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
             "title": "",
@@ -263,8 +267,8 @@
             "text": "<p>YOUR GATEWAY TO JAPAN</p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_fJQGHa": {
@@ -319,8 +323,8 @@
             "text": "<p>We are proud to be the bridge between <strong>Japan’s tradition of precision and quality </strong>and Europe’s growing community of Iron Heart enthusiasts.</p>",
             "size": 180,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_CVKxFg": {
