@@ -150,7 +150,7 @@
       ],
       "name": "Banner image",
       "settings": {
-        "height": "seven-fifty-height",
+        "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/Webstuhl.jpg",
