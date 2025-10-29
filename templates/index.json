@@ -116,6 +116,7 @@
         },
         "image_Mc6ncH": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IHM-48-KHA_017_FW25_1_6d13e8d9-3186-4f62-aa6e-033feeb0084b.jpg",
             "image_mobile": "shopify://shop_images/IHM-48-KHA_024_FW25.jpg",
