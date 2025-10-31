@@ -3243,7 +3243,7 @@ search-form[loading] .predictive-search__loader {
     right: calc(var(--gutter) * 1.5);
   }
   .wrapper--full-padded .carousel .flickity-prev-next-button.previous {
-    left: calc(var(--gutter) * 2.2); /* P. Ryan - 30.10.25 - both arrows on right hand side */
+    right: calc(var(--gutter) * 2.2); /* P. Ryan - 30.10.25 - both arrows on right hand side */
   }
 }
 
