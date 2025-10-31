@@ -3251,6 +3251,11 @@ search-form[loading] .predictive-search__loader {
   .carousel__container {
     margin: 0 calc(var(--gutter-mobile) * -1);
   }
+
+  .carousel .flickity-prev-next-button.previous {
+    right: calc(var(--gutter) * 1.0); /* P. Ryan - 30.10.25 - both arrows on right hand side */
+  }
+
 }
 
 .carousel {
