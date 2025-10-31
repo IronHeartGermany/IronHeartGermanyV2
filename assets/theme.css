@@ -3253,7 +3253,7 @@ search-form[loading] .predictive-search__loader {
   }
 
   .carousel .flickity-prev-next-button.previous {
-    right: calc(var(--gutter) * 1.0); /* P. Ryan - 30.10.25 - both arrows on right hand side */
+    right: calc(var(--gutter) * 0.9); /* P. Ryan - 30.10.25 - both arrows on right hand side */
   }
 
 }
