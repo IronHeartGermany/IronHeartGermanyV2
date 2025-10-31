@@ -3243,7 +3243,7 @@ search-form[loading] .predictive-search__loader {
     right: calc(var(--gutter) * 1.5);
   }
   .wrapper--full-padded .carousel .flickity-prev-next-button.previous {
-    left: calc(var(--gutter) * 1.5);
+    right: calc(var(--gutter) * 2.2); /* P. Ryan - 30.10.25 - both arrows on right hand side */
   }
 }
 
@@ -3251,6 +3251,11 @@ search-form[loading] .predictive-search__loader {
   .carousel__container {
     margin: 0 calc(var(--gutter-mobile) * -1);
   }
+
+  .carousel .flickity-prev-next-button.previous {
+    right: calc(var(--gutter) * 0.9); /* P. Ryan - 30.10.25 - both arrows on right hand side */
+  }
+
 }
 
 .carousel {
@@ -3263,7 +3268,7 @@ search-form[loading] .predictive-search__loader {
   right: var(--flickity-btn-position);
 }
 .carousel .flickity-prev-next-button.previous {
-  left: var(--flickity-btn-position);
+  /* left: var(--flickity-btn-position); */ /* P. Ryan - 30.10.25 - both arrows on right hand side */
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .carousel {
@@ -6842,7 +6847,7 @@ https://flickity.metafizzy.co
 }
 
 .flickity-prev-next-button.previous {
-  left: 10px;
+  /* left: 10px; */ /* P. Ryan - 30.10.25 - both arrows on right hand side */
 }
 
 .flickity-prev-next-button.next {
@@ -6986,7 +6991,7 @@ https://flickity.metafizzy.co
 }
 
 .flickity-prev-next-button.previous {
-  left: var(--flickity-btn-position);
+  /* left: var(--flickity-btn-position); */ /* P. Ryan - 30.10.25 - both arrows on right hand side */
 }
 
 .flickity-prev-next-button.next {
