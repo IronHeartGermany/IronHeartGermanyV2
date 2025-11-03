@@ -48,7 +48,6 @@
         },
         "image_JTJ4Mq": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IHM-35-KHA_024_FW25_CJ_c7d36d8f-3360-4228-b299-ce62639127dc.jpg",
             "image_mobile": "shopify://shop_images/IHM-35-KHA_037_FW25_CJ.jpg",
@@ -60,8 +59,8 @@
             "title": "<p>IHM-35-KHA</p>",
             "heading_font_size": 48,
             "text_font_size": 28,
-            "heading_font_size_mobile": 24,
-            "text_font_size_mobile": 18,
+            "heading_font_size_mobile": 26,
+            "text_font_size_mobile": 20,
             "heading_highlight_type": "circle",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000",
