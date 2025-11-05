@@ -717,15 +717,15 @@
         "product_DBVc8b": {
           "type": "product",
           "settings": {
-            "product": "iron-heart-ihsb-bb-nat-iron-heart-x-simmons-bilt-horsehide-jacket-the-bareback-natural",
-            "position_x": 32,
+            "product": "dehen-1920-de-ja002-blk-dehen-1920-x-ih-germany-custom-varsity-jacket-black",
+            "position_x": 48,
             "position_y": 42
           }
         },
         "product_MQF8YR": {
           "type": "product",
           "settings": {
-            "product": "iron-heart-ihb-10-blk-heavy-duty-tochigi-leather-belt-black",
+            "product": "iron-heart-ih-777s-sb-21oz-selvedge-denim-slim-tapered-cut-jeans-superblack-non-fade",
             "position_x": 45,
             "position_y": 77
           }
@@ -733,13 +733,14 @@
         "product_C7KgwM": {
           "type": "product",
           "settings": {
-            "product": "iron-heart-ih-634s-21oz-selvedge-denim-straight-cut-jeans-indigo",
+            "product": "dehen-1920-de-ts01p-hea-dehen-1920-heavy-duty-pocket-t-shirt-heather-grey",
             "position_x": 50,
             "position_y": 90
           }
         },
         "product_mV9GPp": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "iron-heart-iht-1610l-nvy-6-5oz-loopwheel-crew-neck-t-shirt-long-navy",
             "position_x": 46,
@@ -755,7 +756,7 @@
       ],
       "name": "Shop the look ",
       "settings": {
-        "image": "shopify://shop_images/IHSB-BB-NAT_004_25_05_4b04b6bd-6ac5-4bc7-9956-2a8f2a95733f.jpg",
+        "image": "shopify://shop_images/DE-JA002-BLBL_039_d108afb3-cf03-4826-a165-e0787ed035e1.jpg",
         "enable_aspect_ratio": true,
         "main_image_aspect_ratio": 1,
         "title": "Shop the Look",
