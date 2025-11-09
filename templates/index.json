@@ -972,6 +972,77 @@
         "padding_top": 60,
         "padding_bottom": 30
       }
+    },
+    "section_custom_content_nLqNGc": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_afQj9D": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/IHSW-81L-MUS-NP_001.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "heading_size": 100,
+            "image_text": "<p>Describe in a few words your special products, collection, or brand.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "image_ej7qza": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/DE-JA002-BLBL_039_d108afb3-cf03-4826-a165-e0787ed035e1.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "heading_size": 100,
+            "image_text": "<p>Describe in a few words your special products, collection, or brand.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "image_xhAhd4": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/20251024-20251024-DSC_6160_db8bf4b4-b1d0-4fec-8493-863748303f35.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "heading_size": 100,
+            "image_text": "<p>Describe in a few words your special products, collection, or brand.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_afQj9D",
+        "image_ej7qza",
+        "image_xhAhd4"
+      ],
+      "name": "Side-by-side content",
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper--full",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -990,6 +1061,7 @@
     "section_banner_image_WJ7DW7",
     "section_locations_r4cFBa",
     "section_newsletter_kRbEAq",
-    "section_columns_Mb3rtT"
+    "section_columns_Mb3rtT",
+    "section_custom_content_nLqNGc"
   ]
 }

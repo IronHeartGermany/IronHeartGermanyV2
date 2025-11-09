@@ -16265,12 +16265,14 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   }
 }
 
+/* P. Ryan - 15.11.25 - 3 side-by-side images - remove the padding between the images and the sides of the page
 .wrapper--full .brick__blocks__flex--gap {
   padding: 0 var(--grid-gutter);
 }
+*/
 @media only screen and (min-width: 1024px) {
   .brick__blocks__flex--gap .brick__block {
-    flex-basis: calc(50% - var(--grid-gutter));
+    flex-basis: calc(33% - var(--grid-gutter)); /* P. Ryan - 15.11.25 - 3 side-by-side images */
   }
   .brick__blocks__flex--gap .brick__block + .brick__block {
     margin-left: var(--grid-gutter);
@@ -16282,7 +16284,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
   }
   .brick__blocks__flex--gap .brick__block {
     margin: 0 calc(var(--gutter-mobile) / 2);
-    flex-basis: calc(50% - var(--gutter-mobile));
+    flex-basis: calc(33% - var(--gutter-mobile)); /* P. Ryan - 15.11.25 - 3 side-by-side images */
   }
 }
 @media only screen and (max-width: 767px) {
@@ -16305,7 +16307,7 @@ body:not(.no-outline) .selector-wrapper--swatches .radio__fieldset:focus-within,
 }
 @media only screen and (min-width: 768px) {
   .brick__block {
-    flex: 1 0 50%;
+    flex: 1 0 33.3%; /* P. Ryan - 15.11.25 - 3 side-by-side images */
   }
 }
 .brick__block .video-text-wrapper {
