@@ -264,6 +264,59 @@
         "padding_bottom": 60
       }
     },
+    "section_accordions_z7U8HP": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_wcdKTX": {
+          "type": "text",
+          "settings": {
+            "title": "Wie finde ich die richtige Größe bei Iron Heart?",
+            "text": "<h4>Iron Heart misst alle Kleidungsstücke flachliegend und gibt die Maße in detaillierten Größentabellen an – so kannst du deine perfekte Passform leicht vergleichen.</h4><p>Iron Heart verwendet ein flachliegendes Messverfahren, bei dem jedes Kleidungsstück auf einer ebenen Fläche vermessen wird. So entstehen präzise Angaben für Bund, Oberschenkel, Knie, Saum und Beinlänge bei Jeans sowie für Brustweite, Schulter, Ärmel und Rückenlänge bei Shirts und Jacken. Auf der Seite „How We Measure“ in unserem Shop zeigen wir dir im Detail, wie wir messen.</p><p>Um deine richtige Größe zu finden, miss ein vergleichbares Kleidungsstück aus deinem Kleiderschrank flachliegend nach denselben Punkten ab und vergleiche die Ergebnisse mit der Größentabelle des jeweiligen Iron Heart Produktes, um das es geht. Solltest du unsicher sein, hilft dir unser Team gerne weiter, um deinen individuellen Iron Heart Fit zu finden.</p>"
+          }
+        },
+        "text_dNAPGg": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist der Unterschied zwischen japanischen und amerikanischen Größen – und wie finde ich meine richtige Größe bei Iron Heart?",
+            "text": "<h4>Japanische Größen fallen tendenziell kleiner aus als amerikanische. Vergleiche deshalb immer die Maßangaben der Produkte mit einem Kleidungsstück, das dir gut passt, und nutze unser Video „How We Measure“, um richtig zu messen.</h4><p>Japanische Marken wie Iron Heart und amerikanische Marken wie Dehen oder Wesco verwenden unterschiedliche Größensysteme. Das bedeutet: Eine Größe „L“ kann je nach Marke<br/>unterschiedlich ausfallen – bei japanischen Modellen meist etwas kleiner und<br/>kompakter als bei US-Marken.</p><p>So findest<br/>du deine richtige Größe:</p><p>Vergleiche<br/>Maße statt Etiketten. Lege ein Kleidungsstück, das dir gut passt, flach hin und<br/>miss es nach denselben Punkten wie in unserer Anleitung.</p><p>Sieh dir<br/>unser Video „How We Measure“ an – dort zeigen wir dir Schritt für Schritt, wie<br/>du richtig misst.</p><p>Vergleiche<br/>deine Werte mit der Größentabelle des gewünschten Produkts im Shop.</p><p>Beachte<br/>Schnitt und Stoff: Slim, Straight, Relaxed oder Tapered Fits unterscheiden sich<br/>im Sitz; Raw Denim kann sich mit der Zeit leicht weiten.</p><p>Zwischen<br/>zwei Größen? Bei eng geschnittenen Styles lieber die größere Größe wählen – bei<br/>Raw Denim darf es anfangs etwas fester sitzen.</p><p>Wechselst du<br/>zwischen Marken? Unsere Produktbeschreibungen geben oft einen Hinweis („fällt<br/>kleiner aus als typische US-Größen“).</p><p>Noch<br/>unsicher? Schick uns einfach deine gemessenen Werte – unser Team hilft dir beim<br/>perfekten Fit.</p><p>Kurz gesagt:</p><p>Japanische<br/>Größen = kompakterer Schnitt.</p><p>US-Größen =<br/>etwas weiter geschnitten.</p><p>Immer<br/>messen, nie schätzen. So sitzt dein Iron Heart Piece perfekt – ganz gleich, aus<br/>welchem Land die Marke stammt.</p>"
+          }
+        },
+        "text_fPF3bR": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        },
+        "text_xj3myz": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_wcdKTX",
+        "text_dNAPGg",
+        "text_fPF3bR",
+        "text_xj3myz"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Maße / Passform & Größen",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "accordion-section-1": {
       "type": "section-accordions",
       "blocks": {
@@ -427,6 +480,7 @@
     "section_accordions_cGdzNP",
     "accordion-section-2",
     "section_accordions_MPEiHj",
+    "section_accordions_z7U8HP",
     "accordion-section-1",
     "accordion-section-3",
     "accordion-section-4"
