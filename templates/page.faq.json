@@ -24,8 +24,9 @@
       "blocks": {
         "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-0": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
-            "text": "<p>IRON HEART</p>",
+            "text": "<p>IRON HEART GERMANY</p>",
             "size": 100
           }
         },
@@ -41,33 +42,17 @@
         },
         "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.</p>",
             "size": 100
-          }
-        },
-        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-3": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
           }
         }
       },
       "block_order": [
         "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-0",
         "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-1",
-        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-2",
-        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-3"
+        "template--18952594030913__25dbd963-093c-4cc9-9cd4-7bde32b883ac-16831285413c69ee80-2"
       ],
       "settings": {
         "height": "four-fifty-height",
@@ -79,6 +64,59 @@
         "text_width": "normal",
         "text_position": "center",
         "text_color": "text-light"
+      }
+    },
+    "section_accordions_cGdzNP": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_yeaUYy": {
+          "type": "text",
+          "settings": {
+            "title": "Wann sind neue Kollektionen oder angekündigte Artikel erhältlich?",
+            "text": "<p><em>Produkte einer kommenden Kollektion werden schon vorab im Shop gezeigt  – das genaue Veröffentlichungsdatum können wir aber immer nur grob schätzen.</em></p><p>Wir präsentieren viele Artikel bereits im E-Shop, bevor sie tatsächlich erhältlich sind – damit du dir vorab ein Bild von der kommenden Kollektion machen kannst. Die genauen <strong>Verkaufsstarts </strong>und <strong>Eintrefftermine</strong> erfahren wir jedoch <strong>erst kurz vor Auslieferung </strong>aus Japan oder den USA. Sobald ein Artikel verfügbar ist, wird er im Shop bestellbar und mit einem Preis angezeigt.</p><p>Wenn du einen bestimmten Artikel im Blick hast, kannst du dich <strong>auf der Produktseite</strong> mit deiner <strong>E-Mail-Adresse und Wunschgröße</strong> anmelden. Klicke dazu auf den Button <strong>„NOTIFY ME WHEN A PARTICULAR SIZE IS AVAILABLE“</strong> – du erhältst automatisch eine Nachricht, sobald das Produkt verfügbar ist.</p><p>Fazit:</p><ul><li>Vorschau-Artikel = Teil kommender<br/>Kollektionen</li><li>Kein fixes Veröffentlichungsdatum<br/>bekannt</li><li>„Notify Me“-Funktion nutzen, um beim Launch informiert zu werden</li></ul>"
+          }
+        },
+        "text_TFj6Tk": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+          }
+        },
+        "text_LTrbnU": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        },
+        "text_ywpkiK": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_yeaUYy",
+        "text_TFj6Tk",
+        "text_LTrbnU",
+        "text_ywpkiK"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Verfügbarkeit und Restocks",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "accordion-section-1": {
@@ -301,6 +339,7 @@
   "order": [
     "main",
     "25dbd963-093c-4cc9-9cd4-7bde32b883ac",
+    "section_accordions_cGdzNP",
     "accordion-section-1",
     "accordion-section-2",
     "accordion-section-3",
