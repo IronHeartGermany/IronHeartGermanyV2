@@ -209,13 +209,45 @@
             "title": "Wie kann ich meine Jeans beim Waschen einlaufen lassen?",
             "text": "<h4>Jeans laufen in der Waschmaschine vor allem durch Hitze und Bewegung ein; mit der richtigen Technik kannst du den Effekt kontrollieren.</h4><p>Jeans bestehen meist aus Baumwoll-Denim, der sich bei Kontakt mit Wasser und Hitze zusammenzieht. In der Waschmaschine zieht warmes oder heißes Wasser die Fasern zusammen, und das Schleudern verstärkt den Effekt.</p><p>Wenn du möchtest, dass deine Jeans leicht einlaufen, wähle höhere Temperaturen und kürzere Schleuderzyklen. Willst du das Einlaufen minimieren, wähle 30 °C, drehe die Jeans auf links und lasse sie an der Luft trocknen, statt sie in den Trockner zu geben.</p><p>Bei raw denim, wie bei Iron Heart Jeans, kann sich die Passform in den ersten Wochen noch leicht verändern – ein sanftes Einlaufen gehört zur natürlichen<br/>Formentwicklung.</p>"
           }
+        },
+        "text_CjtTcj": {
+          "type": "text",
+          "settings": {
+            "title": "Wie hänge ich meine Jeans richtig zum Trocknen auf?",
+            "text": "<h4>Jeans sollten nach dem Waschen auf links gedreht aufgehängt und an der Luft getrocknet werden; so dauert es länger, dafür bleibt die Form erhalten.</h4><p>Drehe deine Jeans auf links, bevor du sie aufhängst – so wird die Außenseite geschont und die Farbe bleibt länger intensiv. Hänge die Jeans an einem Kleiderbügel oder einer Wäscheleine auf, sodass sie vollständig hängen kann, ohne geknickt zu sein.</p><p>Die Trocknungsdauer hängt von Stoffstärke, Luftfeuchtigkeit und Raumtemperatur ab. Dünnere Jeans sind oft nach wenigen Stunden trocken, dicke Raw-Denim-Modelle können bis zu 24 Stunden benötigen. Vermeide direkte Sonneneinstrahlung oder Heizkörper, da das Lederetikett oder die Farbe beschädigt werden kann. So behält die Jeans ihre Form und Farbe am besten.</p>"
+          }
+        },
+        "text_Ad3iJn": {
+          "type": "text",
+          "settings": {
+            "title": "Wie bügelt man Jeans richtig?",
+            "text": "<h4>Jeans sollte man nur bei niedriger Temperatur von links bügeln – oder am besten gar nicht, wenn man es puristisch mag.</h4><p>Grundsätzlich gilt: Jeans bügeln ist möglich, aber nicht nötig. Wenn du Falten entfernen willst, drehe die Hose auf links und wähle eine niedrige Temperatur (max. 150 °C). So schützt du die Indigo-Färbung und das Gewebe. Verwende kein Dampf, da er die Fasern aufquellen lassen kann – vor allem bei Raw Denim.</p><p>Aber ehrlich gesagt: Echte Denim Heads bügeln ihre Jeans nicht. Sie lassen sie nach dem Waschen einfach an der Luft trocknen, ziehen sie dann kurz in Form – fertig. So bleibt der authentische Charakter des Denims erhalten und mit jeder Bewegung entstehen neue, individuelle Fades.</p>"
+          }
+        },
+        "text_WnYjcr": {
+          "type": "text",
+          "settings": {
+            "title": "Kann man eine Lederjacke bügeln?",
+            "text": "<h4>Eine Lederjacke sollte nicht direkt gebügelt werden – leichte Falten glätten sich durch Tragen, Dampf oder einen Fachservice.</h4><p>Eine Lederjacke ist empfindlich und sollte niemals direkt mit dem Bügeleisen in Kontakt kommen, da Hitze das Leder austrocknen oder verfärben kann. Kleine<br/>Falten verschwinden oft schon durch das Tragen der Jacke, da Körperwärme das Leder geschmeidig macht. Hartnäckigere Knitter lassen sich vorsichtig mit Dampf behandeln: Hänge die Jacke im Badezimmer auf, während du heiß duschst, oder halte sie mit Abstand über heißen Wasserdampf.</p><p>Alternativ kannst du ein Baumwolltuch über die betroffene Stelle legen und das Bügeleisen nur bei sehr niedriger Temperatur kurz ohne Druck über das Tuch führen – dabei immer vorsichtig testen. Für wertvolle Stücke empfiehlt sich ein professioneller Lederpflegeservice.</p>"
+          }
+        },
+        "text_EwQx7T": {
+          "type": "text",
+          "settings": {
+            "title": "Wie bügelt man Cordstoff richtig?",
+            "text": "<h4>Cordstoff sollte auf links und bei niedriger Temperatur gebügelt werden, um Fasern und Rippen zu schonen.</h4><p>Cord ist ein empfindlicher Stoff mit erhabenen Rippen, die leicht beschädigt werden können. Bügle Cordstoff immer auf links und verwende die niedrigste Stufe deines Bügeleisens, ggf. mit Dampffunktion.</p><p>Lege ein Baumwolltuch zwischen Stoff und Bügeleisen, um direkten Kontakt zu vermeiden. Bewege das Bügeleisen vorsichtig und ohne Druck über den Stoff.</p><p>Alternativ kannst du leichte Falten auch durch Aufhängen im Dampf (z. B. im Badezimmer während einer heißen<br/>Dusche) glätten. So bleibt die Struktur der Rippen erhalten und der Cordstoff<br/>sieht gepflegt aus.</p>"
+          }
         }
       },
       "block_order": [
         "text_LdQQQk",
         "text_CYxwra",
         "text_6AqB73",
-        "text_RweNgC"
+        "text_RweNgC",
+        "text_CjtTcj",
+        "text_Ad3iJn",
+        "text_WnYjcr",
+        "text_EwQx7T"
       ],
       "name": "Tabs",
       "settings": {
