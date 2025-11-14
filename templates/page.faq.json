@@ -284,23 +284,15 @@
         "text_fPF3bR": {
           "type": "text",
           "settings": {
-            "title": "Do you offer refunds?",
-            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
-          }
-        },
-        "text_xj3myz": {
-          "type": "text",
-          "settings": {
-            "title": "What shipping methods do you offer?",
-            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+            "title": "Wie sollte eine Jeans sitzen?",
+            "text": "<h4>Eine Jeans sollte eng genug sitzen, um sich mit dem Tragen an deine Körperform anzupassen, aber nicht einschränken.</h4><p>Der ideale Sitz einer Jeans hängt von <strong>Schnitt, Material und persönlichem Tragegefühl</strong> ab. Eine <strong>gut sitzende Jeans</strong> sollte im Bund fest, aber nicht unbequem anliegen – sie darf sich leicht dehnen, wenn du dich bewegst. Am Bund sollte sie fest, aber nicht einschnürend sitzen.</p><p><strong>Zur Länge:</strong></p><p>Bei <strong>Iron Heart</strong> sind die Jeans bewusst mit mehr oder weniger <strong>einheitlicher,<br/>längerer Beinlänge </strong>gefertigt. Das hat Tradition: Du kannst die Jeans entweder</p><ul><li><strong>umschlagen (Cuffs)</strong>, um den charakteristischen Selvedge-Streifen sichtbar zu machen, oder</li><li>sie <strong>individuell kürzen (Chainstitch-Hemming) </strong>lassen – am besten mit einem Kettenstich, wie er klassisch bei schweren Denims verwendet wird. So bleibt die <strong>ursprüngliche Webkante (Selvedge) </strong>erhalten, und du kannst die Länge exakt an deinen Stil anpassen.</li></ul><p>Mit der Zeit formt sich die Jeans durch Tragen und Waschen perfekt an deinen Körper an – ganz ohne Elastan.</p>"
           }
         }
       },
       "block_order": [
         "text_wcdKTX",
         "text_dNAPGg",
-        "text_fPF3bR",
-        "text_xj3myz"
+        "text_fPF3bR"
       ],
       "name": "Tabs",
       "settings": {
