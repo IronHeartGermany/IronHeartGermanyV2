@@ -80,14 +80,14 @@
           "type": "text",
           "settings": {
             "title": "Warum sind manche Artikel dauerhaft ausverkauft?",
-            "text": "<p><em>Einige Artikel werden nur einmal produziert – wenn sie ausverkauft sind, kommen sie nicht wieder.</em></p><p>Viele unserer Produkte, insbesondere von <strong>Iron Heart</strong>, werden in <strong>limitierten Stückzahlen </strong>gefertigt. Das bedeutet: Wenn ein Artikel ausverkauft ist, wird er in der Regel nicht nachproduziert. Manche Stoffe oder Farben sind <strong>einmalige Produktionen</strong>, die nach der jeweiligen Saison nicht erneut aufgelegt werden.</p><p>Auch bei den anderen Marken in unserem Sortiment – wie <strong>Dehen</strong> oder <strong>Wesco</strong> – gilt: Verfügbarkeit hängt von der Produktion der jeweiligen Hersteller ab. Wir haben darauf keinen Einfluss und erfahren oft erst kurz vor einer neuen Lieferung, welche Modelle oder Größen tatsächlich kommen.</p><p>Wenn du ein bestimmtes Teil verpasst hast, kannst du dich trotzdem auf der <strong>Produktseite</strong> mit deiner <strong>E-Mail-Adresse<br/>und Größe</strong> anmelden. So wirst du automatisch informiert, falls der Artikel <strong>doch noch einmal</strong> verfügbar wird oder ein <strong>ähnliches Modell</strong> online geht.</p><p>Fazit:</p><ul><li>Viele Artikel sind <strong>limitierte<br/>Produktionen</strong></li><li>Kein Anspruch auf Nachproduktion</li><li><strong>„Notify Me“-Funktion</strong> nutzen, um eventuelle Restocks oder Nachfolger nicht zu verpassen</li></ul>"
+            "text": "<h4>Einige Artikel werden nur einmal produziert – wenn sie ausverkauft sind, kommen sie nicht wieder.</h4><p>Viele unserer Produkte, insbesondere von <strong>Iron Heart</strong>, werden in <strong>limitierten Stückzahlen </strong>gefertigt. Das bedeutet: Wenn ein Artikel ausverkauft ist, wird er in der Regel nicht nachproduziert. Manche Stoffe oder Farben sind <strong>einmalige Produktionen</strong>, die nach der jeweiligen Saison nicht erneut aufgelegt werden.</p><p>Auch bei den anderen Marken in unserem Sortiment – wie <strong>Dehen</strong> oder <strong>Wesco</strong> – gilt: Verfügbarkeit hängt von der Produktion der jeweiligen Hersteller ab. Wir haben darauf keinen Einfluss und erfahren oft erst kurz vor einer neuen Lieferung, welche Modelle oder Größen tatsächlich kommen.</p><p>Wenn du ein bestimmtes Teil verpasst hast, kannst du dich trotzdem auf der <strong>Produktseite</strong> mit deiner <strong>E-Mail-Adresse<br/>und Größe</strong> anmelden. So wirst du automatisch informiert, falls der Artikel <strong>doch noch einmal</strong> verfügbar wird oder ein <strong>ähnliches Modell</strong> online geht.</p><p>Fazit:</p><ul><li>Viele Artikel sind <strong>limitierte<br/>Produktionen</strong></li><li>Kein Anspruch auf Nachproduktion</li><li><strong>„Notify Me“-Funktion</strong> nutzen, um eventuelle Restocks oder Nachfolger nicht zu verpassen</li></ul>"
           }
         },
         "text_LTrbnU": {
           "type": "text",
           "settings": {
             "title": "Wann werden ausverkaufte Artikel wieder verfügbar sein?",
-            "text": "<p><em>Wir wissen nie genau, wann ausverkaufte Artikel oder Größen wieder eintreffen – aber du kannst dich für automatische Benachrichtigungen anmelden.</em></p><p>Viele unserer Produkte – insbesondere Jeans, Jacken und Hemden – sind stark limitiert und oft schnell ausverkauft. Wir wissen <strong>nicht im Voraus</strong>, ob und wann ein bestimmter Artikel <strong>nachproduziert oder nachgeliefert</strong> wird. Sobald wir neue Ware erhalten, aktualisieren wir die Bestände im Shop umgehend.</p><p>Um keinen Restock zu verpassen, kannst du dich <strong>auf der jeweiligen Produktseite</strong> mit <strong>deiner E-Mail-Adresse und Größe</strong> anmelden. Klicke einfach auf den Button <strong>„NOTIFY ME WHEN A PARTICULAR SIZE IS AVAILABLE“</strong> – du wirst automatisch benachrichtigt, sobald der Artikel wieder auf Lager ist.</p><p>Fazit:</p><ul><li>Restocks sind nicht planbar oder<br/>vorhersagbar</li><li>Neue Ware wird sofort im Shop<br/>freigeschaltet</li><li>„Notify Me“-Funktion nutzen, um automatisch informiert zu werden</li></ul>"
+            "text": "<h4>Wir wissen nie genau, wann ausverkaufte Artikel oder Größen wieder eintreffen – aber du kannst dich für automatische Benachrichtigungen anmelden.</h4><p>Viele unserer Produkte – insbesondere Jeans, Jacken und Hemden – sind stark limitiert und oft schnell ausverkauft. Wir wissen <strong>nicht im Voraus</strong>, ob und wann ein bestimmter Artikel <strong>nachproduziert oder nachgeliefert</strong> wird. Sobald wir neue Ware erhalten, aktualisieren wir die Bestände im Shop umgehend.</p><p>Um keinen Restock zu verpassen, kannst du dich <strong>auf der jeweiligen Produktseite</strong> mit <strong>deiner E-Mail-Adresse und Größe</strong> anmelden. Klicke einfach auf den Button <strong>„NOTIFY ME WHEN A PARTICULAR SIZE IS AVAILABLE“</strong> – du wirst automatisch benachrichtigt, sobald der Artikel wieder auf Lager ist.</p><p>Fazit:</p><ul><li>Restocks sind nicht planbar oder<br/>vorhersagbar</li><li>Neue Ware wird sofort im Shop<br/>freigeschaltet</li><li>„Notify Me“-Funktion nutzen, um automatisch informiert zu werden</li></ul>"
           }
         }
       },
@@ -169,6 +169,59 @@
         "layout": "two-columns",
         "show_accordion_divider": false,
         "title": "Versand & Zoll",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_MPEiHj": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_LdQQQk": {
+          "type": "text",
+          "settings": {
+            "title": "Wie oft sollte man Jeans waschen?",
+            "text": "<h4>Jeans sollten möglichst selten gewaschen werden – nur bei sichtbarer Verschmutzung oder nach 10–15 Mal Tragen.</h4><p>Jeans behalten ihre Form, Farbe und Langlebigkeit am besten, wenn man sie nicht nach jedem Tragen wäscht. Empfohlen ist eine Wäsche nach etwa 10–15 Mal Tragen oder nur dann, wenn die Jeans sichtbar verschmutzt ist. Viele Denim-Fans tragen ihre Jeans sogar mehrere Monate oder Jahre, bevor sie das erste Mal gewaschen werden.</p>"
+          }
+        },
+        "text_CYxwra": {
+          "type": "text",
+          "settings": {
+            "title": "Wie wäscht man Jeans richtig?",
+            "text": "<h4>Drehe Jeans auf links, wasche sie bei 30 °C mit mildem Waschmittel und vermeide Weichspüler.</h4><p>Iron Heart Jeans und andere hochwertige Denim-Modelle solltest du schonend waschen, um Passform, Farbe und Struktur zu erhalten. Drehe die Jeans beim Waschen immer auf links, damit die Oberfläche geschont wird. Wasche bei niedriger Temperatur (idealerweise 30 °C), um das Gewebe zu schützen und Farbverlust zu vermeiden.</p><p>Jeans behalten ihre Form, Farbe und Langlebigkeit am besten, wenn man sie nicht nach jedem Tragen wäscht. Empfohlen ist eine Wäsche nach etwa 10–15 Mal Tragen oder nur dann, wenn die Jeans sichtbar verschmutzt ist. Viele Denim-Fans tragen ihre Jeans sogar mehrere Monate oder Jahre, bevor sie das erste Mal gewaschen werden.</p>"
+          }
+        },
+        "text_6AqB73": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        },
+        "text_RweNgC": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LdQQQk",
+        "text_CYxwra",
+        "text_6AqB73",
+        "text_RweNgC"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Wasch- und Pflegehinweise",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
@@ -341,6 +394,7 @@
     "25dbd963-093c-4cc9-9cd4-7bde32b883ac",
     "section_accordions_cGdzNP",
     "accordion-section-2",
+    "section_accordions_MPEiHj",
     "accordion-section-1",
     "accordion-section-3",
     "accordion-section-4"
