@@ -79,8 +79,8 @@
         "text_TFj6Tk": {
           "type": "text",
           "settings": {
-            "title": "Do you offer warranty for your products?",
-            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+            "title": "Warum sind manche Artikel dauerhaft ausverkauft?",
+            "text": "<p><em>Einige Artikel werden nur einmal produziert – wenn sie ausverkauft sind, kommen sie nicht wieder.</em></p><p>Viele unserer Produkte, insbesondere von <strong>Iron Heart</strong>, werden in <strong>limitierten Stückzahlen </strong>gefertigt. Das bedeutet: Wenn ein Artikel ausverkauft ist, wird er in der Regel nicht nachproduziert. Manche Stoffe oder Farben sind <strong>einmalige Produktionen</strong>, die nach der jeweiligen Saison nicht erneut aufgelegt werden.</p><p>Auch bei den anderen Marken in unserem Sortiment – wie <strong>Dehen</strong> oder <strong>Wesco</strong> – gilt: Verfügbarkeit hängt von der Produktion der jeweiligen Hersteller ab. Wir haben darauf keinen Einfluss und erfahren oft erst kurz vor einer neuen Lieferung, welche Modelle oder Größen tatsächlich kommen.</p><p>Wenn du ein bestimmtes Teil verpasst hast, kannst du dich trotzdem auf der <strong>Produktseite</strong> mit deiner <strong>E-Mail-Adresse<br/>und Größe</strong> anmelden. So wirst du automatisch informiert, falls der Artikel <strong>doch noch einmal</strong> verfügbar wird oder ein <strong>ähnliches Modell</strong> online geht.</p><p>Fazit:</p><ul><li>Viele Artikel sind <strong>limitierte<br/>Produktionen</strong></li><li>Kein Anspruch auf Nachproduktion</li><li><strong>„Notify Me“-Funktion</strong> nutzen, um eventuelle Restocks oder Nachfolger nicht zu verpassen</li></ul>"
           }
         },
         "text_LTrbnU": {
@@ -89,20 +89,12 @@
             "title": "Wann werden ausverkaufte Artikel wieder verfügbar sein?",
             "text": "<p><em>Wir wissen nie genau, wann ausverkaufte Artikel oder Größen wieder eintreffen – aber du kannst dich für automatische Benachrichtigungen anmelden.</em></p><p>Viele unserer Produkte – insbesondere Jeans, Jacken und Hemden – sind stark limitiert und oft schnell ausverkauft. Wir wissen <strong>nicht im Voraus</strong>, ob und wann ein bestimmter Artikel <strong>nachproduziert oder nachgeliefert</strong> wird. Sobald wir neue Ware erhalten, aktualisieren wir die Bestände im Shop umgehend.</p><p>Um keinen Restock zu verpassen, kannst du dich <strong>auf der jeweiligen Produktseite</strong> mit <strong>deiner E-Mail-Adresse und Größe</strong> anmelden. Klicke einfach auf den Button <strong>„NOTIFY ME WHEN A PARTICULAR SIZE IS AVAILABLE“</strong> – du wirst automatisch benachrichtigt, sobald der Artikel wieder auf Lager ist.</p><p>Fazit:</p><ul><li>Restocks sind nicht planbar oder<br/>vorhersagbar</li><li>Neue Ware wird sofort im Shop<br/>freigeschaltet</li><li>„Notify Me“-Funktion nutzen, um automatisch informiert zu werden</li></ul>"
           }
-        },
-        "text_ywpkiK": {
-          "type": "text",
-          "settings": {
-            "title": "What shipping methods do you offer?",
-            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
-          }
         }
       },
       "block_order": [
         "text_yeaUYy",
         "text_TFj6Tk",
-        "text_LTrbnU",
-        "text_ywpkiK"
+        "text_LTrbnU"
       ],
       "name": "Tabs",
       "settings": {
