@@ -309,6 +309,59 @@
         "padding_bottom": 60
       }
     },
+    "section_accordions_gKnrRY": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_BaPkhN": {
+          "type": "text",
+          "settings": {
+            "title": "Bietet Iron Heart Germany einen Hemming-Service an?",
+            "text": "<h4>Ja – wir kürzen Jeans auf Wunsch, aber nur neue, ungetragene Modelle, die bei Iron Heart Germany gekauft wurden. Hemming ist nicht verfügbar für Chinos oder Duck Canvas Pants.</h4><p>Ja, Iron Heart Germany bietet einen professionellen Hemming-Service (Kürzen der Jeanslänge) an.</p><p>Bitte beachte dabei Folgendes:</p><ul><li><strong>Nur für neue, ungetragene Jeans<br/></strong>Der Hemming-Service kann nur durchgeführt werden, bevor die Jeans getragen oder gewaschen wurde.</li><li><strong>Nur für bei uns gekaufte Jeans<br/></strong>Wir hemmen ausschließlich Jeans, die über den Iron Heart Germany Shop erworben wurden.</li><li><strong>Nicht für Chinos oder Duck Canvas<br/>Pants<br/></strong>Diese Materialien sind vom Hemming-Service ausgenommen.</li><li><strong>Keine Reparaturen</strong><br/>Wir bieten aktuell keinen Reparaturservice an.</li></ul><p>Wenn du eine neue Jeans im Shop<br/>bestellst, kannst du den Hemming-Service direkt im Bestellprozess auswählen oder uns deinen Wunsch per E-Mail mitteilen.</p><p>Die gewünschte Länge wird auf den<br/>Zentimeter genau angepasst – mit originaler Kettenstichnaht, wie bei der<br/>Fertigung der Jeans.</p><p>Kurz gesagt:</p><p>Hemming? Ja – aber nur für neue<br/>Iron Heart Jeans, direkt bei uns gekauft.</p><p>Chinos, Duck Canvas und Reparaturen? Leider nein.</p>"
+          }
+        },
+        "text_JHgmp7": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+          }
+        },
+        "text_jp6xji": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        },
+        "text_jWq49a": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BaPkhN",
+        "text_JHgmp7",
+        "text_jp6xji",
+        "text_jWq49a"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Service",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "accordion-section-1": {
       "type": "section-accordions",
       "blocks": {
@@ -473,6 +526,7 @@
     "accordion-section-2",
     "section_accordions_MPEiHj",
     "section_accordions_z7U8HP",
+    "section_accordions_gKnrRY",
     "accordion-section-1",
     "accordion-section-3",
     "accordion-section-4"
