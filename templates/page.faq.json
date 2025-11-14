@@ -318,34 +318,10 @@
             "title": "Bietet Iron Heart Germany einen Hemming-Service an?",
             "text": "<h4>Ja – wir kürzen Jeans auf Wunsch, aber nur neue, ungetragene Modelle, die bei Iron Heart Germany gekauft wurden. Hemming ist nicht verfügbar für Chinos oder Duck Canvas Pants.</h4><p>Ja, Iron Heart Germany bietet einen professionellen Hemming-Service (Kürzen der Jeanslänge) an.</p><p>Bitte beachte dabei Folgendes:</p><ul><li><strong>Nur für neue, ungetragene Jeans<br/></strong>Der Hemming-Service kann nur durchgeführt werden, bevor die Jeans getragen oder gewaschen wurde.</li><li><strong>Nur für bei uns gekaufte Jeans<br/></strong>Wir hemmen ausschließlich Jeans, die über den Iron Heart Germany Shop erworben wurden.</li><li><strong>Nicht für Chinos oder Duck Canvas<br/>Pants<br/></strong>Diese Materialien sind vom Hemming-Service ausgenommen.</li><li><strong>Keine Reparaturen</strong><br/>Wir bieten aktuell keinen Reparaturservice an.</li></ul><p>Wenn du eine neue Jeans im Shop<br/>bestellst, kannst du den Hemming-Service direkt im Bestellprozess auswählen oder uns deinen Wunsch per E-Mail mitteilen.</p><p>Die gewünschte Länge wird auf den<br/>Zentimeter genau angepasst – mit originaler Kettenstichnaht, wie bei der<br/>Fertigung der Jeans.</p><p>Kurz gesagt:</p><p>Hemming? Ja – aber nur für neue<br/>Iron Heart Jeans, direkt bei uns gekauft.</p><p>Chinos, Duck Canvas und Reparaturen? Leider nein.</p>"
           }
-        },
-        "text_JHgmp7": {
-          "type": "text",
-          "settings": {
-            "title": "Do you offer warranty for your products?",
-            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
-          }
-        },
-        "text_jp6xji": {
-          "type": "text",
-          "settings": {
-            "title": "Do you offer refunds?",
-            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
-          }
-        },
-        "text_jWq49a": {
-          "type": "text",
-          "settings": {
-            "title": "What shipping methods do you offer?",
-            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
-          }
         }
       },
       "block_order": [
-        "text_BaPkhN",
-        "text_JHgmp7",
-        "text_jp6xji",
-        "text_jWq49a"
+        "text_BaPkhN"
       ],
       "name": "Tabs",
       "settings": {
@@ -517,6 +493,59 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_accordions_TzmBFA": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_tnnFXi": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet „sanforisiert“, „unsanforisiert“ oder„one-washed“ – und wie stark läuft meine Jeans beim Waschen ein?",
+            "text": "<h4>Sanforisierte Jeans laufen kaum ein. Unwashed (Raw oder auch Dry Denim genannt) kann beim ersten Waschen um bis zu 1 Zoll (≈ 2,5 cm) in der Taille und 2 Zoll (≈ 5 cm) in der Länge schrumpfen. Die meisten Iron Heart Jeans sind sanforisiert und one washed – also bereits vorab geschrumpft.</h4><p>Beim Thema Denim tauchen häufig die Begriffe „sanforisiert“ „unsanforisiert“, „one washed“ und „unwashed“ auf. Sie beschreiben, wie stark eine Jeans beim ersten Waschen noch einläuft.</p><p><span style=\"text-decoration:underline\">Hier die Unterschiede:</span></p><p><strong>SANFORISIERT</strong> (pre-shrunk): Beim Sanforisieren wird der Denimstoff mechanisch vorbehandelt, um mögliche Schrumpfung bereits vor der Verarbeitung zu reduzieren.</p><p>Das Ergebnis:</p><ul><li>Der Stoff läuft nur minimal ein (meist unter 3 %).</li><li>Form und Länge bleiben auch nach der ersten Wäsche weitgehend stabil.</li></ul><p><strong>Die meisten Iron Heart Stoffe sind sanforisiert.</strong></p><p><strong>ONE-WASHED</strong>: Nach der Fertigung wird die Jeans <strong>einmal industriell gewaschen</strong>.</p><p>Dadurch zieht sich der Stoff leicht zusammen – der natürliche Schrumpf findet bereits in der Produktion statt. Das bedeutet:</p><ul><li>Die Jeans ist vorgewaschen und trägt sich sofort angenehm.</li><li>Es ist kein zusätzliches Einlaufen mehr zu erwarten.</li></ul><p><strong>Fast alle Iron Heart Jeans sind sanforisiert und one-washed. </strong>Das garantiert eine <strong>sehr stabile Passform</strong> ab dem ersten Tragen.</p><p><strong>UNWASHED</strong> (Raw Denim oder auch Dry Denim): Unwashed oder „raw“ bedeutet: <strong>nicht industriell vorgewaschen</strong>. Wenn der Stoff <strong>sanforisiert</strong> ist, schrumpft er beim ersten Waschen leicht (ca. 1<br/>Zoll in Taille und Länge). Wenn der Stoff <strong>unsanforisiert</strong> ist, schrumpft er deutlich stärker (siehe unten).</p><p>Bei Iron Heart sind unsanforisierte & unwashed Modelle mit dem Kürzel „<strong>UHR</strong>“ gekennzeichnet.</p><p><strong>Unsanforisiert & Unwashed (UHR)<br/><br/></strong>Das ist roher, unbehandelter Denim im Loomstate-Zustand.<strong><br/><br/></strong>Er wurde nicht sanforisiert und nicht gewaschen – also komplett naturbelassen.</p><p>Ergebnis beim ersten Waschen oder<br/>Einweichen („soak“):</p><ul><li>ca. 1 Zoll (≈ 2,5 cm) Schrumpf in<br/>der Taille</li><li>ca. 2 Zoll (≈ 5 cm) Schrumpf in der Beinlänge</li><li>alle anderen Maße verändern sich proportional</li></ul><p>Nach dem Einlaufen dehnt sich die Taille beim Tragen um etwa 1 Zoll wieder aus.</p><p>UHR = unsanforisiert + unwashed = Shrink-to-Fit.</p><p><strong>Unsanforisiert, aber one-washed (z. B. XHS)<br/><br/></strong>Manche sehr schweren Stoffe (z. B. XHS Denim) sind unsanforisiert, wurden aber nach der Produktion gewaschen.<strong> </strong>Dadurch ist der Haupt-Schrumpf bereits erfolgt.</p><p>Ergebnis:</p><ul><li>Nur minimales Einlaufen beim ersten Waschen (ca. 1 Zoll in Taille & Länge)</li><li>Leichte Dehnung beim Tragen möglich</li></ul><p>XHS = unsanforisiert + one-washed = stabil mit leichtem Stretch.</p>"
+          }
+        },
+        "text_ExiLgc": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+          }
+        },
+        "text_P6K43t": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        },
+        "text_aAxE6R": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_tnnFXi",
+        "text_ExiLgc",
+        "text_P6K43t",
+        "text_aAxE6R"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Glossary",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -529,6 +558,7 @@
     "section_accordions_gKnrRY",
     "accordion-section-1",
     "accordion-section-3",
-    "accordion-section-4"
+    "accordion-section-4",
+    "section_accordions_TzmBFA"
   ]
 }
