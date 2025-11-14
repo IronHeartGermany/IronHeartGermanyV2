@@ -199,15 +199,15 @@
         "text_6AqB73": {
           "type": "text",
           "settings": {
-            "title": "Do you offer refunds?",
-            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+            "title": "Soll man Jeans vor dem ersten Tragen waschen?",
+            "text": "<h4>Nein, Jeans sollten vor dem ersten Tragen nicht gewaschen werden – so entwickelt sich die Patina besser.</h4><p>Es ist nicht notwendig, Jeans vor dem ersten Tragen zu waschen. Im Gegenteil: je länger du sie ungewaschen trägst, desto schöner entwickeln sich individuelle Falten und Patina. Gerade bei Iron Heart Jeans ist dieser Effekt Teil des besonderen Denims. Ein erster Waschgang empfiehlt sich erst nach Monaten oder bei deutlicher Verschmutzung.</p>"
           }
         },
         "text_RweNgC": {
           "type": "text",
           "settings": {
-            "title": "What shipping methods do you offer?",
-            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+            "title": "Wie kann ich meine Jeans beim Waschen einlaufen lassen?",
+            "text": "<h4>Jeans laufen in der Waschmaschine vor allem durch Hitze und Bewegung ein; mit der richtigen Technik kannst du den Effekt kontrollieren.</h4><p>Jeans bestehen meist aus Baumwoll-Denim, der sich bei Kontakt mit Wasser und Hitze zusammenzieht. In der Waschmaschine zieht warmes oder heißes Wasser die Fasern zusammen, und das Schleudern verstärkt den Effekt.</p><p>Wenn du möchtest, dass deine Jeans leicht einlaufen, wähle höhere Temperaturen und kürzere Schleuderzyklen. Willst du das Einlaufen minimieren, wähle 30 °C, drehe die Jeans auf links und lasse sie an der Luft trocknen, statt sie in den Trockner zu geben.</p><p>Bei raw denim, wie bei Iron Heart Jeans, kann sich die Passform in den ersten Wochen noch leicht verändern – ein sanftes Einlaufen gehört zur natürlichen<br/>Formentwicklung.</p>"
           }
         }
       },
