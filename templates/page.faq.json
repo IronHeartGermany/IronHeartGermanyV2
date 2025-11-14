@@ -111,6 +111,74 @@
         "padding_bottom": 60
       }
     },
+    "accordion-section-2": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_pJ9wLW": {
+          "type": "text",
+          "settings": {
+            "title": "Übernimmt Iron Heart Germany die Zollgebühren bei internationalen Bestellungen?",
+            "text": "<p><em>Nein – Iron Heart Germany übernimmt </em><em><strong>keine Zoll- oder Importgebühren</strong></em><em>. Diese Kosten trägt der Käufer selbst und sie werden bei der Einfuhr ins jeweilige Land fällig.</em></p><p>Iron Heart Germany versendet weltweit – allerdings <strong>ohne Übernahme von Zoll- oder Importkosten</strong>. Das bedeutet: Bei Lieferungen <strong>außerhalb der EU</strong> können zusätzlich zum Kaufpreis <strong>Zollgebühren, Steuern oder Abwicklungsgebühren</strong> anfallen. Diese werden <strong>nicht von uns</strong>, sondern von den <strong>Zollbehörden deines Landes </strong>erhoben und müssen direkt an den Versanddienstleister oder Zoll entrichtet werden.</p><p>Im Unterschied zu <strong>Iron Heart UK</strong>, das in einigen Ländern DDP („Delivered Duties Paid“) anbietet, liefert Iron Heart Germany <strong>DAP („Delivered At Place“) – also ohne vorausgezahlte Zollgebühren</strong>.</p><p>Die genaue Höhe möglicher Abgaben<br/>hängt von den <strong>Einfuhrbestimmungen deines Landes</strong> ab. Wir empfehlen, dich vorab beim örtlichen Zoll oder Versanddienstleister zu informieren, um Überraschungen zu vermeiden.</p><p>Fazit:</p><ul><li>Iron Heart Germany liefert <strong>DAP (Delivered At Place) – ohne Zoll- oder Steuerübernahme</strong></li><li><strong>Zoll und Importkosten</strong> fallen ggf. zusätzlich an</li><li>Diese Gebühren werden <strong>nicht von uns</strong>, sondern von den <strong>Behörden deines Landes</strong> erhoben</li></ul>"
+          }
+        },
+        "accordion_block_2_0": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
+          }
+        },
+        "accordion_block_2_1": {
+          "type": "text",
+          "settings": {
+            "title": "How much does it cost?",
+            "text": "<p>Shipping rates can vary depending on your region and are calculated at checkout.<br/><br/>Here are the full details of our <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping Policy</a>.</p>"
+          }
+        },
+        "accordion_block_2_2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there free shipping?",
+            "text": "<p>Yes, we offer free shipping for large domestic orders.  Check the cart to see the current deal on free shipping..</p>"
+          }
+        },
+        "accordion_block_2_3": {
+          "type": "text",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "text": "<p>Yes, we ship our products all over the globe.<br/><br/>Please note that free shipping is not applicable for international orders and that shipping rates could vary depending on your region.</p>"
+          }
+        },
+        "accordion_block_2_4": {
+          "type": "text",
+          "settings": {
+            "title": "Do you ship to my area?",
+            "text": "<p>A full list of all of our shipping areas can be found <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">here</a>.<br/><br/>If your country or region is not mentioned, please feel free to reach out to see if we can work out the details.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_pJ9wLW",
+        "accordion_block_2_0",
+        "accordion_block_2_1",
+        "accordion_block_2_2",
+        "accordion_block_2_3",
+        "accordion_block_2_4"
+      ],
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Versand & Zoll",
+        "subheading": "",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "accordion-section-1": {
       "type": "section-accordions",
       "blocks": {
@@ -153,66 +221,6 @@
         "layout": "two-columns",
         "show_accordion_divider": false,
         "title": "Payments & Safety",
-        "subheading": "",
-        "text": "",
-        "tabs_bg_color": "#fafafa",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "accordion-section-2": {
-      "type": "section-accordions",
-      "blocks": {
-        "accordion_block_2_0": {
-          "type": "text",
-          "settings": {
-            "title": "How long does it take to get my products?",
-            "text": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
-          }
-        },
-        "accordion_block_2_1": {
-          "type": "text",
-          "settings": {
-            "title": "How much does it cost?",
-            "text": "<p>Shipping rates can vary depending on your region and are calculated at checkout.<br/><br/>Here are the full details of our <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping Policy</a>.</p>"
-          }
-        },
-        "accordion_block_2_2": {
-          "type": "text",
-          "settings": {
-            "title": "Is there free shipping?",
-            "text": "<p>Yes, we offer free shipping for large domestic orders.  Check the cart to see the current deal on free shipping..</p>"
-          }
-        },
-        "accordion_block_2_3": {
-          "type": "text",
-          "settings": {
-            "title": "Do you ship internationally?",
-            "text": "<p>Yes, we ship our products all over the globe.<br/><br/>Please note that free shipping is not applicable for international orders and that shipping rates could vary depending on your region.</p>"
-          }
-        },
-        "accordion_block_2_4": {
-          "type": "text",
-          "settings": {
-            "title": "Do you ship to my area?",
-            "text": "<p>A full list of all of our shipping areas can be found <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">here</a>.<br/><br/>If your country or region is not mentioned, please feel free to reach out to see if we can work out the details.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "accordion_block_2_0",
-        "accordion_block_2_1",
-        "accordion_block_2_2",
-        "accordion_block_2_3",
-        "accordion_block_2_4"
-      ],
-      "settings": {
-        "layout": "two-columns",
-        "show_accordion_divider": false,
-        "title": "Shipping & Delivery",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
@@ -332,8 +340,8 @@
     "main",
     "25dbd963-093c-4cc9-9cd4-7bde32b883ac",
     "section_accordions_cGdzNP",
-    "accordion-section-1",
     "accordion-section-2",
+    "accordion-section-1",
     "accordion-section-3",
     "accordion-section-4"
   ]
