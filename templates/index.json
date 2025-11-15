@@ -420,10 +420,7 @@
         "image_qVU4zH",
         "image_8akLTM"
       ],
-      "custom_css": [
-        "@media screen and (min-width: 768px) {.section-padding {margin: 0 0px 60px; } .brick__blocks__flex {column-gap: 30px; }}",
-        "@media screen and (max-width: 767px) {#BrickBlock--image_qVU4zH, #BrickBlock--image_8akLTM {margin: 15px 0; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "height": "six-fifty-height",
         "bg_color": "",
@@ -737,6 +734,77 @@
         "padding_bottom": 60
       }
     },
+    "section_custom_content_nLqNGc": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_afQj9D": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/Porter-Yoshida_Co.-Force_3WAY_BRIEFCASE-BLK_003_24_09_8f66403b-f6c2-4246-9072-01784bbc60b1.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Porter-Yoshida & Co",
+            "heading_size": 100,
+            "image_text": "<p>Yoshida & Co, Ltd. is a Japanese manufacturer based in Tokyo that designs and produces bags and accessories. Founded in 1935 by Kichizo Yoshida, the company is best known for its main brand PORTER.</p>",
+            "button_text": "",
+            "button_link": "shopify://collections/porter-yoshida-co",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "image_ej7qza": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/Evolution_of_Iron_Heart.png",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "THE EVOLUTION OF IRON HEART",
+            "heading_size": 100,
+            "image_text": "<p>Founded in 2003 by Shinichi Haraki, Iron Heart set out to create the world’s toughest, most durable denim.</p>",
+            "button_text": "",
+            "button_link": "shopify://collections/jeans",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        },
+        "image_xhAhd4": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/2J5A74242.jpg",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "DEHEN 1920",
+            "heading_size": 100,
+            "image_text": "<p>Dehen 1920 is a Portland-based company that specializes in high quality knitwear.</p>",
+            "button_text": "",
+            "button_link": "shopify://collections/dehen-1920",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_afQj9D",
+        "image_ej7qza",
+        "image_xhAhd4"
+      ],
+      "name": "Side-by-side content",
+      "settings": {
+        "height": "seven-fifty-height",
+        "bg_color": "",
+        "reverse_blocks": false,
+        "width": "wrapper--full",
+        "add_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_banner_image_XaJDWJ": {
       "type": "section-banner-image",
       "blocks": {
@@ -778,6 +846,7 @@
         "text_UhmyHY",
         "button_qcEydt"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 768px) {{margin: 60px 0px 30px; }}",
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; } {margin: 30px 0; }}",
@@ -836,6 +905,7 @@
         "text_PDzGzH",
         "button_ni9gFA"
       ],
+      "disabled": true,
       "custom_css": [
         ".red_dot {display: none;}",
         "@media screen and (min-width: 768px) {{margin: 30px 0px 60px; }}",
@@ -972,77 +1042,6 @@
         "padding_top": 60,
         "padding_bottom": 30
       }
-    },
-    "section_custom_content_nLqNGc": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image_afQj9D": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/IHSW-81L-MUS-NP_001.jpg",
-            "overlay_opacity": 10,
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "heading_size": 100,
-            "image_text": "<p>Describe in a few words your special products, collection, or brand.</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        },
-        "image_ej7qza": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/DE-JA002-BLBL_039_d108afb3-cf03-4826-a165-e0787ed035e1.jpg",
-            "overlay_opacity": 10,
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "heading_size": 100,
-            "image_text": "<p>Describe in a few words your special products, collection, or brand.</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        },
-        "image_xhAhd4": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/20251024-20251024-DSC_6160_db8bf4b4-b1d0-4fec-8493-863748303f35.jpg",
-            "overlay_opacity": 10,
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "heading_size": 100,
-            "image_text": "<p>Describe in a few words your special products, collection, or brand.</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "image_afQj9D",
-        "image_ej7qza",
-        "image_xhAhd4"
-      ],
-      "name": "Side-by-side content",
-      "settings": {
-        "height": "six-fifty-height",
-        "bg_color": "",
-        "reverse_blocks": false,
-        "width": "wrapper--full",
-        "add_gutter": true,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -1057,11 +1056,11 @@
     "section_columns_fEJfXc",
     "section_list_butttons_jaEVdg",
     "section_look_e49ay7",
+    "section_custom_content_nLqNGc",
     "section_banner_image_XaJDWJ",
     "section_banner_image_WJ7DW7",
     "section_locations_r4cFBa",
     "section_newsletter_kRbEAq",
-    "section_columns_Mb3rtT",
-    "section_custom_content_nLqNGc"
+    "section_columns_Mb3rtT"
   ]
 }
