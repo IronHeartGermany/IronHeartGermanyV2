@@ -566,6 +566,20 @@
             "title": "Was bedeutet„Cropped Jeans“?",
             "text": "<p>Cropped Jeans sind Jeans mit verkürztem Bein, das meist oberhalb des Knöchels endet.</p><p>Der Begriff „Cropped Jeans“ stammt vom englischen Wort to crop („abschneiden“) und beschreibt Jeans, deren Beinlänge verkürzt ist.</p><p>Typischerweise endet eine Cropped Jeans zwischen Mitte der Wade und dem Knöchel. Dadurch entsteht ein leichter, luftiger Look, der besonders in den wärmeren Monaten beliebt ist.</p><p>Es gibt Cropped Jeans in verschiedenen Passformen – von Slim Fit über Tapered bis Wide Leg – und sie lassen sich vielseitig kombinieren, etwa mit Sneakern oder Boots.</p><p>Bei Iron Heart findest du keine Cropped Jeans – unsere Jeans sind so konzipiert, dass sie bei Bedarf individuell gekürzt werden können, ohne an Charakter oder Form zu verlieren. Das entspricht unserem Anspruch an zeitloses, langlebiges Denim-Design.</p>"
           }
+        },
+        "text_F66xr6": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet „Straight Jeans“?",
+            "text": "<h4>Straight Jeans sind klassisch geschnittene Jeans mit einem geraden Beinverlauf von der Hüfte bis zum Saum – weder eng noch weit.</h4><p>Der Begriff „Straight Jeans“ (engl. straight = gerade) bezeichnet Jeans mit einem geraden Schnitt, bei dem die Hosenbeine vom Oberschenkel bis zum Knöchel parallel verlaufen.</p><p>Sie gelten als zeitloser Denim-Klassiker, der eine natürliche Silhouette betont und zu fast jedem Körpertyp passt.</p><p>Straight Jeans bieten ausreichend Bewegungsfreiheit, wirken aber strukturierter als Loose Fit Jeans.</p><p>Bei Iron Heart gehören Straight Jeans zu den ikonischen Modellen – etwa unsere <strong>IH-634</strong>. Sie vereint traditionellen Schnitt mit modernem Tragekomfort, gefertigt aus Heavyweight Selvedge Denim (z. B. 21 oz oder 14 oz). Jede Straight Jeans wird in Japan auf alten Shuttle Webstühlen gewebt und steht für kompromisslose Qualität und Langlebigkeit.</p>"
+          }
+        },
+        "text_xfwdQV": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet „Middle Waist Jeans“?",
+            "text": "<h4>Middle Waist Jeans – auch Mid-Rise Jeans genannt – sitzen mittelhoch, also zwischen Hüfte und Taille.</h4><p>Der Begriff „Middle Waist Jeans“ beschreibt Jeans mit einer mittleren Leibhöhe (mid-rise), bei der der Bund ungefähr auf Höhe des Bauchnabels sitzt.</p><p>Diese Passform bietet einen ausgewogenen Sitz, da sie weder zu tief (Low Rise) noch zu hoch (High Rise) geschnitten ist. Sie sorgt für Komfort, Bewegungsfreiheit und eine natürliche Silhouette.</p><p>Bei Iron Heart bezeichnen wir diese Passform als Medium Rise.</p><p>Viele unserer beliebten Modelle – wie etwa die <strong>IH-888</strong> (Relaxed Tapered) – verfügen über eine Medium/High-Rise-Konstruktion.</p><p>So kannst du die Sitzhöhe wählen,<br/>die deinem Körperbau und Tragekomfort am besten entspricht.</p><p>Alle <strong>Iron Heart Jeans</strong> sind so konzipiert, dass sie Stabilität, Komfort und Langlebigkeit vereinen – unabhängig von der Bundhöhe.</p>"
+          }
         }
       },
       "block_order": [
@@ -578,7 +592,9 @@
         "text_8AVr9J",
         "text_Ygj4Wp",
         "text_RMpgqW",
-        "text_rKRNnr"
+        "text_rKRNnr",
+        "text_F66xr6",
+        "text_xfwdQV"
       ],
       "name": "Tabs",
       "settings": {
