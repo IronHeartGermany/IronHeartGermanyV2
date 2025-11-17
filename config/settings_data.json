@@ -129,7 +129,7 @@
     "social_youtube_link": "https://www.youtube.com/@ironheartgermany21",
     "loading_image": "shopify://shop_images/IH-fb-logo-red.jpg",
     "loading_image_width": 150,
-    "loading_appearance": "always",
+    "loading_appearance": "once",
     "currency_code_enable": false,
     "favicon": "shopify://shop_images/IH_Logo-01_Bell-Hamburg-black_4x_b8fec45a-1b66-4cf0-9f53-944a2f6a4a24.png",
     "body_font": "Bebas Neue",
