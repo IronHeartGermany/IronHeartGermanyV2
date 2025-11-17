@@ -531,6 +531,41 @@
             "title": "Was ist derUnterschied zwischen Chinos und Jeans?",
             "text": "<h4>Chinos bestehen aus leichtem Baumwoll-Twill, während Jeans aus robustem Denim gefertigt sind – sie unterscheiden sich also in Stoff, Look und Tragegefühl.</h4><p>Chinos werden aus feinem Baumwoll-Twill gewebt, einem glatten, leichten Stoff mit weichem Griff. Sie sind meist in helleren Farben erhältlich, wirken eleganter und eignen sich ideal für casual bis semi-formale Outfits.</p><p>Jeans hingegen werden aus Denim, einem schweren, schräg gewebten Baumwollstoff, hergestellt. Denim ist robuster, langlebiger und entwickelt mit der Zeit eine individuelle Patina – besonders bei Raw Denim.</p><p>Während Chinos also eher leicht und flexibel sind, bieten Jeans ein strukturierteres, stabileres Tragegefühl. Beide haben ihren Platz: Chinos für Komfort und Stil, Jeans für Langlebigkeit und Charakter. </p>"
           }
+        },
+        "text_N6KALU": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet Slim Fit Jeans?",
+            "text": "<h4>Slim Fit Jeans sitzen körpernah, ohne eng zu sein – sie verlaufen schmal vom Oberschenkel bis zum Knöchel und betonen die Silhouette.</h4><p>Slim Fit Jeans zeichnen sich durch einen geraden, leicht schmal zulaufenden Schnitt aus. Sie sitzen enger als Regular Fits, aber bieten mehr Bewegungsfreiheit als Skinny Jeans. Der Look wirkt modern und klar, ohne die klassische Denim-Ästhetik zu verlieren.</p><p>Bei Iron Heart steht Slim Fit allerdings für Form durch Stoff, nicht durch Stretch. Unsere Denims bestehen fast immer aus 100 % Baumwolle, ganz ohne Elastan. Das fühlt sich zunächst etwas fester an, doch nach kurzer Zeit formt sich der Stoff perfekt nach dem Körper – ganz natürlich.</p><p>Echte Denim Heads schätzen genau das: Ein authentisches Tragegefühl, das mit jeder Bewegung und jedem Tag mehr Charakter entwickelt. Kein künstlicher Stretch, keine Abkürzungen – nur reiner, ehrlicher Denim.</p>"
+          }
+        },
+        "text_8AVr9J": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet„Skinny Jeans“?",
+            "text": "<h4>Skinny Jeans sind Jeans mit einem sehr engen Schnitt, die sich hautnah an Beine und Hüften anschmiegen.</h4><p>Der Begriff „Skinny Jeans“ beschreibt Jeans mit einer eng anliegenden Passform, die von der Hüfte bis zum Knöchel kaum Weite zulässt.</p><p>Sie werden meist aus dehnbarem Denim mit Elastananteil gefertigt, um die hohe Beweglichkeit trotz der engen Form zu gewährleisten.</p><p>Bei Iron Heart findest du jedoch keine Skinny Jeans. Unsere Philosophie steht für klassische, robuste Denim-Schnitte aus 100 % Baumwolle – ohne Elastan. Wir setzen auf authentische, langlebige Jeans, die mit der Zeit eine individuelle Patina entwickeln und ihren Trägern Raum für Bewegung lassen.</p>"
+          }
+        },
+        "text_Ygj4Wp": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet Tapered Jeans?",
+            "text": "<p>Tapered Jeans sind Jeans mit bequemerem Schnitt an Hüfte und Oberschenkel, die zum Knöchel hin schmal zulaufen.</p><p>Tapered Fit beschreibt eine Passform, die oben locker sitzt und nach unten hin enger wird. Das sorgt für Bewegungsfreiheit im Oberschenkelbereich und eine moderne, schmale Silhouette am Bein.</p><p>Tapered Jeans kombinieren also den Komfort eines Relaxed Fit mit dem Look eines Slim Fit.</p><p>Sie eignen sich besonders für Männer mit kräftigeren Oberschenkeln, die trotzdem eine schmal zulaufende Form bevorzugen.</p>"
+          }
+        },
+        "text_RMpgqW": {
+          "type": "text",
+          "settings": {
+            "title": "Wie viel wiegteine Jeans? Was bedeutet der Begriff \"Unzen oder oz\" in diesemZusammenhang?",
+            "text": "<h4>Das Gewicht einer Jeans hängt von der Stoffdichte des Denims ab – meist zwischen 10 und 25 Unzen (oz) pro Quadrat­yard.</h4><p>Das Jeansgewicht wird in Unzen (oz) pro Quadrat­yard gemessen und beschreibt, wie schwer oder dick der Denimstoff ist.</p><ul><li>Leichte Jeans (10–12 oz): angenehm im Sommer, weich und flexibel.</li><li>Mittelschwere Jeans (13–16 oz): klassischer Allrounder für das ganze Jahr.</li><li>Schwere Jeans (17–25 oz): besonders robust, langlebig und beliebt bei Denim-Enthusiasten wie Iron Heart, wo 21 oz- oder 25 oz-Modelle typisch sind.</li></ul><p>Das tatsächliche Gesamtgewicht einer Jeans liegt je nach Größe und Stoff zwischen 600 und 1.200 Gramm.</p>"
+          }
+        },
+        "text_rKRNnr": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet„Cropped Jeans“?",
+            "text": "<p>Cropped Jeans sind Jeans mit verkürztem Bein, das meist oberhalb des Knöchels endet.</p><p>Der Begriff „Cropped Jeans“ stammt vom englischen Wort to crop („abschneiden“) und beschreibt Jeans, deren Beinlänge verkürzt ist.</p><p>Typischerweise endet eine Cropped Jeans zwischen Mitte der Wade und dem Knöchel. Dadurch entsteht ein leichter, luftiger Look, der besonders in den wärmeren Monaten beliebt ist.</p><p>Es gibt Cropped Jeans in verschiedenen Passformen – von Slim Fit über Tapered bis Wide Leg – und sie lassen sich vielseitig kombinieren, etwa mit Sneakern oder Boots.</p><p>Bei Iron Heart findest du keine Cropped Jeans – unsere Jeans sind so konzipiert, dass sie bei Bedarf individuell gekürzt werden können, ohne an Charakter oder Form zu verlieren. Das entspricht unserem Anspruch an zeitloses, langlebiges Denim-Design.</p>"
+          }
         }
       },
       "block_order": [
@@ -538,7 +573,12 @@
         "text_ExiLgc",
         "text_P6K43t",
         "text_aAxE6R",
-        "text_MgnRMi"
+        "text_MgnRMi",
+        "text_N6KALU",
+        "text_8AVr9J",
+        "text_Ygj4Wp",
+        "text_RMpgqW",
+        "text_rKRNnr"
       ],
       "name": "Tabs",
       "settings": {
