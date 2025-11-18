@@ -508,7 +508,7 @@
           "type": "text",
           "settings": {
             "title": "Was bedeutet \"one-washed\"?",
-            "text": "<h4>One-washed bedeutet, dass die Jeans nach der Produktion einmal industriell vorgewaschen wurde – sie läuft beim ersten Waschen zu Hause praktisch nicht mehr ein.</h4><ul><li>erste Schrumpfung findet bereits in der Fertigung statt</li><li>Sofort angenehme Passform</li><li>Kaum Einlaufen bei späteren Wäschen</li><li>Fast alle Iron Heart Jeans sind sanforisiert und one-washed</li></ul><p><strong>Fazit:</strong> One-washed Jeans sind bereits vorgewaschen und behalten ihre Passform beim ersten Waschen. Auch unwashed Modelle können sofort getragen werden, laufen aber beim ersten Waschen noch ein, abhängig von der Behandlung des Stoffes.</p>"
+            "text": "<h4>One-washed bedeutet, dass die Jeans nach der Produktion einmal industriell vorgewaschen wurde – sie läuft beim ersten Waschen zu Hause praktisch nicht mehr ein.</h4><ul><li>ein Einlaufen findet bereits in der Fertigung statt</li><li>Sofort angenehme Passform</li><li>Kaum Einlaufen bei späteren Wäschen</li><li>Fast alle Iron Heart Jeans sind sanforisiert und one-washed</li></ul><p><strong>Fazit:</strong> One-washed Jeans sind bereits vorgewaschen und behalten ihre Passform beim ersten Waschen. Auch unwashed Modelle können sofort getragen werden, laufen aber beim ersten Waschen noch ein, abhängig von der Behandlung des Stoffes.</p>"
           }
         },
         "text_TXXtJa": {
@@ -522,7 +522,7 @@
           "type": "text",
           "settings": {
             "title": "Was bedeutet „unsanforisiert“?",
-            "text": "<h4>Unsanforisierte Denimstoffe sind im sog. Loomstate-Zustand – also direkt vom Webstuhl, noch unbehandelt.</h4><ul><li>unsere UHR-Modelle = unsanforisiert + unwashed → komplett naturbelassener Denim</li><li>Unwashed bedeutet: die Jeans wurde nach Fertigung nicht industriell vorgewaschen</li><li>unsere XHS-Modelle = unsanforisiert + one washed → Jeans wurde nach Fertigung einmal industriell gewaschen</li></ul><p></p><p><strong>Beispiele:</strong></p><ul><li>UHR: IH-555, IH-634</li><li>XHS: IH-888</li></ul><p></p><p><strong>Fazit:</strong></p><ul><li>UHR = naturbelassener Raw Denim, Shrink-to-Fit</li><li>XHS = unsanforisiert, aber vorgewaschen; nur minimaler Restschrumpf möglich</li></ul>"
+            "text": "<h4>Unsanforisierte Denimstoffe sind im sog. Loomstate-Zustand – also direkt vom Webstuhl, noch unbehandelt.</h4><ul><li>unsere UHR-Modelle (Ùtra Heavy Raw) = unsanforisiert + unwashed → komplett naturbelassener Denim</li><li>Unwashed bedeutet: die Jeans wurde nach Fertigung nicht industriell vorgewaschen</li><li>unsere XHS-Modelle (Extra Heavy Selvedge) = unsanforisiert + one washed → Jeans wurde nach Fertigung einmal industriell gewaschen</li></ul><p></p><p><strong>Beispiele:</strong></p><ul><li>UHR: IH-634S-UHR, IH-666S-UHR</li><li>XHS: IH-634-XHS</li></ul><p></p><p><strong>Fazit:</strong></p><ul><li>UHR = naturbelassener Raw Denim, Shrink-to-Fit</li><li>XHS = unsanforisiert, aber vorgewaschen; nur minimaler Restschrumpf möglich</li></ul>"
           }
         },
         "text_hfmYe7": {
@@ -530,6 +530,13 @@
           "settings": {
             "title": "Wie stark läuft eine unsanforisierte Jeans beim ersten Waschen ein?",
             "text": "<p><strong>UHR-Modelle (Unsanforisiert + Unwashed):</strong></p><ul><li>ca. 1 Zoll (≈ 2,5 cm) in der Taille</li><li>ca. 2 Zoll (≈ 5 cm) in der Beinlänge</li><li>alle anderen Maße proportional</li><li>Nach dem Einlaufen dehnt sich die Taille beim Tragen leicht (~1 Zoll) wieder aus</li></ul><p></p><p><strong>XHS-Modelle (Unsanforisiert + One Washed):</strong></p><ul><li>der größte Teil der Schrumpfung ist bereits erfolgt</li><li>Minimaler Restschrumpf (~1 Zoll) möglich</li><li>Leichte Dehnung beim Tragen</li></ul><p></p><p><strong>Fazit:</strong></p><ul><li>UHR = deutliches Einlaufen, klassisches Shrink-to-Fit</li><li>XHS = stabil, läuft nur noch minimal ein, dehnt sich beim Tragen leicht aus</li></ul>"
+          }
+        },
+        "text_Q8EHkA": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet Shrink-to-fit?",
+            "text": "<p>Lorem Ipsum</p>"
           }
         },
         "text_ExiLgc": {
@@ -616,6 +623,7 @@
         "text_TXXtJa",
         "text_HGw3g7",
         "text_hfmYe7",
+        "text_Q8EHkA",
         "text_ExiLgc",
         "text_P6K43t",
         "text_aAxE6R",
