@@ -500,8 +500,29 @@
         "text_tnnFXi": {
           "type": "text",
           "settings": {
-            "title": "Was bedeutet „sanforisiert“, „unsanforisiert“ oder„one-washed“ – und wie stark läuft meine Jeans beim Waschen ein?",
-            "text": "<h4>Sanforisierte Jeans laufen kaum ein. Unwashed (Raw oder auch Dry Denim genannt) kann beim ersten Waschen um bis zu 1 Zoll (≈ 2,5 cm) in der Taille und 2 Zoll (≈ 5 cm) in der Länge schrumpfen. Die meisten Iron Heart Jeans sind sanforisiert und one washed – also bereits vorab geschrumpft.</h4><p>Beim Thema Denim tauchen häufig die Begriffe „sanforisiert“ „unsanforisiert“, „one washed“ und „unwashed“ auf. Sie beschreiben, wie stark eine Jeans beim ersten Waschen noch einläuft.</p><p><span style=\"text-decoration:underline\">Hier die Unterschiede:</span></p><p><strong>SANFORISIERT</strong> (pre-shrunk): Beim Sanforisieren wird der Denimstoff mechanisch vorbehandelt, um mögliche Schrumpfung bereits vor der Verarbeitung zu reduzieren.</p><p>Das Ergebnis:</p><ul><li>Der Stoff läuft nur minimal ein (meist unter 3 %).</li><li>Form und Länge bleiben auch nach der ersten Wäsche weitgehend stabil.</li></ul><p><strong>Die meisten Iron Heart Stoffe sind sanforisiert.</strong></p><p><strong>ONE-WASHED</strong>: Nach der Fertigung wird die Jeans <strong>einmal industriell gewaschen</strong>.</p><p>Dadurch zieht sich der Stoff leicht zusammen – der natürliche Schrumpf findet bereits in der Produktion statt. Das bedeutet:</p><ul><li>Die Jeans ist vorgewaschen und trägt sich sofort angenehm.</li><li>Es ist kein zusätzliches Einlaufen mehr zu erwarten.</li></ul><p><strong>Fast alle Iron Heart Jeans sind sanforisiert und one-washed. </strong>Das garantiert eine <strong>sehr stabile Passform</strong> ab dem ersten Tragen.</p><p><strong>UNWASHED</strong> (Raw Denim oder auch Dry Denim): Unwashed oder „raw“ bedeutet: <strong>nicht industriell vorgewaschen</strong>. Wenn der Stoff <strong>sanforisiert</strong> ist, schrumpft er beim ersten Waschen leicht (ca. 1<br/>Zoll in Taille und Länge). Wenn der Stoff <strong>unsanforisiert</strong> ist, schrumpft er deutlich stärker (siehe unten).</p><p>Bei Iron Heart sind unsanforisierte & unwashed Modelle mit dem Kürzel „<strong>UHR</strong>“ gekennzeichnet.</p><p><strong>Unsanforisiert & Unwashed (UHR): </strong>Das ist roher, unbehandelter Denim im Loomstate-Zustand. Er wurde nicht sanforisiert und nicht gewaschen – also komplett naturbelassen.</p><p>Ergebnis beim ersten Waschen oder Einweichen („soak“):</p><ul><li>ca. 1 Zoll (≈ 2,5 cm) Schrumpf in<br/>der Taille</li><li>ca. 2 Zoll (≈ 5 cm) Schrumpf in der Beinlänge</li><li>alle anderen Maße verändern sich proportional</li></ul><p>Nach dem Einlaufen dehnt sich die Taille beim Tragen um etwa 1 Zoll wieder aus.</p><p>UHR = unsanforisiert + unwashed = Shrink-to-Fit.</p><p><strong>Unsanforisiert, aber one-washed (z. B. XHS): </strong>Manche sehr schweren Stoffe (z. B. XHS Denim) sind unsanforisiert, wurden aber nach der Produktion gewaschen.<strong> </strong>Dadurch ist der Haupt-Schrumpf bereits erfolgt.</p><p>Ergebnis:</p><ul><li>Nur minimales Einlaufen beim ersten Waschen (ca. 1 Zoll in Taille & Länge)</li><li>Leichte Dehnung beim Tragen möglich</li></ul><p>XHS = unsanforisiert + one-washed = stabil mit leichtem Stretch.</p><p>Fazit:</p><p>Die meisten Iron Heart Jeans sind <strong>sanforisiert und one-washed</strong> – sie laufen <strong>kaum noch ein</strong> und behalten ihre Form.</p><p>Modelle mit dem Kürzel <strong>UHR </strong>sind <strong>unsanforisiert & unwashed</strong> – sie sind <strong>Shrink-to-Fit</strong> und schrumpfen beim ersten Waschen deutlich.</p><p>Modelle mit dem Kürzel <strong>XHS </strong>sind <strong>unsanforisiert, aber one-washed</strong> – der Hauptschrumpf ist bereits erfolgt, <strong>ein leichtes Einlaufen</strong> (ca. 1 Zoll) kann aber vorkommen.</p><p>Nach dem Tragen dehnen sich alle Modelle wieder leicht aus – besonders an der Taille.</p>"
+            "title": "Was bedeutet „sanforisiert“?",
+            "text": "<h4>Sanforisierter Denim wurde mechanisch vorbehandelt, um Schrumpfung vor der Verarbeitung zu minimieren.</h4><ul><li>Läuft beim ersten Waschen nur minimal ein (meist unter 3 %)</li><li>Form und Länge bleiben weitgehend stabil</li><li>Sofort tragbar ohne Shrink-to-Fit</li><li>Die meisten Iron Heart Jeans sind sanforisiert</li></ul><p>Fazit: Sanforisierte Jeans behalten ihre Form und Größe ab dem ersten Tragen zuverlässig.<br/></p>"
+          }
+        },
+        "text_QtXHEB": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet \"one-washed\"?",
+            "text": "<h4>One-washed bedeutet, dass die Jeans nach der Produktion einmal industriell vorgewaschen wurde – sie läuft beim ersten Waschen zu Hause praktisch nicht mehr ein.</h4><ul><li>erste Schrumpfung findet bereits in der Fertigung statt</li><li>Sofort angenehme Passform</li><li>Kaum Einlaufen bei späteren Wäschen</li><li>Fast alle Iron Heart Jeans sind sanforisiert und one-washed</li></ul><p>Fazit: One-washed Jeans sind bereits vorgewaschen und behalten ihre Passform beim ersten Waschen. Auch unwashed Modelle können sofort getragen werden, laufen aber beim ersten Waschen noch ein, abhängig von der Behandlung des Stoffes.</p>"
+          }
+        },
+        "text_TXXtJa": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet \"unwashed‘\" Jeans (auch Raw oder Dry Denim genannt)?",
+            "text": "<h4>Unwashed (Raw Denim) wurde nicht industriell vorgewaschen – beim ersten Waschen zu Hause kann die Jeans noch leicht oder, bei unsanforisierten Modellen, deutlich einlaufen.</h4><ul><li>Sanforisierter Unwashed Denim: leichtes Schrumpfen beim ersten Waschen (~1 Zoll / 2,5 cm in Taille und Länge)</li><li>Unsanforisierter Unwashed Denim: deutlich stärkeres Schrumpfen</li><li>Bei Iron Heart sind unwashed Modelle klar gekennzeichnet</li></ul><p>Fazit: Unwashed Jeans bieten Shrink-to Fit-Erfahrung – je nach Behandlung mehr oder weniger Einlaufen beim ersten Waschen.</p>"
+          }
+        },
+        "text_HGw3g7": {
+          "type": "text",
+          "settings": {
+            "title": "Was bedeutet „unsanforisiert“?",
+            "text": "<h4>Unsanforisierte Denimstoffe wurden nicht vorbehandelt und bleiben im Loomstate-Zustand.</h4><ul><li>UHR-Modelle = unsanforisiert + unwashed → komplett naturbelassener Denim</li><li>Unwashed bedeutet: die Jeans wurde nach Fertigung nicht industriell vorgewaschen</li><li>XHS-Modelle = unsanforisiert + one washed → Jeans wurde nach Fertigung einmal industriell gewaschen</li></ul><p></p><p>Beispiele:</p><ul><li>UHR: IH-555, IH-634</li><li>XHS: IH-888</li></ul><p></p><p>Fazit:</p><ul><li>UHR = naturbelassener Raw Denim, Shrink-to-Fit</li><li>XHS = unsanforisiert, aber vorgewaschen; nur minimaler Restschrumpf möglich</li></ul>"
           }
         },
         "text_ExiLgc": {
@@ -584,6 +605,9 @@
       },
       "block_order": [
         "text_tnnFXi",
+        "text_QtXHEB",
+        "text_TXXtJa",
+        "text_HGw3g7",
         "text_ExiLgc",
         "text_P6K43t",
         "text_aAxE6R",
