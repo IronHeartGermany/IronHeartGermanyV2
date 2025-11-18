@@ -522,7 +522,14 @@
           "type": "text",
           "settings": {
             "title": "Was bedeutet „unsanforisiert“?",
-            "text": "<h4>Unsanforisierte Denimstoffe wurden nicht vorbehandelt und bleiben im Loomstate-Zustand.</h4><ul><li>UHR-Modelle = unsanforisiert + unwashed → komplett naturbelassener Denim</li><li>Unwashed bedeutet: die Jeans wurde nach Fertigung nicht industriell vorgewaschen</li><li>XHS-Modelle = unsanforisiert + one washed → Jeans wurde nach Fertigung einmal industriell gewaschen</li></ul><p></p><p>Beispiele:</p><ul><li>UHR: IH-555, IH-634</li><li>XHS: IH-888</li></ul><p></p><p>Fazit:</p><ul><li>UHR = naturbelassener Raw Denim, Shrink-to-Fit</li><li>XHS = unsanforisiert, aber vorgewaschen; nur minimaler Restschrumpf möglich</li></ul>"
+            "text": "<h4>Unsanforisierte Denimstoffe sind im sog. Loomstate-Zustand – also direkt vom Webstuhl, noch unbehandelt.</h4><ul><li>unsere UHR-Modelle = unsanforisiert + unwashed → komplett naturbelassener Denim</li><li>Unwashed bedeutet: die Jeans wurde nach Fertigung nicht industriell vorgewaschen</li><li>unsere XHS-Modelle = unsanforisiert + one washed → Jeans wurde nach Fertigung einmal industriell gewaschen</li></ul><p></p><p>Beispiele:</p><ul><li>UHR: IH-555, IH-634</li><li>XHS: IH-888</li></ul><p></p><p>Fazit:</p><ul><li>UHR = naturbelassener Raw Denim, Shrink-to-Fit</li><li>XHS = unsanforisiert, aber vorgewaschen; nur minimaler Restschrumpf möglich</li></ul>"
+          }
+        },
+        "text_hfmYe7": {
+          "type": "text",
+          "settings": {
+            "title": "Wie stark läuft eine unsanforisierte Jeans beim ersten Waschen ein?",
+            "text": "<p>UHR-Modelle (Unsanforisiert + Unwashed):</p><ul><li>ca. 1 Zoll (≈ 2,5 cm) in der Taille</li><li>ca. 2 Zoll (≈ 5 cm) in der Beinlänge</li><li>alle anderen Maße proportional</li><li>Nach dem Einlaufen dehnt sich die Taille beim Tragen leicht (~1 Zoll) wieder aus</li></ul><p></p><p>XHS-Modelle (Unsanforisiert + One Washed):</p><ul><li>der größte Teil der Schrumpfung ist bereits erfolgt</li><li>Minimaler Restschrumpf (~1 Zoll) möglich</li><li>Leichte Dehnung beim Tragen</li></ul><p></p><p>Fazit:</p><ul><li>UHR = deutliches Einlaufen, klassisches Shrink-to-Fit</li><li>XHS = stabil mit leichtem Stretch, nur noch minimaler Einlauf</li></ul>"
           }
         },
         "text_ExiLgc": {
@@ -608,6 +615,7 @@
         "text_QtXHEB",
         "text_TXXtJa",
         "text_HGw3g7",
+        "text_hfmYe7",
         "text_ExiLgc",
         "text_P6K43t",
         "text_aAxE6R",
