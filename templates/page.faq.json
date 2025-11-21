@@ -170,18 +170,25 @@
             "text": "<p>Lieferungen in folgende Länder:</p><ul><li>Schweiz</li><li>Norwegen</li><li>Großbritannien</li><li>Liechtenstein</li><li>San Marino</li></ul><p>Kosten:</p><ul><li>Bis <strong>199,99 € Bestellwert: 10,00 €</strong></li><li>Ab <strong>200,00 € Bestellwert: kostenloser Versand</strong></li></ul>"
           }
         },
-        "accordion_block_2_2": {
-          "type": "text",
-          "settings": {
-            "title": "Is there free shipping?",
-            "text": "<p>Yes, we offer free shipping for large domestic orders.  Check the cart to see the current deal on free shipping..</p>"
-          }
-        },
         "accordion_block_2_4": {
           "type": "text",
           "settings": {
             "title": "Wie hoch sind die internationalen Versandkosten bei Iron Heart Germany?",
             "text": "<p>Für internationale Bestellungen außerhalb Europas gelten:<br/><br/><strong>USA, Kanada & weltweit (außer Australien)</strong></p><ul><li>Bis <strong>199,99 € Bestellwert: 30,00 €</strong></li><li>Ab <strong>200,00 € Bestellwert: kostenloser Versand</strong></li></ul><p><strong>Australien</strong></p><ul><li>Pauschal: <strong>50,00 €</strong></li><li>Ab <strong>200,00 € Bestellwert: kostenloser Versand</strong></li></ul>"
+          }
+        },
+        "text_DLYayb": {
+          "type": "text",
+          "settings": {
+            "title": "In welche Länder liefert Iron Heart Germany aktuell nicht?",
+            "text": "<p>Aktuell liefert <strong>Iron Heart Germany</strong> aufgrund der geopolitischen Situation <strong>nicht nach</strong>:</p><ul><li>Russland</li><li>Ukraine</li></ul>"
+          }
+        },
+        "accordion_block_2_2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there free shipping?",
+            "text": "<p>Yes, we offer free shipping for large domestic orders.  Check the cart to see the current deal on free shipping..</p>"
           }
         }
       },
@@ -194,8 +201,9 @@
         "accordion_block_2_1",
         "text_tcVczg",
         "accordion_block_2_3",
-        "accordion_block_2_2",
-        "accordion_block_2_4"
+        "accordion_block_2_4",
+        "text_DLYayb",
+        "accordion_block_2_2"
       ],
       "settings": {
         "layout": "two-columns",
