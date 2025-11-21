@@ -163,6 +163,13 @@
             "text": "<p>Für Lieferungen innerhalb der Europäischen Union berechnet <strong>Iron Heart Germany</strong>:</p><ul><li><strong>10,00 € pauschal</strong></li><li>Gültig für alle EU-Mitgliedsstaaten.</li></ul>"
           }
         },
+        "accordion_block_2_3": {
+          "type": "text",
+          "settings": {
+            "title": "Wie hoch sind die Versandkosten in die Schweiz, nach Großbritannien und Norwegen?",
+            "text": "<p>Lieferungen in folgende Länder:</p><ul><li>Schweiz</li><li>Norwegen</li><li>Großbritannien</li><li>Liechtenstein</li><li>San Marino</li></ul><p>Kosten:</p><ul><li>Bis <strong>199,99 € Bestellwert: 10,00 €</strong></li><li>Ab <strong>200,00 € Bestellwert: kostenloser Versand</strong></li></ul>"
+          }
+        },
         "accordion_block_2_2": {
           "type": "text",
           "settings": {
@@ -170,18 +177,11 @@
             "text": "<p>Yes, we offer free shipping for large domestic orders.  Check the cart to see the current deal on free shipping..</p>"
           }
         },
-        "accordion_block_2_3": {
-          "type": "text",
-          "settings": {
-            "title": "Do you ship internationally?",
-            "text": "<p>Yes, we ship our products all over the globe.<br/><br/>Please note that free shipping is not applicable for international orders and that shipping rates could vary depending on your region.</p>"
-          }
-        },
         "accordion_block_2_4": {
           "type": "text",
           "settings": {
-            "title": "Do you ship to my area?",
-            "text": "<p>A full list of all of our shipping areas can be found <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">here</a>.<br/><br/>If your country or region is not mentioned, please feel free to reach out to see if we can work out the details.</p>"
+            "title": "Wie hoch sind die internationalen Versandkosten bei Iron Heart Germany?",
+            "text": "<p>Für internationale Bestellungen außerhalb Europas gelten:<br/><br/><strong>USA, Kanada & weltweit (außer Australien)</strong></p><ul><li>Bis <strong>199,99 € Bestellwert: 30,00 €</strong></li><li>Ab <strong>200,00 € Bestellwert: kostenloser Versand</strong></li></ul><p><strong>Australien</strong></p><ul><li>Pauschal: <strong>50,00 €</strong></li><li>Ab <strong>200,00 € Bestellwert: kostenloser Versand</strong></li></ul>"
           }
         }
       },
@@ -193,8 +193,8 @@
         "text_qbifmQ",
         "accordion_block_2_1",
         "text_tcVczg",
-        "accordion_block_2_2",
         "accordion_block_2_3",
+        "accordion_block_2_2",
         "accordion_block_2_4"
       ],
       "settings": {
