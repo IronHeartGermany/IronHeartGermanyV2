@@ -187,8 +187,8 @@
         "accordion_block_2_2": {
           "type": "text",
           "settings": {
-            "title": "Is there free shipping?",
-            "text": "<p>Yes, we offer free shipping for large domestic orders.  Check the cart to see the current deal on free shipping..</p>"
+            "title": "Bietet Iron Heart Germany kostenlosen Versand an?",
+            "text": "<p>Bei <strong>Iron Heart Germany</strong> ist kostenloser Versand <strong>ab 200 € Bestellwert</strong> möglich – gilt für bestimmte Länder wie Schweiz, Norwegen, UK, USA und weitere internationale Lieferungen. Deutschland und EU-Länder sind hiervon ausgenommen.</p>"
           }
         }
       },
