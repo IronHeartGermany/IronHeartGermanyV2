@@ -128,6 +128,27 @@
             "text": "<p>Bei <strong>Iron Heart Germany</strong> erfolgt der Versand in der Regel schnell und zuverlässig:</p><ul><li><strong>Deutschland</strong>: ca. <strong>2–5 Werktage</strong></li><li><strong>EU & Ausland</strong>: ca. <strong>3–6 Werktage</strong></li></ul><p></p><p>Die genaue Lieferzeit kann je nach Zielort leicht variieren.<br/>An Sonn- und Feiertagen erfolgt <strong>keine Zustellung</strong>.</p>"
           }
         },
+        "text_bp4KmB": {
+          "type": "text",
+          "settings": {
+            "title": "Versendet Iron Heart Germany auch international?",
+            "text": "<h4>Ja. Iron Heart Germany versendet sowohl innerhalb Deutschlands als auch international.</h4><p>Du kannst Iron Heart Jeans, Jacken und Workwear direkt über unseren deutschen Store nach Europa und viele weitere Länder bestellen. Die internationale Lieferzeit liegt in der Regel bei <strong>3–6 Werktagen</strong>, abhängig vom Zielland.</p>"
+          }
+        },
+        "text_rW7M33": {
+          "type": "text",
+          "settings": {
+            "title": "Was passiert, wenn ich Artikel mit unterschiedlichen Lieferzeiten bestelle?",
+            "text": "<p>Wenn du bei <strong>Iron Heart Germany</strong> Artikel mit unterschiedlichen Lieferzeiten bestellst, versenden wir die Bestellung<strong> in einer gemeinsamen Sendung</strong>, sofern keine andere Vereinbarung getroffen wurde.</p><p>Die Lieferzeit richtet sich dann immer nach dem Artikel mit der <strong>längsten angegebenen Lieferzeit</strong>.</p>"
+          }
+        },
+        "text_qbifmQ": {
+          "type": "text",
+          "settings": {
+            "title": "Ist Selbstabholung bei Iron Heart Germany möglich?",
+            "text": "<h4>Ja, bei Iron Heart Germany kannst du deine Bestellung auch selbst abholen.</h4><p><strong>So funktioniert’s:</strong></p><ul><li>Du wirst per E-Mail benachrichtigt, sobald deine Bestellung abholbereit ist.</li><li>In diesem Fall fallen <strong>keine Versandkosten</strong> an.</li></ul>"
+          }
+        },
         "accordion_block_2_1": {
           "type": "text",
           "settings": {
@@ -160,6 +181,9 @@
       "block_order": [
         "text_pJ9wLW",
         "accordion_block_2_0",
+        "text_bp4KmB",
+        "text_rW7M33",
+        "text_qbifmQ",
         "accordion_block_2_1",
         "accordion_block_2_2",
         "accordion_block_2_3",
