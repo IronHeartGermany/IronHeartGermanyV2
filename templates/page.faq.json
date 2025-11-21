@@ -125,7 +125,7 @@
           "type": "text",
           "settings": {
             "title": "Wie lange dauert der Versand bei Iron Heart Germany?",
-            "text": "<p>Bei <strong>Iron Heart Germany</strong> erfolgt der Versand in der Regel schnell und zuverlässig:</p><ul><li><strong>Deutschland</strong>: ca. <strong>2–5 Werktage</strong></li><li><strong>EU & Ausland</strong>: ca. <strong>3–6 Werktage</strong></li></ul><p></p><p>Die genaue Lieferzeit kann je nach Zielort leicht variieren.<br/>An Sonn- und Feiertagen erfolgt keine Zustellung.</p>"
+            "text": "<p>Bei <strong>Iron Heart Germany</strong> erfolgt der Versand in der Regel schnell und zuverlässig:</p><ul><li><strong>Deutschland</strong>: ca. <strong>2–5 Werktage</strong></li><li><strong>EU & Ausland</strong>: ca. <strong>3–6 Werktage</strong></li></ul><p></p><p>Die genaue Lieferzeit kann je nach Zielort leicht variieren.<br/>An Sonn- und Feiertagen erfolgt <strong>keine Zustellung</strong>.</p>"
           }
         },
         "accordion_block_2_1": {
