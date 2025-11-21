@@ -124,14 +124,14 @@
         "accordion_block_2_0": {
           "type": "text",
           "settings": {
-            "title": "Wie lange dauert die Lieferung?",
-            "text": "<h4>In der Regel versenden wir Bestellungen innerhalb Deutschlands in 2–5 Werktagen, ins Ausland in 3–6 Werktagen, sofern beim Artikel nichts anderes angegeben ist.</h4><p><strong>Wichtige Hinweise:</strong></p><ul><li>Die Lieferzeit beginnt nach Zahlungseingang.</li><li>An Sonn- und Feiertagen findet keine Zustellung statt.</li><li>Wenn du mehrere Artikel mit unterschiedlichen Lieferzeiten bestellst, versenden wir alles zusammen. In dem Fall gilt die Lieferzeit des Artikels mit der <strong>längsten Lieferdauer</strong>.</li></ul><p></p><p><strong>Selbstabholung:</strong> Bei Abholung vor Ort erhältst du eine E-Mail, sobald deine Bestellung bereitliegt. Natürlich fallen in diesem Fall <strong>keine Versandkosten</strong> an.</p>"
+            "title": "Wie lange dauert der Versand bei Iron Heart Germany?",
+            "text": "<p>Bei <strong>Iron Heart Germany</strong> erfolgt der Versand in der Regel schnell und zuverlässig:</p><ul><li><strong>Deutschland</strong>: ca. <strong>2–5 Werktage</strong></li><li><strong>EU & Ausland</strong>: ca. <strong>3–6 Werktage</strong></li></ul><p></p><p>Die genaue Lieferzeit kann je nach Zielort leicht variieren.<br/>An Sonn- und Feiertagen erfolgt keine Zustellung.</p>"
           }
         },
         "accordion_block_2_1": {
           "type": "text",
           "settings": {
-            "title": "How much does it cost?",
+            "title": "Wie hoch sind die Versandkosten?",
             "text": "<p>Shipping rates can vary depending on your region and are calculated at checkout.<br/><br/>Here are the full details of our <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping Policy</a>.</p>"
           }
         },
