@@ -145,8 +145,8 @@
         "text_qbifmQ": {
           "type": "text",
           "settings": {
-            "title": "Ist Selbstabholung bei Iron Heart Germany möglich?",
-            "text": "<h4>Ja, bei Iron Heart Germany kannst du deine Bestellung auch selbst abholen.</h4><p><strong>So funktioniert’s:</strong></p><ul><li>Du wirst per E-Mail benachrichtigt, sobald deine Bestellung abholbereit ist.</li><li>In diesem Fall fallen <strong>keine Versandkosten</strong> an.</li></ul>"
+            "title": "Kann ich bei Iron Heart Germany auch im Store abholen (Pick-Up-In-Store)?",
+            "text": "<p>Ja. Bei jeder Bestellung im <strong>Iron Heart Germany Online-Shop</strong> kannst du im Checkout auswählen, ob du Versand möchtest oder die <strong>Pick-Up-In-Store-Variante</strong> nutzt.</p><p>Wenn du dich für <strong>Pick-Up-In-Store</strong> entscheidest:</p><ul><li>Du wirst per E-Mail benachrichtigt, sobald deine Ware im Store abholbereit ist.</li><li>Es fallen <strong>keine Versandkosten</strong> an.</li></ul>"
           }
         },
         "accordion_block_2_1": {
