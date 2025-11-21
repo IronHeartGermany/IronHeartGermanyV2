@@ -115,6 +115,7 @@
         },
         "image_XHfcna": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IHM-47-ODG_021_FW25_a6260add-a5b5-43cf-bb94-7853272985f0.jpg",
             "image_mobile": "shopify://shop_images/IHM-47-ODG_018_FW25.jpg",
