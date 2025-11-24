@@ -416,18 +416,34 @@
             "title": "Wer trägt die Rücksendekosten bei einer Rückerstattung, wenn der Versand kostenlos war?",
             "text": "<p>Bei <strong>Iron Heart Germany</strong> ist der Rückversand <strong>innerhalb Deutschlands kostenlos</strong>, auch wenn deine Bestellung ursprünglich versandkostenfrei war – <strong>vorausgesetzt, du nutzt unser Rücksendeetikett</strong>.</p><p>Für Rücksendungen <strong>aus dem Ausland</strong> trägst du die Kosten selbst. Alternativ kannst du über uns ein <strong>UPS Rücksendeetikett für internationale Retouren</strong> erwerben.</p>"
           }
+        },
+        "text_QQT6Dw": {
+          "type": "text",
+          "settings": {
+            "title": "Muss ich bei Iron Heart Germany für den Rückversand bezahlen?",
+            "text": "<p>Innerhalb Deutschlands:<br/>→ <strong>Nein</strong>, der Rückversand ist kostenlos, wenn du unser offizielles Rücksendeetikett nutzt.<br/><br/>Außerhalb Deutschlands:<br/>→ <strong>Ja</strong>, die Rücksendekosten müssen selbst getragen werden.<br/>Du kannst aber über uns ein <a href=\"https://ironheartgermany.com/collections/other\" title=\"https://ironheartgermany.com/collections/other\"><strong>UPS Return Shipping Label</strong></a> für eine einfachere Abwicklung buchen.</p>"
+          }
+        },
+        "text_nWQ7F7": {
+          "type": "text",
+          "settings": {
+            "title": "Wie versende ich eine Retoure an Iron Heart Germany?",
+            "text": "<p>So funktioniert deine Rücksendung:</p><ol><li>Schreibe uns eine E-Mail mit deiner <strong>Bestellnummer</strong>.</li><li>Du erhältst von uns ein <strong>Retourenformular + Rücksendeetikett</strong>.</li><li>Lege den Artikel in die Originalverpackung und füge das Formular bei.</li><li>Bringe das Paket zu einer <strong>DHL-Filiale</strong> oder übergib es an den Zusteller.</li></ol><p></p><p>Wenn du deine Retoure eigenständig verschickst, sende sie bitte <strong>versichert</strong> an:<br/><br/>Iron Heart Store Hamburg<br/>Kaiser-Wilhelm-Straße 45<br/>20355 Hamburg<br/>Deutschland</p>"
+          }
         }
       },
       "block_order": [
         "accordion_block_4_0",
         "accordion_block_4_1",
         "accordion_block_4_4",
-        "text_EPTptD"
+        "text_EPTptD",
+        "text_QQT6Dw",
+        "text_nWQ7F7"
       ],
       "settings": {
         "layout": "two-columns",
         "show_accordion_divider": false,
-        "title": "Returns & Refunds",
+        "title": "Refunds & Returns",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
