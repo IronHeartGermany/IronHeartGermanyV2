@@ -399,8 +399,8 @@
         "accordion_block_4_1": {
           "type": "text",
           "settings": {
-            "title": "How long after I complete a purchase can I ask for a refund?",
-            "text": "<p>A refund request can be submitted within a month after the purchase is made.</p>"
+            "title": "Wie lange nach dem Kauf kann ich bei Iron Heart Germany eine Rückerstattung beantragen?",
+            "text": "<p>Du kannst bei <strong>Iron Heart Germany</strong> innerhalb von <strong>14 Tagen nach Erhalt deiner Bestellung</strong> eine Rückerstattung beantragen.</p><p>Voraussetzung ist, dass sich der Artikel im <strong>Originalzustand</strong>, ungetragen und mit allen Etiketten befindet.<br/><br/>Nach Eingang und Prüfung deiner Rücksendung erfolgt die Rückerstattung über die ursprünglich gewählte Zahlungsmethode.</p>"
           }
         },
         "accordion_block_4_3": {
