@@ -386,66 +386,14 @@
         "padding_bottom": 60
       }
     },
-    "accordion-section-1": {
-      "type": "section-accordions",
-      "blocks": {
-        "accordion_block_1_1": {
-          "type": "text",
-          "settings": {
-            "title": "Is my payment data safe with you?",
-            "text": "<p>All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.</p>"
-          }
-        },
-        "accordion_block_1_2": {
-          "type": "text",
-          "settings": {
-            "title": "Do you accept online payments?",
-            "text": "<p>Yes, we accept online payments. All payment processing and vital customer information is quick, easy, and secure.<br/></p><p>Learn more about our store's safe checkout experience (powered by Shopify) <a href=\"https://www.shopify.com/legal/terms#DataProtection\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms#DataProtection\">here</a>.</p>"
-          }
-        },
-        "accordion_block_1_3": {
-          "type": "text",
-          "settings": {
-            "title": "Where can I learn more about the payment and processing on your store?",
-            "text": "<p>For more insight, you may also want to read Shopify’s Terms of Service <a href=\"https://www.shopify.com/legal/terms\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms\">here</a> or Privacy Statement <a href=\"https://www.shopify.com/legal/privacy\" target=\"_blank\" title=\"https://www.shopify.com/legal/privacy\">here</a>.</p>"
-          }
-        },
-        "accordion_block_1_4": {
-          "type": "text",
-          "settings": {
-            "title": "What forms of payment do you accept?",
-            "text": "<p>We accept payments from major credit card companies like Visa, Mastercard, and American Express.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "accordion_block_1_1",
-        "accordion_block_1_2",
-        "accordion_block_1_3",
-        "accordion_block_1_4"
-      ],
-      "settings": {
-        "layout": "two-columns",
-        "show_accordion_divider": false,
-        "title": "Payments & Safety",
-        "subheading": "",
-        "text": "",
-        "tabs_bg_color": "#fafafa",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "accordion-section-4": {
       "type": "section-accordions",
       "blocks": {
         "accordion_block_4_0": {
           "type": "text",
           "settings": {
-            "title": "Do you offer refunds?",
-            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+            "title": "Bietet Iron Heart Germany Rückerstattungen an?",
+            "text": "<p>Ja. Bei <strong>Iron Heart Germany </strong>kannst du ungetragene Artikel im <strong>Originalzustand inklusive Etiketten</strong> innerhalb von <strong>14 Tagen nach Erhalt der Ware</strong> zurückgeben.</p><p>Nach erfolgreicher Rücksendung erstatten wir dir den Kaufbetrag über die ursprünglich gewählte Zahlungsmethode zurück.<br/><br/><strong>Wichtig: </strong>Getragene, gewaschene oder beschädigte Artikel sind vom Umtausch und von der Rückerstattung ausgeschlossen.</p>"
           }
         },
         "accordion_block_4_1": {
@@ -656,7 +604,6 @@
     "section_accordions_MPEiHj",
     "section_accordions_z7U8HP",
     "section_accordions_gKnrRY",
-    "accordion-section-1",
     "accordion-section-4",
     "section_accordions_TzmBFA"
   ]
