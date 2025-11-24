@@ -28501,3 +28501,10 @@ h2.section__heading {
 .btn {
   font-size:16px!important;
 }
+
+.btn:before,
+.shopify-payment-button__button--unbranded:before {
+  background: var(--COLOR-PRIMARY-OPPOSITE-ALPHA-20) !important;
+  transition: none !important;
+  transform: scaleY(1) !important;
+}
