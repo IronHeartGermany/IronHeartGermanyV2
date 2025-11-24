@@ -28505,7 +28505,7 @@ h2.section__heading {
 /*Button hover fix*/
 .btn,
 .shopify-payment-button__button--unbranded {
-  transition: background 2s !important;
+  transition: background 0.2s !important;
 }
 
 .btn:hover,
