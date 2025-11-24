@@ -403,13 +403,6 @@
             "text": "<p>Du kannst bei <strong>Iron Heart Germany</strong> innerhalb von <strong>14 Tagen nach Erhalt deiner Bestellung</strong> eine Rückerstattung beantragen.</p><p>Voraussetzung ist, dass sich der Artikel im <strong>Originalzustand</strong>, ungetragen und mit allen Etiketten befindet.<br/><br/>Nach Eingang und Prüfung deiner Rücksendung erfolgt die Rückerstattung über die ursprünglich gewählte Zahlungsmethode.</p>"
           }
         },
-        "accordion_block_4_4": {
-          "type": "text",
-          "settings": {
-            "title": "Who pays the shipping costs in the case of a refund when the order has free shipping?",
-            "text": "<p>When an order includes free shipping, only the cost of the return shipping is handled by the customer.</p>"
-          }
-        },
         "text_EPTptD": {
           "type": "text",
           "settings": {
@@ -435,7 +428,6 @@
       "block_order": [
         "accordion_block_4_0",
         "accordion_block_4_1",
-        "accordion_block_4_4",
         "text_EPTptD",
         "text_QQT6Dw",
         "text_nWQ7F7"
