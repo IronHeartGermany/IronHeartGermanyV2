@@ -28506,5 +28506,11 @@ h2.section__heading {
 .shopify-payment-button__button--unbranded:before {
   background: var(--COLOR-PRIMARY-OPPOSITE-ALPHA-20) !important;
   transition: none !important;
-  transform: scaleY(1) !important;
+  transform: none !important;
+  opacity: 0 !important;
+}
+
+.btn:hover:before,
+.shopify-payment-button__button--unbranded:hover:before {
+  opacity: 1 !important;
 }
