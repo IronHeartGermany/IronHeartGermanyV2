@@ -28506,7 +28506,7 @@ h2.section__heading {
 .btn:before,
 .shopify-payment-button__button--unbranded:before {
   background: var(--COLOR-PRIMARY-OPPOSITE-ALPHA-20) !important;
-  transition: none !important;
+  transition: opacity 2s !important;
   transform: none !important;
   opacity: 0 !important;
 }
