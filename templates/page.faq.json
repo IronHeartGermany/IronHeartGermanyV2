@@ -403,26 +403,26 @@
             "text": "<p>Du kannst bei <strong>Iron Heart Germany</strong> innerhalb von <strong>14 Tagen nach Erhalt deiner Bestellung</strong> eine Rückerstattung beantragen.</p><p>Voraussetzung ist, dass sich der Artikel im <strong>Originalzustand</strong>, ungetragen und mit allen Etiketten befindet.<br/><br/>Nach Eingang und Prüfung deiner Rücksendung erfolgt die Rückerstattung über die ursprünglich gewählte Zahlungsmethode.</p>"
           }
         },
-        "accordion_block_4_3": {
-          "type": "text",
-          "settings": {
-            "title": "Who pays the shipping costs in the case of a refund when the order doesn't have free shipping?",
-            "text": "<p>When an order does not include free shipping, all shipping costs (including the return shipping) are handled by the customer.</p>"
-          }
-        },
         "accordion_block_4_4": {
           "type": "text",
           "settings": {
             "title": "Who pays the shipping costs in the case of a refund when the order has free shipping?",
             "text": "<p>When an order includes free shipping, only the cost of the return shipping is handled by the customer.</p>"
           }
+        },
+        "text_EPTptD": {
+          "type": "text",
+          "settings": {
+            "title": "Wer trägt die Rücksendekosten bei einer Rückerstattung, wenn der Versand kostenlos war?",
+            "text": "<p>Bei <strong>Iron Heart Germany</strong> ist der Rückversand <strong>innerhalb Deutschlands kostenlos</strong>, auch wenn deine Bestellung ursprünglich versandkostenfrei war – <strong>vorausgesetzt, du nutzt unser Rücksendeetikett</strong>.</p><p>Für Rücksendungen <strong>aus dem Ausland</strong> trägst du die Kosten selbst. Alternativ kannst du über uns ein <strong>UPS Rücksendeetikett für internationale Retouren</strong> erwerben.</p>"
+          }
         }
       },
       "block_order": [
         "accordion_block_4_0",
         "accordion_block_4_1",
-        "accordion_block_4_3",
-        "accordion_block_4_4"
+        "accordion_block_4_4",
+        "text_EPTptD"
       ],
       "settings": {
         "layout": "two-columns",
