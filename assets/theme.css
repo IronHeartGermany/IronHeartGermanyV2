@@ -28503,15 +28503,17 @@ h2.section__heading {
 }
 
 /*Button hover fix*/
-.btn:before,
-.shopify-payment-button__button--unbranded:before {
-  background: var(--COLOR-PRIMARY-OPPOSITE-ALPHA-20) !important;
-  transition: none !important;
-  transform: none !important;
-  opacity: 0 !important;
+.btn,
+.shopify-payment-button__button--unbranded {
+  transition: background 2s !important;
 }
 
-.btn:hover:before,
-.shopify-payment-button__button--unbranded:hover:before {
-  opacity: 1 !important;
+.btn:hover,
+.shopify-payment-button__button--unbranded:hover {
+  background: var(--COLOR-PRIMARY-OPPOSITE-ALPHA-20) !important;
+}
+
+.btn:before,
+.shopify-payment-button__button--unbranded:before {
+  display: none !important;
 }
