@@ -28503,6 +28503,11 @@ h2.section__heading {
 }
 
 /*Button hover fix*/
+.btn:before,
+.shopify-payment-button__button--unbranded:before {
+  display: none !important;
+}
+
 .btn,
 .shopify-payment-button__button--unbranded {
   transition: background 0.2s !important;
@@ -28511,9 +28516,4 @@ h2.section__heading {
 .btn:hover,
 .shopify-payment-button__button--unbranded:hover {
   background: var(--COLOR-PRIMARY-OPPOSITE-ALPHA-20) !important;
-}
-
-.btn:before,
-.shopify-payment-button__button--unbranded:before {
-  display: none !important;
 }
