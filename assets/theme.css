@@ -28502,6 +28502,7 @@ h2.section__heading {
   font-size:16px!important;
 }
 
+/*Button hover fix*/
 .btn:before,
 .shopify-payment-button__button--unbranded:before {
   background: var(--COLOR-PRIMARY-OPPOSITE-ALPHA-20) !important;
