@@ -1,1 +1,100 @@
-{"type":"footer","name":"Footer","sections":{"footer":{"type":"footer","blocks":{"logo_V6rRBd":{"type":"logo","settings":{"alignment":"text-left","image":"shopify:\/\/shop_images\/IH_Logo-01_Bell-Hamburg-white_4x_2.png","logo_width":160,"show_shop_name":false,"text":"","column_width":"20"}},"link_rL7cYJ":{"type":"link","settings":{"alignment":"text-left","menu":"products","title":"PRODUCTS","column_width":"20"}},"link_PGx7CT":{"type":"link","settings":{"alignment":"text-left","menu":"footer","title":"SERVICES","column_width":"20"}},"link_yREwzX":{"type":"link","settings":{"alignment":"text-left","menu":"legal","title":"LEGAL","column_width":"20"}},"text_Ez9DA8":{"type":"text","settings":{"alignment":"text-left","title":"CONTACT","footer_text":"<p>Iron Heart Store Hamburg<br\/>Kaiser-Wilhelm-Str. 45<br\/>20355 Hamburg<br\/>Germany<\/p><p>Tel. +49 (0) 40 3499 3999<br\/>info(at)ironheartgermany.com<\/p>","column_width":"20"}}},"block_order":["logo_V6rRBd","link_rL7cYJ","link_PGx7CT","link_yREwzX","text_Ez9DA8"],"custom_css":[".footer-block {--desktop-width: 18% !important;}",".footer-title__button,.footer-title {font-size: 19px !important;}","p,.footer-links {font-size: 16px !important;}",".footer-links > li {margin-bottom: 4px;}"],"settings":{"show_footer_wave":false,"bottom_bar_alignment":"text-left","show_social_links":true,"enable_follow_on_shop":true,"show_payment_icons":true,"bottom_menu":"","color_text":"#ffffff","color_bg":"#000000","color_border":"#ffffff","show_locale_selector":false,"show_country_selector":false,"show_country_flag":false,"width":"wrapper","padding_top":60,"padding_bottom":60}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "logo_V6rRBd": {
+          "type": "logo",
+          "settings": {
+            "alignment": "text-left",
+            "image": "shopify://shop_images/IH_Logo-01_Bell-Hamburg-white_4x_2.png",
+            "logo_width": 160,
+            "show_shop_name": false,
+            "text": "",
+            "column_width": "20"
+          }
+        },
+        "link_rL7cYJ": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "products",
+            "title": "PRODUCTS",
+            "column_width": "20"
+          }
+        },
+        "link_PGx7CT": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "footer",
+            "title": "SERVICES",
+            "column_width": "20"
+          }
+        },
+        "link_yREwzX": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "legal",
+            "title": "LEGAL",
+            "column_width": "20"
+          }
+        },
+        "text_Ez9DA8": {
+          "type": "text",
+          "settings": {
+            "alignment": "text-left",
+            "title": "CONTACT",
+            "footer_text": "<p>Iron Heart Store Hamburg<br/>Kaiser-Wilhelm-Str. 45<br/>20355 Hamburg<br/>Germany</p><p>Tel. +49 (0) 40 3499 3999<br/>info(at)ironheartgermany.com</p>",
+            "column_width": "20"
+          }
+        }
+      },
+      "block_order": [
+        "logo_V6rRBd",
+        "link_rL7cYJ",
+        "link_PGx7CT",
+        "link_yREwzX",
+        "text_Ez9DA8"
+      ],
+      "custom_css": [
+        ".footer-block {--desktop-width: 18% !important;}",
+        ".footer-title__button,.footer-title {font-size: 19px !important;}",
+        "p,.footer-links {font-size: 16px !important;}",
+        ".footer-links > li {margin-bottom: 4px;}"
+      ],
+      "settings": {
+        "show_footer_wave": false,
+        "bottom_bar_alignment": "text-left",
+        "show_social_links": true,
+        "enable_follow_on_shop": true,
+        "show_payment_icons": true,
+        "bottom_menu": "test-menu",
+        "color_text": "#ffffff",
+        "color_bg": "#000000",
+        "color_border": "#ffffff",
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
