@@ -11,6 +11,11 @@
 {%- assign shop_name = shop.name -%}
 
 {%- comment %}
+  Produktname bereinigt für FAQ (ohne Anführungszeichen, um JSON-Fehler zu vermeiden)
+{%- endcomment -%}
+{%- assign product_title_clean = product.title | replace: '"', '' -%}
+
+{%- comment %}
   Logo fallback
 {%- endcomment -%}
 {%- assign logo_url = '' -%}
@@ -400,6 +405,7 @@
 
 {%- comment -%}
   FAQ Schema für Produkte - basierend auf vorhandenen Daten
+  WICHTIG: Hier wird product_title_clean verwendet, um JSON-Fehler durch Anführungszeichen zu vermeiden
 {%- endcomment -%}
 
 {%- assign show_faq = false -%}
@@ -419,7 +425,7 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Wie fällt {{ product.title }} aus?",
+      "name": "Wie fällt {{ product_title_clean }} aus?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Iron Heart Produkte fallen in der Regel passgenau bis leicht kleiner aus. {% if shirt_style %}Dieser {{ shirt_style }} Style hat einen besonderen Schnitt. {% endif %}Wir empfehlen unseren Size Guide zu konsultieren oder uns für eine persönliche Beratung zu kontaktieren."
@@ -428,10 +434,10 @@
     {%- if fabric and fabric != blank -%}
     {
       "@type": "Question",
-      "name": "Aus welchem Material ist {{ product.title }}?",
+      "name": "Aus welchem Material ist {{ product_title_clean }}?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ product.title }} besteht aus {{ fabric }}.{% if fabric_weight %} Das Stoffgewicht beträgt {{ fabric_weight }}.{% endif %} Alle Iron Heart Produkte werden in Japan mit höchster Handwerkskunst gefertigt."
+        "text": "{{ product_title_clean }} besteht aus {{ fabric }}.{% if fabric_weight %} Das Stoffgewicht beträgt {{ fabric_weight }}.{% endif %} Alle Iron Heart Produkte werden in Japan mit höchster Handwerkskunst gefertigt."
       }
     },
     {%- endif -%}
@@ -441,41 +447,41 @@
       "name": "Wie schwer ist der Stoff?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ product.title }} hat ein Stoffgewicht von {{ fabric_weight }}. Dies macht es zu einem {% if fabric_weight contains '21' or fabric_weight contains '25' %}extra schweren{% elsif fabric_weight contains '17' or fabric_weight contains '19' %}schweren{% elsif fabric_weight contains '14' %}mittelschweren{% else %}hochwertigen{% endif %} Stoff mit exzellenter Haltbarkeit."
+        "text": "{{ product_title_clean }} hat ein Stoffgewicht von {{ fabric_weight }}. Dies macht es zu einem {% if fabric_weight contains '21' or fabric_weight contains '25' %}extra schweren{% elsif fabric_weight contains '17' or fabric_weight contains '19' %}schweren{% elsif fabric_weight contains '14' %}mittelschweren{% else %}hochwertigen{% endif %} Stoff mit exzellenter Haltbarkeit."
       }
     },
     {%- endif -%}
     {
       "@type": "Question",
-      "name": "Ist {{ product.title }} vorrätig?",
+      "name": "Ist {{ product_title_clean }} vorrätig?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{%- if product.available -%}Ja, {{ product.title }} ist aktuell vorrätig und wird innerhalb von 1-3 Werktagen aus Hamburg versendet.{%- else -%}{{ product.title }} ist momentan ausverkauft. Tragen Sie sich in die Warteliste ein, um benachrichtigt zu werden.{%- endif -%}"
+        "text": "{%- if product.available -%}Ja, {{ product_title_clean }} ist aktuell vorrätig und wird innerhalb von 1-3 Werktagen aus Hamburg versendet.{%- else -%}{{ product_title_clean }} ist momentan ausverkauft. Tragen Sie sich in die Warteliste ein, um benachrichtigt zu werden.{%- endif -%}"
       }
     },
     {%- if sleeve_length and sleeve_length != blank -%}
-    ,{
+    {
       "@type": "Question", 
-      "name": "Welche Ärmellänge hat {{ product.title }}?",
+      "name": "Welche Ärmellänge hat {{ product_title_clean }}?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Die Ärmellänge beträgt {{ sleeve_length }}. Beachten Sie, dass Iron Heart Produkte oft etwas länger ausfallen, um ein Einlaufen zu kompensieren."
       }
-    }
+    },
     {%- endif -%}
     {%- if works_well_with and works_well_with != blank -%}
     {
       "@type": "Question",
-      "name": "Welche Produkte passen gut zu {{ product.title }}?",
+      "name": "Welche Produkte passen gut zu {{ product_title_clean }}?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ product.title }} lässt sich hervorragend kombinieren mit: {% for related in works_well_with limit: 3 %}{{ related.title }}{% unless forloop.last %}, {% endunless %}{% endfor %}. Diese Kombinationen finden Sie auch in unserem Shop."
+        "text": "{{ product_title_clean }} lässt sich hervorragend kombinieren mit: {% for related in works_well_with limit: 3 %}{{ related.title | replace: '"', '' }}{% unless forloop.last %}, {% endunless %}{% endfor %}. Diese Kombinationen finden Sie auch in unserem Shop."
       }
     },
     {%- endif -%}
     {
       "@type": "Question",
-      "name": "Kann ich {{ product.title }} im Showroom anprobieren?",
+      "name": "Kann ich {{ product_title_clean }} im Showroom anprobieren?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Ja, besuchen Sie uns in Hamburg in der Kaiser-Wilhelm-Straße 45. Öffnungszeiten: Mo-Di, Do-Fr 11-18 Uhr, Sa 11-16 Uhr. Rufen Sie vorher an (+49-40-34993999) für die Verfügbarkeit in Ihrer Größe."
