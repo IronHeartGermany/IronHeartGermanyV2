@@ -28504,6 +28504,7 @@ h2.section__heading {
 
 /*Button hover fix*/
 button:before,
+.btn--outline:before,
 .btn--solid:before,
 .shopify-payment-button__button--unbranded:before {
   display: none !important;
