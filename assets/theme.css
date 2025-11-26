@@ -28511,12 +28511,14 @@ button:before,
 }
 
 button,
+.button--outline,
 .btn--solid,
 .shopify-payment-button__button--unbranded {
   transition: background 0.2s !important;
 }
 
 button:hover,
+.btn--outline:hover,
 .btn--solid:hover,
 .shopify-payment-button__button--unbranded:hover {
   background: #262626 !important;
