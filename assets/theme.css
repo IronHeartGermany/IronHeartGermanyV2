@@ -28511,7 +28511,7 @@ button:before,
 }
 
 button,
-.button--outline,
+.btn--outline,
 .btn--solid,
 .shopify-payment-button__button--unbranded {
   transition: background 0.2s !important;
