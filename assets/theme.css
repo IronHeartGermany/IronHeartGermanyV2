@@ -28522,4 +28522,5 @@ button:hover,
 .btn--solid:hover,
 .shopify-payment-button__button--unbranded:hover {
   background: #262626 !important;
+  color:white!important;
 }
