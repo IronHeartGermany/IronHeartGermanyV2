@@ -329,6 +329,13 @@
             "text": "<h4>Japanische Größen fallen tendenziell kleiner aus als amerikanische. Vergleiche deshalb immer die Maßangaben der Produkte mit einem Kleidungsstück, das dir gut passt, und nutze unser Video „How We Measure“, um richtig zu messen.</h4><p>Japanische Marken wie Iron Heart und amerikanische Marken wie Dehen oder Wesco verwenden unterschiedliche Größensysteme. Das bedeutet: Eine Größe „L“ kann je nach Marke unterschiedlich ausfallen – bei japanischen Modellen meist etwas kleiner und kompakter als bei US Marken.</p><p><strong>So findest du deine richtige Größe:</strong></p><p>Vergleiche Maße statt Etiketten. Lege ein Kleidungsstück, das dir gut passt, flach hin und miss es nach denselben Punkten wie in unserer Anleitung.</p><p>Sieh dir unser Video „How We Measure“ an – dort zeigen wir dir Schritt für Schritt, wie du richtig misst.</p><p>Vergleiche deine Werte mit der Größentabelle des gewünschten Produkts im Shop.</p><p>Beachte Schnitt und Stoff: Slim, Straight, Relaxed oder Tapered Fits unterscheiden sich im Sitz; Raw Denim kann sich mit der Zeit leicht weiten.</p><p>Zwischen zwei Größen? Bei eng geschnittenen Styles lieber die größere Größe wählen – bei Raw Denim darf es anfangs etwas fester sitzen.</p><p>Wechselst du zwischen Marken? Unsere Produktbeschreibungen geben oft einen Hinweis („fällt kleiner aus als typische US-Größen“).</p><p><strong>Noch unsicher? </strong>Schick uns einfach deine gemessenen Werte – unser Team hilft dir beim perfekten Fit.</p><p><strong>Kurz gesagt:</strong></p><ul><li>Japanische Größen = kompakterer Schnitt.</li><li>US-Größen = etwas weiter geschnitten.</li></ul><p>Immer messen, nie schätzen. So sitzt dein Iron Heart Piece perfekt – ganz gleich, aus welchem Land die Marke stammt.</p>"
           }
         },
+        "text_FgayTt": {
+          "type": "text",
+          "settings": {
+            "title": "Warum können die tatsächlichen Maße von meinem Artikel von der Größentabelle abweichen?",
+            "text": "<h4>Unsere Maßangaben bei Iron Heart Germany sind unverbindliche Richtwerte zur Orientierung. Leichte Abweichungen können sowohl durch die handgefertigte Produktion als auch durch unterschiedliche Messmethoden entstehen.</h4><p>Unsere Produkte entstehen in aufwendiger Handarbeit und aus schweren, originalgetreuen Stoffen. Dadurch können selbst bei identischen Modellen und Größen leichte Maßunterschiede auftreten.<br/><br/><strong>Hinzu kommt:</strong></p><p>Auch die Art und Weise, <strong>wie</strong> gemessen wird, beeinflusst das Ergebnis erheblich. Je nachdem, wie ein Kleidungsstück vor dem Messen plattgelegt, ausgerichtet oder gespannt wird (z. B. im Bereich der Brust oder unter den Armen), können Abweichungen von bis zu <strong>2–3 cm </strong>entstehen.<br/><br/><strong>Wichtig zu wissen:</strong></p><p>Unsere Maßangaben im Shop sind ein <strong>unverbindliches Angebot zur Orientierung</strong> und kein garantierter Sollwert.</p><p>Auf unserer Seite „<strong>How we measure</strong>“ zeigen wir transparent, wie wir unsere Produkte messen – dennoch kann dein eigenes Messergebnis zu Hause davon abweichen.<br/><br/>Das ist kein Mangel, sondern eine natürliche Eigenschaft traditionell gefertigter Denim- und Heritage Garments.<br/><br/><strong>Kurz gesagt:</strong></p><p>Leichte Maßabweichungen sind produktions- und messbedingt ganz normal – besonders bei hochwertigen, handgefertigten Stücken wie denen von <strong>Iron Heart Germany</strong>.</p>"
+          }
+        },
         "text_fPF3bR": {
           "type": "text",
           "settings": {
@@ -340,6 +347,7 @@
       "block_order": [
         "text_wcdKTX",
         "text_dNAPGg",
+        "text_FgayTt",
         "text_fPF3bR"
       ],
       "name": "Tabs",
