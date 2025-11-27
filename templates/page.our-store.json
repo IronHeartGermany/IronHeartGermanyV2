@@ -111,7 +111,7 @@
         "heading_qyDyFi": {
           "type": "heading",
           "settings": {
-            "text": "<p>Iron Heart is not about fleeting trends – it is about <strong>heritage workwear</strong> designed to last a lifetime.</p>",
+            "text": "<p>Lorem IPSUM</p>",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -255,23 +255,12 @@
             "text": "<p>At Iron Heart Germany, advising and serving our customers is at the core of everything we do. Whether by phone, email, or in-store, our team provides knowledgeable guidance to help you find the perfect denim, jacket, or workwear piece.</p>",
             "size": 100
           }
-        },
-        "button_xC9n9V": {
-          "type": "button",
-          "settings": {
-            "button_text": "Read More",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small"
-          }
         }
       },
       "block_order": [
         "subheading_9FVRrR",
         "heading_Mxc6DG",
-        "text_tGVFKR",
-        "button_xC9n9V"
+        "text_tGVFKR"
       ],
       "name": "Text",
       "settings": {
@@ -367,6 +356,7 @@
         "text_CVKxFg",
         "button_kje7Wf"
       ],
+      "disabled": true,
       "name": "Banner image",
       "settings": {
         "height": "six-fifty-height",
