@@ -153,8 +153,8 @@
         "height": "seven-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
-        "image": "shopify://shop_images/Webstuhl.jpg",
-        "overlay_opacity": 50,
+        "image": "shopify://shop_images/2J5A7197_4df75a42-9037-49c8-84e4-124d12a8497a.jpg",
+        "overlay_opacity": 20,
         "enable_zoom_animation": true,
         "text_width": "narrow",
         "text_position": "center",
@@ -170,7 +170,7 @@
         "image_location": "right",
         "image_width": "wide",
         "media_type": "image",
-        "image": "shopify://shop_images/Nehen.jpg",
+        "image": "shopify://shop_images/Wesco_Regal_HDR-1.jpg",
         "video_file": "",
         "subheading": "",
         "title": "<p><strong>HAMBURG: THE HEART OF IRON HEART GERMANY</strong></p>",
@@ -203,7 +203,7 @@
         "image_location": "left",
         "image_width": "standard",
         "media_type": "image",
-        "image": "shopify://shop_images/Hose_warehouse.jpg",
+        "image": "shopify://shop_images/2J5A7309.jpg",
         "video_file": "",
         "subheading": "",
         "title": "<p><strong>CURATED BRANDS, EXCLUSIVE SELECTION</strong></p>",
@@ -245,8 +245,8 @@
             "text": "<p>EXPERT ADVICE, LOCAL SERVICE</p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_tGVFKR": {
@@ -281,12 +281,13 @@
         "image_location": "right",
         "image_width": "wide",
         "media_type": "image",
+        "image": "shopify://shop_images/Store_Fenster.jpg",
         "video_file": "",
         "subheading": "",
         "title": "<p>HEMMING SERVICE WITH TRADITION</p>",
         "heading_highlight_type": "circle",
-        "highlight_color": "#D43747",
-        "highlight_text_color": "#000",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
         "heading_size": 130,
         "content": "<p>We also offer professional Hemming Service using our Union Special 43200G chain stitching machine, manufactured in 1939. This classic machine ensures precise, durable hems and is part of our commitment to preserving traditional tailoring methods.</p>",
         "text_alignment": "center",
@@ -389,8 +390,8 @@
             "text": "<p>VISIT US IN HAMBURG</p>",
             "size": 100,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_6myULC": {
