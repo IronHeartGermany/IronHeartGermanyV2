@@ -9,6 +9,68 @@
  */
 {
   "sections": {
+    "section_banner_image_epzw4t": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_iYgdgb": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>IRON HEART GERMANY</p>",
+            "size": 100
+          }
+        },
+        "heading_VWtxML": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>OUR STORE</p>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_kRhhhC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Opening Hours:<br/>Mon – Fri: 11 am – 6 pm (Wed closed)<br/>Sat: 11 am – 4 pm</p>",
+            "size": 100
+          }
+        },
+        "button_7t4ahR": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iYgdgb",
+        "heading_VWtxML",
+        "text_kRhhhC",
+        "button_7t4ahR"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "overlay_opacity": 10,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "left",
+        "text_color": "text-light"
+      }
+    },
     "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc": {
       "type": "section-image-with-text",
       "settings": {
@@ -25,7 +87,7 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 160,
-        "content": "<p><strong>Built to Last. Rooted in Japan.<br/>At Home in Hamburg and in the World. <br/>A Vision Brought to Europe</strong></p><p>Back in 2003, Shinichi Haraki had a dream: to create the world’s toughest denim. That dream became Iron Heart. More than 20 years later, Iron Heart Germany continues this legacy, bringing premium Japanese denim and heritage workwear to Europe. What started with heavyweight 21oz denim soon pushed the boundaries of craftsmanship. Our 25oz fabric—still the heaviest selvedge denim produced at scale—has become a symbol of our uncompromising approach to quality and durability.</p>",
+        "content": "<p><strong>The Only Official Iron Heart Store in the EU</strong><br/><br/>Located in the heart of Hamburg, between St. Pauli and Gänsemarkt, the Iron Heart Germany flagship store is the only official Iron Heart store in the European Union. This is where Japanese craftsmanship meets local service – a physical space for denim heads, riders and lovers of authentic workwear.</p>",
         "text_alignment": "center",
         "button_text": "",
         "button_link": "",
@@ -418,6 +480,7 @@
     }
   },
   "order": [
+    "section_banner_image_epzw4t",
     "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc",
     "text",
     "section_banner_image_fhMfwH",
