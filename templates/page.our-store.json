@@ -154,7 +154,7 @@
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/2J5A7197_4df75a42-9037-49c8-84e4-124d12a8497a.jpg",
-        "overlay_opacity": 20,
+        "overlay_opacity": 35,
         "enable_zoom_animation": true,
         "text_width": "narrow",
         "text_position": "center",
@@ -233,14 +233,14 @@
         "subheading_tDRVMU": {
           "type": "subheading",
           "settings": {
-            "text": "<p>Welcome to</p>",
+            "text": "<p>IRON HEART GERMANY</p>",
             "size": 100
           }
         },
         "heading_EfBPAP": {
           "type": "heading",
           "settings": {
-            "text": "<p>Palo Alto</p>",
+            "text": "<p>VISIT US IN HAMBURG</p>",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#D43747",
@@ -250,12 +250,13 @@
         "text_i7Hhpm": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.</p>",
-            "size": 100
+            "text": "<p>Whether you’re a long-time Iron Heart wearer or just discovering us – our doors are always open. Step inside, meet the team, feel the fabrics, and become part of the Iron Heart community in Germany.<br/><br/><strong>Opening Hours:</strong><br/>Mon – Fri: 11 am – 6 pm (Wed closed)<br/>Sat: 11 am – 4 pm</p>",
+            "size": 110
           }
         },
         "button_eMhWwG": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_1_text": "Shop All",
             "button_1_link": "shopify://collections/all",
@@ -282,76 +283,10 @@
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/Store_Fenster.jpg",
-        "overlay_opacity": 10,
+        "overlay_opacity": 40,
         "enable_zoom_animation": true,
         "text_width": "normal",
         "text_position": "left",
-        "text_color": "text-light"
-      }
-    },
-    "section_banner_image_DwGpyz": {
-      "type": "section-banner-image",
-      "blocks": {
-        "subheading_NQUyF7": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Welcome to</p>",
-            "size": 100
-          }
-        },
-        "heading_9RWp3h": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Lorem IPSUM</p>",
-            "size": 180,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_CVKxFg": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>We are proud to be the bridge between <strong>Japan’s tradition of precision and quality </strong>and Europe’s growing community of Iron Heart enthusiasts.</p>",
-            "size": 100
-          }
-        },
-        "button_kje7Wf": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify://collections/all",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--solid-border",
-            "button_1_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_NQUyF7",
-        "heading_9RWp3h",
-        "text_CVKxFg",
-        "button_kje7Wf"
-      ],
-      "disabled": true,
-      "name": "Banner image",
-      "settings": {
-        "height": "six-fifty-height",
-        "enable_mobile_height": false,
-        "mobile_height": "four-fifty-height-mobile",
-        "image": "shopify://shop_images/DSC06555.jpg",
-        "overlay_opacity": 50,
-        "enable_zoom_animation": true,
-        "text_width": "normal",
-        "text_position": "center",
         "text_color": "text-light"
       }
     },
@@ -364,41 +299,6 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "section_text_gRcXEh": {
-      "type": "section-text",
-      "blocks": {
-        "heading_E8g8JP": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>VISIT US IN HAMBURG</p>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_6myULC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Whether you’re a long-time Iron Heart wearer or just discovering us – our doors are always open.<br/>Step inside, meet the team, feel the fabrics, and become part of the Iron Heart community in Germany.<br/><br/><strong>Opening Hours:</strong><br/>Mon – Fri: 11 am – 6 pm (Wed closed)<br/>Sat: 11 am – 4 pm</p>",
-            "size": 100
-          }
-        }
-      },
-      "block_order": [
-        "heading_E8g8JP",
-        "text_6myULC"
-      ],
-      "name": "Text",
-      "settings": {
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -408,8 +308,6 @@
     "section_image_with_text_xLFbgw",
     "section_image_with_text_Ba93Qp",
     "section_banner_image_wcL9KW",
-    "section_banner_image_DwGpyz",
-    "main",
-    "section_text_gRcXEh"
+    "main"
   ]
 }
