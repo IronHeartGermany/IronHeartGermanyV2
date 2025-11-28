@@ -25,7 +25,7 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 160,
-        "content": "<p><strong>The Only Official Iron Heart Store in the EU</strong><br/><br/>Located in the heart of Hamburg, between St. Pauli and Gänsemarkt, the Iron Heart Germany flagship store is the only official Iron Heart store in the European Union. This is where Japanese craftsmanship meets local service – a physical space for denim heads, riders and lovers of authentic workwear.<br/><br/>Opening Hours:<br/>Mon – Fri: 11 am – 6 pm (Wed closed)<br/>Sat: 11 am – 4 pm</p>",
+        "content": "<p><strong>The Only Official Iron Heart Store in the EU</strong><br/><br/>Located in the heart of Hamburg, between St. Pauli and Gänsemarkt, the Iron Heart Germany flagship store is the only official Iron Heart store in the European Union. This is where Japanese craftsmanship meets local service – a physical space for denim heads, riders and lovers of authentic workwear.<br/><br/><strong>Opening Hours:</strong><br/>Mon – Fri: 11 am – 6 pm (Wed closed)<br/>Sat: 11 am – 4 pm</p>",
         "text_alignment": "center",
         "button_text": "",
         "button_link": "",
@@ -56,7 +56,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "text": "<p><strong>FUNCTION, ENDURANCE, PURPOSE-BUILT-DESIGN</strong></p>",
+            "text": "<p>In-Store Experience</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -66,7 +66,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Iron Heart isn’t about fast fashion. It’s about function, endurance, and garments designed to last a lifetime. Every stitch, every rivet, every panel is meticulously crafted in Japan. From heavyweight jeans to flannels and jackets, our products are built for work, motorcycling, and everyday life, offering unmatched comfort and durability.</p>",
+            "text": "<p>Our Hamburg store is more than a retail space. It’s a place to slow down, explore the world of Iron Heart and experience our products in person. You’re welcome to take your time, try on different fits and weights, and enjoy a coffee, a cold beer or a shot of bourbon while you’re here.</p>",
             "size": 100
           }
         },
@@ -111,7 +111,7 @@
         "heading_qyDyFi": {
           "type": "heading",
           "settings": {
-            "text": "<p>Lorem IPSUM</p>",
+            "text": "<p>Visit Iron Heart Germany</p>",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -121,7 +121,7 @@
         "text_HJrhMH": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>Kaiser-Wilhelm-Straße 45<br/>20355 Hamburg<br/>Germany<br/><br/>Opening Hours<br/>Mon – Fri: 11:00 – 18:00 (Wednesday closed)<br/>Sat: 11:00 – 16:00</p>",
             "size": 100
           }
         },
@@ -173,12 +173,12 @@
         "image": "shopify://shop_images/Wesco_Regal_HDR-1.jpg",
         "video_file": "",
         "subheading": "",
-        "title": "<p><strong>HAMBURG: THE HEART OF IRON HEART GERMANY</strong></p>",
+        "title": "<p>Hemming & Repair Service</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>Founded in 2020, Iron Heart Germany makes authentic Japanese craftsmanship accessible across Europe. Located between St. Pauli and Gänsemarkt in Hamburg, we operate the <strong>only official Iron Heart store in the European Union</strong>. Alongside our dedicated webshop serving customers across Europe and worldwide, we are more than a stockist—we are part of the brand, carrying forward Japan’s precision, technical innovation, and timeless strength.</p>",
+        "content": "<p>We offer professional hemming using our vintage Union Special 43200G chainstitch machine from 1939, ensuring classic, durable hems true to traditional American workwear standards.<br/><br/>Our team is happy to advise you on fit, sizing and care – in-store, by phone or via email.</p>",
         "text_alignment": "center",
         "button_text": "",
         "button_link": "",
@@ -206,12 +206,12 @@
         "image": "shopify://shop_images/2J5A7309.jpg",
         "video_file": "",
         "subheading": "",
-        "title": "<p><strong>CURATED BRANDS, EXCLUSIVE SELECTION</strong></p>",
+        "title": "<p>Curated Selection</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>In addition to Iron Heart, our store features carefully selected brands that share our values of craftsmanship and quality, including Wesco boots, Good Art HLYWD, Dehen 1920, Peanuts & Co., and Simmons Bilt. For several of these, <strong>Iron Heart Germany is the exclusive retailer in Germany</strong>, making our store a unique destination for heritage workwear and Japanese denim enthusiasts.</p>",
+        "content": "<p>Alongside the full Iron Heart collection, we carry selected brands that share our values of craftsmanship and durability, including Wesco, Good Art HLYWD, Dehen 1920, Peanuts & Co. and Simmons Bilt. For some of these, Iron Heart Germany is the <strong>only retailer in Germany</strong>.</p>",
         "text_alignment": "center",
         "button_text": "",
         "button_link": "",
