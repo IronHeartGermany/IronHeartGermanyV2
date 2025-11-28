@@ -278,7 +278,7 @@
       ],
       "name": "Banner image",
       "settings": {
-        "height": "five-fifty-height",
+        "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/Store_Fenster.jpg",
