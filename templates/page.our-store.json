@@ -278,9 +278,10 @@
       ],
       "name": "Banner image",
       "settings": {
-        "height": "six-fifty-height",
+        "height": "five-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/Store_Fenster.jpg",
         "overlay_opacity": 10,
         "enable_zoom_animation": true,
         "text_width": "normal",
