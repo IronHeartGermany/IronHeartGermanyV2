@@ -28505,6 +28505,7 @@ h2.section__heading {
 /*Button hover fix*/
 /* The following code does not work. It causes the arrows in the carrousels to be dots which are only visible when hoving.*/
 button.input-group__btn:before,
+button.cart__checkout:before,
 .btn--outline:before,
 .btn--solid:before,
 .shopify-payment-button__button--unbranded:before {
@@ -28512,6 +28513,7 @@ button.input-group__btn:before,
 }
 
 button.input-group__btn,
+button.cart__checkout,
 .btn--outline,
 .btn--solid,
 .shopify-payment-button__button--unbranded {
@@ -28519,6 +28521,7 @@ button.input-group__btn,
 }
 
 button.input-group__btn:hover,
+button.cart__checkout:hover,
 .btn--outline:hover,
 .btn--solid:hover,
 .shopify-payment-button__button--unbranded:hover {
