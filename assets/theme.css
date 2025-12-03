@@ -28527,3 +28527,14 @@ button.cart__checkout:hover,
   background: #262626 !important;
   color:white!important;
 }
+
+/*product page arrows fix*/
+@media screen and (min-width:480px) {
+  .product-single__wrapper--carousel .flickity-button.flickity-prev-next-button.previous {
+    left: -30px;
+  }
+
+  .product-single__wrapper--carousel .flickity-button.flickity-prev-next-button.next {
+    right: -10px;
+  }
+}
