@@ -28503,7 +28503,6 @@ h2.section__heading {
 }
 
 /*Button hover fix*/
-/* The following code does not work. It causes the arrows in the carrousels to be dots which are only visible when hoving.*/
 button.input-group__btn:before,
 button.cart__checkout:before,
 .btn--outline:before,
