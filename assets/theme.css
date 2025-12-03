@@ -28528,13 +28528,24 @@ button.cart__checkout:hover,
   color:white!important;
 }
 
-/*product page arrows fix*/
+/* Product single carousel — min 480px */
 @media screen and (min-width:480px) {
   .product-single__wrapper--carousel .flickity-button.flickity-prev-next-button.previous {
     left: -30px;
   }
 
   .product-single__wrapper--carousel .flickity-button.flickity-prev-next-button.next {
+    right: -10px;
+  }
+}
+
+/* Look slider — min 768px */
+@media screen and (min-width:768px) {
+  .look__slider .flickity-button.flickity-prev-next-button.previous {
+    left: -30px;
+  }
+
+  .look__slider .flickity-button.flickity-prev-next-button.next {
     right: -10px;
   }
 }
