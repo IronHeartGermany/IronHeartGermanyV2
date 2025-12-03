@@ -28551,3 +28551,29 @@ button.cart__checkout:hover,
     right: -10px;
   }
 }
+
+/*Button hover fix*/
+button.input-group__btn:before,
+button.cart__checkout:before,
+.btn--outline:before,
+.btn--solid:before,
+.shopify-payment-button__button--unbranded:before {
+  display: none !important;
+}
+
+button.input-group__btn,
+button.cart__checkout,
+.btn--outline,
+.btn--solid,
+.shopify-payment-button__button--unbranded {
+  transition: background 0.2s !important;
+}
+
+button.input-group__btn:hover,
+button.cart__checkout:hover,
+.btn--outline:hover,
+.btn--solid:hover,
+.shopify-payment-button__button--unbranded:hover {
+  background: #262626 !important;
+  color:white!important;
+}
