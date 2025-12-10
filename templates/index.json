@@ -48,6 +48,7 @@
         },
         "image_Mc6ncH": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IHM-37-BLK_032_FW25.jpg",
             "image_mobile": "shopify://shop_images/IHM-37-BLK_032_FW25_1.jpg",
