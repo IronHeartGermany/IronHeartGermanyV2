@@ -810,7 +810,6 @@
       "blocks": {
         "heading_PCbtpR": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "text": "<p>Porter-Yoshida & Co</p>",
             "size": 100,
@@ -847,6 +846,7 @@
         "text_UhmyHY",
         "button_qcEydt"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 768px) {{margin: 60px 0px 30px; }}",
         "@media screen and (max-width: 767px) {.btn {width: fit-content !important; } {margin: 30px 0; }}",
