@@ -409,75 +409,6 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "section_promotion_row_aiDEtf": {
-      "type": "section-promotion-row",
-      "blocks": {
-        "column_jUw8za": {
-          "type": "column",
-          "settings": {
-            "subheading": "<p>IN-STORE AND ONLINE</p>",
-            "subheading_size": 75,
-            "heading": "<p>20% OFF</p>",
-            "heading_highlight_type": "italics",
-            "highlight_color": "#ffffff",
-            "highlight_text_color": "#FFFFFF",
-            "heading_size": 295,
-            "description": "Share details about the promotion",
-            "description_size": 100,
-            "disclaimer": "*Use this text for a disclaimer.",
-            "disclaimer_size": 75,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small",
-            "bg_color": "",
-            "gradient_background": "",
-            "text_color": "#ffffff",
-            "overlay_opacity": 10
-          }
-        },
-        "column_mWLKPa": {
-          "type": "column",
-          "settings": {
-            "subheading": "<p>For a limited time</p>",
-            "subheading_size": 75,
-            "heading": "<p><em>FREE PRODUCT</em></p>",
-            "heading_highlight_type": "underline",
-            "highlight_color": "#ffffff",
-            "highlight_text_color": "#FFFFFF",
-            "heading_size": 205,
-            "description": "With every purchase over $99",
-            "description_size": 80,
-            "disclaimer": "",
-            "disclaimer_size": 75,
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--solid",
-            "button_size": "btn--small",
-            "bg_color": "",
-            "gradient_background": "",
-            "text_color": "#ffffff",
-            "overlay_opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "column_jUw8za",
-        "column_mWLKPa"
-      ],
-      "name": "Promotion row",
-      "settings": {
-        "layout": "1",
-        "height": "400",
-        "bg_color": "",
-        "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -489,7 +420,6 @@
     "section_text_cAdTqR",
     "section_banner_image_DwGpyz",
     "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
-    "main",
-    "section_promotion_row_aiDEtf"
+    "main"
   ]
 }
