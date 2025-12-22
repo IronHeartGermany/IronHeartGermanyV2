@@ -118,7 +118,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Ch25_website_header.jpg",
-            "image_mobile": "shopify://shop_images/Ch25_website_mobil_neu.jpg",
+            "image_mobile": "shopify://shop_images/Ch25_website_mobil.jpg",
             "overlay_opacity": 0,
             "text_width": "normal",
             "text_position": "bottom-left",
