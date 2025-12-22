@@ -740,7 +740,7 @@
         "image_afQj9D": {
           "type": "image",
           "settings": {
-            "text_position": "middle-center",
+            "text_position": "top-center",
             "image": "shopify://shop_images/GA-JIMMY-CROSS-PEN-A_018_1e54072e-e1c6-430d-bd47-c74c61911488.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
@@ -774,7 +774,7 @@
         "image_xhAhd4": {
           "type": "image",
           "settings": {
-            "text_position": "middle-center",
+            "text_position": "top-center",
             "image": "shopify://shop_images/2J5A0805_b7060279-cce7-4f59-b457-b24543c27a1a.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
@@ -794,7 +794,6 @@
         "image_ej7qza",
         "image_xhAhd4"
       ],
-      "disabled": true,
       "name": "Side-by-side content",
       "settings": {
         "height": "seven-fifty-height",
