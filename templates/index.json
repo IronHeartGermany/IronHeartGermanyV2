@@ -741,7 +741,7 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
-            "image": "shopify://shop_images/GA-JIMMY-CROSS-PEN-A_011_2e67c053-bc87-4bf4-8151-b8ad6ca5b40d.jpg",
+            "image": "shopify://shop_images/GA-JIMMY-CROSS-PEN-A_018_1e54072e-e1c6-430d-bd47-c74c61911488.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
             "title": "Good Art Hlywd",
@@ -758,12 +758,12 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
-            "image": "shopify://shop_images/Evolution_of_Iron_Heart.png",
+            "image": "shopify://shop_images/IHSH-33-IND_015_24_09.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
-            "title": "THE EVOLUTION OF IRON HEART",
+            "title": "IRON HEART",
             "heading_size": 100,
-            "image_text": "<p>Founded in 2003 by Shinichi Haraki, Iron Heart set out to create the world’s toughest, most durable denim.</p>",
+            "image_text": "<p>12oz Selvedge Denim Western Shirt</p>",
             "button_text": "",
             "button_link": "shopify://collections/jeans",
             "button_color": "btn--white",
@@ -811,6 +811,7 @@
       "blocks": {
         "heading_PCbtpR": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "<p>Porter-Yoshida & Co</p>",
             "size": 100,
