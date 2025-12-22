@@ -410,61 +410,71 @@
         "padding_bottom": 60
       }
     },
-    "section_custom_content_3CjEdH": {
-      "type": "section-custom-content",
+    "section_promotion_row_aiDEtf": {
+      "type": "section-promotion-row",
       "blocks": {
-        "image_ycfDUa": {
-          "type": "image",
+        "column_jUw8za": {
+          "type": "column",
           "settings": {
-            "text_position": "middle-center",
-            "overlay_opacity": 10,
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "heading_size": 100,
-            "image_text": "<p>Describe in a few words your special products, collection, or brand.</p>",
+            "subheading": "<p>IN-STORE AND ONLINE</p>",
+            "subheading_size": 75,
+            "heading": "<p>20% OFF</p>",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#FFFFFF",
+            "heading_size": 295,
+            "description": "Share details about the promotion",
+            "description_size": 100,
+            "disclaimer": "*Use this text for a disclaimer.",
+            "disclaimer_size": 75,
             "button_text": "",
-            "button_link": "",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
-        },
-        "text_yCXHke": {
-          "type": "text",
-          "settings": {
-            "text_position": "center",
-            "top_image_width": 100,
-            "text_color": "text-dark",
-            "subheading": "Subheading",
-            "title": "Our Story",
-            "heading_size": 100,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_size": 100,
-            "button_text": "Learn More",
             "button_link": "",
             "button_color": "btn--black",
             "button_style": "btn--solid",
             "button_size": "btn--small",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--white",
-            "button_2_style": "btn--solid-border",
-            "button_2_size": "btn--small",
-            "bg_color": ""
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "#ffffff",
+            "overlay_opacity": 10
+          }
+        },
+        "column_mWLKPa": {
+          "type": "column",
+          "settings": {
+            "subheading": "<p>For a limited time</p>",
+            "subheading_size": 75,
+            "heading": "<p><em>FREE PRODUCT</em></p>",
+            "heading_highlight_type": "underline",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#FFFFFF",
+            "heading_size": 205,
+            "description": "With every purchase over $99",
+            "description_size": 80,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "#ffffff",
+            "overlay_opacity": 50
           }
         }
       },
       "block_order": [
-        "image_ycfDUa",
-        "text_yCXHke"
+        "column_jUw8za",
+        "column_mWLKPa"
       ],
-      "name": "Custom content",
+      "name": "Promotion row",
       "settings": {
-        "height": "six-fifty-height",
+        "layout": "1",
+        "height": "400",
         "bg_color": "",
-        "reverse_blocks": false,
-        "width": "wrapper",
-        "add_gutter": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -480,6 +490,6 @@
     "section_banner_image_DwGpyz",
     "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
     "main",
-    "section_custom_content_3CjEdH"
+    "section_promotion_row_aiDEtf"
   ]
 }
