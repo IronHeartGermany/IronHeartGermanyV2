@@ -48,7 +48,6 @@
         },
         "image_Mc6ncH": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2J5A0966.jpg",
             "image_mobile": "shopify://shop_images/2J5A0966_1.jpg",
@@ -116,6 +115,7 @@
         },
         "image_XHfcna": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Ch25_website_header.jpg",
             "image_mobile": "shopify://shop_images/Ch25_website_mobil.jpg",
