@@ -174,16 +174,9 @@
     "section_text_bNneyC": {
       "type": "section-text",
       "blocks": {
-        "subheading_Xw74w7": {
-          "type": "subheading",
-          "settings": {
-            "text": "",
-            "size": 100,
-            "margin_bottom": 16
-          }
-        },
         "heading_CYJbGD": {
           "type": "heading",
+          "name": "SEO Text Heading",
           "settings": {
             "text": "<p>About our {{ collection.title }}</p>",
             "size": 100,
@@ -194,19 +187,19 @@
         },
         "text_tWyy9T": {
           "type": "text",
+          "name": "SEO Text Copy",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "{{ collection.metafields.custom.seo_text | metafield_tag }}",
             "size": 100
           }
         }
       },
       "block_order": [
-        "subheading_Xw74w7",
         "heading_CYJbGD",
         "text_tWyy9T"
       ],
       "disabled": true,
-      "name": "Text",
+      "name": "SEO Text",
       "settings": {
         "text_position": "left",
         "bg_color_secondary": true,
