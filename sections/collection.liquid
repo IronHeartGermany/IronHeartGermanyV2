@@ -218,13 +218,13 @@
   }
 </style>
 
-{% if template.name == 'collection' and collection.metafields.custom.seo_text == blank %}
+{% unless collection.metafields.custom.seo_text %}
   <style>
     #shopify-section-template--24729363742986__section_text_bNneyC {
       display: none;
     }
   </style>
-{% endif %}
+{% endunless %}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
