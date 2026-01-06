@@ -218,13 +218,14 @@
   }
 </style>
 
-{% unless collection.metafields.custom.seo_text %}
+{% assign seo_text = collection.metafields.custom.seo_text | metafield_text | strip %}
+{% if seo_text == blank %}
   <style>
-    #shopify-section-template--24729363742986__section_text_bNneyC {
+    [id*="__section_text_bNneyC"] {
       display: none;
     }
   </style>
-{% endunless %}
+{% endif %}
 
 <!-- DEBUG: Remove after testing -->
 <p>Metafield value: "{{ collection.metafields.custom.seo_text }}"</p>
