@@ -216,12 +216,15 @@
         .collection__filters-wrapper .collection__filters-header{display:none;}
 
   }
-  {% if collection.metafields.custom.seo_text == empty %}
-  #shopify-section-template--24729363742986__section_text_bNneyC {
-    display: none;
-  }
-{% endif %}
 </style>
+
+{% if template.name == 'collection' and collection.metafields.custom.seo_text == blank %}
+  <style>
+    #shopify-section-template--24729363742986__section_text_bNneyC {
+      display: none;
+    }
+  </style>
+{% endif %}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
