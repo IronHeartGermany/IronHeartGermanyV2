@@ -227,14 +227,6 @@
   </style>
 {% endif %}
 
-<!-- DEBUG: Remove after testing -->
-<p>Metafield value: "{{ collection.metafields.custom.seo_text }}"</p>
-{% if collection.metafields.custom.seo_text == blank %}
-  <p>Is blank: true</p>
-{% else %}
-  <p>Is blank: false</p>
-{% endif %}
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth > 770) {
