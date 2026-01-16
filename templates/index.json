@@ -741,14 +741,14 @@
           "type": "image",
           "settings": {
             "text_position": "top-center",
-            "image": "shopify://shop_images/GA-JIMMY-CROSS-PEN-A_018_1e54072e-e1c6-430d-bd47-c74c61911488.jpg",
+            "image": "shopify://shop_images/GA-CLIP-8-A_001.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
             "title": "GOOD ART HLYWD",
             "heading_size": 100,
-            "image_text": "<p>Jimmy Cross Pendant A - Sterling Silver</p>",
+            "image_text": "<p>Clip 8 Keychain A - Sterling Silver</p>",
             "button_text": "",
-            "button_link": "https://ironheartgermany.com/collections/new/products/good-art-hlywd-ga-jimmy-cross-pen-a-good-art-hlywd-jimmy-cross-pendant-a-sterling-silver",
+            "button_link": "https://ironheartgermany.com/collections/good-art-hlywd/products/good-art-ga-clip-8-a-good-art-hlywd-clip-8-keychain-a-sterling-silver",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
