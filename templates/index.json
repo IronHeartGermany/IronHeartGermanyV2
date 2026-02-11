@@ -19,7 +19,7 @@
             "image_mobile": "shopify://shop_images/SS26_website_mobil_neu.jpg",
             "overlay_opacity": 10,
             "text_width": "normal",
-            "text_position": "center",
+            "text_position": "center-right",
             "text_color": "text-light",
             "subheading": "",
             "title": "",
