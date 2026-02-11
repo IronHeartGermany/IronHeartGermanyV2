@@ -19,13 +19,46 @@
         "media_type": "video",
         "image": "shopify://shop_images/Maschine.jpg",
         "video_file": "https://cdn.shopify.com/videos/c/o/v/54c04e70e65c4db9a387d3d20f9e95e2.mp4",
-        "subheading": "IRON HEART",
-        "title": "<p><strong>THE STORY</strong></p>",
+        "subheading": "IH-684S-16-GER – 16oz Japanese Selvedge Denim",
+        "title": "<p>The First Expression of the 684 Relaxed Straight Cut</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 160,
-        "content": "<p>Iron Heart was founded in 2003 by <strong>Shinichi Haraki</strong> with a simple but bold vision: to create the world’s toughest denim. Drawing on decades of experience in the Japanese garment industry and inspired by Japan’s motorcycle culture, Haraki set out to design clothing that could withstand the toughest conditions while remaining effortlessly stylish. From the very beginning Iron Heart pushed boundaries. Our 21oz denim challenged convention. Our 25oz denim redefined it. Today, alongside our legendary jeans, our heavyweight flannels, shirts and jackets continue to set the standard for durability, comfort and timeless design – all firmly rooted in <strong>Japan’s tradition of precision and innovation</strong>.</p>",
+        "content": "<p>In winter 2024, Iron Heart Germany initiated the development of a new silhouette together with Haraki-San and Alex. The intention was clear: to introduce a wider, relaxed straight cut that remains true to Iron Heart’s heritage while offering a new proportion within the collection.<br/><br/>The result is the 684 cut.<br/><br/>The IH-684S-16-GER marks the first-ever release of this new fit — presented in an exclusive 16oz Japanese selvedge denim, available only through Iron Heart Germany.<br/><br/>While the 684 will later become part of the international range in other denim fabrics and weights, this inaugural 16oz edition defines its starting point.<br/><br/>Not trend-driven.<br/>Not seasonal.<br/>Foundational.</p>",
+        "text_alignment": "center",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_xLFbgw": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "media_type": "image",
+        "image": "shopify://shop_images/Nehen.jpg",
+        "video_file": "",
+        "subheading": "The 684 Cut",
+        "title": "<p>Relaxed Straight. Rooted in 634</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>The 684 evolves from the iconic 634 but offers a wider leg opening and more room through the thigh. It is a true relaxed straight jean — balanced, structured and uncompromising.<br/>Wider straight silhouette</p><p>Classic rise</p><p>Room through the thigh</p><p>Tobacco-coloured stitching throughout</p><p>This cut was developed from personal preference rather than market movement. A fit that feels natural. A fit designed to endure.<br/><br/>As the first fabric ever produced in this silhouette, the IH-684S-16-GER establishes the baseline for what the 684 represents going forward.</p>",
         "text_alignment": "center",
         "button_text": "",
         "button_link": "",
@@ -56,7 +89,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "text": "<p>CRAFTSMANSHIP AND QUALITY</p>",
+            "text": "<p>16oz Vintage-Style Japanese Selvedge Denim</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -66,7 +99,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>At the heart of Iron Heart lies an unwavering dedication to <strong>Japanese craftsmanship</strong>. Every piece is <strong>made in Japan</strong>, using carefully selected cotton and woven on vintage shuttle looms that have been preserved and perfected over generations. From the weave of the denim to the placement of every rivet and stitch, no detail is overlooked. This meticulous, almost ritualistic approach reflects Japan’s respect for materials and process. The result: garments that are not only robust but that also <strong>age beautifully</strong>, developing unique character with every wear.</p>",
+            "text": "<p>Crafted in Kojima. Made in Japan.<br/><br/>For this inaugural release, Iron Heart collaborated with the historic Takata Orimono mill in Kojima, the centre of Japanese denim production.<br/><br/>This 16oz Japanese selvedge denim is woven from Pima cotton ring-spun yarns, creating an irregular, slubby twill with visible texture and depth. The uneven surface reflects traditional shuttle loom weaving while maintaining the structural integrity Iron Heart is known for.<br/><br/>Like the brand’s 18oz vintage weave, this fabric is engineered to develop distinctive tate-ochi vertical fades as the indigo evolves with wear. High-contrast ageing. Defined character. Personal imprint.<br/><br/>At 16oz, the weight sits in a balanced space:<br/><br/>Substantial and durable<br/><br/>Structured yet wearable<br/><br/>Suitable for year-round rotation<br/><br/>This is premium made in Japan denim, developed to age with intention.</p>",
             "size": 100
           }
         },
@@ -111,7 +144,7 @@
         "heading_qyDyFi": {
           "type": "heading",
           "settings": {
-            "text": "<p>Iron Heart is not about fleeting trends – it is about <strong>heritage workwear</strong> designed to last a lifetime.</p>",
+            "text": "<p>Lorem Ipsum</p>",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -161,7 +194,7 @@
         "text_color": "text-light"
       }
     },
-    "section_image_with_text_xLFbgw": {
+    "section_image_with_text_MEcqE4": {
       "type": "section-image-with-text",
       "name": "Image with text",
       "settings": {
@@ -172,46 +205,13 @@
         "media_type": "image",
         "image": "shopify://shop_images/Nehen.jpg",
         "video_file": "",
-        "subheading": "",
-        "title": "<p><strong>JAPANESE DENIM MASTERY</strong></p>",
+        "subheading": "Built for Eternity.",
+        "title": "<p>The 684 Tiger Patch</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>Iron Heart has become synonymous with <strong>premium Japanese denim</strong>. Built like armour yet comfortable from the very first wear, our jeans are celebrated for their rugged construction, exceptional fading potential and timeless appeal. Each pair is indigo-dyed using traditional Japanese methods, ensuring deep, rich colours that tell your story over time.</p><p>Ask any denim aficionado and they will tell you: Iron Heart doesn’t just produce jeans – we create garments that carry the spirit of Japanese mastery. They are more than clothes; they are <strong>legends in fabric</strong>, shaped by craft and culture.</p>",
-        "text_alignment": "center",
-        "button_text": "",
-        "button_link": "",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--small",
-        "video_link": "",
-        "text_color": "text-dark",
-        "bg_color": "",
-        "gradient": "",
-        "section_width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_image_with_text_Ba93Qp": {
-      "type": "section-image-with-text",
-      "name": "Image with text",
-      "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "inline",
-        "image_location": "left",
-        "image_width": "standard",
-        "media_type": "image",
-        "image": "shopify://shop_images/Hose_warehouse.jpg",
-        "video_file": "",
-        "subheading": "",
-        "title": "<p>MORE THAN JUST A BRAND</p>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
-        "heading_size": 130,
-        "content": "<p>Iron Heart is more than a label – it is a <strong>global community </strong>of riders, denim heads and lovers of authentic craftsmanship. The <strong>Iron Heart Forum</strong>, managed by long-time brand partner Giles Padmore and now carried forward by Alex Padmore, is the beating heart of that community. It is where knowledge is shared, friendships are built, and loyalty runs deep.</p>",
+        "content": "<p>Every Iron Heart cut carries an animal.<br/>For the 684, it is the Japanese Tiger (Tora).<br/><br/>In Japanese culture, the tiger symbolises courage, strength and protection. It represents resilience against adversity and fearless leadership — values aligned with Iron Heart’s philosophy of durability and conviction.<br/><br/>The patch was designed by Hamburg-based graphic designer Carsten, a long-time member of the Iron Heart community, with the tiger illustration drawn by Steve. It is produced on a 14oz leather patch with red print, referencing vintage aesthetics while remaining distinctly Iron Heart.<br/><br/>Even the numbering carries intent:<br/><br/>The “6” acknowledges the 634 foundation<br/><br/>The even sequence reflects deliberate design<br/><br/>684 connects heritage with progression<br/><br/>This patch marks the beginning of the 684 lineage.</p>",
         "text_alignment": "center",
         "button_text": "",
         "button_link": "",
@@ -233,7 +233,7 @@
         "subheading_q93UmU": {
           "type": "subheading",
           "settings": {
-            "text": "<p>IRON HEART GERMANY</p>",
+            "text": "<p>Iron Heart Germany</p>",
             "size": 100,
             "margin_bottom": 16
           }
@@ -241,7 +241,7 @@
         "heading_mDUQqJ": {
           "type": "heading",
           "settings": {
-            "text": "<p>YOUR GATEWAY TO JAPAN</p>",
+            "text": "<p>Exclusive Release</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -251,7 +251,7 @@
         "text_fJQGHa": {
           "type": "text",
           "settings": {
-            "text": "<p>As the official Iron Heart partner in Europe, <strong>Iron Heart Germany</strong> makes this Japanese craftsmanship accessible across the EU. With local service, fast shipping and no customs hassle, you can experience the very best of <strong>Japanese denim and heritage workwear – made in Japan, delivered from Germany. </strong>Iron Heart Germany is led by <strong>Shane Brandenburg </strong>and his dedicated team, who bring the brand’s spirit to life every day. At the heart of it all is the <strong>Iron Heart Germany flagship store in Hamburg</strong> – the only official Iron Heart store in the European Union. A place where denim enthusiasts can connect with the brand, discover the latest collections, and experience first hand the unmatched quality of Iron Heart.</p>",
+            "text": "<p>The IH-684S-16-GER launches exclusively at the Iron Heart Hamburg store, the only official Iron Heart store outside Japan, before becoming available through our webshop serving Germany, Europe and international customers.<br/><br/>Initial production is limited.<br/>Future 684 models will follow in other denim fabrics.<br/>This 16oz edition remains its original expression.<br/><br/><strong>Japanese selvedge denim. Made in Japan. Released by Iron Heart Germany. Built for eternity.</strong></p>",
             "size": 100
           }
         },
@@ -297,7 +297,7 @@
         "heading_9RWp3h": {
           "type": "heading",
           "settings": {
-            "text": "<p>We are proud to be the bridge between <strong>Japan’s tradition of precision and quality </strong>and Europe’s growing community of Iron Heart enthusiasts.</p>",
+            "text": "<p>Lorem Ipsum</p>",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -413,10 +413,10 @@
   },
   "order": [
     "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc",
+    "section_image_with_text_xLFbgw",
     "text",
     "section_banner_image_fhMfwH",
-    "section_image_with_text_xLFbgw",
-    "section_image_with_text_Ba93Qp",
+    "section_image_with_text_MEcqE4",
     "section_text_cAdTqR",
     "section_banner_image_DwGpyz",
     "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
