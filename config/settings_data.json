@@ -102,6 +102,7 @@
     "sold_text_color": "#000000",
     "future_release_tag": "Future",
     "future_release_text": "Coming Soon",
+    "show_seasonal_release_badge": false,
     "seasonal_release_tag": "SS26",
     "seasonal_release_text": "SS26",
     "show_collection_badge": false,
