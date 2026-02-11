@@ -47,6 +47,7 @@
         },
         "image_e8ntQh": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2J5A7400.jpg",
             "image_mobile": "shopify://shop_images/2J5A7400_1.jpg",
@@ -80,6 +81,7 @@
         },
         "image_Mc6ncH": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2J5A0966.jpg",
             "image_mobile": "shopify://shop_images/2J5A0966_1.jpg",
