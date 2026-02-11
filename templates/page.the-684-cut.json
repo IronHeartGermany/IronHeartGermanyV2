@@ -1,0 +1,425 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "media_type": "video",
+        "image": "shopify://shop_images/Maschine.jpg",
+        "video_file": "https://cdn.shopify.com/videos/c/o/v/54c04e70e65c4db9a387d3d20f9e95e2.mp4",
+        "subheading": "IRON HEART",
+        "title": "<p><strong>THE STORY</strong></p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 160,
+        "content": "<p>Iron Heart was founded in 2003 by <strong>Shinichi Haraki</strong> with a simple but bold vision: to create the world’s toughest denim. Drawing on decades of experience in the Japanese garment industry and inspired by Japan’s motorcycle culture, Haraki set out to design clothing that could withstand the toughest conditions while remaining effortlessly stylish. From the very beginning Iron Heart pushed boundaries. Our 21oz denim challenged convention. Our 25oz denim redefined it. Today, alongside our legendary jeans, our heavyweight flannels, shirts and jackets continue to set the standard for durability, comfort and timeless design – all firmly rooted in <strong>Japan’s tradition of precision and innovation</strong>.</p>",
+        "text_alignment": "center",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "text": {
+      "type": "section-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Craftsmanship and Quality</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>CRAFTSMANSHIP AND QUALITY</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At the heart of Iron Heart lies an unwavering dedication to <strong>Japanese craftsmanship</strong>. Every piece is <strong>made in Japan</strong>, using carefully selected cotton and woven on vintage shuttle looms that have been preserved and perfected over generations. From the weave of the denim to the placement of every rivet and stitch, no detail is overlooked. This meticulous, almost ritualistic approach reflects Japan’s respect for materials and process. The result: garments that are not only robust but that also <strong>age beautifully</strong>, developing unique character with every wear.</p>",
+            "size": 100
+          }
+        },
+        "button": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_fhMfwH": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_6zW6E3": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Welcome to</p>",
+            "size": 100
+          }
+        },
+        "heading_qyDyFi": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Iron Heart is not about fleeting trends – it is about <strong>heritage workwear</strong> designed to last a lifetime.</p>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_HJrhMH": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_HBEDfY": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6zW6E3",
+        "heading_qyDyFi",
+        "text_HJrhMH",
+        "button_HBEDfY"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "seven-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/Webstuhl.jpg",
+        "overlay_opacity": 50,
+        "enable_zoom_animation": true,
+        "text_width": "narrow",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
+    "section_image_with_text_xLFbgw": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "media_type": "image",
+        "image": "shopify://shop_images/Nehen.jpg",
+        "video_file": "",
+        "subheading": "",
+        "title": "<p><strong>JAPANESE DENIM MASTERY</strong></p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Iron Heart has become synonymous with <strong>premium Japanese denim</strong>. Built like armour yet comfortable from the very first wear, our jeans are celebrated for their rugged construction, exceptional fading potential and timeless appeal. Each pair is indigo-dyed using traditional Japanese methods, ensuring deep, rich colours that tell your story over time.</p><p>Ask any denim aficionado and they will tell you: Iron Heart doesn’t just produce jeans – we create garments that carry the spirit of Japanese mastery. They are more than clothes; they are <strong>legends in fabric</strong>, shaped by craft and culture.</p>",
+        "text_alignment": "center",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_Ba93Qp": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "media_type": "image",
+        "image": "shopify://shop_images/Hose_warehouse.jpg",
+        "video_file": "",
+        "subheading": "",
+        "title": "<p>MORE THAN JUST A BRAND</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 130,
+        "content": "<p>Iron Heart is more than a label – it is a <strong>global community </strong>of riders, denim heads and lovers of authentic craftsmanship. The <strong>Iron Heart Forum</strong>, managed by long-time brand partner Giles Padmore and now carried forward by Alex Padmore, is the beating heart of that community. It is where knowledge is shared, friendships are built, and loyalty runs deep.</p>",
+        "text_alignment": "center",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_cAdTqR": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_q93UmU": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>IRON HEART GERMANY</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_mDUQqJ": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>YOUR GATEWAY TO JAPAN</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_fJQGHa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As the official Iron Heart partner in Europe, <strong>Iron Heart Germany</strong> makes this Japanese craftsmanship accessible across the EU. With local service, fast shipping and no customs hassle, you can experience the very best of <strong>Japanese denim and heritage workwear – made in Japan, delivered from Germany. </strong>Iron Heart Germany is led by <strong>Shane Brandenburg </strong>and his dedicated team, who bring the brand’s spirit to life every day. At the heart of it all is the <strong>Iron Heart Germany flagship store in Hamburg</strong> – the only official Iron Heart store in the European Union. A place where denim enthusiasts can connect with the brand, discover the latest collections, and experience first hand the unmatched quality of Iron Heart.</p>",
+            "size": 100
+          }
+        },
+        "button_mQcWyx": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_q93UmU",
+        "heading_mDUQqJ",
+        "text_fJQGHa",
+        "button_mQcWyx"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_DwGpyz": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_NQUyF7": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Welcome to</p>",
+            "size": 100
+          }
+        },
+        "heading_9RWp3h": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>We are proud to be the bridge between <strong>Japan’s tradition of precision and quality </strong>and Europe’s growing community of Iron Heart enthusiasts.</p>",
+            "size": 180,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_CVKxFg": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>We are proud to be the bridge between <strong>Japan’s tradition of precision and quality </strong>and Europe’s growing community of Iron Heart enthusiasts.</p>",
+            "size": 100
+          }
+        },
+        "button_kje7Wf": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--small",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NQUyF7",
+        "heading_9RWp3h",
+        "text_CVKxFg",
+        "button_kje7Wf"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/DSC06555.jpg",
+        "overlay_opacity": 50,
+        "enable_zoom_animation": true,
+        "text_width": "normal",
+        "text_position": "center",
+        "text_color": "text-light"
+      }
+    },
+    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping",
+            "text": "<p>on all order over $99</p>"
+          }
+        },
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Free Returns",
+            "text": "<p>within 30 days of purchase</p>"
+          }
+        },
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "1% Donated Annually",
+            "text": "<p>to forest conservation</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0",
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1",
+        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc",
+    "text",
+    "section_banner_image_fhMfwH",
+    "section_image_with_text_xLFbgw",
+    "section_image_with_text_Ba93Qp",
+    "section_text_cAdTqR",
+    "section_banner_image_DwGpyz",
+    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
+    "main"
+  ]
+}
