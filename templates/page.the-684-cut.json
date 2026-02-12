@@ -251,7 +251,7 @@
         "text_fJQGHa": {
           "type": "text",
           "settings": {
-            "text": "<p>The IH-684S-16-GER launches exclusively at the Iron Heart Hamburg store, the only official Iron Heart store outside Japan, before becoming available through our webshop serving Germany, Europe and international customers.<br/><br/>Initial production is limited.<br/>Future 684 models will follow in other denim fabrics.<br/>The 16oz model is the first production run of the 684.<br/><br/><strong>Japanese selvedge denim. Made in Japan. Released by Iron Heart Germany. Built for eternity.</strong></p>",
+            "text": "<p>The IH-684S-16-GER launches exclusively at the Iron Heart Hamburg store, the only official Iron Heart store outside Japan, before becoming available through our webshop serving Germany, Europe and international customers.<br/><br/>Initial production is limited.<br/>Future 684 models will follow in other denim fabrics.<br/>The 16oz model is the first production run of the 684.</p>",
             "size": 100
           }
         },
@@ -297,7 +297,7 @@
         "heading_9RWp3h": {
           "type": "heading",
           "settings": {
-            "text": "<p>Lorem Ipsum</p>",
+            "text": "<p><strong>Japanese selvedge denim. Made in Japan. Released by Iron Heart Germany. Built for eternity</strong></p>",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
