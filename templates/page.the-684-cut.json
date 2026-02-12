@@ -58,7 +58,7 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>The 684 evolves from the iconic 634 but offers a wider leg opening and more room through the thigh. It is a true relaxed straight jeans — balanced, structured and uncompromising.<br/>Wider straight silhouette</p><p>Classic rise</p><p>Room through the thigh</p><p>Tobacco-coloured stitching throughout</p><p>This cut was developed from personal preference rather than market movement. A fit that feels natural. A fit designed to endure.<br/><br/>As the first fabric ever produced in this silhouette, the IH-684S-16-GER establishes the baseline for what the 684 represents going forward.</p>",
+        "content": "<p>The 684 evolves from the iconic 634 but offers a wider leg opening and more room through the thigh. It is a true relaxed straight jeans — balanced, structured and uncompromising.</p><p>This cut was developed from personal preference rather than market movement. A fit that feels natural. A fit designed to endure.  As the first fabric ever produced in this silhouette, the IH-684S-16-GER establishes the baseline for what the 684 represents going forward.</p>",
         "text_alignment": "center",
         "button_text": "",
         "button_link": "",
@@ -99,7 +99,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Crafted in Kojima. Made in Japan.<br/><br/>For this inaugural release, Iron Heart collaborated with the historic Takata Orimono mill in Kojima, the centre of Japanese denim production.<br/><br/>This 16oz Japanese selvedge denim is woven from Pima cotton ring-spun yarns, creating an irregular, slubby twill with visible texture and depth. The uneven surface reflects traditional shuttle loom weaving while maintaining the structural integrity Iron Heart is known for.<br/><br/>Like the brand’s 18oz vintage weave, this fabric is engineered to develop distinctive tate-ochi vertical fades as the indigo evolves with wear. High-contrast ageing. Defined character. Personal imprint.<br/><br/>At 16oz, the weight sits in a balanced space:<br/><br/>Substantial and durable<br/><br/>Structured yet wearable<br/><br/>Suitable for year-round rotation<br/><br/>This is premium made in Japan denim, developed to age with intention.</p>",
+            "text": "<p>Crafted in Kojima. Made in Japan.<br/><br/>For this inaugural release, Iron Heart collaborated with the historic Takata Orimono mill in Kojima, the centre of Japanese denim production.<br/><br/>This 16oz Japanese selvedge denim is woven from Pima cotton ring-spun yarns, creating an irregular, slubby twill with visible texture and depth. The uneven surface reflects traditional shuttle loom weaving while maintaining the structural integrity Iron Heart is known for.<br/><br/>Like the brand’s 18oz vintage weave, this fabric is engineered to develop distinctive tate-ochi vertical fades as the indigo evolves with wear. High-contrast ageing. Defined character. Personal imprint.<br/><br/>At 16oz, the weight sits in a balanced space: Substantial and durable, Structured yet wearable, Suitable for year-round rotation<br/><br/>This is premium made in Japan denim, developed to age with intention.</p>",
             "size": 100
           }
         },
@@ -144,7 +144,7 @@
         "heading_qyDyFi": {
           "type": "heading",
           "settings": {
-            "text": "<p>Lorem Ipsum</p>",
+            "text": "<p>Wider straight silhouette</p><p>Classic rise</p><p>Room through the thigh</p><p>Tobacco-coloured stitching throughout</p>",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
