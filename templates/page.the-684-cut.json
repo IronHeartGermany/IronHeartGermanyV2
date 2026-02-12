@@ -19,13 +19,13 @@
         "media_type": "video",
         "image": "shopify://shop_images/Maschine.jpg",
         "video_file": "https://cdn.shopify.com/videos/c/o/v/54c04e70e65c4db9a387d3d20f9e95e2.mp4",
-        "subheading": "IH-684S-16-GER – 16oz Japanese Selvedge Denim",
-        "title": "<p>The First Expression of the 684 Relaxed Straight Cut</p>",
+        "subheading": "IH-684S-16-GER",
+        "title": "<p>The First Cut Initiated by Iron Heart Germany</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 160,
-        "content": "<p>In winter 2024, Iron Heart Germany initiated the development of a new silhouette together with Haraki-San and Alex. The intention was clear: to introduce a wider, relaxed straight cut that remains true to Iron Heart’s heritage while offering a new proportion within the collection.<br/><br/>The result is the 684 cut.<br/><br/>The IH-684S-16-GER marks the first-ever release of this new fit — presented in an exclusive 16oz Japanese selvedge denim, available only through Iron Heart Germany.<br/><br/>While the 684 will later become part of the international range in other denim fabrics and weights, this inaugural 16oz edition defines its starting point.</p>",
+        "content": "<p>The IH-684 marks a first for Iron Heart Germany. Developed in close collaboration with Haraki-San and the Iron Heart Japan team, the 684 is the first cut initiated by Iron Heart Germany to become part of the global Iron Heart lineup.<br/>While the 684 will be integrated internationally in the future, the 16oz selvedge edition presented here remains exclusive to Iron Heart Germany.<br/>This project reflects partnership, trust and shared vision within the Iron Heart family.<br/>No experiment. A permanent addition.</p>",
         "text_alignment": "center",
         "button_text": "",
         "button_link": "",
@@ -58,7 +58,7 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>The 684 evolves from the iconic 634 but offers a wider leg opening and more room through the thigh. It is a true relaxed straight jeans — balanced, structured and uncompromising.</p><p>This cut was developed from personal preference rather than market movement. A fit that feels natural. A fit designed to endure.  As the first fabric ever produced in this silhouette, the IH-684S-16-GER establishes the baseline for what the 684 represents going forward.</p>",
+        "content": "<p>The 684 is rooted in the iconic 634 silhouette but offers a wider leg and more room throughout. It is a true relaxed straight fit:<br/><br/>Classic rise<br/><br/>Room through the thigh<br/><br/>Straight leg opening<br/><br/>No taper<br/><br/>The goal was not to follow trends, but to create a wider proportion that feels natural within the Iron Heart philosophy.<br/><br/>The 684 is here to stay.</p>",
         "text_alignment": "center",
         "button_text": "",
         "button_link": "",
@@ -89,7 +89,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "text": "<p>16oz Vintage-Style Japanese Selvedge Denim</p>",
+            "text": "<p>Exclusive 16oz Japanese Selvedge Denim</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -99,7 +99,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Crafted in Kojima. Made in Japan.<br/><br/>For this inaugural release, Iron Heart collaborated with the historic Takata Orimono mill in Kojima, the centre of Japanese denim production.<br/><br/>This 16oz Japanese selvedge denim is woven from Pima cotton ring-spun yarns, creating an irregular, slubby twill with visible texture and depth. The uneven surface reflects traditional shuttle loom weaving while maintaining the structural integrity Iron Heart is known for.<br/><br/>Like the brand’s 18oz vintage weave, this fabric is engineered to develop distinctive tate-ochi vertical fades as the indigo evolves with wear. High-contrast ageing. Defined character. Personal imprint.<br/><br/>At 16oz, the weight sits in a balanced space: Substantial and durable, Structured yet wearable, Suitable for year-round rotation<br/><br/>This is premium made in Japan denim, developed to age with intention.</p>",
+            "text": "<p>Made in Japan. Woven in Kojima.</p><p>For its first production run, the 684 is produced in a 16oz vintage-style selvedge denim woven by Takata Orimono in Kojima, Japan. The fabric is made from Pima cotton ring-spun yarns, resulting in a textured, slightly irregular twill with depth and character. Like Iron Heart’s 18oz vintage weave, this denim is designed to develop strong vertical tate-ochi fades over time.<br/><br/>At 16oz, it offers: Structural integrity, Year-round wearability, High-contrast ageing potential<br/><br/>Future 684 models may appear in other fabrics.<br/>This 16oz combination, however, remains exclusive to Iron Heart Germany.</p>",
             "size": 100
           }
         },
@@ -205,8 +205,8 @@
         "media_type": "image",
         "image": "shopify://shop_images/Nehen.jpg",
         "video_file": "",
-        "subheading": "Built for Eternity.",
-        "title": "<p>The 684 Tiger Patch</p>",
+        "subheading": "Designed by Iron Heart Germany",
+        "title": "<p>The 684 Patch</p>",
         "heading_highlight_type": "circle",
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
@@ -241,7 +241,7 @@
         "heading_mDUQqJ": {
           "type": "heading",
           "settings": {
-            "text": "<p>Exclusive Release</p>",
+            "text": "<p>Launch Event – Iron Heart Hamburg</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -251,7 +251,24 @@
         "text_fJQGHa": {
           "type": "text",
           "settings": {
-            "text": "<p>The IH-684S-16-GER launches exclusively at the Iron Heart Hamburg store, the only official Iron Heart store outside Japan, before becoming available through our webshop serving Germany, Europe and international customers.<br/><br/>Initial production is limited.<br/>Future 684 models will follow in other denim fabrics.<br/>The 16oz model is the first production run of the 684.</p>",
+            "text": "<p>The first pairs of the IH-684S-16-GER will be available at an in-store launch event at Iron Heart Hamburg in late March / early April.<br/><br/>Newsletter subscribers will receive invitation details in advance.<br/><br/>Online availability will follow shortly after the in-store release.</p>",
+            "size": 100
+          }
+        },
+        "heading_xRah9A": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>A Milestone for Iron Heart Germany</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_w4VJrj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Iron Heart Germany is proud to introduce the 684 as its first initiated cut within the global Iron Heart range.<br/><br/>Developed in partnership.<br/>Produced in Japan.<br/>Released first in Hamburg.<br/><br/>The 684 begins here.</p>",
             "size": 100
           }
         },
@@ -271,6 +288,8 @@
         "subheading_q93UmU",
         "heading_mDUQqJ",
         "text_fJQGHa",
+        "heading_xRah9A",
+        "text_w4VJrj",
         "button_mQcWyx"
       ],
       "name": "Text",
