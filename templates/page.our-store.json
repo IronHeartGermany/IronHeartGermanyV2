@@ -57,7 +57,7 @@
           "type": "heading",
           "settings": {
             "text": "<p>In-Store Experience</p>",
-            "size": 100,
+            "size": 130,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
@@ -243,8 +243,8 @@
             "text": "<p>VISIT US IN HAMBURG</p>",
             "size": 180,
             "heading_highlight_type": "italics",
-            "highlight_color": "#D43747",
-            "highlight_text_color": "#000"
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
           }
         },
         "text_i7Hhpm": {
