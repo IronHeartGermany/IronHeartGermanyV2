@@ -57,7 +57,7 @@
           "type": "heading",
           "settings": {
             "text": "<p>CRAFTSMANSHIP AND QUALITY</p>",
-            "size": 100,
+            "size": 130,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
@@ -242,7 +242,7 @@
           "type": "heading",
           "settings": {
             "text": "<p>YOUR GATEWAY TO JAPAN</p>",
-            "size": 100,
+            "size": 130,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
