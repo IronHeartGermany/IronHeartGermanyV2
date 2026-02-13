@@ -15,14 +15,14 @@
         "subheading_bcLUij": {
           "type": "subheading",
           "settings": {
-            "text": "<p>Welcome to</p>",
+            "text": "<p>IH-684S-16-GER</p>",
             "size": 100
           }
         },
         "heading_MKyqea": {
           "type": "heading",
           "settings": {
-            "text": "<p>IH-684S-16-GER</p>",
+            "text": "<p>A Milestone for Iron Heart Germany</p>",
             "size": 160,
             "heading_highlight_type": "italics",
             "highlight_color": "#D43747",
@@ -32,7 +32,7 @@
         "text_FzBxWk": {
           "type": "text",
           "settings": {
-            "text": "<p>Wider straight silhouette, classic rise, room through the thigh, tobacco-coloured stitching throughout</p>",
+            "text": "<p>Iron Heart Germany is proud to introduce the 684 as its first initiated cut within the global Iron Heart range.<br/><br/>Developed in partnership.<br/>Produced in Japan.<br/>Released first in Hamburg.<br/><br/>The 684 begins here.</p>",
             "size": 100
           }
         },
@@ -64,10 +64,10 @@
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/IH-684_009.jpg",
-        "overlay_opacity": 30,
+        "overlay_opacity": 35,
         "enable_zoom_animation": true,
-        "text_width": "narrow",
-        "text_position": "right",
+        "text_width": "normal",
+        "text_position": "bottom-right",
         "text_color": "text-light"
       }
     },
@@ -165,7 +165,7 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>The 684 is rooted in the iconic 634 silhouette but offers a wider leg and more room throughout. It is a true relaxed straight fit:</p><ul><li>Classic rise</li><li>Room through the thigh</li><li>Straight leg opening</li><li>No taper</li></ul><p>The goal was not to follow trends, but to create a wider proportion that feels natural within the Iron Heart philosophy.<br/><br/>The 684 is here to stay.</p>",
+        "content": "<p>The 684 is rooted in the iconic 634 silhouette but offers a wider leg and more room throughout. It is a true relaxed straight fit:</p><ul><li>Classic rise</li><li>Room through the thigh</li><li>Straight leg opening</li><li>No taper</li><li>tobacco-coloured stitching throughout</li></ul><p>The goal was not to follow trends, but to create a wider proportion that feels natural within the Iron Heart philosophy.<br/><br/>The 684 is here to stay.</p>",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
