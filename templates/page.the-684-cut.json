@@ -363,23 +363,6 @@
             "size": 100
           }
         },
-        "heading_xRah9A": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>A Milestone for Iron Heart Germany</p>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_w4VJrj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Iron Heart Germany is proud to introduce the 684 as its first initiated cut within the global Iron Heart range.<br/><br/>Developed in partnership.<br/>Produced in Japan.<br/>Released first in Hamburg.<br/><br/>The 684 begins here.</p>",
-            "size": 100
-          }
-        },
         "button_mQcWyx": {
           "type": "button",
           "disabled": true,
@@ -396,8 +379,6 @@
         "subheading_q93UmU",
         "heading_mDUQqJ",
         "text_fJQGHa",
-        "heading_xRah9A",
-        "text_w4VJrj",
         "button_mQcWyx"
       ],
       "name": "Text",
@@ -424,7 +405,7 @@
         "heading_9RWp3h": {
           "type": "heading",
           "settings": {
-            "text": "<p><strong>Japanese selvedge denim. Made in Japan. Released by Iron Heart Germany. Built for eternity</strong></p>",
+            "text": "<p>Developed in partnership. Produced in Japan. Released first in Hamburg.</p>",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
