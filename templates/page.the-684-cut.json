@@ -32,7 +32,7 @@
         "text_FzBxWk": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>Wider straight silhouette, classic rise, room through the thigh, tobacco-coloured stitching throughout</p>",
             "size": 100
           }
         },
@@ -71,8 +71,53 @@
         "text_color": "text-light"
       }
     },
+    "section_text_tU7rc6": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_aQeNzt": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>IH-684S-16-GER</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_RcBEX3": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>The First Cut Initiated by Iron Heart Germany</p>",
+            "size": 130,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#D43747",
+            "highlight_text_color": "#000"
+          }
+        },
+        "text_k3CFMA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The IH-684 marks a first for Iron Heart Germany. Developed in close collaboration with Haraki-San and the Iron Heart Japan team, the 684 is the first cut initiated by Iron Heart Germany to become part of the global Iron Heart lineup. While the 684 will be integrated internationally in the future, the 16oz selvedge edition presented here remains exclusive to Iron Heart Germany. This project reflects partnership, trust and shared vision within the Iron Heart family. No experiment. A permanent addition.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aQeNzt",
+        "heading_RcBEX3",
+        "text_k3CFMA"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc": {
       "type": "section-image-with-text",
+      "disabled": true,
       "settings": {
         "section_height": "six-fifty-height",
         "layout": "inline",
@@ -120,8 +165,8 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>The 684 is rooted in the iconic 634 silhouette but offers a wider leg and more room throughout. It is a true relaxed straight fit:<br/><br/>Classic rise<br/><br/>Room through the thigh<br/><br/>Straight leg opening<br/><br/>No taper<br/><br/>The goal was not to follow trends, but to create a wider proportion that feels natural within the Iron Heart philosophy.<br/><br/>The 684 is here to stay.</p>",
-        "text_alignment": "center",
+        "content": "<p>The 684 is rooted in the iconic 634 silhouette but offers a wider leg and more room throughout. It is a true relaxed straight fit:</p><ul><li>Classic rise</li><li>Room through the thigh</li><li>Straight leg opening</li><li>No taper</li></ul><p>The goal was not to follow trends, but to create a wider proportion that feels natural within the Iron Heart philosophy.<br/><br/>The 684 is here to stay.</p>",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -152,7 +197,7 @@
           "type": "heading",
           "settings": {
             "text": "<p>Exclusive 16oz Japanese Selvedge Denim</p>",
-            "size": 100,
+            "size": 130,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
@@ -206,7 +251,7 @@
         "heading_qyDyFi": {
           "type": "heading",
           "settings": {
-            "text": "<p>Wider straight silhouette</p><p>Classic rise</p><p>Room through the thigh</p><p>Tobacco-coloured stitching throughout</p>",
+            "text": "",
             "size": 180,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -243,6 +288,7 @@
         "text_HJrhMH",
         "button_HBEDfY"
       ],
+      "disabled": true,
       "name": "Banner image",
       "settings": {
         "height": "seven-fifty-height",
@@ -262,7 +308,7 @@
       "settings": {
         "section_height": "five-fifty-height",
         "layout": "inline",
-        "image_location": "right",
+        "image_location": "left",
         "image_width": "standard",
         "media_type": "image",
         "image": "shopify://shop_images/Nehen.jpg",
@@ -273,8 +319,8 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>The leather patch for the 684 was designed by Iron Heart Germany.<br/><br/>The “6” references the 634 foundation on which the cut is based.<br/>Maria insisted on an even number — odd numbers were never an option.<br/>The result: 684.<br/>Haraki-San approved. The new cut was born.<br/><br/>The patch features a tiger motif.<br/><br/>In Japanese culture, the tiger (Tora) is traditionally associated with strength, courage and protection. It is regarded as a guardian against adversity and a symbol of determination.<br/><br/>For the 684, the tiger defines this first edition of the cut.</p>",
-        "text_alignment": "center",
+        "content": "<p>The leather patch for the 684 was designed by Iron Heart Germany.<br/><br/>The “6” references the 634 foundation on which the cut is based.<br/>Maria insisted on an even number — odd numbers were never an option.</p><p>The result: 684.<br/>Haraki-San approved. The new cut was born.<br/><br/>The patch features a tiger motif.<br/><br/>In Japanese culture, the tiger (Tora) is traditionally associated with strength, courage and protection. It is regarded as a guardian against adversity and a symbol of determination.<br/><br/>For the 684, the tiger defines this first edition of the cut.</p>",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -304,7 +350,7 @@
           "type": "heading",
           "settings": {
             "text": "<p>Launch Event – Iron Heart Hamburg</p>",
-            "size": 100,
+            "size": 130,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
             "highlight_text_color": "#000000"
@@ -450,6 +496,7 @@
         },
         "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon_name": "eco-friendly",
             "title": "1% Donated Annually",
@@ -494,6 +541,7 @@
   },
   "order": [
     "section_banner_image_kkf3Ec",
+    "section_text_tU7rc6",
     "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc",
     "section_image_with_text_xLFbgw",
     "text",
