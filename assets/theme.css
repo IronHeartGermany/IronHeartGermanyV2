@@ -6947,6 +6947,7 @@ https://flickity.metafizzy.co
 
 .flickity-page-dots .dot.is-selected {
   width: 36px;
+  animation:none!important;
 }
 
 .flickity-page-dots .dot:only-child {
