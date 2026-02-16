@@ -202,7 +202,7 @@
         "show_nav_dots": true,
         "show_nav_arrows": false,
         "show_arrow_down": false,
-        "autoplay": true,
+        "autoplay": false,
         "duration": 4,
         "transition": "slide",
         "enable_zoom_animation": true,
