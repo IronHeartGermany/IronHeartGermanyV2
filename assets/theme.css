@@ -6941,7 +6941,7 @@ https://flickity.metafizzy.co
   border: var(--BORDER-WIDTH) solid var(--text);
   background-color: white;
   transition: border 0.5s ease, width 0.5s ease, opacity 0.5s ease;
-  border-radius: 5px;
+  border-radius: 100%;
   pointer-events: auto;
 }
 
