@@ -6885,7 +6885,7 @@ https://flickity.metafizzy.co
   height: 20px;
   margin: 0 8px;
   background: white;
-  border-radius: 50%;
+  border-radius: 100%;
   opacity: 0.75;
   cursor: pointer;
 }
