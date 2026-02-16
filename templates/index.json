@@ -199,8 +199,8 @@
         "slide_height": "three-quarters-height",
         "enable_mobile_height": true,
         "mobile_slide_height": "five-fifty-height-mobile",
-        "show_nav_dots": true,
-        "show_nav_arrows": false,
+        "show_nav_dots": false,
+        "show_nav_arrows": true,
         "show_arrow_down": false,
         "autoplay": true,
         "duration": 4,
@@ -947,6 +947,66 @@
         "padding_bottom": 60
       }
     },
+    "section_columns_Mb3rtT": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_jr4JHK": {
+          "type": "text_block",
+          "settings": {
+            "title": "Premium Japanese Craftmanship",
+            "text": "<p>Iron Heart, founded by Shinichi Haraki in 2003, is celebrated for its heavyweight Japanese denim, crafted for durability and timeless style. Designed with motorcycle enthusiasts in mind, the brand’s rugged pieces offer exceptional fading potential and unmatched quality. Explore why Iron Heart is a top choice for denim lovers worldwide.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_q6EGYR": {
+          "type": "text_block",
+          "settings": {
+            "title": "Iconic Heavyweight Garments",
+            "text": "<p>Iron Heart’s collection showcases its commitment to heavyweight fabrics and exceptional craftsmanship. From 21oz and 25oz denim jeans to Ultra Heavy Flannel (UHF) shirts, each piece is built for durability and timeless style. Loved by bikers and fashion enthusiasts alike, these iconic garments define Iron Heart’s legacy in premium workwear.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_jr4JHK",
+        "text_block_q6EGYR"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.column-item {width: 65% !important; margin-right: 12% !important; }}",
+        ".section-padding {padding-bottom: 60px;}",
+        "h3 {font-size: 36px !important;}"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 2,
+        "show_images": false,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.8,
+        "mobile_aspect_ratio": 0.8,
+        "heading_size": 170,
+        "text_size": 100,
+        "bg_color_secondary": false,
+        "color_borders": "#000000",
+        "layout_mobile": "carousel",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
     "section_columns_mgbaYF": {
       "type": "section-columns",
       "blocks": {
@@ -1035,66 +1095,6 @@
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "section_columns_Mb3rtT": {
-      "type": "section-columns",
-      "blocks": {
-        "text_block_jr4JHK": {
-          "type": "text_block",
-          "settings": {
-            "title": "Premium Japanese Craftmanship",
-            "text": "<p>Iron Heart, founded by Shinichi Haraki in 2003, is celebrated for its heavyweight Japanese denim, crafted for durability and timeless style. Designed with motorcycle enthusiasts in mind, the brand’s rugged pieces offer exceptional fading potential and unmatched quality. Explore why Iron Heart is a top choice for denim lovers worldwide.</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_q6EGYR": {
-          "type": "text_block",
-          "settings": {
-            "title": "Iconic Heavyweight Garments",
-            "text": "<p>Iron Heart’s collection showcases its commitment to heavyweight fabrics and exceptional craftsmanship. From 21oz and 25oz denim jeans to Ultra Heavy Flannel (UHF) shirts, each piece is built for durability and timeless style. Loved by bikers and fashion enthusiasts alike, these iconic garments define Iron Heart’s legacy in premium workwear.</p>",
-            "button_text": "",
-            "button_link": "",
-            "button_color": "btn--black",
-            "button_style": "btn--text",
-            "button_size": "btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_jr4JHK",
-        "text_block_q6EGYR"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 767px) {.column-item {width: 65% !important; margin-right: 12% !important; }}",
-        ".section-padding {padding-bottom: 60px;}",
-        "h3 {font-size: 36px !important;}"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "text-left",
-        "columns": 2,
-        "show_images": false,
-        "show_borders": false,
-        "equalize_height": true,
-        "desktop_aspect_ratio": 0.8,
-        "mobile_aspect_ratio": 0.8,
-        "heading_size": 170,
-        "text_size": 100,
-        "bg_color_secondary": false,
-        "color_borders": "#000000",
-        "layout_mobile": "carousel",
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 30
       }
     },
     "section_image_accordions_EgYRwE": {
