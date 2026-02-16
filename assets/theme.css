@@ -6881,8 +6881,8 @@ https://flickity.metafizzy.co
 
 .flickity-page-dots .dot {
   display: inline-block;
-  width: 48px;
-  height: 48px;
+  width: 36px;
+  height: 36px;
   margin: 0 8px;
   background: white;
   border-radius: 100%;
@@ -6946,7 +6946,7 @@ https://flickity.metafizzy.co
 }
 
 .flickity-page-dots .dot.is-selected {
-  width: 48px;
+  width: 36px;
 }
 
 .flickity-page-dots .dot:only-child {
