@@ -504,6 +504,13 @@
             "title": "Is the IH-684S-16-GER a limited edition?",
             "text": "<p>The initial production run is limited.</p><p>However, the 684 cut itself is not a one-off model. It will be integrated into the broader Iron Heart range in future denim fabrics. The 16oz selvedge edition remains exclusive to Iron Heart Germany.</p>"
           }
+        },
+        "text_DnQTa3": {
+          "type": "text",
+          "settings": {
+            "title": "Can I receive fitting advice or hemming at the Hamburg store?",
+            "text": "<p>Yes. At the Iron Heart Germany store in Hamburg, our team provides personal fitting advice, measurement guidance and product consultation.</p><p>We also offer professional chain-stitch hemming using our Union Special 43200G machine from 1939.</p>"
+          }
         }
       },
       "block_order": [
@@ -511,7 +518,8 @@
         "text_NXHHb4",
         "text_XnDFa7",
         "text_9HNCN7",
-        "text_N9DHGR"
+        "text_N9DHGR",
+        "text_DnQTa3"
       ],
       "name": "Tabs",
       "settings": {
