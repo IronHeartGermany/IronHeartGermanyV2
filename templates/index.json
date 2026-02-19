@@ -755,7 +755,8 @@
         "product_mV9GPp"
       ],
       "custom_css": [
-        ".dot.is-selected {background: black;}"
+        ".dot.is-selected {background: black;}",
+        ".dot {width:20px; height:20px;}"
       ],
       "name": "Shop the look ",
       "settings": {
