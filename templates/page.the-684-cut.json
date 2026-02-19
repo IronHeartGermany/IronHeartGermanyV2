@@ -457,65 +457,65 @@
         "text_color": "text-light"
       }
     },
-    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5": {
-      "type": "section-icons-row",
-      "blocks": {
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0": {
-          "type": "text",
-          "settings": {
-            "icon_name": "truck",
-            "title": "Free Shipping",
-            "text": "<p>on all order over $99</p>"
-          }
-        },
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1": {
-          "type": "text",
-          "settings": {
-            "icon_name": "check",
-            "title": "Free Returns",
-            "text": "<p>within 30 days of purchase</p>"
-          }
-        },
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon_name": "eco-friendly",
-            "title": "1% Donated Annually",
-            "text": "<p>to forest conservation</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0",
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1",
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2"
-      ],
-      "settings": {
-        "alignment": "center",
-        "columns": 3,
-        "icons_width": 30,
-        "heading": "",
-        "subheading": "",
-        "bg_color": "",
-        "text_color": "#333333",
-        "box_color": "",
-        "button_text": "",
-        "button_link": "",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--small",
-        "enable_slider_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
         "show_page_title": true,
         "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_BdTXWr": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_a9LF8h": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
+          }
+        },
+        "text_NXHHb4": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+          }
+        },
+        "text_9HNCN7": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        },
+        "text_N9DHGR": {
+          "type": "text",
+          "settings": {
+            "title": "What shipping methods do you offer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_a9LF8h",
+        "text_NXHHb4",
+        "text_9HNCN7",
+        "text_N9DHGR"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "title": "Frequently Asked Questions",
+        "subheading": "IH-684S-16-GER – Iron Heart 684 Cut",
+        "text": "",
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -531,7 +531,7 @@
     "section_image_with_text_MEcqE4",
     "section_text_cAdTqR",
     "section_banner_image_DwGpyz",
-    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
-    "main"
+    "main",
+    "section_accordions_BdTXWr"
   ]
 }
