@@ -754,6 +754,9 @@
         "product_C7KgwM",
         "product_mV9GPp"
       ],
+      "custom_css": [
+        ".flickity-page-dots.dot.is-selected {background:black;}"
+      ],
       "name": "Shop the look ",
       "settings": {
         "image": "shopify://shop_images/DE-JA002-BLBL_039_d108afb3-cf03-4826-a165-e0787ed035e1.jpg",
