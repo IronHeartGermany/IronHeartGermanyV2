@@ -755,7 +755,7 @@
         "product_mV9GPp"
       ],
       "custom_css": [
-        ".flickity-page-dots.dot.is-selected {background:black;}"
+        ".dot.is-selected {background: black;}"
       ],
       "name": "Shop the look ",
       "settings": {
