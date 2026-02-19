@@ -473,35 +473,43 @@
         "text_a9LF8h": {
           "type": "text",
           "settings": {
-            "title": "How long does it take to get my products?",
-            "text": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
+            "title": "What is the Iron Heart 684 cut?",
+            "text": "<p>The 684 is a relaxed straight fit developed in collaboration between Iron Heart Japan and Iron Heart Germany.</p><p>It is based on the iconic 634 silhouette but offers more room through the thigh and a straight leg opening without taper. The 684 will become part of the international Iron Heart collection in future denim variations.</p>"
           }
         },
         "text_NXHHb4": {
           "type": "text",
           "settings": {
-            "title": "Do you offer warranty for your products?",
-            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+            "title": "What is exclusive about the IH-684S-16-GER?",
+            "text": "<p>While the 684 cut will later be introduced internationally, the combination of the 684 fit and this 16oz Japanese selvedge denim is exclusive to Iron Heart Germany.</p><p>This specific fabric will not be produced for Iron Heart International.</p>"
+          }
+        },
+        "text_XnDFa7": {
+          "type": "text",
+          "settings": {
+            "title": "What makes the 16oz Japanese selvedge denim special?",
+            "text": "<p>The 16oz selvedge denim used for the IH-684S-16-GER was woven in Kojima, Japan by Takata Orimono using ring-spun Pima cotton yarns.</p><p>It features:</p><ul><li>A textured, slightly irregular twill structure</li><li>Strong vertical “tate-ochi” fading potential</li><li>A balanced 16oz weight suitable for year-round wear</li><li>Classic indigo ageing with high contrast development</li></ul>"
           }
         },
         "text_9HNCN7": {
           "type": "text",
           "settings": {
-            "title": "Do you offer refunds?",
-            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+            "title": "Where and when can I buy the IH-684S-16-GER?",
+            "text": "<p>The first release will take place exclusively at the Iron Heart Germany store in Hamburg during a dedicated launch event in late March / early April.</p><p>Following the in-store release, remaining stock will become available via the official Iron Heart Germany webshop, serving customers across Europe and internationally.</p>"
           }
         },
         "text_N9DHGR": {
           "type": "text",
           "settings": {
-            "title": "What shipping methods do you offer?",
-            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+            "title": "Is the IH-684S-16-GER a limited edition?",
+            "text": "<p>The initial production run is limited.</p><p>However, the 684 cut itself is not a one-off model. It will be integrated into the broader Iron Heart range in future denim fabrics. The 16oz selvedge edition remains exclusive to Iron Heart Germany.</p>"
           }
         }
       },
       "block_order": [
         "text_a9LF8h",
         "text_NXHHb4",
+        "text_XnDFa7",
         "text_9HNCN7",
         "text_N9DHGR"
       ],
@@ -510,7 +518,7 @@
         "layout": "two-columns",
         "show_accordion_divider": false,
         "title": "Frequently Asked Questions",
-        "subheading": "IH-684S-16-GER – Iron Heart 684 Cut",
+        "subheading": "IH-684S-16-GER – Iron Heart 684 Relaxed Straight",
         "text": "",
         "tabs_bg_color": "#fafafa",
         "bg_color_secondary": false,
