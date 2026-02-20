@@ -193,7 +193,8 @@
         ".red_dot:after {top: 1px; position: relative; width: 7px; height: 7px;}",
         ".btn {width: fit-content !important;}",
         ".main-buttons {margin: 32px 0 0 0 !important;}",
-        ".slide__heading.main-heading {line-height: 1em !important;}"
+        ".slide__heading.main-heading {line-height: 1em !important;}",
+        "@media screen and (max-width: 767px) {.dot {width: 24px!important; height: 24px!important; }}"
       ],
       "settings": {
         "slide_height": "three-quarters-height",
@@ -756,7 +757,7 @@
       ],
       "custom_css": [
         ".dot.is-selected {background: black;}",
-        ".dot {width:20px; height:20px;}"
+        ".dot {width: 20px; height: 20px;}"
       ],
       "name": "Shop the look ",
       "settings": {
