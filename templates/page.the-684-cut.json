@@ -153,7 +153,7 @@
       "type": "section-image-with-text",
       "name": "Image with text",
       "settings": {
-        "section_height": "five-fifty-height",
+        "section_height": "six-fifty-height",
         "layout": "inline",
         "image_location": "right",
         "image_width": "standard",
