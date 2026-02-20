@@ -67,7 +67,7 @@
         "image_mobile": "shopify://shop_images/Ironeheart_responsive.jpg",
         "overlay_opacity": 35,
         "enable_zoom_animation": true,
-        "text_width": "normal",
+        "text_width": "narrow",
         "text_position": "bottom-right",
         "text_color": "text-light"
       }
