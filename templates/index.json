@@ -151,8 +151,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Ch25_website_header.jpg",
-            "image_mobile": "shopify://shop_images/Ch25_website_mobil.jpg",
+            "image": "shopify://shop_images/ReleaseParty_01.jpg",
+            "image_mobile": "shopify://shop_images/ReleaseParty-06.jpg",
             "overlay_opacity": 0,
             "text_width": "normal",
             "text_position": "bottom-left",
