@@ -349,6 +349,20 @@
                   >
                     {{- look_products -}}
                   </div>
+
+                  {% if section.blocks.size > 1 %}
+                    <div class="slider-counter" data-look-counter>
+                      <button class="slider-counter__btn slider-counter__prev" aria-label="Previous">
+                        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                      </button>
+                      <span class="slider-counter__indicator">
+                        <span class="slider-counter__current">1</span> / {{ section.blocks.size }}
+                      </span>
+                      <button class="slider-counter__btn slider-counter__next" aria-label="Next">
+                        <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>
+                      </button>
+                    </div>
+                  {% endif %}
                 </div>
               </div>
             </div>
@@ -359,14 +373,16 @@
   </div>
 </section>
 
-
 <script>
 (function() {
   var section = document.getElementById('Look--{{ section.id }}');
   if (!section) return;
 
   var sliderEl = section.querySelector('.look__slider[data-slider]');
-  if (!sliderEl) return;
+  var counter = section.querySelector('[data-look-counter]');
+  if (!sliderEl || !counter) return;
+
+  var currentEl = counter.querySelector('.slider-counter__current');
 
   function getCurrentIndex() {
     var dots = sliderEl.querySelectorAll('.flickity-page-dots .dot');
@@ -386,33 +402,12 @@
   }
 
   function init() {
-    var dots = sliderEl.querySelectorAll('.flickity-page-dots .dot');
-    var total = dots.length;
-    if (total < 2 || section.querySelector('.slider-counter')) return;
-
-    var counter = document.createElement('div');
-    counter.className = 'slider-counter';
-    counter.innerHTML =
-      '<button class="slider-counter__btn slider-counter__prev" aria-label="Previous">' +
-        '<svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>' +
-      '</button>' +
-      '<span class="slider-counter__indicator">' +
-        '<span class="slider-counter__current">' + (getCurrentIndex() + 1) + '</span> / ' + total +
-      '</span>' +
-      '<button class="slider-counter__btn slider-counter__next" aria-label="Next">' +
-        '<svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>' +
-      '</button>';
-
-    var drawer = section.querySelector('.look__column--slider .look__column__drawer');
-    if (drawer) {
-      drawer.after(counter);
-    }
-
-    var currentEl = counter.querySelector('.slider-counter__current');
+    var dotsContainer = sliderEl.querySelector('.flickity-page-dots');
+    if (!dotsContainer) return;
 
     new MutationObserver(function() {
       currentEl.textContent = getCurrentIndex() + 1;
-    }).observe(sliderEl.querySelector('.flickity-page-dots'), {
+    }).observe(dotsContainer, {
       attributes: true,
       subtree: true,
       attributeFilter: ['class']
@@ -440,7 +435,6 @@
   }, 250);
 })();
 </script>
-
 
 {% schema %}
 {
