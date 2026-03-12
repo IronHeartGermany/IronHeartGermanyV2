@@ -359,6 +359,84 @@
   </div>
 </section>
 
+<script>
+(function() {
+  var section = document.getElementById('Look--{{ section.id }}');
+  if (!section) return;
+
+  var sliderEl = section.querySelector('.look__slider[data-slider]');
+  if (!sliderEl) return;
+
+  function getCurrentIndex() {
+    var dots = sliderEl.querySelectorAll('.flickity-page-dots .dot');
+    for (var i = 0; i < dots.length; i++) {
+      if (dots[i].classList.contains('is-selected')) return i;
+    }
+    return 0;
+  }
+
+  function goTo(index) {
+    var dots = sliderEl.querySelectorAll('.flickity-page-dots .dot');
+    var total = dots.length;
+    if (total === 0) return;
+    if (index < 0) index = total - 1;
+    if (index >= total) index = 0;
+    dots[index].click();
+  }
+
+  function init() {
+    var dots = sliderEl.querySelectorAll('.flickity-page-dots .dot');
+    var total = dots.length;
+    if (total < 2 || section.querySelector('.slider-counter')) return;
+
+    var counter = document.createElement('div');
+    counter.className = 'slider-counter';
+    counter.innerHTML =
+      '<button class="slider-counter__btn slider-counter__prev" aria-label="Previous">' +
+        '<svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>' +
+      '</button>' +
+      '<span class="slider-counter__indicator">' +
+        '<span class="slider-counter__current">' + (getCurrentIndex() + 1) + '</span> / ' + total +
+      '</span>' +
+      '<button class="slider-counter__btn slider-counter__next" aria-label="Next">' +
+        '<svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>' +
+      '</button>';
+
+    sliderEl.parentNode.insertBefore(counter, sliderEl.nextSibling);
+
+    var currentEl = counter.querySelector('.slider-counter__current');
+
+    new MutationObserver(function() {
+      currentEl.textContent = getCurrentIndex() + 1;
+    }).observe(sliderEl.querySelector('.flickity-page-dots'), {
+      attributes: true,
+      subtree: true,
+      attributeFilter: ['class']
+    });
+
+    counter.querySelector('.slider-counter__prev').addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      goTo(getCurrentIndex() - 1);
+    });
+    counter.querySelector('.slider-counter__next').addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      goTo(getCurrentIndex() + 1);
+    });
+  }
+
+  var attempts = 0;
+  var wait = setInterval(function() {
+    if (sliderEl.querySelector('.flickity-page-dots .dot') || attempts > 40) {
+      clearInterval(wait);
+      init();
+    }
+    attempts++;
+  }, 250);
+})();
+</script>
+
 {% schema %}
 {
   "name": "Shop the Look",
