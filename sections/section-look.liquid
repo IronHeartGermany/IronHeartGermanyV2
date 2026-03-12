@@ -402,9 +402,9 @@
         '<svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>' +
       '</button>';
 
-    var drawer = section.querySelector('.look__column__drawer');
-    if (drawer) {
-      drawer.parentNode.insertBefore(counter, drawer.nextSibling);
+    var products = section.querySelector('.look__column__drawer__products');
+    if (products) {
+      products.parentNode.insertBefore(counter, products.nextSibling);
     }
 
     var currentEl = counter.querySelector('.slider-counter__current');
