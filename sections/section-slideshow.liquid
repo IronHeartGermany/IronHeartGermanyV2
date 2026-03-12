@@ -382,13 +382,26 @@
   if (!slider) return;
 
   function getCurrentIndex() {
-    var selected = slider.querySelector('[data-slide].is-selected');
-    return selected ? parseInt(selected.getAttribute('data-slide-position'), 10) : 1;
+    var dots = slider.querySelectorAll('.flickity-page-dots .dot');
+    for (var i = 0; i < dots.length; i++) {
+      if (dots[i].classList.contains('is-selected')) return i;
+    }
+    return 0;
+  }
+
+  function goTo(index) {
+    var dots = slider.querySelectorAll('.flickity-page-dots .dot');
+    var total = dots.length;
+    if (total === 0) return;
+    // Wrap around
+    if (index < 0) index = total - 1;
+    if (index >= total) index = 0;
+    dots[index].click();
   }
 
   function init() {
-    var slides = slider.querySelectorAll('[data-slide]');
-    var total = slides.length;
+    var dots = slider.querySelectorAll('.flickity-page-dots .dot');
+    var total = dots.length;
     if (total < 2 || slider.querySelector('.slider-counter')) return;
 
     var counter = document.createElement('div');
@@ -398,7 +411,7 @@
         '<svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>' +
       '</button>' +
       '<span class="slider-counter__indicator">' +
-        '<span class="slider-counter__current">' + getCurrentIndex() + '</span> / ' + total +
+        '<span class="slider-counter__current">' + (getCurrentIndex() + 1) + '</span> / ' + total +
       '</span>' +
       '<button class="slider-counter__btn slider-counter__next" aria-label="Next">' +
         '<svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>' +
@@ -407,28 +420,31 @@
     slider.appendChild(counter);
     var currentEl = counter.querySelector('.slider-counter__current');
 
-    // Watch for slide changes via class mutations
+    // Watch for slide changes
     new MutationObserver(function() {
-      currentEl.textContent = getCurrentIndex();
-    }).observe(slider, { attributes: true, subtree: true, attributeFilter: ['class'] });
+      currentEl.textContent = getCurrentIndex() + 1;
+    }).observe(slider.querySelector('.flickity-page-dots'), {
+      attributes: true,
+      subtree: true,
+      attributeFilter: ['class']
+    });
 
-    // Navigate by clicking the theme's own hidden arrows
+    // Navigate by clicking dots
     counter.querySelector('.slider-counter__prev').addEventListener('click', function(e) {
+      e.preventDefault();
       e.stopPropagation();
-      var btn = slider.querySelector('.flickity-prev-next-button.previous');
-      if (btn) btn.click();
+      goTo(getCurrentIndex() - 1);
     });
     counter.querySelector('.slider-counter__next').addEventListener('click', function(e) {
+      e.preventDefault();
       e.stopPropagation();
-      var btn = slider.querySelector('.flickity-prev-next-button.next');
-      if (btn) btn.click();
+      goTo(getCurrentIndex() + 1);
     });
   }
 
-  // Wait for the theme to build the slider DOM
   var attempts = 0;
   var wait = setInterval(function() {
-    if (slider.querySelector('.flickity-viewport') || attempts > 40) {
+    if (slider.querySelector('.flickity-page-dots .dot') || attempts > 40) {
       clearInterval(wait);
       init();
     }
