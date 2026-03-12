@@ -359,6 +359,7 @@
   </div>
 </section>
 
+
 <script>
 (function() {
   var section = document.getElementById('Look--{{ section.id }}');
@@ -402,9 +403,9 @@
         '<svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>' +
       '</button>';
 
-    var products = section.querySelector('.look__column__drawer__products');
-    if (products) {
-      products.parentNode.insertBefore(counter, products.nextSibling);
+    var content = section.querySelector('.look__content');
+    if (content) {
+      content.appendChild(counter);
     }
 
     var currentEl = counter.querySelector('.slider-counter__current');
@@ -439,6 +440,7 @@
   }, 250);
 })();
 </script>
+
 
 {% schema %}
 {
