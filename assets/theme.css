@@ -28686,14 +28686,15 @@ button.cart__checkout:hover,
   position: absolute !important;
 }
 
-/* Counter container - full width, content right-aligned */
+/* Counter container */
 .section-look .look__column--slider > .slider-counter {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-top: 16px;
   width: 100%;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 30px;
 }
 
 /* Prev / Next buttons */
