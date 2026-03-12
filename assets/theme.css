@@ -28633,17 +28633,19 @@ button.cart__checkout:hover,
   position: absolute !important;
 }
 
-/* Counter container - direct child of slider column */
+/* Make slider column the positioning parent */
+.section-look .look__column--slider {
+  position: relative;
+}
+
+/* Counter - positioned at bottom left of slider column */
 .section-look .look__column--slider > .slider-counter {
-  display: flex !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 10px;
-  margin-top: 16px;
-  margin-right: auto;
-  margin-left: 0;
-  align-self: flex-start;
-  text-align: left;
 }
 
 /* Prev / Next buttons */
