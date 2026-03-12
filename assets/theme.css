@@ -28553,11 +28553,7 @@ button.cart__checkout:hover,
 }
 
 /* Hide the theme's default arrows (keep in DOM for click proxy) */
-#Slideshow--{{ section.id }} .flickity-prev-next-button {
-  opacity: 0 !important;
-  pointer-events: none !important;
-  width: 0 !important;
-  height: 0 !important;
-  overflow: hidden !important;
-  position: absolute !important;
+.slideshow .flickity-page-dots,
+.slider .flickity-page-dots {
+  display: none !important;
 }
