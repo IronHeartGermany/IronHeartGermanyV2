@@ -28683,19 +28683,13 @@ button.cart__checkout:hover,
   position: absolute !important;
 }
 
-/* Counter container */
-.section-look .slider-counter {
+/* Counter container - direct child of slider column */
+.section-look .look__column--slider > .slider-counter {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
   margin-top: 16px;
-  width: 100%;
-}
-
-/* Force left alignment inside drawer */
-.section-look .look__column__drawer__inner > .slider-counter {
-  align-self: flex-start;
 }
 
 /* Prev / Next buttons */
@@ -28740,12 +28734,4 @@ button.cart__checkout:hover,
   white-space: nowrap;
   font-weight: 500;
   line-height: 1;
-}
-
-.section-look .look__column--slider > .slider-counter {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
-  margin-top: 16px;
 }
