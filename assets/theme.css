@@ -28636,13 +28636,19 @@ button.cart__checkout:hover,
   position: absolute !important;
 }
 
+/* Keep counter inside right column */
+.section-look .look__column--slider {
+  position: relative;
+}
+
 /* Counter container */
-.section-look .look__column--slider > .slider-counter {
+.section-look .slider-counter {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   margin-top: 16px;
+  width: 100%;
 }
 
 /* Prev / Next buttons */
