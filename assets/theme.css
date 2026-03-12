@@ -28699,7 +28699,8 @@ button.cart__checkout:hover,
   gap: 10px;
   margin-top: 0;
   width: 100%;
-  bottom: 80px;
+  position: relative;
+  bottom: 40px;
 }
 
 /* Prev / Next buttons */
