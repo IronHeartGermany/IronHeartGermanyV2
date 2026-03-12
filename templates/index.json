@@ -149,6 +149,7 @@
         },
         "image_XHfcna": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ReleaseParty_01.jpg",
             "image_mobile": "shopify://shop_images/ReleaseParty-03.jpg",
