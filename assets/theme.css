@@ -28552,8 +28552,70 @@ button.cart__checkout:hover,
   }
 }
 
-/* Hide the theme's default arrows (keep in DOM for click proxy) */
-.slideshow .flickity-page-dots,
-.slider .flickity-page-dots {
-  display: none !important;
-}
+  /* Hide default Flickity dots and arrows */
+  #Slideshow--{{ section.id }} .flickity-page-dots {
+    display: none !important;
+  }
+  #Slideshow--{{ section.id }} .flickity-prev-next-button {
+    opacity: 0 !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+  }
+
+  /* Counter container */
+  #Slideshow--{{ section.id }} .slider-counter {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 5;
+  }
+
+  #Slideshow--{{ section.id }} .slider-counter__btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background 0.2s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  #Slideshow--{{ section.id }} .slider-counter__btn:hover {
+    background: #fff;
+  }
+
+  #Slideshow--{{ section.id }} .slider-counter__btn svg {
+    width: 16px;
+    height: 16px;
+    stroke: #333;
+    stroke-width: 2.5;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  #Slideshow--{{ section.id }} .slider-counter__indicator {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 15px;
+    color: #333;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    line-height: 1;
+  }
