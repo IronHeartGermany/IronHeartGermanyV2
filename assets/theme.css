@@ -28685,11 +28685,15 @@ button.cart__checkout:hover,
 
 /* Counter container - direct child of slider column */
 .section-look .look__column--slider > .slider-counter {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
   margin-top: 16px;
+  margin-right: auto;
+  margin-left: 0;
+  align-self: flex-start;
+  text-align: left;
 }
 
 /* Prev / Next buttons */
