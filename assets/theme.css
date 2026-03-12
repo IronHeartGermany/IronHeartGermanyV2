@@ -28695,10 +28695,8 @@ button.cart__checkout:hover,
 .section-look .look__column__drawer__inner .slider-counter {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 10px;
-  margin-top: 16px;
-  width: 100%;
+  margin: 16px auto 0;
 }
 
 /* Prev / Next buttons */
