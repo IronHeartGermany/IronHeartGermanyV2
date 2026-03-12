@@ -28741,3 +28741,11 @@ button.cart__checkout:hover,
   font-weight: 500;
   line-height: 1;
 }
+
+.section-look .look__column--slider > .slider-counter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 16px;
+}
