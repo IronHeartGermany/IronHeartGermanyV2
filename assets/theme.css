@@ -28628,7 +28628,7 @@ button.cart__checkout:hover,
   }
 
 #Slideshow--{{ section.id }} .slider-counter__btn {
-  width: 34px;
+  width: 31px;
   height: 31px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.9);
