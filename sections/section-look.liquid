@@ -403,9 +403,9 @@
         '<svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>' +
       '</button>';
 
-    var content = section.querySelector('.look__content');
-    if (content) {
-      content.appendChild(counter);
+    var drawer = section.querySelector('.look__column--slider .look__column__drawer');
+    if (drawer) {
+      drawer.after(counter);
     }
 
     var currentEl = counter.querySelector('.slider-counter__current');
