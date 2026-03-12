@@ -28670,7 +28670,7 @@ button.cart__checkout:hover,
     line-height: 1;
   }
 
-  /* Hide default Flickity dots and arrows on look slider */
+/* Hide default Flickity dots and arrows on look slider */
 .section-look .flickity-page-dots {
   display: none !important;
 }
@@ -28687,7 +28687,7 @@ button.cart__checkout:hover,
 .section-look .slider-counter {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 10px;
   margin-top: 16px;
 }
