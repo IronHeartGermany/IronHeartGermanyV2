@@ -28636,14 +28636,9 @@ button.cart__checkout:hover,
   position: absolute !important;
 }
 
-/* Fix drawer inner layout so counter sits below products */
-.section-look .look__column__drawer__inner {
-  display: flex;
-  flex-direction: column;
-}
-
+/* Fix products height so counter fits below */
 .section-look .look__column__drawer__inner .look__column__drawer__products {
-  height: auto;
+  height: auto !important;
 }
 
 /* Counter container */
