@@ -28690,6 +28690,12 @@ button.cart__checkout:hover,
   justify-content: flex-start;
   gap: 10px;
   margin-top: 16px;
+  width: 100%;
+}
+
+/* Force left alignment inside drawer */
+.section-look .look__column__drawer__inner > .slider-counter {
+  align-self: flex-start;
 }
 
 /* Prev / Next buttons */
