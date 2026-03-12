@@ -376,6 +376,60 @@
   {%- endif -%}
 </div>
 
+<script>
+(function() {
+  function initCounter(slider) {
+    var flkty = Flickity.data(slider);
+    if (!flkty) return;
+
+    var total = flkty.cells.length;
+    if (total < 2) return;
+    if (slider.querySelector('.slider-counter')) return; // already init
+
+    var counter = document.createElement('div');
+    counter.className = 'slider-counter';
+    counter.innerHTML =
+      '<button class="slider-counter__btn slider-counter__prev" aria-label="Previous">' +
+        '<svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>' +
+      '</button>' +
+      '<span class="slider-counter__indicator">' +
+        '<span class="slider-counter__current">1</span> / ' + total +
+      '</span>' +
+      '<button class="slider-counter__btn slider-counter__next" aria-label="Next">' +
+        '<svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"></polyline></svg>' +
+      '</button>';
+
+    slider.appendChild(counter);
+
+    var currentEl = counter.querySelector('.slider-counter__current');
+
+    flkty.on('change', function(index) {
+      currentEl.textContent = index + 1;
+    });
+
+    counter.querySelector('.slider-counter__prev').addEventListener('click', function() {
+      flkty.previous(true);
+    });
+    counter.querySelector('.slider-counter__next').addEventListener('click', function() {
+      flkty.next(true);
+    });
+  }
+
+  // Flickity might not be ready at DOMContentLoaded, so poll briefly
+  var slider = document.getElementById('Slideshow--{{ section.id }}');
+  if (!slider) return;
+
+  var attempts = 0;
+  var check = setInterval(function() {
+    if (Flickity.data(slider) || attempts > 20) {
+      clearInterval(check);
+      initCounter(slider);
+    }
+    attempts++;
+  }, 200);
+})();
+</script>
+
 {% schema %}
 {
   "name": "Slideshow",
