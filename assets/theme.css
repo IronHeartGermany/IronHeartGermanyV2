@@ -28670,7 +28670,10 @@ button.cart__checkout:hover,
     line-height: 1;
   }
 
-/* Hide default Flickity dots and arrows on look slider */
+
+
+
+  /* Hide default Flickity dots and arrows on look slider */
 .section-look .flickity-page-dots {
   display: none !important;
 }
@@ -28681,13 +28684,6 @@ button.cart__checkout:hover,
   height: 0 !important;
   overflow: hidden !important;
   position: absolute !important;
-}
-
-/* Force the slider column to left-align the counter */
-.section-look .look__column--slider {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;
 }
 
 /* Counter container */
