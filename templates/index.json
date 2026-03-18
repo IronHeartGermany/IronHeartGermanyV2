@@ -790,14 +790,14 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
-            "image": "shopify://shop_images/IHSH-33-IND_015_24_09.jpg",
+            "image": "shopify://shop_images/2J5A8676.._36a593fb-95dc-45cb-bf2c-d1b4bab21f35.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
             "title": "IRON HEART",
             "heading_size": 100,
-            "image_text": "<p>12oz Selvedge Denim Western Shirt</p>",
+            "image_text": "<p>10oz Selvedge Chambray Work Shirt</p>",
             "button_text": "",
-            "button_link": "https://ironheartgermany.com/collections/new/products/iron-heart-ihsh-33-ind-12oz-denim-western-shirt-indigo",
+            "button_link": "",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
