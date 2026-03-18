@@ -213,8 +213,7 @@
     "section_collection_wbgefN": {
       "type": "section-collection",
       "custom_css": [
-        "/*.section__link {font-family: \"Roboto\";}",
-        "*/.section__text {max-width: 660px !important;}",
+        "/*.section__link {font-family: \"Roboto\";}*/.section__text {max-width: 660px !important;}",
         ".product-grid-item__price {font-weight: 800 !important;}",
         ".featured-collection__top {margin-bottom: -10px !important;}",
         ".flickity-prev-next-button {top: -55px !important;}"
@@ -290,8 +289,7 @@
       "type": "section-collection",
       "disabled": true,
       "custom_css": [
-        "/*.section__link {font-family: \"Roboto\";}",
-        "*/.section__text {max-width: 660px !important;}",
+        "/*.section__link {font-family: \"Roboto\";}*/.section__text {max-width: 660px !important;}",
         ".product-grid-item__price {font-weight: 800 !important;}",
         ".featured-collection {background-color: #fafafa !important;}"
       ],
@@ -534,8 +532,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        "/*.section__header {font-family: \"Roboto\";}",
-        "*/.section__header {margin-bottom: 52px;}",
+        "/*.section__header {font-family: \"Roboto\";}*/.section__header {margin-bottom: 52px;}",
         ".list-collections__item__title {font-size: 22px;}",
         ".coll_list_content {margin: 4px auto !important;}"
       ],
@@ -776,14 +773,14 @@
           "type": "image",
           "settings": {
             "text_position": "top-center",
-            "image": "shopify://shop_images/GA-CLIP-8-A_001.jpg",
+            "image": "shopify://shop_images/PE-ZIPPO-BERO-BR_016_62d46a48-e7de-4425-957c-86246017dc2b.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
-            "title": "GOOD ART HLYWD",
+            "title": "PEANUTS & CO.",
             "heading_size": 100,
-            "image_text": "<p>Clip 8 Keychain A - Sterling Silver</p>",
+            "image_text": "<p>Peanuts Bero ZIPPO - Brass</p>",
             "button_text": "",
-            "button_link": "https://ironheartgermany.com/collections/good-art-hlywd/products/good-art-ga-clip-8-a-good-art-hlywd-clip-8-keychain-a-sterling-silver",
+            "button_link": "",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
