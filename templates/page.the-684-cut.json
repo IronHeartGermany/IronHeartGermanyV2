@@ -335,6 +335,38 @@
         "padding_bottom": 60
       }
     },
+    "section_overlapping_images_PLCmHH": {
+      "type": "section-overlapping-images",
+      "name": "Overlapping images",
+      "settings": {
+        "extra_class": "",
+        "text_position": "left",
+        "text_alignment": "center",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "title": "<p>COMPLETING THE 684</p>",
+        "heading_highlight_type": "circle",
+        "highlight_color": "#D43747",
+        "highlight_text_color": "#000",
+        "description": "<p>Every 684 comes in a 684-Tote Bag.</p><p>The 684 is more than a single garment. To complete the collection, we developed two pieces built with the same mindset: durability, texture, and intention.</p><p><strong>The 7.5oz Loopwheel T-Shirt with and without pocket</strong></p><p>Knitted on traditional loopwheel machines in Japan. Heavyweight. No side seams. Built to age alongside the denim.</p><p><strong>The Indigo Bandana</strong></p><p>Indigo-dyed fabric with white tiger print. A<br/>subtle extension of the 684 identity.</p><p>The 684 collection is not about decoration.<br/>It is about cohesion.</p>",
+        "heading_size": 100,
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "gradient": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_text_cAdTqR": {
       "type": "section-text",
       "blocks": {
@@ -544,6 +576,7 @@
     "text",
     "section_banner_image_fhMfwH",
     "section_image_with_text_MEcqE4",
+    "section_overlapping_images_PLCmHH",
     "section_text_cAdTqR",
     "section_banner_image_DwGpyz",
     "main",
