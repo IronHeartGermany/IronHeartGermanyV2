@@ -166,7 +166,7 @@
         "highlight_color": "#d43747",
         "highlight_text_color": "#000000",
         "heading_size": 130,
-        "content": "<p>The 684 is rooted in the iconic 634 silhouette but offers a wider leg and more room throughout. It is a true relaxed straight fit: Classic rise, room through the thigh, straight leg opening, no taper, tobacco-coloured stitching throughout. The goal was not to follow trends, but to create a wider proportion that feels natural within the Iron Heart philosophy.The 684 is here to stay.</p>",
+        "content": "<p>The 684 is the widest fit Iron Heart has ever produced. It is based on the iconic 634, but with deliberate room through the leg.<br/><br/>It is a true relaxed straight fit: classic rise, room through the thigh, straight leg opening, no taper, and signature tobacco-coloured stitching throughout.<br/><br/>The goal was not to follow trends, but to create a wider proportion that feels natural within the Iron Heart philosophy. Not baggy. Not exaggerated. Not fashion-driven.<br/><br/>Clean lines, a stable stance, and a natural drape define the silhouette. A modern proportion that moves with the body instead of restricting it.<br/><br/>Wider. With intention. The 684 is here to stay.</p>",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -187,9 +187,8 @@
       "blocks": {
         "subheading": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "<p>Craftsmanship and Quality</p>",
+            "text": "<p>The 684 Denim</p>",
             "size": 100,
             "margin_bottom": 16
           }
@@ -207,7 +206,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Made in Japan. Woven in Kojima.</p><p>For its first production run, the 684 is produced in a 16oz vintage-style selvedge denim woven by Takata Orimono in Kojima, Japan. The fabric is made from Pima cotton ring-spun yarns, resulting in a textured, slightly irregular twill with depth and character. Like Iron Heart’s 18oz vintage weave, this denim is designed to develop strong vertical tate-ochi fades over time.<br/><br/>At 16oz, it offers: Structural integrity, Year-round wearability, High-contrast ageing potential<br/><br/>Future 684 models may appear in other fabrics.<br/>This 16oz combination, however, remains exclusive to Iron Heart Germany.</p>",
+            "text": "<p>For this new silhouette, the fabric had to be right.<br/><br/>Haraki-san had just developed a new 16oz vintage-style selvedge denim, woven in Kojima at Takata Orimono on traditional shuttle looms. The fabric is made from Pima cotton ring-spun yarns, resulting in a textured, slightly irregular twill with depth and character.<br/><br/>Like Iron Heart’s 18oz vintage weave, this denim is designed to develop strong vertical tate-ochi fades over time. Because of the relaxed fit, the fades will appear more natural and subtle compared to tighter, heavier denim.<br/><br/>At 16oz, the fabric offers a rare balance: substantial enough for structure and durability, yet versatile enough for year-round wear.<br/><br/>While the 684 cut will be introduced in other fabrics in the future, this specific 16oz selvedge combination remains exclusive to Iron Heart Germany.</p>",
             "size": 100
           }
         },
