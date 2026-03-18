@@ -807,14 +807,14 @@
           "type": "image",
           "settings": {
             "text_position": "top-center",
-            "image": "shopify://shop_images/PO-HEAT-MESSENGER-BLK_004_1dad7be2-8184-44b8-8f86-a1917c7c3678.jpg",
+            "image": "shopify://shop_images/IHG-112_018_2489eea3-313a-4912-b4f2-52b3f24d8cf1.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
-            "title": "PORTER YOSHIDA & CO.",
+            "title": "IRON HEART",
             "heading_size": 100,
-            "image_text": "<p>Heat Messenger Bag</p>",
+            "image_text": "<p>\"Iron To The Bone\" Mug</p>",
             "button_text": "",
-            "button_link": "https://ironheartgermany.com/collections/porter-yoshida-co/products/porter-yoshida-po-heat-messenger-blk-porter-yoshida-co-heat-messenger-bag-l-black",
+            "button_link": "",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
