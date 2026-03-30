@@ -184,6 +184,13 @@
             "title": "Liefert Iron Heart Germany in mein Land?",
             "text": "<h4>Iron Heart Germany liefert weltweit – mit wenigen Ausnahmen.</h4><p>Wir versenden in die meisten Länder Europas, Nordamerikas und weltweit. <strong>Aktuell liefern wir nicht nach Russland und in die Ukraine.</strong></p><p>Wenn du unsicher bist, ob dein Land beliefert wird, kannst du die verfügbaren Versandoptionen direkt im Checkout prüfen oder unseren Support kontaktieren.</p>"
           }
+        },
+        "text_jgyNRK": {
+          "type": "text",
+          "settings": {
+            "title": "Erstattet Iron Heart Germany die Mehrwertsteuer (VAT) bei Bestellungen außerhalb der EU?",
+            "text": "<h4>Nein. Iron Heart Germany erstattet bei Lieferungen außerhalb der EU keine Mehrwertsteuer. Stattdessen profitierst du ab 200 € Bestellwert von kostenlosem Versand in viele Nicht-EU-Länder.</h4><p>Nein, bei Bestellungen außerhalb der Europäischen Union wird die Mehrwertsteuer (VAT) von Iron Heart Germany nicht erstattet. Diese Regelung basiert auf verbindlichen Vorgaben von Iron Heart International und gilt einheitlich für alle Bestellungen.</p><p>Um internationale Kund:innen dennoch zu entlasten, bieten wir für viele Nicht-EU-Länder <strong>kostenlosen Versand ab einem Bestellwert von 200 €</strong> an.</p><p>Bitte beachte: Beim Import in dein Zielland können <strong>lokale Steuern, Zölle oder Einfuhrgebühren</strong> anfallen, die vom jeweiligen Land erhoben werden und von dir getragen werden müssen.</p>"
+          }
         }
       },
       "block_order": [
@@ -196,7 +203,8 @@
         "accordion_block_2_4",
         "text_DLYayb",
         "accordion_block_2_2",
-        "text_a9nKFP"
+        "text_a9nKFP",
+        "text_jgyNRK"
       ],
       "settings": {
         "layout": "two-columns",
