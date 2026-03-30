@@ -265,6 +265,13 @@
             "text": "<h4>Jeans sollte man nur bei niedriger Temperatur von links bügeln – oder am besten gar nicht, wenn man es puristisch mag.</h4><p>Grundsätzlich gilt: Jeans bügeln ist möglich, aber nicht nötig. Wenn du Falten entfernen willst, drehe die Hose auf links und wähle eine niedrige Temperatur (max. 150 °C). So schützt du die Indigo-Färbung und das Gewebe. Verwende kein Dampf, da er die Fasern aufquellen lassen kann – vor allem bei Raw Denim.</p><p>Aber ehrlich gesagt: Echte Denim Heads bügeln ihre Jeans nicht. Sie lassen sie nach dem Waschen einfach an der Luft trocknen, ziehen sie dann kurz in Form – fertig. So bleibt der authentische Charakter des Denims erhalten und mit jeder Bewegung entstehen neue, individuelle Fades.</p>"
           }
         },
+        "text_EwQx7T": {
+          "type": "text",
+          "settings": {
+            "title": "Wie bügelt man Cordstoff richtig?",
+            "text": "<h4>Cordstoff sollte auf links und bei niedriger Temperatur gebügelt werden, um Fasern und Rippen zu schonen.</h4><p>Cord ist ein empfindlicher Stoff mit erhabenen Rippen, die leicht beschädigt werden können. Bügle Cordstoff immer auf links und verwende die niedrigste Stufe deines Bügeleisens, ggf. mit Dampffunktion.</p><p>Lege ein Baumwolltuch zwischen Stoff und Bügeleisen, um direkten Kontakt zu vermeiden. Bewege das Bügeleisen vorsichtig und ohne Druck über den Stoff.</p><p>Alternativ kannst du leichte Falten auch durch Aufhängen im Dampf (z. B. im Badezimmer während einer heißen<br/>Dusche) glätten. So bleibt die Struktur der Rippen erhalten und der Cordstoff<br/>sieht gepflegt aus.</p>"
+          }
+        },
         "text_WnYjcr": {
           "type": "text",
           "settings": {
@@ -272,11 +279,11 @@
             "text": "<h4>Eine Lederjacke sollte nicht direkt gebügelt werden – leichte Falten glätten sich durch Tragen, Dampf oder einen Fachservice.</h4><p>Eine Lederjacke ist empfindlich und sollte niemals direkt mit dem Bügeleisen in Kontakt kommen, da Hitze das Leder austrocknen oder verfärben kann. Kleine Falten verschwinden oft schon durch das Tragen der Jacke, da Körperwärme das Leder geschmeidig macht. Hartnäckigere Knitter lassen sich vorsichtig mit Dampf behandeln: Hänge die Jacke im Badezimmer auf, während du heiß duschst, oder halte sie mit Abstand über heißen Wasserdampf.</p><p>Alternativ kannst du ein Baumwolltuch über die betroffene Stelle legen und das Bügeleisen nur bei sehr niedriger Temperatur kurz ohne Druck über das Tuch führen – dabei immer vorsichtig testen. Für wertvolle Stücke empfiehlt sich ein professioneller Lederpflegeservice.</p>"
           }
         },
-        "text_EwQx7T": {
+        "text_7fBYbh": {
           "type": "text",
           "settings": {
-            "title": "Wie bügelt man Cordstoff richtig?",
-            "text": "<h4>Cordstoff sollte auf links und bei niedriger Temperatur gebügelt werden, um Fasern und Rippen zu schonen.</h4><p>Cord ist ein empfindlicher Stoff mit erhabenen Rippen, die leicht beschädigt werden können. Bügle Cordstoff immer auf links und verwende die niedrigste Stufe deines Bügeleisens, ggf. mit Dampffunktion.</p><p>Lege ein Baumwolltuch zwischen Stoff und Bügeleisen, um direkten Kontakt zu vermeiden. Bewege das Bügeleisen vorsichtig und ohne Druck über den Stoff.</p><p>Alternativ kannst du leichte Falten auch durch Aufhängen im Dampf (z. B. im Badezimmer während einer heißen<br/>Dusche) glätten. So bleibt die Struktur der Rippen erhalten und der Cordstoff<br/>sieht gepflegt aus.</p>"
+            "title": "Wie pflege ich meine Lederjacke richtig, damit sie lange hält?",
+            "text": "<h4>Lederjacken solltest du nicht regelmäßig waschen oder reinigen, sondern gezielt pflegen. Verwende sparsam Lederpflege und vermeide Austrocknung durch Hitze oder falsche Lagerung.</h4><p>Leder ist ein Naturmaterial und entwickelt mit der Zeit seine eigene Patina. Ziel der Pflege ist es daher nicht, die Jacke „wie neu“ zu halten, sondern das Leder <strong>geschmeidig und widerstandsfähig</strong> zu halten.</p><p>Verwende bei Bedarf eine <strong>hochwertige Lederpflege (z. B. Lederbalsam oder -fett)</strong>, um das Material vor dem Austrocknen zu schützen. Trage diese sparsam und gleichmäßig auf – zu viel Pflege kann die Poren verstopfen und das Leder unnötig weich machen.</p><p>Wichtig ist außerdem:</p><ul><li><strong>Keine direkte Hitze</strong> (z. B. Heizung), da das Leder sonst austrocknet und spröde wird</li><li><strong>Atmungsaktive Lagerung</strong>, idealerweise auf einem breiten Kleiderbügel</li><li><strong>Nicht in Plastik aufbewahren</strong>, damit das Leder „arbeiten“ kann</li></ul><p>Leichte Gebrauchsspuren sind bei Leder ausdrücklich gewollt – sie machen jede Jacke mit der Zeit einzigartig.</p>"
           }
         }
       },
@@ -287,8 +294,9 @@
         "text_RweNgC",
         "text_CjtTcj",
         "text_Ad3iJn",
+        "text_EwQx7T",
         "text_WnYjcr",
-        "text_EwQx7T"
+        "text_7fBYbh"
       ],
       "name": "Tabs",
       "settings": {
