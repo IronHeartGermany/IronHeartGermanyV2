@@ -458,11 +458,18 @@
     "section_accordions_TzmBFA": {
       "type": "section-accordions",
       "blocks": {
+        "text_RY8Ygc": {
+          "type": "text",
+          "settings": {
+            "title": "Was ist Denim und was macht ihn so besonders?",
+            "text": "<h4>Denim ist ein robuster Baumwollstoff in Köperbindung, der ursprünglich aus Frankreich stammt. Seine besondere Webart macht ihn strapazierfähig, langlebig und ideal für Jeans.</h4><p>Denim ist ein fester Baumwollstoff, der traditionell in sogenannter <strong>Köperbindung (Twill)</strong> gewebt wird. Diese Webart sorgt für die typische diagonale Struktur des Stoffes und macht Denim besonders widerstandsfähig.</p><p>Der Begriff „Denim“ leitet sich vom französischen Ausdruck <strong>„serge de Nîmes“</strong> ab – ein Stoff aus der Stadt Nîmes. Im Laufe der Zeit wurde daraus „de Nîmes“ und schließlich „Denim“.</p><p>Das Besondere an Denim liegt in seiner Konstruktion:<br/><br/>In der Regel wird nur der Kettfaden (Warp) mit Indigo gefärbt, während der Schussfaden (Weft) ungefärbt bleibt. Dadurch entsteht die typische Optik – außen blau, innen heller.</p><p>Diese Färbetechnik sorgt auch dafür, dass Denim mit der Zeit <strong>ausbleicht und individuelle Tragespuren entwickelt</strong>. Genau das macht jede Jeans einzigartig.</p><p><strong>Kurz gesagt:</strong><br/><br/>Denim ist nicht nur ein Stoff, sondern ein Material, das mit dir altert – robust, langlebig und voller Charakter.</p>"
+          }
+        },
         "text_tnnFXi": {
           "type": "text",
           "settings": {
             "title": "Was bedeutet „sanforisiert“?",
-            "text": "<h4>Sanforisierter Denim wurde nach dem Weben in einem mechanischen Prozess mit Damlpf bzw. Hitze behandelt, der den größten Teil des späteren Einlaufens entfernt, bevor das Kleidungsstück überhaupt genäht wird.</h4><p><strong>Kurz erklärt:</strong></p><ul><li>Der Stoff wird mechanisch stabilisiert, sodass er beim Waschen kaum noch einläuft.</li><li>Passform und Länge bleiben verlässlich – auch nach vielen Wäschen.</li><li>Fast alle Iron Heart Denim-Produkte sind sanforisiert und anschließend one-washed, sodass keine weitere nennenswerte Schrumpfung zu erwarten ist (wenn nach Pflegehinweisen gewaschen).</li></ul><p></p><p><strong>Vorteil:</strong> Du kannst die Jeans direkt in deiner echten Größe kaufen und tragen – ohne Shrink-to-Fit-Prozess.</p>"
+            "text": "<h4>Sanforisierter Denim wurde nach dem Weben in einem mechanischen Prozess mit Dampf bzw. Hitze behandelt, der den größten Teil des späteren Einlaufens entfernt, bevor das Kleidungsstück überhaupt genäht wird.</h4><p><strong>Kurz erklärt:</strong></p><ul><li>Der Stoff wird mechanisch stabilisiert, sodass er beim Waschen kaum noch einläuft.</li><li>Passform und Länge bleiben verlässlich – auch nach vielen Wäschen.</li><li>Fast alle Iron Heart Denim-Produkte sind sanforisiert und anschließend one-washed, sodass keine weitere nennenswerte Schrumpfung zu erwarten ist (wenn nach Pflegehinweisen gewaschen).</li></ul><p></p><p><strong>Vorteil:</strong> Du kannst die Jeans direkt in deiner echten Größe kaufen und tragen – ohne Shrink-to-Fit-Prozess.</p>"
           }
         },
         "text_QtXHEB": {
@@ -579,6 +586,7 @@
         }
       },
       "block_order": [
+        "text_RY8Ygc",
         "text_tnnFXi",
         "text_QtXHEB",
         "text_TXXtJa",
