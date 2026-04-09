@@ -302,7 +302,7 @@
       "settings": {
         "layout": "two-columns",
         "show_accordion_divider": false,
-        "title": "Wasch- & Pflegehinweise",
+        "title": "Wasch- und Pflegehinweise",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
@@ -355,7 +355,7 @@
       "settings": {
         "layout": "two-columns",
         "show_accordion_divider": false,
-        "title": "Maße / Passform & Größen",
+        "title": "Maße / Passform und Größen",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
@@ -444,7 +444,7 @@
       "settings": {
         "layout": "two-columns",
         "show_accordion_divider": false,
-        "title": "Refunds & Returns",
+        "title": "Refunds und Returns",
         "subheading": "",
         "text": "",
         "tabs_bg_color": "#fafafa",
@@ -626,10 +626,10 @@
     "25dbd963-093c-4cc9-9cd4-7bde32b883ac",
     "section_accordions_cGdzNP",
     "accordion-section-2",
+    "accordion-section-4",
     "section_accordions_MPEiHj",
     "section_accordions_z7U8HP",
     "section_accordions_gKnrRY",
-    "accordion-section-4",
     "section_accordions_TzmBFA"
   ]
 }
