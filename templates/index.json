@@ -798,7 +798,7 @@
             "heading_size": 100,
             "image_text": "<p>10oz Selvedge Chambray Work Shirt</p>",
             "button_text": "",
-            "button_link": "",
+            "button_link": "shopify://products/iron-heart-ihsh-21-blu-10oz-selvedge-chambray-work-shirt",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
@@ -815,7 +815,7 @@
             "heading_size": 100,
             "image_text": "<p>\"Iron To The Bone\" Mug</p>",
             "button_text": "",
-            "button_link": "",
+            "button_link": "shopify://products/iron-heart-ihg-112-ittb-iron-heart-iron-to-the-bone-mug",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
