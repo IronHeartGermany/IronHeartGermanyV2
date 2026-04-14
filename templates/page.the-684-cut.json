@@ -481,7 +481,7 @@
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/IH-684_030.jpg",
-        "overlay_opacity": 50,
+        "overlay_opacity": 10,
         "enable_zoom_animation": true,
         "text_width": "normal",
         "text_position": "center",
