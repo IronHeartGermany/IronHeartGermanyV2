@@ -418,8 +418,8 @@
 
 {% schema %}
 {
-  "name": "Custom content",
-  "max_blocks": 2,
+  "name": "Side-by-Side content",
+  "max_blocks": 3,
   "settings": [
     {
       "type": "select",
@@ -1221,14 +1221,17 @@
   ],
   "presets": [
     {
-      "name": "Custom content",
+      "name": "Side-by-side content",
       "category": "Image",
       "blocks": [
         {
           "type": "image"
         },
         {
-          "type": "text"
+          "type": "image"
+        },
+        {
+          "type": "image"
         }
       ]
     }
