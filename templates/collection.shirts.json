@@ -226,7 +226,7 @@
           "type": "heading",
           "name": "SEO Text Heading",
           "settings": {
-            "text": "<p>About our {{ collection.title }}</p>",
+            "text": "<p>About Iron Heart {{ collection.title }} at Iron Heart Germany</p>",
             "size": 100,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -246,7 +246,6 @@
         "heading_YR8LyC",
         "text_eAMWgc"
       ],
-      "disabled": true,
       "name": "SEO Text",
       "settings": {
         "text_position": "left",
