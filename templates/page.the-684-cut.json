@@ -65,7 +65,7 @@
         "mobile_height": "four-fifty-height-mobile",
         "image": "shopify://shop_images/IH-684_009.jpg",
         "image_mobile": "shopify://shop_images/Ironeheart_responsive.jpg",
-        "overlay_opacity": 35,
+        "overlay_opacity": 25,
         "enable_zoom_animation": true,
         "text_width": "narrow",
         "text_position": "bottom-right",
