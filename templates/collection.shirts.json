@@ -170,6 +170,92 @@
         "padding_top": 30,
         "padding_bottom": 60
       }
+    },
+    "section_split_images_m3cRjU": {
+      "type": "section-split-images",
+      "blocks": {
+        "image_NUxNeV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WESTERN_GIF.gif"
+          }
+        },
+        "image_JzNgTt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WORK_GIF.gif"
+          }
+        }
+      },
+      "block_order": [
+        "image_NUxNeV",
+        "image_JzNgTt"
+      ],
+      "name": "Split images",
+      "settings": {
+        "image_height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_image_height": "five-fifty-height-mobile",
+        "mobile_layout": "split",
+        "text_position": "middle-center",
+        "overlay_opacity": 10,
+        "width": "wrapper--narrow",
+        "text_color": "text-light",
+        "title": "<p>WESTERN vs. WORK</p>",
+        "heading_highlight_type": "italics",
+        "highlight_color": "#d43747",
+        "highlight_text_color": "#000000",
+        "heading_size": 150,
+        "text": "<- see the differences ->",
+        "button_1_text": "SHOP NOW",
+        "button_1_link": "",
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--outline",
+        "button_1_size": "btn--small",
+        "button_2_text": "",
+        "button_2_link": "",
+        "button_2_color": "btn--black",
+        "button_2_style": "btn--solid",
+        "button_2_size": "btn--small"
+      }
+    },
+    "section_text_3TCWUt": {
+      "type": "section-text",
+      "blocks": {
+        "heading_YR8LyC": {
+          "type": "heading",
+          "name": "SEO Text Heading",
+          "settings": {
+            "text": "<p>About our {{ collection.title }}</p>",
+            "size": 100,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_eAMWgc": {
+          "type": "text",
+          "name": "SEO Text Copy",
+          "settings": {
+            "text": "{{ collection.metafields.custom.seo_text | metafield_tag }}",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_YR8LyC",
+        "text_eAMWgc"
+      ],
+      "disabled": true,
+      "name": "SEO Text",
+      "settings": {
+        "text_position": "left",
+        "bg_color_secondary": true,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -177,6 +263,8 @@
     "b5058786-b763-4ab8-b375-d96e3dbab791",
     "8d9a9dcc-b650-4240-8dbe-558bd59ba535",
     "subcollections",
-    "main"
+    "main",
+    "section_split_images_m3cRjU",
+    "section_text_3TCWUt"
   ]
 }

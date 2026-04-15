@@ -81,7 +81,7 @@
         "show_social_links": true,
         "enable_follow_on_shop": true,
         "show_payment_icons": true,
-        "bottom_menu": "test-menu",
+        "bottom_menu": "",
         "color_text": "#ffffff",
         "color_bg": "#000000",
         "color_border": "#ffffff",

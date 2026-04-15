@@ -171,10 +171,10 @@
         "padding_bottom": 60
       }
     },
-    "section_text_bNneyC": {
+    "section_text_tB4kKY": {
       "type": "section-text",
       "blocks": {
-        "heading_CYJbGD": {
+        "heading_ipJVtN": {
           "type": "heading",
           "name": "SEO Text Heading",
           "settings": {
@@ -185,7 +185,7 @@
             "highlight_text_color": "#000000"
           }
         },
-        "text_tWyy9T": {
+        "text_DTkWjL": {
           "type": "text",
           "name": "SEO Text Copy",
           "settings": {
@@ -195,9 +195,10 @@
         }
       },
       "block_order": [
-        "heading_CYJbGD",
-        "text_tWyy9T"
+        "heading_ipJVtN",
+        "text_DTkWjL"
       ],
+      "disabled": true,
       "name": "SEO Text",
       "settings": {
         "text_position": "left",
@@ -215,6 +216,6 @@
     "8d9a9dcc-b650-4240-8dbe-558bd59ba535",
     "subcollections",
     "main",
-    "section_text_bNneyC"
+    "section_text_tB4kKY"
   ]
 }
