@@ -677,8 +677,8 @@
             "heading": "Discover our cuts",
             "button_link": "shopify://pages/our-cuts",
             "overlay_opacity": 100,
-            "block_text_color": "#000000",
-            "bg_color": "#ffffff",
+            "block_text_color": "#ffffff",
+            "bg_color": "#000000",
             "border_color": ""
           }
         }
@@ -699,7 +699,7 @@
         "button_style": "square",
         "text_size": 135,
         "letter_spacing": 75,
-        "section_bg_color": "#000000",
+        "section_bg_color": "#ffffff",
         "section_text_color": "",
         "layout_mobile": "carousel",
         "width": "wrapper--full-padded",
