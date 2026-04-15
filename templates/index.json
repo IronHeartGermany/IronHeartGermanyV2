@@ -961,42 +961,6 @@
         "text_color": "text-light"
       }
     },
-    "section_locations_r4cFBa": {
-      "type": "section-locations",
-      "blocks": {
-        "locations_Y3B873": {
-          "type": "locations",
-          "settings": {
-            "title": "Kaiser-Wilhelm-Straße 45, 20355 Hamburg",
-            "working_time": "<p><strong>MONDAY </strong>11:00–18:00<br/><strong>TUESDAY</strong> 11:00–18:00<br/><strong>WEDNESDAY</strong> closed<br/><strong>THURSDAY</strong> 11:00–18:00<br/><strong>FRIDAY</strong> 11:00–18:00<br/><strong>SATURDAY</strong> 11:00–16:00<br/><strong>SUNDAY</strong> closed</p>",
-            "icon": "shopify://shop_images/Google_icon_58f1ae91-84f4-43c9-9fd7-ecb001d46b3c.png",
-            "icon_url": "https://maps.app.goo.gl/2QN81w95PDjo5sSUA",
-            "image": "shopify://shop_images/2J5A7197_4df75a42-9037-49c8-84e4-124d12a8497a.jpg",
-            "button_text": "Get Directions",
-            "button_link": "",
-            "button_new_tab": true,
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "locations_Y3B873"
-      ],
-      "custom_css": [
-        ".wrapper.locations__wrapper {padding-right: 0;}",
-        ".locations.bg-secondary .location__image {padding-top: 66% !important;}",
-        ".location__store > p {margin-bottom: 25px !important;}",
-        ".locations__info-heading {font-size: 36px;}",
-        "@media screen and (min-width: 768px) {{margin: 30px 60px 60px; }}"
-      ],
-      "settings": {
-        "subheading": "The only IRON HEART store outside Japan",
-        "title": "HAMBURG STORE",
-        "bg_color_secondary": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "section_newsletter_kRbEAq": {
       "type": "section-newsletter",
       "custom_css": [
@@ -1319,7 +1283,6 @@
     "section_custom_content_nLqNGc",
     "section_banner_image_XaJDWJ",
     "section_banner_image_WJ7DW7",
-    "section_locations_r4cFBa",
     "section_newsletter_kRbEAq",
     "section_columns_Mb3rtT",
     "section_image_accordions_EgYRwE",
