@@ -750,6 +750,7 @@
         "product_C7KgwM",
         "product_mV9GPp"
       ],
+      "disabled": true,
       "custom_css": [
         ".dot.is-selected {background: black;}",
         ".dot {width: 20px; height: 20px;}"
