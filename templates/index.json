@@ -85,7 +85,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2J5A0966.jpg",
-            "image_mobile": "shopify://shop_images/2J5A0966_1.jpg",
+            "image_mobile": "shopify://shop_images/684_Slider.jpg",
             "overlay_opacity": 0,
             "text_width": "normal",
             "text_position": "top-left",
@@ -150,6 +150,7 @@
         },
         "image_XHfcna": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ReleaseParty-09_Kopie.jpg",
             "image_mobile": "shopify://shop_images/ReleaseParty-04.jpg",
