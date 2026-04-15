@@ -40,7 +40,7 @@
           "type": "button",
           "settings": {
             "button_1_text": "Shop NOw",
-            "button_1_link": "shopify://collections/all",
+            "button_1_link": "shopify://pages/cut-684",
             "button_1_color": "btn--black",
             "button_1_style": "btn--solid",
             "button_1_size": "btn--small",
