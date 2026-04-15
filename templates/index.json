@@ -809,23 +809,7 @@
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
           }
-        },
         "image_xhAhd4": {
-          "type": "image",
-          "settings": {
-            "text_position": "top-center",
-            "image": "shopify://shop_images/IHG-112_018_2489eea3-313a-4912-b4f2-52b3f24d8cf1.jpg",
-            "overlay_opacity": 10,
-            "text_color": "text-light",
-            "title": "IRON HEART",
-            "heading_size": 100,
-            "image_text": "<p>\"Iron To The Bone\" Mug</p>",
-            "button_text": "",
-            "button_link": "shopify://products/iron-heart-ihg-112-ittb-iron-heart-iron-to-the-bone-mug",
-            "button_color": "btn--white",
-            "button_style": "btn--solid-border",
-            "button_size": "btn--small"
-          }
         }
       },
       "block_order": [
@@ -844,65 +828,7 @@
         "padding_bottom": 0
       }
     },
-    "section_banner_image_XaJDWJ": {
-      "type": "section-banner-image",
-      "blocks": {
-        "heading_PCbtpR": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Porter-Yoshida & Co</p>",
-            "size": 100,
-            "heading_highlight_type": "italics",
-            "highlight_color": "#d43747",
-            "highlight_text_color": "#000000"
-          }
-        },
-        "text_UhmyHY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Yoshida & Co, Ltd. is a Japanese manufacturer based in Tokyo that designs and produces bags and accessories. Founded in 1935 by Kichizo Yoshida, the company is best known for its main brand PORTER.</p>",
-            "size": 120
-          }
-        },
-        "button_qcEydt": {
-          "type": "button",
-          "settings": {
-            "button_1_text": "",
-            "button_1_link": "shopify://collections/porter-yoshida-co",
-            "button_1_color": "btn--white",
-            "button_1_style": "btn--outline",
-            "button_1_size": "btn--large",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_color": "btn--black",
-            "button_2_style": "btn--solid",
-            "button_2_size": "btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PCbtpR",
-        "text_UhmyHY",
-        "button_qcEydt"
-      ],
       "disabled": true,
-      "custom_css": [
-        "@media screen and (min-width: 768px) {{margin: 60px 0px 30px; }}",
-        "@media screen and (max-width: 767px) {.btn {width: fit-content !important; } {margin: 30px 0; }}",
-        ".red_dot {display: none;}"
-      ],
-      "settings": {
-        "height": "original-height",
-        "enable_mobile_height": false,
-        "mobile_height": "original-height-mobile",
-        "image": "shopify://shop_images/Porter_Yoshida_51af8fbe-15c4-4df4-ac03-c3b905cbd13f.png",
-        "overlay_opacity": 40,
-        "enable_zoom_animation": false,
-        "text_width": "normal",
-        "text_position": "center",
-        "text_color": "text-light"
-      }
-    },
     "section_banner_image_WJ7DW7": {
       "type": "section-banner-image",
       "blocks": {
@@ -1152,6 +1078,7 @@
         "image_fLQnhC",
         "image_aNB6Eb"
       ],
+      "disabled": true,
       "name": "Split images",
       "settings": {
         "image_height": "full-height",
@@ -1281,7 +1208,6 @@
     "section_list_butttons_jaEVdg",
     "section_look_e49ay7",
     "section_custom_content_nLqNGc",
-    "section_banner_image_XaJDWJ",
     "section_banner_image_WJ7DW7",
     "section_newsletter_kRbEAq",
     "section_columns_Mb3rtT",
