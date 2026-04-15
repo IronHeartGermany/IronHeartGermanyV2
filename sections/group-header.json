@@ -98,8 +98,7 @@
       ],
       "custom_css": [
         ".navlink.navlink--grandchild {font-weight: 300;}",
-        " /*.menu__items > div:nth-child(4) .navlink.navlink--toplevel.navlink--dot.caps {pointer-events: none; cursor: default;}",
-        "*/.site-header--has-border {--border-color: transparent !important;}"
+        " /*.menu__items > div:nth-child(4) .navlink.navlink--toplevel.navlink--dot.caps {pointer-events: none; cursor: default;}*/.site-header--has-border {--border-color: transparent !important;}"
       ],
       "settings": {
         "sticky_header": true,
@@ -107,7 +106,7 @@
         "link_hover_effect": "dot",
         "logo_not_home": "shopify://shop_images/ih_germany_bell_text.png",
         "logo_max_width": 350,
-        "main-menu": "main-menu",
+        "main-menu": "test-menu",
         "main_menu_secondary": "",
         "show_images": true,
         "image_aspect_ratio": 0.5,
