@@ -379,60 +379,130 @@
   if (!section) return;
 
   var sliderEl = section.querySelector('.look__slider[data-slider]');
-  var counter = section.querySelector('[data-look-counter]');
+  var counter  = section.querySelector('[data-look-counter]');
   if (!sliderEl || !counter) return;
 
   var currentEl = counter.querySelector('.slider-counter__current');
+  var prevBtn   = counter.querySelector('.slider-counter__prev');
+  var nextBtn   = counter.querySelector('.slider-counter__next');
+  var manualIndex = 0;           // used only in fallback (non-Flickity) mode
+  var observer = null;
 
-  function getCurrentIndex() {
-    var dots = sliderEl.querySelectorAll('.flickity-page-dots .dot');
-    for (var i = 0; i < dots.length; i++) {
-      if (dots[i].classList.contains('is-selected')) return i;
+  // -- Helpers -------------------------------------------------------------
+  function isFlickity() {
+    return sliderEl.classList.contains('flickity-enabled')
+        && sliderEl.querySelector('.flickity-page-dots .dot');
+  }
+
+  function slides() {
+    // Only top-level look__slide children, not nested matches
+    return Array.prototype.filter.call(
+      sliderEl.children,
+      function (el) { return el.classList && el.classList.contains('look__slide'); }
+    );
+  }
+
+  function getIndex() {
+    if (isFlickity()) {
+      var dots = sliderEl.querySelectorAll('.flickity-page-dots .dot');
+      for (var i = 0; i < dots.length; i++) {
+        if (dots[i].classList.contains('is-selected')) return i;
+      }
+      return 0;
     }
-    return 0;
+    return manualIndex;
   }
 
-  function goTo(index) {
-    var dots = sliderEl.querySelectorAll('.flickity-page-dots .dot');
-    var total = dots.length;
-    if (total === 0) return;
-    if (index < 0) index = total - 1;
-    if (index >= total) index = 0;
-    dots[index].click();
+  function total() {
+    if (isFlickity()) {
+      return sliderEl.querySelectorAll('.flickity-page-dots .dot').length;
+    }
+    return slides().length;
   }
 
-  function init() {
+  function setActive(index) {
+    var t = total();
+    if (t === 0) return;
+    if (index < 0) index = t - 1;
+    if (index >= t) index = 0;
+
+    if (isFlickity()) {
+      // Let Flickity drive; counter updates via the MutationObserver below.
+      var dots = sliderEl.querySelectorAll('.flickity-page-dots .dot');
+      if (dots[index]) dots[index].click();
+    } else {
+      // Fallback: toggle .look__slide--active; CSS hides the others.
+      manualIndex = index;
+      var all = slides();
+      all.forEach(function (el, i) {
+        el.classList.toggle('look__slide--active', i === index);
+      });
+      if (currentEl) currentEl.textContent = index + 1;
+    }
+  }
+
+  // -- Wire up the counter buttons (once; they exist in the DOM always) ---
+  if (prevBtn) {
+    prevBtn.addEventListener('click', function (e) {
+      e.preventDefault(); e.stopPropagation();
+      setActive(getIndex() - 1);
+    });
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener('click', function (e) {
+      e.preventDefault(); e.stopPropagation();
+      setActive(getIndex() + 1);
+    });
+  }
+
+  // -- Flickity-mode counter sync: watch dots for is-selected changes -----
+  function attachFlickityObserver() {
     var dotsContainer = sliderEl.querySelector('.flickity-page-dots');
-    if (!dotsContainer) return;
-
-    new MutationObserver(function() {
-      currentEl.textContent = getCurrentIndex() + 1;
-    }).observe(dotsContainer, {
-      attributes: true,
-      subtree: true,
-      attributeFilter: ['class']
+    if (!dotsContainer || observer) return;
+    observer = new MutationObserver(function () {
+      if (currentEl) currentEl.textContent = getIndex() + 1;
     });
-
-    counter.querySelector('.slider-counter__prev').addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      goTo(getCurrentIndex() - 1);
-    });
-    counter.querySelector('.slider-counter__next').addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      goTo(getCurrentIndex() + 1);
+    observer.observe(dotsContainer, {
+      attributes: true, subtree: true, attributeFilter: ['class']
     });
   }
 
-  var attempts = 0;
-  var wait = setInterval(function() {
-    if (sliderEl.querySelector('.flickity-page-dots .dot') || attempts > 40) {
-      clearInterval(wait);
-      init();
+  function detachFlickityObserver() {
+    if (observer) { observer.disconnect(); observer = null; }
+  }
+
+  // -- Initial state -------------------------------------------------------
+  function applyMode() {
+    if (isFlickity()) {
+      detachFlickityObserver();
+      attachFlickityObserver();
+      // Clear fallback class so it can't fight Flickity's layout
+      slides().forEach(function (s) { s.classList.remove('look__slide--active'); });
+      if (currentEl) currentEl.textContent = getIndex() + 1;
+    } else {
+      detachFlickityObserver();
+      var all = slides();
+      if (all.length) {
+        // Preserve position if possible, else start at 0
+        if (manualIndex >= all.length) manualIndex = 0;
+        all.forEach(function (el, i) {
+          el.classList.toggle('look__slide--active', i === manualIndex);
+        });
+        if (currentEl) currentEl.textContent = manualIndex + 1;
+      }
     }
-    attempts++;
-  }, 250);
+  }
+
+  // Flickity (theme.js) inits asynchronously and swaps on resize. Watch the
+  // slider's class list so we always know which mode we're in.
+  new MutationObserver(applyMode).observe(sliderEl, {
+    attributes: true, attributeFilter: ['class']
+  });
+
+  // Kick things off now + again shortly after (Flickity may init late).
+  applyMode();
+  setTimeout(applyMode, 300);
+  setTimeout(applyMode, 900);
 })();
 </script>
 
