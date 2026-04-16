@@ -28719,3 +28719,34 @@ button.cart__checkout:hover,
   -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 6 15 12 9 18'/%3E%3C/svg%3E");
           mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 6 15 12 9 18'/%3E%3C/svg%3E");
 }
+
+/* ----------------------------------------------------------------------
+   PhotoSwipe lightbox arrows — match the new chevron vocabulary used
+   across slideshow, featured-collection and PDP slider. The lightbox
+   opens on PDP media click (pswp-zoom-gallery) and its left/right
+   arrow buttons share the shared base rule with Flickity's prev/next
+   (same mask-image PNG, same 40px circle). Here we restyle only the
+   arrow pair — close/fullscreen/share pswp buttons are left alone.
+   Positioning (left: 10px / right: 10px, top: 50%) stays theme-default.
+   Note: the .pswp__button--arrow--left:before has transform:
+   rotate(180deg) from the legacy shared rule — reset to none since
+   the new SVG is already a correct-facing < chevron.
+   ---------------------------------------------------------------------- */
+.pswp__button--arrow--left,
+.pswp__button--arrow--right {
+  --icon-size: 20px;
+  background: #eceeef;
+}
+.pswp__button--arrow--left:hover,
+.pswp__button--arrow--right:hover {
+  background: #e2e4e6;
+}
+.pswp__button--arrow--left:before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='15 18 9 12 15 6'/%3E%3C/svg%3E");
+          mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='15 18 9 12 15 6'/%3E%3C/svg%3E");
+  transform: none;
+}
+.pswp__button--arrow--right:before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 6 15 12 9 18'/%3E%3C/svg%3E");
+          mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 6 15 12 9 18'/%3E%3C/svg%3E");
+}
