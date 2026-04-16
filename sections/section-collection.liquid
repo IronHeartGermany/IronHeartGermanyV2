@@ -283,10 +283,11 @@
     background: #eceeef;
   }
   /* Theme.css has `.wrapper--full-padded .carousel .flickity-prev-next-button.{previous,next} { top: -105px !important }`.
-     We need both !important and higher specificity (ID) to beat it. Move arrows up 8px from -105px → -113px. */
+     We need both !important and higher specificity (ID) to beat it.
+     Target: arrow vertical center aligned with the "NEW IN" section heading. */
   {{ selector_id }} .flickity-prev-next-button.previous,
   {{ selector_id }} .flickity-prev-next-button.next {
-    top: -113px !important;
+    top: -55px !important;
   }
   {{ selector_id }} .flickity-prev-next-button:hover {
     background: #e2e4e6;
