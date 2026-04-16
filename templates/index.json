@@ -81,6 +81,7 @@
         },
         "image_3XDzQj": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/wesco_still_25_01_051.jpg",
             "image_mobile": "shopify://shop_images/wesco_still_25_01_047.jpg",
@@ -345,6 +346,7 @@
         "product_XMY7DE",
         "product_LNtiUp"
       ],
+      "disabled": true,
       "name": "Shop the look ",
       "settings": {
         "image": "shopify://shop_images/2J5A2249_1.jpg",
