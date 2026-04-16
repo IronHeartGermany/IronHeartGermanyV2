@@ -268,6 +268,28 @@
       {{ selector_id }} .carousel--mobile { --item-width-mobile: calc(90% / {{ columns_mobile }} - var(--grid-gutter)); }
     {%- endif -%}
   }
+
+  /* ------------------------------------------------------------------
+     Featured collection — swap the default filled PNG arrow glyph on
+     Flickity's prev/next buttons for a clean stroke chevron (< >) so
+     the visual matches the slideshow counter. Scoped to THIS section
+     so other carousels keep whatever the theme gives them. Button
+     size/position/hover behaviour stay the Flickity defaults — we
+     only retarget the mask glyph inside :before and unset the legacy
+     "rotate the same PNG 180deg for previous" trick.
+     ------------------------------------------------------------------ */
+  {{ selector_id }} .flickity-prev-next-button {
+    --icon-size: 20px;
+  }
+  {{ selector_id }} .flickity-prev-next-button.previous:before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='15 18 9 12 15 6'/%3E%3C/svg%3E");
+            mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='15 18 9 12 15 6'/%3E%3C/svg%3E");
+    transform: none;
+  }
+  {{ selector_id }} .flickity-prev-next-button.next:before {
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 6 15 12 9 18'/%3E%3C/svg%3E");
+            mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 6 15 12 9 18'/%3E%3C/svg%3E");
+  }
 {%- endstyle -%}
 
 {%- capture collection_button -%}
