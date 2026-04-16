@@ -28690,23 +28690,32 @@ button.cart__checkout:hover,
 }
 
 /* ----------------------------------------------------------------------
-   Shop the Look — manual pagination fallback for 2-product sections.
+   Product media slider — bring the PDP image nav in line with the
+   slideshow and featured-collection arrows: light-grey pill with a
+   stroke chevron (< >). Scoped via .product-single__media-slider so
+   it covers the main PDP, Featured product sections, and the quick
+   view popup — all three reuse the same slider class, and users
+   expect consistent nav across them.
 
-   Why: theme.js (class Look, checkSlidesSize) explicitly destroys
-   Flickity on desktop when slides.length <= 2, leaving a plain flex
-   row with both cards visible. In that state the counter + prev/next
-   have nothing to drive, so clicks do nothing and 1/2 never advances.
-
-   Fix: when the slider is NOT in flickity-enabled mode, show one
-   .look__slide at a time via a .look__slide--active class that the
-   section's JS toggles. When Flickity IS active (mobile 2+, desktop
-   3+), these rules are inert and the native carousel behavior wins.
+   Size (--flickity-btn-size: 40px from :root), vertical centering,
+   visibility-on-hover and show/hide rules are left alone — we only
+   change the visual: background, --icon-size, and the arrow glyph
+   in :before. The .previous:before `transform: rotate(180deg)`
+   trick is reset because the new SVG is already a left-facing <.
    ---------------------------------------------------------------------- */
-.section-look .look__slider:not(.flickity-enabled) .look__slide {
-  flex: 0 0 100%;
-  width: 100%;
-  display: none;
+.product-single__media-slider .flickity-prev-next-button {
+  --icon-size: 20px;
+  background: #eceeef;
 }
-.section-look .look__slider:not(.flickity-enabled) .look__slide.look__slide--active {
-  display: block;
+.product-single__media-slider .flickity-prev-next-button:hover {
+  background: #e2e4e6;
+}
+.product-single__media-slider .flickity-prev-next-button.previous:before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='15 18 9 12 15 6'/%3E%3C/svg%3E");
+          mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='15 18 9 12 15 6'/%3E%3C/svg%3E");
+  transform: none;
+}
+.product-single__media-slider .flickity-prev-next-button.next:before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 6 15 12 9 18'/%3E%3C/svg%3E");
+          mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 6 15 12 9 18'/%3E%3C/svg%3E");
 }
