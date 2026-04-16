@@ -348,58 +348,6 @@
         "text_color": "text-light"
       }
     },
-    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5": {
-      "type": "section-icons-row",
-      "blocks": {
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0": {
-          "type": "text",
-          "settings": {
-            "icon_name": "truck",
-            "title": "Free Shipping",
-            "text": "<p>on all order over $99</p>"
-          }
-        },
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1": {
-          "type": "text",
-          "settings": {
-            "icon_name": "check",
-            "title": "Free Returns",
-            "text": "<p>within 30 days of purchase</p>"
-          }
-        },
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2": {
-          "type": "text",
-          "settings": {
-            "icon_name": "eco-friendly",
-            "title": "1% Donated Annually",
-            "text": "<p>to forest conservation</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-0",
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-1",
-        "template--18952593965377__51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5-1683134998a2f033f1-2"
-      ],
-      "settings": {
-        "alignment": "center",
-        "columns": 3,
-        "icons_width": 30,
-        "heading": "",
-        "subheading": "",
-        "bg_color": "",
-        "text_color": "#333333",
-        "box_color": "",
-        "button_text": "",
-        "button_link": "",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--small",
-        "enable_slider_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -419,7 +367,6 @@
     "section_image_with_text_Ba93Qp",
     "section_text_cAdTqR",
     "section_banner_image_DwGpyz",
-    "51e7d4e9-f6b0-466d-bd09-84d7da4cdcb5",
     "main"
   ]
 }

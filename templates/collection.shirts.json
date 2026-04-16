@@ -191,6 +191,7 @@
         "image_NUxNeV",
         "image_JzNgTt"
       ],
+      "disabled": true,
       "name": "Split images",
       "settings": {
         "image_height": "full-height",
