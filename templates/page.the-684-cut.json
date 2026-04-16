@@ -117,39 +117,6 @@
         "padding_bottom": 60
       }
     },
-    "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc": {
-      "type": "section-image-with-text",
-      "disabled": true,
-      "settings": {
-        "section_height": "six-fifty-height",
-        "layout": "inline",
-        "image_location": "left",
-        "image_width": "wide",
-        "media_type": "video",
-        "image": "shopify://shop_images/Maschine.jpg",
-        "video_file": "https://cdn.shopify.com/videos/c/o/v/54c04e70e65c4db9a387d3d20f9e95e2.mp4",
-        "subheading": "IH-684S-16-GER",
-        "title": "<p>The First Cut Initiated by Iron Heart Germany</p>",
-        "heading_highlight_type": "circle",
-        "highlight_color": "#d43747",
-        "highlight_text_color": "#000000",
-        "heading_size": 160,
-        "content": "<p>The IH-684 marks a first for Iron Heart Germany. Developed in close collaboration with Haraki-San and the Iron Heart Japan team, the 684 is the first cut initiated by Iron Heart Germany to become part of the global Iron Heart lineup.<br/>While the 684 will be integrated internationally in the future, the 16oz selvedge edition presented here remains exclusive to Iron Heart Germany.<br/>This project reflects partnership, trust and shared vision within the Iron Heart family.<br/>No experiment. A permanent addition.</p>",
-        "text_alignment": "center",
-        "button_text": "",
-        "button_link": "",
-        "button_color": "btn--black",
-        "button_style": "btn--solid",
-        "button_size": "btn--small",
-        "video_link": "",
-        "text_color": "text-dark",
-        "bg_color": "",
-        "gradient": "",
-        "section_width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "section_image_with_text_xLFbgw": {
       "type": "section-image-with-text",
       "name": "Image with text",
@@ -338,6 +305,7 @@
     },
     "section_overlapping_images_PLCmHH": {
       "type": "section-overlapping-images",
+      "custom_css": [],
       "name": "Overlapping images",
       "settings": {
         "extra_class": "",
@@ -365,6 +333,112 @@
         "video_link": "",
         "bg_color_secondary": false,
         "gradient": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_8bBBQx": {
+      "type": "section-text",
+      "blocks": {
+        "heading_YNJbzE": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>COMPLETING THE 684</p>",
+            "size": 130,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text_NigV6B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every 684 jeans comes in an exclusive 684-Tote Bag.<br/><br/>The 684 is more than a single garment. To complete the collection, we developed two pieces built with the same mindset: durability, texture, and intention.<br/><br/><strong>The 7.5oz Loopwheel T-Shirt with and without pocket<br/><br/></strong>Knitted on traditional loopwheel machines in Japan. Heavyweight. No side seams. Built to age alongside the denim.<br/><br/><strong>The Indigo Bandana<br/><br/></strong>Indigo-dyed fabric with white tiger print. A<br/>subtle extension of the 684 identity.<br/><br/>The 684 collection is not about decoration.<br/>It is about cohesion.<br/>Built for eternity.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_YNJbzE",
+        "text_NigV6B"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_promotion_row_MPp8fh": {
+      "type": "section-promotion-row",
+      "blocks": {
+        "column_UUxdF8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC03860_4cc97d15-3639-4cb8-a71c-fc51ec2e4430.jpg",
+            "subheading": "",
+            "subheading_size": 75,
+            "heading": "",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#FFFFFF",
+            "heading_size": 295,
+            "description": "",
+            "description_size": 100,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "#ffffff",
+            "overlay_opacity": 10
+          }
+        },
+        "column_6GmWQD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSC03695.jpg",
+            "subheading": "",
+            "subheading_size": 75,
+            "heading": "",
+            "heading_highlight_type": "underline",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#FFFFFF",
+            "heading_size": 205,
+            "description": "",
+            "description_size": 80,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "bg_color": "",
+            "gradient_background": "",
+            "text_color": "#ffffff",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "column_UUxdF8",
+        "column_6GmWQD"
+      ],
+      "name": "Promotion row",
+      "settings": {
+        "layout": "1",
+        "height": "400",
+        "bg_color": "",
+        "enable_slider_mobile": true,
         "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
@@ -574,12 +648,13 @@
   "order": [
     "section_banner_image_kkf3Ec",
     "section_text_tU7rc6",
-    "cdb3be2a-9d5e-47f0-9431-04f739f3c7cc",
     "section_image_with_text_xLFbgw",
     "text",
     "section_banner_image_fhMfwH",
     "section_image_with_text_MEcqE4",
     "section_overlapping_images_PLCmHH",
+    "section_text_8bBBQx",
+    "section_promotion_row_MPp8fh",
     "section_text_cAdTqR",
     "section_banner_image_DwGpyz",
     "main",
