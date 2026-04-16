@@ -28690,15 +28690,23 @@ button.cart__checkout:hover,
 }
 
 /* ----------------------------------------------------------------------
-   Force Shop the Look carousel to show ONE product at a time so the
-   < 1/n > counter actually paginates. The theme's default
-   (.flickity-enabled .look__slide { width: calc(50% - gutter/2) }) fits
-   two cells in the viewport at once — which means Flickity has nothing
-   to slide to and the prev/next/counter become inert when you only have
-   2 products. Overriding to 100% ensures every click advances by one.
-   Scoped to .section-look so no other .flickity-enabled slider inherits.
+   Shop the Look — manual pagination fallback for 2-product sections.
+
+   Why: theme.js (class Look, checkSlidesSize) explicitly destroys
+   Flickity on desktop when slides.length <= 2, leaving a plain flex
+   row with both cards visible. In that state the counter + prev/next
+   have nothing to drive, so clicks do nothing and 1/2 never advances.
+
+   Fix: when the slider is NOT in flickity-enabled mode, show one
+   .look__slide at a time via a .look__slide--active class that the
+   section's JS toggles. When Flickity IS active (mobile 2+, desktop
+   3+), these rules are inert and the native carousel behavior wins.
    ---------------------------------------------------------------------- */
-.section-look .look__slider.flickity-enabled .look__slide {
-  width: 100% !important;
-  margin-right: 0 !important;
+.section-look .look__slider:not(.flickity-enabled) .look__slide {
+  flex: 0 0 100%;
+  width: 100%;
+  display: none;
+}
+.section-look .look__slider:not(.flickity-enabled) .look__slide.look__slide--active {
+  display: block;
 }
