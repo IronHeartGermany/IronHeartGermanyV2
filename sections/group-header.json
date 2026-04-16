@@ -66,7 +66,7 @@
         "image_mycw7n": {
           "type": "image",
           "settings": {
-            "position": "6",
+            "position": "4",
             "image_second_menu": false,
             "image": "shopify://shop_images/2J5A7386.jpg",
             "aspect_ratio": 1,
@@ -80,7 +80,7 @@
         "image_47i8QW": {
           "type": "image",
           "settings": {
-            "position": "6",
+            "position": "4",
             "image_second_menu": false,
             "image": "shopify://shop_images/2J5A7349.jpg",
             "aspect_ratio": 1,
