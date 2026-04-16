@@ -28688,3 +28688,17 @@ button.cart__checkout:hover,
   font-weight: 500;
   line-height: 1;
 }
+
+/* ----------------------------------------------------------------------
+   Force Shop the Look carousel to show ONE product at a time so the
+   < 1/n > counter actually paginates. The theme's default
+   (.flickity-enabled .look__slide { width: calc(50% - gutter/2) }) fits
+   two cells in the viewport at once — which means Flickity has nothing
+   to slide to and the prev/next/counter become inert when you only have
+   2 products. Overriding to 100% ensures every click advances by one.
+   Scoped to .section-look so no other .flickity-enabled slider inherits.
+   ---------------------------------------------------------------------- */
+.section-look .look__slider.flickity-enabled .look__slide {
+  width: 100% !important;
+  margin-right: 0 !important;
+}
