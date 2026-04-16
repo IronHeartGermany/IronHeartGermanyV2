@@ -30,6 +30,81 @@
   endif
 -%}
 
+{%- style -%}
+  /* ------------------------------------------------------------------
+     Pill-style slider counter (< n/total >) scoped to THIS slideshow.
+     Moved here from theme.css because {{ section.id }} Liquid tags do
+     not compile inside plain .css files. Using the section id keeps
+     these hide rules from ever leaking into featured-collection or
+     any other Flickity carousel on the page.
+     ------------------------------------------------------------------ */
+  #Slideshow--{{ section.id }} .flickity-page-dots {
+    display: none !important;
+  }
+  #Slideshow--{{ section.id }} .flickity-prev-next-button {
+    opacity: 0 !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+  }
+
+  #Slideshow--{{ section.id }} .slider-counter {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 5;
+  }
+
+  #Slideshow--{{ section.id }} .slider-counter__btn {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background 0.2s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  #Slideshow--{{ section.id }} .slider-counter__btn:hover {
+    background: #fff;
+  }
+
+  #Slideshow--{{ section.id }} .slider-counter__btn svg {
+    width: 16px;
+    height: 16px;
+    stroke: #333;
+    stroke-width: 2.5;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  #Slideshow--{{ section.id }} .slider-counter__indicator {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 15px;
+    color: #333;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    line-height: 1;
+  }
+{%- endstyle -%}
+
 <div
   class="slider slider--{{ transition }}{% if section.settings.show_arrow_down %} slider--has-arrow{% endif %}{% if section.settings.show_nav_dots %} slider--has-dots{% endif %}{% unless animations_enabled %} slider--no-animation{% endunless %}{% if img_in_class %} img-in{% endif %}"
   id="Slideshow--{{ section.id }}"
