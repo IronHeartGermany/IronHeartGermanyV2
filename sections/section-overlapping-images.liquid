@@ -375,7 +375,7 @@
   endcomment
     assign starts_with_id = id_with_params | split: '?'
     assign video_id = starts_with_id | first
-  elsif video_type == "youtube" 
+  elsif video_type == "youtube"
   comment
     https://youtube.com/watch?v=[ID]?foo=bar&baz=boo
   endcomment
@@ -514,7 +514,7 @@
       "id": "images_width",
       "label": "Width",
       "min": 200,
-      "max": 750,
+      "max": 1000,
       "step": 10,
       "unit": "px",
       "default": 750
@@ -534,7 +534,7 @@
       "id": "image_1",
       "label": "Image"
     },
-   
+
     {
       "type": "url",
       "id": "image_link_1",
