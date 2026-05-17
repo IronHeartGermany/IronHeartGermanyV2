@@ -1,0 +1,80 @@
+{%- comment -%}
+  FAQ JSON-LD Bootstrap
+  Iron Heart Germany — GEO/SEO Optimierung
+
+  Aggregiert alle <script type="application/json" data-faq-questions>
+  Fragmente, die `section-accordions` auf der FAQ-Seite ausgibt, und
+  erzeugt daraus genau ein schema.org/FAQPage <script type="application/ld+json">
+  im <head>. So vermeiden wir den "Feld FAQPage doppelt"-Fehler im
+  Google Rich Results Test, der bei mehreren FAQPage-Scripts auftritt.
+
+  Googlebot rendert JS vollständig (Web Rendering Service / Chrome),
+  daher wird das resultierende FAQPage korrekt erkannt und indexiert.
+
+  Wird aus theme.liquid eingebunden, sobald `template == 'page.faq'`.
+{%- endcomment -%}
+
+{%- assign faq_page_url = page.url | prepend: shop.url -%}
+
+<script>
+(function(){
+  function buildFaqJsonLd(){
+    var frags = document.querySelectorAll('script[type="application/json"][data-faq-questions]');
+    if (!frags.length) return;
+
+    var questions = [];
+    var seen = {};
+    for (var i = 0; i < frags.length; i++) {
+      try {
+        var arr = JSON.parse(frags[i].textContent);
+        if (!Array.isArray(arr)) continue;
+        for (var j = 0; j < arr.length; j++) {
+          var q = arr[j];
+          if (!q || !q.name) continue;
+          // Duplikate (gleiche Frage) raus
+          if (seen[q.name]) continue;
+          seen[q.name] = true;
+          questions.push(q);
+        }
+      } catch (e) {
+        if (window.console) console.warn('FAQ JSON-LD: fragment parse error', e);
+      }
+    }
+
+    if (!questions.length) return;
+
+    var faqPage = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "@id": {{ faq_page_url | append: '#faqpage' | json }},
+      "url": {{ faq_page_url | json }},
+      "name": {{ page.title | json }},
+      "inLanguage": "de",
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": {{ faq_page_url | append: '#webpage' | json }},
+        "url": {{ faq_page_url | json }},
+        "name": {{ page.title | json }}
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": {{ shop.url | append: '/#org' | json }},
+        "name": "Iron Heart Germany"
+      },
+      "mainEntity": questions
+    };
+
+    var s = document.createElement('script');
+    s.type = 'application/ld+json';
+    s.setAttribute('data-faq-jsonld', 'aggregated');
+    s.textContent = JSON.stringify(faqPage);
+    document.head.appendChild(s);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', buildFaqJsonLd);
+  } else {
+    buildFaqJsonLd();
+  }
+})();
+</script>
