@@ -1,0 +1,67 @@
+{%- comment -%}
+  JSON-LD for FAQ Section (schema.org/FAQPage)
+  Iron Heart Germany — GEO/SEO Optimierung
+
+  Wird aus section-accordions.liquid heraus gerendert,
+  sobald das Template `page.faq` ist (Seite: /pages/faqs).
+
+  Jede section-accordions auf der FAQ-Seite gibt einen eigenen
+  FAQPage-Block aus, der die Fragen/Antworten dieser Section enthält.
+  Google akzeptiert mehrere FAQPage-Skripte auf einer Seite, sofern
+  alle Fragen/Antworten auch sichtbar im DOM stehen — was hier der
+  Fall ist (Accordion-Inhalte sind im HTML vorhanden).
+
+  Erwartet im Kontext: `section` (die aktuelle section-accordions).
+{%- endcomment -%}
+
+{%- assign faq_count = 0 -%}
+{%- capture faq_items -%}
+  {%- for block in section.blocks -%}
+    {%- assign q_title = block.settings.title | strip -%}
+    {%- assign q_answer = pages[block.settings.raw_content].content | default: block.settings.text -%}
+    {%- assign q_answer_clean = q_answer | strip -%}
+
+    {%- if q_title != blank and q_answer_clean != blank -%}
+      {%- if faq_count > 0 -%},{%- endif -%}
+      {
+        "@type": "Question",
+        "name": {{ q_title | strip_html | strip | json }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ q_answer_clean | json }}
+        }
+      }
+      {%- assign faq_count = faq_count | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- if faq_count > 0 -%}
+  {%- assign faq_page_url = page.url | prepend: shop.url -%}
+  {%- assign faq_name = section.settings.title | default: page.title | strip_html | strip -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "{{ faq_page_url }}#faq-{{ section.id }}",
+  "url": {{ faq_page_url | json }},
+  "name": {{ faq_name | json }},
+  "inLanguage": "de",
+  "isPartOf": {
+    "@type": "WebPage",
+    "@id": "{{ faq_page_url }}#webpage",
+    "url": {{ faq_page_url | json }},
+    "name": {{ page.title | json }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "{{ shop.url }}/#org",
+    "name": "Iron Heart Germany"
+  },
+  "mainEntity": [
+    {{ faq_items }}
+  ]
+}
+</script>
+{%- endif -%}
