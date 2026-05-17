@@ -266,6 +266,9 @@
 {%- if template contains 'product' and product -%}
   {%- render 'jsonld-products' -%}
 {%- endif -%}
+{%- if template == 'page.faq' -%}
+  {%- render 'jsonld-faq-bootstrap' -%}
+{%- endif -%}
   </head>
   {%- capture body_classes -%}
 template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
