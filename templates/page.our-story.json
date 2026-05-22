@@ -26,7 +26,7 @@
         "highlight_text_color": "#000000",
         "heading_size": 160,
         "content": "<p>Back in 2003, Shinichi Haraki set out to create the world’s toughest denim. That idea became Iron Heart. Drawing on decades of experience in the Japanese garment industry and inspired by Japan’s motorcycle culture, Haraki designed clothing built to withstand the toughest conditions — without compromising on clarity, function, or form.<br/><br/>What started with heavyweight 21oz denim quickly pushed the boundaries of what was technically possible. The 25oz fabric — still one of the heaviest selvedge denims produced at scale — became a symbol of Iron Heart’s uncompromising approach to craftsmanship. More than 20 years later, that philosophy remains unchanged. Iron Heart is not about fashion. It is about function, endurance, and purpose-built design — rooted in Japan’s tradition of precision and continuous innovation.</p>",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "button_text": "",
         "button_link": "",
         "button_color": "btn--black",
@@ -89,7 +89,7 @@
         "button"
       ],
       "settings": {
-        "text_position": "center",
+        "text_position": "left",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
