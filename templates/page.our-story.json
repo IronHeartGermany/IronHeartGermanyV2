@@ -89,7 +89,7 @@
         "button"
       ],
       "settings": {
-        "text_position": "left",
+        "text_position": "center",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
