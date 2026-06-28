@@ -36,13 +36,16 @@
             "show_order_lookup": true,
             "require_order_number": true,
             "hide_order_notes": false,
-            "require_items": false
+            "require_items": false,
+            "confirm_step": false,
+            "hide_outside_eu": false
           }
         }
       },
       "block_order": [
         "eu_widerruf_button_form_inline_PzCpnB"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "",
         "width": "wrapper",
