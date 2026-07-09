@@ -48,6 +48,7 @@
         },
         "image_JTJ4Mq": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IHT-634-BLK_010_1.jpg",
             "image_mobile": "shopify://shop_images/IHT-634-BLK_010_2.jpg",
@@ -149,13 +150,12 @@
         },
         "image_XHfcna": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/FW26_website_header.jpg",
             "image_mobile": "shopify://shop_images/FW26_website_mobil.jpg",
             "overlay_opacity": 0,
             "text_width": "normal",
-            "text_position": "bottom-left",
+            "text_position": "bottom-right",
             "text_color": "text-light",
             "subheading": "",
             "title": "<p></p>",
