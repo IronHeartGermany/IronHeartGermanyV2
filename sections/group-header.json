@@ -51,7 +51,7 @@
         "direction": "ticker-ltr",
         "text_caps": false,
         "type_style": "font-heading",
-        "text_size": 180,
+        "text_size": 170,
         "letter_spacing": 0,
         "message_spacing": 25,
         "bg_color": "#000000",
