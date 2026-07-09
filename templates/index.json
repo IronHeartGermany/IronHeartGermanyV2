@@ -151,8 +151,8 @@
         "image_XHfcna": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/FW26_website_header_df535953-ed24-4e0d-b120-098385dd4e5b.jpg",
-            "image_mobile": "shopify://shop_images/FW26_website_mobil.jpg",
+            "image": "shopify://shop_images/FW26_website_header_neu.jpg",
+            "image_mobile": "shopify://shop_images/FW26_website_mobil_neu.jpg",
             "overlay_opacity": 0,
             "text_width": "normal",
             "text_position": "bottom-right",
