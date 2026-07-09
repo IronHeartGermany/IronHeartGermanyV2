@@ -158,7 +158,7 @@
             "text_position": "bottom-right",
             "text_color": "text-light",
             "subheading": "",
-            "title": "<p></p>",
+            "title": "",
             "heading_font_size": 48,
             "text_font_size": 26,
             "heading_font_size_mobile": 28,
