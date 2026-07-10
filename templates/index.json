@@ -779,14 +779,14 @@
           "type": "image",
           "settings": {
             "text_position": "top-center",
-            "image": "shopify://shop_images/PE-ZIPPO-BERO-BR_016_62d46a48-e7de-4425-957c-86246017dc2b.jpg",
+            "image": "shopify://shop_images/IHT-634-BLK_005_db16522e-f2cd-4f34-b7d1-9dc53af0d679.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
-            "title": "PEANUTS & CO.",
+            "title": "IRON HEART",
             "heading_size": 100,
-            "image_text": "<p>Peanuts Bero ZIPPO - Brass</p>",
+            "image_text": "<p>7.5oz Printed Loopwheel T-Shirt</p>",
             "button_text": "",
-            "button_link": "shopify://products/pe-zippo-bero-br-peanuts-co-peanuts-bero-zippo-brass",
+            "button_link": "https://ironheartgermany.com/products/iron-heart-iht-634-blk-7-5oz-printed-loopwheel-crew-neck-t-shirt-black",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
