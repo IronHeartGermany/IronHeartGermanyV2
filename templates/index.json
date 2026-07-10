@@ -795,15 +795,15 @@
         "image_KPQeCh": {
           "type": "image",
           "settings": {
-            "text_position": "middle-center",
-            "image": "shopify://shop_images/2J5A8676.._36a593fb-95dc-45cb-bf2c-d1b4bab21f35.jpg",
+            "text_position": "top-center",
+            "image": "shopify://shop_images/GA-JIMMY-CROSS-PEN-AA_007.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
-            "title": "IRON HEART",
+            "title": "GOOD ART HLYWD",
             "heading_size": 100,
-            "image_text": "<p>10oz Selvedge Chambray Work Shirt</p>",
+            "image_text": "<p>Jimmy Cross Pendant</p>",
             "button_text": "",
-            "button_link": "shopify://products/iron-heart-ihsh-21-blu-10oz-selvedge-chambray-work-shirt",
+            "button_link": "https://ironheartgermany.com/collections/good-art-hlywd/products/good-art-hlywd-ga-jimmy-cross-pen-aa-good-art-hlywd-jimmy-cross-pendant-aa-sterling-silver",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
