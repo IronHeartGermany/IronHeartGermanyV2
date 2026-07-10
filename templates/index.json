@@ -778,7 +778,7 @@
         "image_JxfNkj": {
           "type": "image",
           "settings": {
-            "text_position": "top-center",
+            "text_position": "bottom-center",
             "image": "shopify://shop_images/IHT-634-BLK_005_db16522e-f2cd-4f34-b7d1-9dc53af0d679.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
