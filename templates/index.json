@@ -812,15 +812,15 @@
         "image_MxDb6i": {
           "type": "image",
           "settings": {
-            "text_position": "top-center",
-            "image": "shopify://shop_images/IHG-112_018.jpg",
+            "text_position": "bottom-center",
+            "image": "shopify://shop_images/IHSH-437-IND_001_1.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
             "title": "IRON HEART",
             "heading_size": 100,
-            "image_text": "<p>\"Iron To The Bone\" Mug</p>",
+            "image_text": "<p>13.5oz Dobby Cloth CPO Shirt</p>",
             "button_text": "",
-            "button_link": "shopify://products/iron-heart-ihg-112-ittb-iron-heart-iron-to-the-bone-mug",
+            "button_link": "https://ironheartgermany.com/collections/new/products/iron-heart-ihsh-437-ind-13-5oz-dobby-cloth-cpo-shirt-indigo",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
