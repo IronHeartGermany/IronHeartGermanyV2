@@ -1,0 +1,30 @@
+{%- comment -%} P. Ryan - 10.10.26 - EU harmonized notice for the legal guarantee (Reg. (EU) 2025/1960) {%- endcomment -%}
+
+{%- comment -%}
+Link opens the notice in a modal with a close button and the Your Europe link. Without JS or <dialog> support, the link opens the SVG in a new tab.
+{%- endcomment -%}
+{%- liquid
+  assign notice_url = 'https://cdn.shopify.com/s/files/1/0429/4518/3910/files/legal_guarantee_notice_en.svg?v=1791626609'
+  assign portal_url = 'https://europa.eu/youreurope/guarantees'
+  assign portal_text = 'europa.eu/youreurope/guarantees'
+-%}
+<div class="vat_text eu-guarantee">
+  <a href="{{ notice_url }}" target="_blank" rel="noopener" data-eu-guarantee-open>Your legal guarantee rights</a>
+  <dialog class="eu-guarantee__dialog" aria-label="Your legal guarantee rights">
+    <div class="eu-guarantee__bar">
+      <button type="button" class="eu-guarantee__close" data-eu-guarantee-close aria-label="Close">&times;</button>
+    </div>
+    <div class="eu-guarantee__inner">
+      <img
+        src="{{ notice_url }}"
+        alt="EU notice: legal guarantee of conformity. If goods are faulty, you are entitled to repair, replacement, price reduction or refund for at least 2 years after delivery."
+        width="595"
+        height="842"
+        loading="lazy"
+      >
+      <p class="eu-guarantee__portal">
+        More information: <a href="{{ portal_url }}" target="_blank" rel="noopener">{{ portal_text }}</a>
+      </p>
+    </div>
+  </dialog>
+</div>

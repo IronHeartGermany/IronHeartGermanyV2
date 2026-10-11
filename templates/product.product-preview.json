@@ -442,7 +442,7 @@
           "type": "text",
           "settings": {
             "title": "Do you offer warranty for your products?",
-            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
           }
         },
         "text_FPFdrT": {

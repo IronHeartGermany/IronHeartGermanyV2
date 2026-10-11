@@ -310,5 +310,22 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
         {% render 'icon-select' %}
       </button>
     {%- endif -%}
+
+  <script>
+    document.addEventListener('click', function (e) {
+      var trigger = e.target.closest('[data-eu-guarantee-open]');
+      if (trigger) {
+        var dialog = trigger.closest('.eu-guarantee').querySelector('dialog');
+        if (dialog && typeof dialog.showModal === 'function') {
+          e.preventDefault();
+          dialog.showModal();
+        }
+        return;
+      }
+      if (e.target.closest('[data-eu-guarantee-close]') || e.target.classList.contains('eu-guarantee__dialog')) {
+        e.target.closest('dialog').close();
+      }
+    });
+  </script>
   </body>
 </html>
