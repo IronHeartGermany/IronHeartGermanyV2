@@ -779,14 +779,14 @@
           "type": "image",
           "settings": {
             "text_position": "bottom-center",
-            "image": "shopify://shop_images/IHT-634-BLK_005_db16522e-f2cd-4f34-b7d1-9dc53af0d679.jpg",
+            "image": "shopify://shop_images/GA-WISHFUL-PEN-2A_001.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
-            "title": "IRON HEART",
+            "title": "GOOD ART HLYWD",
             "heading_size": 100,
-            "image_text": "<p>7.5oz Printed Loopwheel T-Shirt</p>",
+            "image_text": "<p>Wishful Thinking Pendant</p>",
             "button_text": "",
-            "button_link": "https://ironheartgermany.com/products/iron-heart-iht-634-blk-7-5oz-printed-loopwheel-crew-neck-t-shirt-black",
+            "button_link": "",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
