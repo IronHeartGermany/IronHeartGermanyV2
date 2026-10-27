@@ -813,14 +813,14 @@
           "type": "image",
           "settings": {
             "text_position": "bottom-center",
-            "image": "shopify://shop_images/IHSH-437-IND_001_1.jpg",
+            "image": "shopify://shop_images/PE-TATTOO-LARGE-SIL_001.jpg",
             "overlay_opacity": 10,
             "text_color": "text-light",
-            "title": "IRON HEART",
+            "title": "PEANUTS & CO",
             "heading_size": 100,
-            "image_text": "<p>13.5oz Dobby Cloth CPO Shirt</p>",
+            "image_text": "<p>TATTOO PEANUTS Pendant</p>",
             "button_text": "",
-            "button_link": "https://ironheartgermany.com/collections/new/products/iron-heart-ihsh-437-ind-13-5oz-dobby-cloth-cpo-shirt-indigo",
+            "button_link": "",
             "button_color": "btn--white",
             "button_style": "btn--solid-border",
             "button_size": "btn--small"
